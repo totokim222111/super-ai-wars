@@ -1,0 +1,162 @@
+{
+  "ground": "map-cyber-ground-v2",
+  "color": "#252a45",
+  "tiles": {
+    "saw-plain": {
+      "props": [
+        "map-cyber-decal-1",
+        "map-cyber-decal-2",
+        "map-cyber-decal-3"
+      ],
+      "density": 0.22,
+      "scale": 0.9
+    },
+    "saw-road": {
+      "surface": "map-cyber-road",
+      "edge": "road",
+      "color": "#4b4070"
+    },
+    "saw-water": {
+      "surface": "map-cyber-water",
+      "edge": "water",
+      "color": "#256879"
+    },
+    "saw-cache": {
+      "props": [
+        "map-cyber-cache"
+      ],
+      "density": 1,
+      "scale": 0.95
+    },
+    "saw-cover": {
+      "props": [
+        "map-cyber-cover-1",
+        "map-cyber-cover-2",
+        "map-cyber-cover-3",
+        "map-cyber-cover-4"
+      ],
+      "density": 1,
+      "scale": 0.85
+    },
+    "saw-wall": {
+      "props": [
+        "map-cyber-wall-1",
+        "map-cyber-wall-2",
+        "map-cyber-wall-3"
+      ],
+      "density": 1,
+      "scale": 1
+    },
+    "saw-boost": {
+      "surface": "map-cyber-road",
+      "edge": "road",
+      "color": "#42c9c0"
+    }
+  },
+  "buildings": {
+    "art": "map-cyber-buildings",
+    "cols": 4,
+    "rows": 2,
+    "sizes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "trim": "#525c9a",
+  "accent": "#61e4ef",
+  "propsAtlas": {
+    "art": "map-cyber-props",
+    "width": 1024,
+    "height": 768,
+    "rects": {
+      "map-cyber-decal-1": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "map-cyber-decal-2": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "map-cyber-decal-3": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "map-cyber-cache": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "map-cyber-cover-1": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "map-cyber-cover-2": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "map-cyber-cover-3": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "map-cyber-cover-4": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "map-cyber-wall-1": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "map-cyber-wall-2": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "map-cyber-wall-3": [
+        512,
+        512,
+        256,
+        256
+      ]
+    }
+  },
+  "roles": {
+    "plain": "saw-plain",
+    "wall": "saw-wall",
+    "cache": "saw-cache",
+    "cover": "saw-cover"
+  },
+  "plainDetail": false,
+  "vegetationColor": "#385676"
+}

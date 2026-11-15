@@ -1,0 +1,16 @@
+{
+  "name": "super-ai-wars-sample",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/run.mjs dev",
+    "build": "node tools/run.mjs build",
+    "preview": "node tools/run.mjs preview",
+    "test": "node tools/run.mjs test",
+    "check": "node tools/run.mjs check",
+    "sim": "node tools/run.mjs sim",
+    "saw:check": "node tools/saw_check.mjs",
+    "capture": "node tools/capture.mjs"
+  }
+}

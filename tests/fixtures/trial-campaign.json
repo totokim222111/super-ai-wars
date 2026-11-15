@@ -1,0 +1,2083 @@
+{
+  "characters": [
+    {
+      "id": "gem",
+      "name": "클로드",
+      "side": "player",
+      "expressions": [
+        "normal",
+        "smile",
+        "serious",
+        "surprised"
+      ],
+      "portrait": {
+        "base": "portrait-claude-base",
+        "faces": {
+          "normal": "portrait-claude-face-normal",
+          "smile": "portrait-claude-face-smile",
+          "serious": "portrait-claude-face-serious",
+          "surprised": "portrait-claude-face-surprised"
+        }
+      },
+      "battle": {
+        "attack": [
+          "조준… 확인. 간다!",
+          "지금이야, 돌파한다!"
+        ],
+        "finisher": [
+          "이 한 발에 끝낸다!",
+          "출력 해방, 길을 열겠어!"
+        ],
+        "hit": [
+          "목표 명중!",
+          "제대로 들어갔어."
+        ],
+        "evade": [
+          "궤도를 읽었어!",
+          "그 속도로는 닿지 않아."
+        ],
+        "damaged": [
+          "아직 움직일 수 있어!",
+          "버텨, 다음 수가 있어."
+        ],
+        "defeated": [
+          "여기서… 멈추는 건가.",
+          "탈출한다. 모두 무사해 줘."
+        ]
+      },
+      "cutin": "cutin-gem"
+    },
+    {
+      "id": "rival",
+      "name": "라이벌",
+      "side": "enemy",
+      "expressions": [
+        "normal",
+        "serious",
+        "surprised"
+      ],
+      "battle": {
+        "attack": [
+          "빈틈이다!",
+          "내 사거리 안에 들어왔군."
+        ],
+        "finisher": [
+          "승부를 가르자!",
+          "이번엔 물러서지 않겠어!"
+        ],
+        "hit": [
+          "이걸로 한 수 앞이다.",
+          "명중을 확인했다."
+        ],
+        "evade": [
+          "너무 뻔해.",
+          "이 정도는 피할 수 있다."
+        ],
+        "damaged": [
+          "좋아, 제법이군.",
+          "장갑이 버텼다!"
+        ],
+        "defeated": [
+          "오늘은… 여기까지군.",
+          "다음에는 반드시…!"
+        ]
+      }
+    },
+    {
+      "id": "boss",
+      "name": "지휘관",
+      "side": "enemy",
+      "expressions": [
+        "normal",
+        "angry",
+        "surprised"
+      ],
+      "battle": {
+        "attack": [
+          "전열을 무너뜨려라!",
+          "사격, 개시!"
+        ],
+        "finisher": [
+          "화력을 한 점에 집중한다!",
+          "주포, 최대 출력!"
+        ],
+        "hit": [
+          "피해를 확인했다.",
+          "계획대로다."
+        ],
+        "evade": [
+          "그런 조준으로는 부족하다.",
+          "회피 기동, 성공."
+        ],
+        "damaged": [
+          "대형을 유지해라!",
+          "이 정도로 물러서지 않는다."
+        ],
+        "defeated": [
+          "전원 후퇴하라…!",
+          "지휘 기능… 정지…!"
+        ]
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "type": "stage",
+      "id": "trial-escort"
+    },
+    {
+      "type": "intermission"
+    },
+    {
+      "type": "stage",
+      "id": "trial-defense"
+    }
+  ],
+  "stages": {
+    "trial-defense": {
+      "stage": {
+        "id": "trial-defense",
+        "name": "거점 방어",
+        "map": {
+          "w": 18,
+          "h": 12,
+          "tiles": [
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground",
+              "ground",
+              "sea"
+            ],
+            [
+              "ground",
+              "base",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "base",
+              "ground"
+            ],
+            [
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea"
+            ]
+          ],
+          "asset": "map-sea"
+        },
+        "units": [
+          {
+            "id": "gem",
+            "side": "player",
+            "x": 3,
+            "y": 3,
+            "ai": "hold",
+            "pilotId": "pilot-gem",
+            "mechId": "trial-a"
+          },
+          {
+            "id": "boss",
+            "side": "enemy",
+            "x": 16,
+            "y": 6,
+            "ai": "hold",
+            "level": 2,
+            "pilotId": "pilot-boss",
+            "mechId": "trial-boss"
+          },
+          {
+            "id": "wing",
+            "side": "player",
+            "x": 3,
+            "y": 2,
+            "ai": "hold",
+            "pilotId": "pilot-wing",
+            "mechId": "trial-wing"
+          },
+          {
+            "id": "guard",
+            "side": "player",
+            "x": 2,
+            "y": 2,
+            "ai": "hold",
+            "pilotId": "pilot-guard",
+            "mechId": "trial-guard"
+          }
+        ],
+        "definitions": [
+          {
+            "id": "courier",
+            "side": "player",
+            "x": 5,
+            "y": 3,
+            "ai": "hold",
+            "pilotId": "pilot-courier",
+            "mechId": "mech-d"
+          }
+        ],
+        "rosterDeployments": {
+          "rival": [
+            4,
+            3
+          ]
+        },
+        "sprites": {
+          "trial-a": 0,
+          "trial-c": 2,
+          "trial-wing": 0,
+          "trial-guard": 1,
+          "trial-boss": 3,
+          "trial-combined": 0
+        },
+        "waves": {},
+        "scenario": true
+      },
+      "program": {
+        "version": "sai-1",
+        "events": [
+          {
+            "trigger": {
+              "kind": "start",
+              "repeat": false
+            },
+            "code": [
+              {
+                "op": "fade",
+                "args": [
+                  "in"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 2,
+                  "column": 3,
+                  "value": "fade",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "bgm",
+                "args": [
+                  "trial-defense"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 3,
+                  "column": 3,
+                  "value": "bgm",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "camera",
+                "args": [
+                  "unit:gem"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 4,
+                  "column": 3,
+                  "value": "camera",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "objective",
+                "args": [
+                  "win",
+                  "5라운드 동안 거점 방어"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 5,
+                  "column": 3,
+                  "value": "objective",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "objective",
+                "args": [
+                  "lose",
+                  "아군 전멸"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 6,
+                  "column": 3,
+                  "value": "objective",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "branch",
+                "condition": {
+                  "kind": "flag",
+                  "id": "persuaded",
+                  "not": false
+                },
+                "to": 8,
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 7,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "talk",
+                "args": [
+                  "rival",
+                  "serious",
+                  "지난 작전의 약속을 지키러 왔다."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 8,
+                  "column": 5,
+                  "value": "talk",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "jump",
+                "to": 9,
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 7,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "narrate",
+                "args": [
+                  "지원 없이 거점을 방어한다."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 10,
+                  "column": 5,
+                  "value": "narrate",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "spawn",
+                "args": [
+                  "courier",
+                  "at",
+                  "5,3"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 12,
+                  "column": 3,
+                  "value": "spawn",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "move",
+                "args": [
+                  "unit:courier",
+                  "to",
+                  "6,3"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 13,
+                  "column": 3,
+                  "value": "move",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "set-ai",
+                "args": [
+                  "unit:boss",
+                  "hold"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 14,
+                  "column": 3,
+                  "value": "set-ai",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "effect",
+                "args": [
+                  "unit:gem",
+                  "dummy-quarter-damage"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 15,
+                  "column": 3,
+                  "value": "effect",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "wait",
+                "args": [
+                  "160"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 16,
+                  "column": 3,
+                  "value": "wait",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "leave",
+                "args": [
+                  "unit:courier"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 17,
+                  "column": 3,
+                  "value": "leave",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "talk",
+                "args": [
+                  "gem",
+                  "smile",
+                  "여섯 번째 라운드가 시작될 때까지 버텨."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 18,
+                  "column": 3,
+                  "value": "talk",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-defense/events.sai",
+              "line": 1,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "round",
+              "repeat": false,
+              "round": 2,
+              "phase": "player"
+            },
+            "code": [
+              {
+                "op": "effect",
+                "args": [
+                  "unit:gem",
+                  "dummy-sure-hit"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 21,
+                  "column": 3,
+                  "value": "effect",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "set-ai",
+                "args": [
+                  "unit:boss",
+                  "defensive"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 22,
+                  "column": 3,
+                  "value": "set-ai",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-defense/events.sai",
+              "line": 20,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "round",
+              "repeat": false,
+              "round": 6,
+              "phase": "player"
+            },
+            "code": [
+              {
+                "op": "branch",
+                "condition": {
+                  "kind": "and",
+                  "left": {
+                    "kind": "round",
+                    "op": ">=",
+                    "value": 6
+                  },
+                  "right": {
+                    "kind": "alive",
+                    "selector": {
+                      "kind": "side",
+                      "id": "player",
+                      "loc": {
+                        "file": "content/stages/trial-defense/events.sai",
+                        "line": 25,
+                        "column": 27
+                      }
+                    }
+                  }
+                },
+                "to": 5,
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 25,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "give",
+                "args": [
+                  "credits",
+                  "1500"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 26,
+                  "column": 5,
+                  "value": "give",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "narrate",
+                "args": [
+                  "거점 방어 성공. 시험 캠페인을 마쳤다."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 27,
+                  "column": 5,
+                  "value": "narrate",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "win",
+                "args": [],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 28,
+                  "column": 5,
+                  "value": "win",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "jump",
+                "to": 5,
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 25,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-defense/events.sai",
+              "line": 24,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "all-defeated",
+              "repeat": false,
+              "selector": {
+                "kind": "side",
+                "id": "enemy",
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 31,
+                  "column": 17
+                }
+              }
+            },
+            "code": [
+              {
+                "op": "branch",
+                "condition": {
+                  "kind": "dead",
+                  "selector": {
+                    "kind": "unit",
+                    "id": "boss",
+                    "loc": {
+                      "file": "content/stages/trial-defense/events.sai",
+                      "line": 32,
+                      "column": 11
+                    }
+                  }
+                },
+                "to": 4,
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 32,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "give",
+                "args": [
+                  "credits",
+                  "1500"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 33,
+                  "column": 5,
+                  "value": "give",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "win",
+                "args": [],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 34,
+                  "column": 5,
+                  "value": "win",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "jump",
+                "to": 4,
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 32,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-defense/events.sai",
+              "line": 31,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "all-defeated",
+              "selector": {
+                "kind": "side",
+                "id": "player"
+              },
+              "repeat": false
+            },
+            "code": [
+              {
+                "op": "lose",
+                "args": [],
+                "loc": {
+                  "file": "content/stages/trial-defense/events.sai",
+                  "line": 1,
+                  "column": 1
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-defense/events.sai",
+              "line": 1,
+              "column": 1
+            }
+          }
+        ]
+      }
+    },
+    "trial-escort": {
+      "stage": {
+        "id": "trial-escort",
+        "name": "보급선 호위",
+        "map": {
+          "w": 18,
+          "h": 12,
+          "tiles": [
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground",
+              "ground",
+              "sea"
+            ],
+            [
+              "ground",
+              "base",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "base",
+              "ground"
+            ],
+            [
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground"
+            ],
+            [
+              "ground",
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "ground",
+              "ground",
+              "sea"
+            ],
+            [
+              "ground",
+              "ground",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "ground",
+              "sea",
+              "sea",
+              "sea"
+            ],
+            [
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea",
+              "sea"
+            ]
+          ],
+          "asset": "map-sea"
+        },
+        "units": [
+          {
+            "id": "gem",
+            "side": "player",
+            "x": 3,
+            "y": 3,
+            "ai": "hold",
+            "pilotId": "pilot-gem",
+            "mechId": "trial-a"
+          },
+          {
+            "id": "rival",
+            "side": "enemy",
+            "x": 4,
+            "y": 3,
+            "ai": "hold",
+            "pilotId": "pilot-rival",
+            "mechId": "trial-c"
+          },
+          {
+            "id": "supply",
+            "side": "neutral",
+            "x": 2,
+            "y": 3,
+            "ai": "hold",
+            "pilotId": "pilot-supply",
+            "mechId": "mech-b"
+          },
+          {
+            "id": "boss",
+            "side": "enemy",
+            "x": 16,
+            "y": 6,
+            "ai": "hold",
+            "level": 2,
+            "pilotId": "pilot-boss",
+            "mechId": "trial-boss"
+          },
+          {
+            "id": "wing",
+            "side": "player",
+            "x": 3,
+            "y": 2,
+            "ai": "hold",
+            "pilotId": "pilot-wing",
+            "mechId": "trial-wing"
+          },
+          {
+            "id": "guard",
+            "side": "player",
+            "x": 2,
+            "y": 2,
+            "ai": "hold",
+            "pilotId": "pilot-guard",
+            "mechId": "trial-guard"
+          }
+        ],
+        "waves": {
+          "north": [
+            {
+              "id": "north-1",
+              "side": "enemy",
+              "x": 13,
+              "y": 1,
+              "ai": "aggressive",
+              "tags": [
+                "patrol"
+              ],
+              "pilotId": "pilot-patrol",
+              "mechId": "mech-e"
+            }
+          ]
+        },
+        "areas": {
+          "cache": [
+            4,
+            4,
+            5,
+            5
+          ]
+        },
+        "sprites": {
+          "trial-a": 0,
+          "trial-c": 2,
+          "trial-wing": 0,
+          "trial-guard": 1,
+          "trial-boss": 3,
+          "trial-combined": 0
+        },
+        "definitions": [],
+        "scenario": true
+      },
+      "program": {
+        "version": "sai-1",
+        "events": [
+          {
+            "trigger": {
+              "kind": "start",
+              "repeat": false
+            },
+            "code": [
+              {
+                "op": "fade",
+                "args": [
+                  "in"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 3,
+                  "column": 3,
+                  "value": "fade",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "bgm",
+                "args": [
+                  "trial-sortie"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 4,
+                  "column": 3,
+                  "value": "bgm",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "talk",
+                "args": [
+                  "gem",
+                  "normal",
+                  "보급선을 지켜. 옆의 라이벌에게 설득을 시도하자."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 5,
+                  "column": 3,
+                  "value": "talk",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "narrate",
+                "args": [
+                  "아군이 네 번째 라운드까지 보급선을 호위하면 작전 성공."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 6,
+                  "column": 3,
+                  "value": "narrate",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "objective",
+                "args": [
+                  "win",
+                  "보급선 생존 · 4라운드 도달"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 7,
+                  "column": 3,
+                  "value": "objective",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "objective",
+                "args": [
+                  "lose",
+                  "보급선 또는 아군 전멸"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 8,
+                  "column": 3,
+                  "value": "objective",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "set",
+                "args": [
+                  "flag",
+                  "escort-started"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 9,
+                  "column": 3,
+                  "value": "set",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "clear",
+                "args": [
+                  "flag",
+                  "cache"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 10,
+                  "column": 3,
+                  "value": "clear",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 2,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "phase",
+              "repeat": true,
+              "phase": "player"
+            },
+            "code": [
+              {
+                "op": "branch",
+                "condition": {
+                  "kind": "or",
+                  "left": {
+                    "kind": "and",
+                    "left": {
+                      "kind": "flag",
+                      "id": "persuaded",
+                      "not": false
+                    },
+                    "right": {
+                      "kind": "credits",
+                      "op": ">=",
+                      "value": 500
+                    }
+                  },
+                  "right": {
+                    "kind": "flag",
+                    "id": "found-cache",
+                    "not": false
+                  }
+                },
+                "to": 3,
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 13,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "bgm",
+                "args": [
+                  "trial-allies"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 14,
+                  "column": 5,
+                  "value": "bgm",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "jump",
+                "to": 4,
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 13,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "bgm",
+                "args": [
+                  "trial-sortie"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 16,
+                  "column": 5,
+                  "value": "bgm",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 12,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "round",
+              "repeat": false,
+              "round": 3,
+              "phase": "enemy"
+            },
+            "code": [
+              {
+                "op": "camera",
+                "args": [
+                  "13,1"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 20,
+                  "column": 3,
+                  "value": "camera",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "reinforce",
+                "args": [
+                  "north"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 21,
+                  "column": 3,
+                  "value": "reinforce",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "talk",
+                "args": [
+                  "boss",
+                  "angry",
+                  "북쪽 증원 투입!"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 22,
+                  "column": 3,
+                  "value": "talk",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 19,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "hp-below",
+              "repeat": false,
+              "selector": {
+                "kind": "unit",
+                "id": "boss",
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 24,
+                  "column": 13
+                }
+              },
+              "percent": 30
+            },
+            "code": [
+              {
+                "op": "talk",
+                "args": [
+                  "boss",
+                  "surprised",
+                  "물러난다!"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 25,
+                  "column": 3,
+                  "value": "talk",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "retreat",
+                "args": [
+                  "unit:boss"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 26,
+                  "column": 3,
+                  "value": "retreat",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 24,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "defeated",
+              "repeat": false,
+              "selector": {
+                "kind": "unit",
+                "id": "supply",
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 28,
+                  "column": 13
+                }
+              }
+            },
+            "code": [
+              {
+                "op": "narrate",
+                "args": [
+                  "보급선이 격파되었다."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 29,
+                  "column": 3,
+                  "value": "narrate",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "lose",
+                "args": [],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 30,
+                  "column": 3,
+                  "value": "lose",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 28,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "enter",
+              "repeat": false,
+              "selector": {
+                "kind": "side",
+                "id": "player",
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 32,
+                  "column": 10
+                }
+              },
+              "area": "cache"
+            },
+            "code": [
+              {
+                "op": "branch",
+                "condition": {
+                  "kind": "flag",
+                  "id": "cache",
+                  "not": true
+                },
+                "to": 6,
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 33,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "set",
+                "args": [
+                  "flag",
+                  "cache"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 34,
+                  "column": 5,
+                  "value": "set",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "set",
+                "args": [
+                  "flag",
+                  "found-cache"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 35,
+                  "column": 5,
+                  "value": "set",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "give",
+                "args": [
+                  "credits",
+                  "500"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 36,
+                  "column": 5,
+                  "value": "give",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "narrate",
+                "args": [
+                  "보급 상자를 회수했다. 자금 500을 획득. 수리 키트는 호위 완료 시 지급."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 37,
+                  "column": 5,
+                  "value": "narrate",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "jump",
+                "to": 6,
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 33,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 32,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "talk",
+              "repeat": false,
+              "selector": {
+                "kind": "unit",
+                "id": "gem",
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 40,
+                  "column": 9
+                }
+              },
+              "target": {
+                "kind": "unit",
+                "id": "rival",
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 40,
+                  "column": 18
+                }
+              }
+            },
+            "code": [
+              {
+                "op": "talk",
+                "args": [
+                  "gem",
+                  "serious",
+                  "이쪽으로 와. 함께 보급선을 지키자."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 41,
+                  "column": 3,
+                  "value": "talk",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "talk",
+                "args": [
+                  "rival",
+                  "normal",
+                  "…좋아. 합류하겠다."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 42,
+                  "column": 3,
+                  "value": "talk",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "join",
+                "args": [
+                  "unit:rival"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 43,
+                  "column": 3,
+                  "value": "join",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "set",
+                "args": [
+                  "flag",
+                  "persuaded"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 44,
+                  "column": 3,
+                  "value": "set",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 40,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "defeated",
+              "repeat": false,
+              "selector": {
+                "kind": "tag",
+                "id": "patrol",
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 46,
+                  "column": 13
+                }
+              }
+            },
+            "code": [
+              {
+                "op": "narrate",
+                "args": [
+                  "적 초계기를 격파했다."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 47,
+                  "column": 3,
+                  "value": "narrate",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 46,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "round",
+              "repeat": false,
+              "round": 4,
+              "phase": "player"
+            },
+            "code": [
+              {
+                "op": "branch",
+                "condition": {
+                  "kind": "alive",
+                  "selector": {
+                    "kind": "unit",
+                    "id": "supply",
+                    "loc": {
+                      "file": "content/stages/trial-escort/events.sai",
+                      "line": 50,
+                      "column": 12
+                    }
+                  }
+                },
+                "to": 8,
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 50,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "give",
+                "args": [
+                  "exp",
+                  "500"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 51,
+                  "column": 5,
+                  "value": "give",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "give",
+                "args": [
+                  "part",
+                  "repair-kit"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 52,
+                  "column": 5,
+                  "value": "give",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "give",
+                "args": [
+                  "credits",
+                  "1000"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 53,
+                  "column": 5,
+                  "value": "give",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "narrate",
+                "args": [
+                  "호위 완료. 다음 작전으로 이동한다."
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 54,
+                  "column": 5,
+                  "value": "narrate",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "fade",
+                "args": [
+                  "out"
+                ],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 55,
+                  "column": 5,
+                  "value": "fade",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "win",
+                "args": [],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 56,
+                  "column": 5,
+                  "value": "win",
+                  "quoted": false
+                }
+              },
+              {
+                "op": "jump",
+                "to": 8,
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 50,
+                  "column": 3,
+                  "value": "if",
+                  "quoted": false
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 49,
+              "column": 1,
+              "value": "on",
+              "quoted": false
+            }
+          },
+          {
+            "trigger": {
+              "kind": "all-defeated",
+              "selector": {
+                "kind": "side",
+                "id": "enemy"
+              },
+              "repeat": false
+            },
+            "code": [
+              {
+                "op": "win",
+                "args": [],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 1,
+                  "column": 1
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 1,
+              "column": 1
+            }
+          },
+          {
+            "trigger": {
+              "kind": "all-defeated",
+              "selector": {
+                "kind": "side",
+                "id": "player"
+              },
+              "repeat": false
+            },
+            "code": [
+              {
+                "op": "lose",
+                "args": [],
+                "loc": {
+                  "file": "content/stages/trial-escort/events.sai",
+                  "line": 1,
+                  "column": 1
+                }
+              }
+            ],
+            "loc": {
+              "file": "content/stages/trial-escort/events.sai",
+              "line": 1,
+              "column": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

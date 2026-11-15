@@ -1,0 +1,168 @@
+{
+  "items": {
+    "hull": {
+      "price": 900,
+      "fromEpisode": 1
+    },
+    "battery": {
+      "price": 800,
+      "fromEpisode": 1
+    },
+    "plating": {
+      "price": 1000,
+      "fromEpisode": 1
+    },
+    "stabilizer": {
+      "price": 1000,
+      "fromEpisode": 1
+    },
+    "booster": {
+      "price": 2400,
+      "fromEpisode": 3
+    },
+    "sea-kit": {
+      "price": 1600,
+      "fromEpisode": 2
+    },
+    "repair-kit": {
+      "price": 700,
+      "fromEpisode": 1
+    },
+    "sp-kit": {
+      "price": 3200,
+      "fromEpisode": 5
+    },
+    "trial-reactor": {
+      "price": 2200,
+      "fromEpisode": 5
+    },
+    "trial-en-tank": {
+      "price": 900,
+      "fromEpisode": 1
+    },
+    "trial-ammo-tank": {
+      "price": 700,
+      "fromEpisode": 1
+    },
+    "trial-amplifier": {
+      "price": 3000,
+      "fromEpisode": 5
+    },
+    "trial-targeter": {
+      "price": 1800,
+      "fromEpisode": 3
+    }
+  },
+  "sellRatio": 0.5,
+  "maxQuantity": 99,
+  "income": {
+    "saw-01": {
+      "defeat": 2640,
+      "clear": 7920,
+      "rosterClear": {}
+    },
+    "saw-02": {
+      "defeat": 4400,
+      "clear": 9680,
+      "rosterClear": {}
+    },
+    "saw-03": {
+      "defeat": 3960,
+      "clear": 11440,
+      "rosterClear": {}
+    },
+    "saw-04": {
+      "defeat": 3960,
+      "clear": 12320,
+      "rosterClear": {}
+    },
+    "saw-05": {
+      "defeat": 5280,
+      "clear": 14080,
+      "rosterClear": {}
+    },
+    "saw-06": {
+      "defeat": 3520,
+      "clear": 16720,
+      "rosterClear": {
+        "qwen": 5368
+      }
+    },
+    "saw-07": {
+      "defeat": 5280,
+      "clear": 17600,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039
+      }
+    },
+    "saw-08": {
+      "defeat": 5060,
+      "clear": 18480,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039,
+        "exaone": 6902
+      }
+    },
+    "saw-09": {
+      "defeat": 6160,
+      "clear": 21120,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039,
+        "exaone": 6902
+      }
+    },
+    "saw-10": {
+      "defeat": 5280,
+      "clear": 22880,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039,
+        "exaone": 6902
+      }
+    },
+    "saw-11": {
+      "defeat": 4840,
+      "clear": 24640,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039,
+        "exaone": 6902
+      }
+    },
+    "saw-12": {
+      "defeat": 4840,
+      "clear": 26400,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039,
+        "exaone": 6902
+      }
+    },
+    "saw-13": {
+      "defeat": 2640,
+      "clear": 28160,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039,
+        "exaone": 6902
+      }
+    },
+    "saw-14": {
+      "defeat": 7260,
+      "clear": 30800,
+      "rosterClear": {
+        "qwen": 5368,
+        "sonnet": 6039,
+        "exaone": 6902
+      }
+    },
+    "saw-15": {
+      "defeat": 7260,
+      "clear": 35200,
+      "rosterClear": {}
+    }
+  }
+}

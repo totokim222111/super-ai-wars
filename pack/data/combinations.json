@@ -1,0 +1,10 @@
+[
+  {
+    "id": "trial-link",
+    "parts": [
+      "trial-a",
+      "trial-wing"
+    ],
+    "result": "trial-combined"
+  }
+]

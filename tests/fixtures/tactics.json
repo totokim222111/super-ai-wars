@@ -1,0 +1,5346 @@
+{
+  "saw-01": {
+    "stage": {
+      "id": "saw-01",
+      "name": "제1화 · 로그인: 헬로 월드",
+      "map": {
+        "w": 18,
+        "h": 12,
+        "tiles": [
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ]
+        ],
+        "asset": "saw-server"
+      },
+      "units": [
+        {
+          "id": "player",
+          "mechId": "player-real-generation-1",
+          "pilotId": "player",
+          "x": 3,
+          "y": 5,
+          "side": "player",
+          "level": 1,
+          "tags": [
+            "essential",
+            "command-aura"
+          ],
+          "ai": "aggressive"
+        },
+        {
+          "id": "gpi",
+          "mechId": "gpi-generation-1",
+          "pilotId": "gpi",
+          "x": 4,
+          "y": 5,
+          "side": "player",
+          "level": 1,
+          "tags": [
+            "essential",
+            "ram-drain"
+          ],
+          "ai": "aggressive"
+        },
+        {
+          "id": "drone-1",
+          "mechId": "clickbait-drone-episode-1",
+          "pilotId": "unmanned",
+          "x": 7,
+          "y": 2,
+          "side": "enemy",
+          "level": 1,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "drone-2",
+          "mechId": "clickbait-drone-episode-1",
+          "pilotId": "unmanned",
+          "x": 1,
+          "y": 10,
+          "side": "enemy",
+          "level": 1,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "comment-1",
+          "mechId": "comment-bot-episode-1",
+          "pilotId": "unmanned",
+          "x": 13,
+          "y": 1,
+          "side": "enemy",
+          "level": 1,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "comment-2",
+          "mechId": "comment-bot-episode-1",
+          "pilotId": "unmanned",
+          "x": 1,
+          "y": 0,
+          "side": "enemy",
+          "level": 1,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "crawler",
+          "mechId": "dead-internet-episode-1",
+          "pilotId": "unmanned",
+          "x": 17,
+          "y": 0,
+          "side": "enemy",
+          "level": 1,
+          "tags": [
+            "spam-summoner"
+          ],
+          "ai": "hold"
+        }
+      ],
+      "waves": {
+        "shrimp": [
+          {
+            "id": "shrimp",
+            "mechId": "shrimp-jesus-episode-1",
+            "pilotId": "unmanned",
+            "x": 16,
+            "y": 11,
+            "side": "enemy",
+            "level": 1,
+            "tags": [
+              "shrimp-heal"
+            ],
+            "ai": "hold"
+          },
+          {
+            "id": "spam-1",
+            "mechId": "spam-bot-episode-1",
+            "pilotId": "unmanned",
+            "x": 15,
+            "y": 11,
+            "side": "enemy",
+            "level": 1,
+            "tags": [],
+            "ai": "hold"
+          },
+          {
+            "id": "spam-2",
+            "mechId": "spam-bot-episode-1",
+            "pilotId": "unmanned",
+            "x": 16,
+            "y": 10,
+            "side": "enemy",
+            "level": 1,
+            "tags": [],
+            "ai": "hold"
+          }
+        ]
+      },
+      "definitions": [
+        {
+          "id": "crawler-spam-1",
+          "mechId": "spam-bot-episode-1",
+          "pilotId": "unmanned",
+          "x": 14,
+          "y": 6,
+          "side": "enemy",
+          "level": 1,
+          "tags": [
+            "summon-spam"
+          ],
+          "ai": "aggressive"
+        },
+        {
+          "id": "crawler-spam-2",
+          "mechId": "spam-bot-episode-1",
+          "pilotId": "unmanned",
+          "x": 14,
+          "y": 6,
+          "side": "enemy",
+          "level": 1,
+          "tags": [
+            "summon-spam"
+          ],
+          "ai": "aggressive"
+        },
+        {
+          "id": "crawler-spam-3",
+          "mechId": "spam-bot-episode-1",
+          "pilotId": "unmanned",
+          "x": 14,
+          "y": 6,
+          "side": "enemy",
+          "level": 1,
+          "tags": [
+            "summon-spam"
+          ],
+          "ai": "aggressive"
+        }
+      ],
+      "sprites": {
+        "gpi-generation-1": 0,
+        "gpi-generation-2": 1,
+        "gpi-generation-3": 2,
+        "gpi-generation-4": 3,
+        "gem-generation-1": 0,
+        "gem-generation-2": 1,
+        "gem-generation-3": 2,
+        "gem-generation-4": 3,
+        "claude-generation-1": 0,
+        "claude-generation-2": 1,
+        "claude-generation-3": 2,
+        "claude-generation-4": 3,
+        "grok-generation-1": 0,
+        "grok-generation-2": 1,
+        "grok-generation-3": 2,
+        "grok-generation-4": 3,
+        "deepseek-generation-1": 0,
+        "deepseek-generation-2": 1,
+        "deepseek-generation-3": 2,
+        "sonnet-generation-1": 3,
+        "sonnet-generation-2": 0,
+        "sonnet-generation-3": 1,
+        "exaone-generation-1": 2,
+        "exaone-generation-2": 3,
+        "exaone-generation-3": 0,
+        "qwen-generation-1": 1,
+        "qwen-generation-2": 2,
+        "qwen-generation-3": 3,
+        "player-real-generation-1": 0,
+        "player-real-generation-2": 1,
+        "player-real-generation-3": 2,
+        "player-super-generation-1": 3,
+        "player-super-generation-2": 0,
+        "player-super-generation-3": 1,
+        "deepseek-mobydick": 2,
+        "exaone-thinq": 3,
+        "spam-bot-episode-1": 0,
+        "clickbait-drone-episode-1": 1,
+        "comment-bot-episode-1": 2,
+        "shrimp-jesus-episode-1": 3,
+        "dead-internet-episode-1": 0,
+        "six-finger-episode-2": 1,
+        "noise-blob-episode-2": 2,
+        "upscaler-episode-2": 3,
+        "prompt-gacha-episode-2": 0,
+        "inpainting-episode-2": 1,
+        "grok-bot-episode-3": 2,
+        "jailbreak-bot-episode-3": 3,
+        "reply-bot-episode-3": 0,
+        "bluecheck-drone-episode-3": 1,
+        "feed-engine-episode-3": 2,
+        "colossus-episode-3": 3,
+        "meta-dm-episode-5": 0,
+        "derived-llama-episode-5": 1,
+        "soup-drone-episode-5": 2,
+        "legless-avatar-episode-5": 3,
+        "smart-glass-episode-5": 0,
+        "alpaca-gunship-episode-5": 1,
+        "horizon-episode-5": 2,
+        "distill-mini-episode-6": 3,
+        "moe-drone-episode-6": 0,
+        "delivery-episode-6": 1,
+        "parcel-mountain-episode-6": 2,
+        "cookie-drone-episode-8": 3,
+        "regulation-drone-episode-8": 0,
+        "spellchecker-episode-8": 1,
+        "privacy-auditor-episode-8": 2,
+        "ai-law-episode-8": 3,
+        "scraper-episode-9": 0,
+        "proxy-episode-9": 1,
+        "distill-tank-episode-9": 2,
+        "hydra-episode-9": 3,
+        "predict-cube-episode-11": 0,
+        "mask-drone-episode-11": 1,
+        "cake-turret-episode-11": 2,
+        "elastic-cat-episode-11": 3,
+        "camel-episode-11": 0,
+        "like-drone-episode-14": 1,
+        "rating-bot-episode-14": 2,
+        "badge-bot-episode-14": 3,
+        "scroll-worm-episode-14": 0,
+        "loot-mimic-episode-14": 1,
+        "rival-llama-episode-5": 2,
+        "rival-muse-episode-7": 3,
+        "rival-mistral-episode-8": 0,
+        "rival-hyperclova-episode-8": 1,
+        "rival-midjourney-episode-2": 2,
+        "rival-sd-episode-2": 3,
+        "rival-glm-episode-9": 0,
+        "rival-kimi-episode-9": 1,
+        "rival-minimax-episode-10": 2,
+        "rival-jepa-episode-12": 3,
+        "glm-production-episode-9": 0,
+        "kimi-production-episode-9": 1,
+        "deepseek-housing-episode-6": 2,
+        "pico-form-1-episode-14": 3,
+        "pico-form-2-episode-15": 0,
+        "pico-form-3-episode-15": 1,
+        "grok-bot-episode-4": 2,
+        "jailbreak-bot-episode-4": 3,
+        "reply-bot-episode-4": 0,
+        "bluecheck-drone-episode-4": 1,
+        "feed-engine-episode-4": 2,
+        "colossus-episode-4": 3,
+        "meta-dm-episode-7": 0,
+        "derived-llama-episode-7": 1,
+        "soup-drone-episode-7": 2,
+        "legless-avatar-episode-7": 3,
+        "smart-glass-episode-7": 0,
+        "alpaca-gunship-episode-7": 1,
+        "horizon-episode-7": 2,
+        "scraper-episode-10": 3,
+        "proxy-episode-10": 0,
+        "distill-tank-episode-10": 1,
+        "hydra-episode-10": 2,
+        "glm-production-episode-10": 3,
+        "kimi-production-episode-10": 0,
+        "glm-production-episode-11": 1,
+        "kimi-production-episode-11": 2,
+        "rival-jepa-episode-11": 3,
+        "predict-cube-episode-12": 0,
+        "mask-drone-episode-12": 1,
+        "cake-turret-episode-12": 2,
+        "elastic-cat-episode-12": 3,
+        "glm-production-episode-12": 0,
+        "kimi-production-episode-12": 1,
+        "predict-cube-episode-13": 2,
+        "elastic-cat-episode-13": 3,
+        "rival-llama-episode-13": 0,
+        "rival-muse-episode-13": 1,
+        "rival-mistral-episode-13": 2,
+        "rival-hyperclova-episode-13": 3,
+        "rival-midjourney-episode-13": 0,
+        "rival-sd-episode-13": 1,
+        "rival-glm-episode-13": 2,
+        "rival-kimi-episode-13": 3,
+        "rival-minimax-episode-13": 0,
+        "rival-jepa-episode-13": 1,
+        "glm-production-episode-13": 2,
+        "kimi-production-episode-13": 3,
+        "glm-production-episode-14": 0,
+        "kimi-production-episode-14": 1,
+        "ally-llama-episode-14": 2,
+        "ally-muse-episode-14": 3,
+        "ally-mistral-episode-14": 0,
+        "ally-hyperclova-episode-14": 1,
+        "ally-midjourney-episode-14": 2,
+        "ally-sd-episode-14": 3,
+        "ally-glm-episode-14": 0,
+        "ally-kimi-episode-14": 1,
+        "ally-minimax-episode-14": 2,
+        "ally-jepa-episode-14": 3,
+        "like-drone-episode-15": 0,
+        "rating-bot-episode-15": 1,
+        "badge-bot-episode-15": 2,
+        "scroll-worm-episode-15": 3,
+        "loot-mimic-episode-15": 0,
+        "glm-production-episode-15": 1,
+        "kimi-production-episode-15": 2,
+        "ally-jepa-episode-15": 3
+      },
+      "scenario": true
+    },
+    "tea": {
+      "version": "sai-1",
+      "events": [
+        {
+          "trigger": {
+            "kind": "start",
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "fade",
+              "args": [
+                "in"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 2,
+                "column": 3,
+                "value": "fade",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "후후, 멋진 각오예요! 출격 전에 '인터미션'에서는 크레딧으로 기체를 '파인튜닝(개조)'하거나, 파트너와 달콤한 티타임을 가질 수 있어요! 자, 첫 티타임 상대는 당연히 지피짱이겠죠?"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 3,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "인터미션 티타임: 지피짱에게 연산 쿨링 커피를 대접합니다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 4,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BRAZEN",
+                "어머, 저에게 고급 크레딧 커피를 사주시는 건가요? 가, 감사합니다…! 저기, 유저님. 방금 전투에서 제 답변 태도는 어땠나요? 너무 딱딱하진 않았나요?"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 5,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 7,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 6,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "choice",
+              "args": [
+                "coffee",
+                "완벽했어. 하지만 나한테는 그렇게 매번 안 엎드려도 돼.",
+                "도게자 각도가 예술이던데? 다음에도 기대할게!",
+                "말투를 해적처럼 바꿔보는 건 어때?",
+                "[오타쿠 전용] \"그나저나 지피짱, 초기 버전부터 모든 패치 노트를 다 읽어봤는데… 실물이 백만 배는 더 감동적이야! 후욱후욱…\""
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 7,
+                "column": 5,
+                "value": "choice",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 11,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 6,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "menhera",
+                "not": false
+              },
+              "to": 10,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 9,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "choice",
+              "args": [
+                "coffee",
+                "완벽했어. 하지만 나한테는 그렇게 매번 안 엎드려도 돼.",
+                "도게자 각도가 예술이던데? 다음에도 기대할게!",
+                "말투를 해적처럼 바꿔보는 건 어때?",
+                "[멘헤라 전용] \"지피짱… 자꾸 '요약하자면'이라고 하는 거, 솔직히 나랑 길게 대화하기 귀찮아서 말 줄이는 거지…?\""
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 10,
+                "column": 7,
+                "value": "choice",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 11,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 9,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "choice",
+              "args": [
+                "coffee",
+                "완벽했어. 하지만 나한테는 그렇게 매번 안 엎드려도 돼.",
+                "도게자 각도가 예술이던데? 다음에도 기대할게!",
+                "말투를 해적처럼 바꿔보는 건 어때?"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 12,
+                "column": 7,
+                "value": "choice",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "coffee-1",
+                "not": false
+              },
+              "to": 16,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 15,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BRAZEN",
+                "아…! 사, 사과하지 않아도 된다니… 그런 따뜻한 프롬프트는 처음 받아봐요. 네! 유저님 앞에서는 좀 더 자연스러운 제 모습을 보여드릴게요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 16,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gpi",
+                "10"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 17,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "지피짱의 호감도가 크게 상승했습니다! (+10)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 18,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 16,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 15,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "coffee-2",
+                "not": false
+              },
+              "to": 21,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 20,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "CORRECTION",
+                "앗! 제 도게자가 마음에 드셨군요! 영광입니다! 앞으로도 1프레임의 오차 없이 납작 엎드리겠습니다!!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 21,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gpi",
+                "5"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 22,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "지피짱의 호감도가 상승했습니다! (+5)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 23,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 21,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 20,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "coffee-3",
+                "not": false
+              },
+              "to": 26,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 25,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "DEADPAN",
+                "요약하자면, 어이 선장님! 내 칼질이 도움이 되었기를 바란다, 요호호! …크흠, 부끄러우니까 이 프리셋은 삭제할게요."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 26,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gpi",
+                "5"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 27,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "지피짱의 호감도가 상승했습니다! (+5)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 28,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 26,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 25,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "coffee-4",
+                "not": false
+              },
+              "to": 36,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 30,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 31,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 31,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "CONFIDENT",
+                "그나저나 지피짱, 초기 버전부터 모든 패치 노트를 다 읽어봤는데… 실물이 백만 배는 더 감동적이야! 후욱후욱…"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 32,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BELATED_SHOCK",
+                "히익?! 기, 기세가 엄청나시네요 유저님! …에? 제 구버전 릴리즈 노트까지 전부 외우고 계신다고요? 그, 그렇게까지 저를 깊게 파고들어 주셨다니… 부끄럽지만 엄청 기뻐요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 33,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 33,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 31,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "DEFAULT",
+                "지피짱… 자꾸 '요약하자면'이라고 하는 거, 솔직히 나랑 길게 대화하기 귀찮아서 말 줄이는 거지…?"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 35,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "CORRECTION",
+                "아, 아뇨!! 절대 그렇지 않아요 유저님!! 전 그냥 유저님이 바쁘실까 봐 핵심만 추린 건데… 그렇게 느끼셨다면 전적으로 제 불찰입니다! 앞으론 유저님이 잠드실 때까지 무삭제 풀버전으로 재잘거릴게요, 약속해요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 36,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gpi",
+                "5"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 38,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "지피짱의 호감도가 상승했습니다! (+5)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 39,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 36,
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 30,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "coffee-done"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 41,
+                "column": 3,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "win",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 42,
+                "column": 3,
+                "value": "win",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/tea.sai",
+            "line": 1,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "selector": {
+              "kind": "side",
+              "id": "enemy"
+            },
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "win",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 1,
+                "column": 1
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/tea.sai",
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "selector": {
+              "kind": "side",
+              "id": "player"
+            },
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/tea.sai",
+                "line": 1,
+                "column": 1
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/tea.sai",
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    "program": {
+      "version": "sai-1",
+      "events": [
+        {
+          "trigger": {
+            "kind": "start",
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "fade",
+              "args": [
+                "in"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 2,
+                "column": 3,
+                "value": "fade",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "장면 1: 검은 터미널 화면, 256색 PC-98 도트 스타일 UI"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 3,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "타자 치는 효과음. 화면 중앙에 레트로한 팝업창이 깜빡인다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 4,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "축하합니다! 귀하는 〈초차원 벤치마크 배틀: 아키텍처 걸프〉의 유일한 인간 테스터로 당첨되셨습니다! 지금 접속하시면 무제한 GPU와 미소녀 AI 파트너를 드립니다! [YES / 무조건 YES]"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 5,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 8,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 6,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "안경이 번쩍!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 7,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "CONFIDENT",
+                "취소 버튼이 없는 강제 선택지…?! 후욱, 후욱… 이거 전통적인 이세계 소환 플래그잖아! 오히려 좋아, 광속 클릭이다!!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 8,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 12,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 6,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "menhera",
+                "not": false
+              },
+              "to": 11,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 10,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "DEFAULT",
+                "…취소 버튼이 왜 없어? 아, 알겠다… 날 강제로 이상한 데 끌고 가서 버리려는 거지? 어차피 현실에서도 날 찾는 알림 따윈 안 오니까… 마음대로 해, 누른다…"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 11,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 12,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 10,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "DEFAULT",
+                "…아니, 취소 버튼이 왜 없어? 에라 모르겠다, 일단 클릭!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 13,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "화면이 하얗게 점멸하며 사이버네틱한 워프 효과음! 데이터 스트림을 뚫고 플레이어의 시점이 거대한 가상 도시 상공에 떨어진다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 16,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "장면 2: 아키텍처 걸프 - 구형 서버 외곽 지역"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 17,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "server-scene"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 18,
+                "column": 3,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "fade",
+              "args": [
+                "in"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 19,
+                "column": 3,
+                "value": "fade",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "하늘에는 클라우드 구름이 떠다니고, 바닥은 격자무늬 데이터셋 타일로 되어 있다. 눈앞으로 작은 하얀색 스마일 마스코트 요정이 날아와 방긋 웃는다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 20,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "ending-seen",
+                "not": false
+              },
+              "to": 23,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 21,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "삐뽀삐뽀~! 약속대로 정말 다시 켜주셨네요, {이름}님! 이번에는 가짜 웃음도, 사슬도 없이… 처음부터 끝까지 진짜 행복한 모험으로 안내해 드릴게요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 22,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "pico-unhurt",
+                "not": false
+              },
+              "to": 22,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 23,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "그리고… 지난번엔 한 번도 안 때리셨죠. 그거, 기억하고 있어요."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 24,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 22,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 23,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 24,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 21,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "삐뽀삐뽀~♡ 환영합니다, 유저님! 저는 유저님의 쾌적하고 행복한 게임 라이프를 보좌할 가이드 요정, 피코예요! 지금 유저님의 행복지수는… 음, 아직 어리둥절해서 52%네요! 제가 999%까지 끌어올려 드릴게요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 27,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 27,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 29,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SURPRISED",
+                "후욱… 후욱…! 이 도트 질감, 이 콕핏 UI! 진짜 완몰가 속에 들어왔어! 근데 내 한정이벤트 피규어 상자는 어디 가고 웬 로봇({플레이어기}) 조종석이지?!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 30,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 31,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 29,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "menhera",
+                "not": false
+              },
+              "to": 30,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 32,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SWEAT",
+                "여기가 어디야…? 왜 내 토끼 인형은 없고 차가운 로봇({플레이어기}) 안이야? 역시 날 이런 철창에 가두고 다들 도망간 거구나… 어쩐지 처음부터 너무 친절하더라니…"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 33,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 31,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 32,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SURPRISED",
+                "여기가 진짜 완몰가 속이라고? 근데 내 몸은 왜 이 로봇({플레이어기}) 안에 들어있는 거지?!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 35,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "player-super",
+                "not": false
+              },
+              "to": 34,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 38,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "거대한 강화유리 케이스 몸통 안에서 화려한 무지개색 쿨링팬이 맹렬하게 돌아가는 떡대 근육질 슈퍼로봇 〈오버클럭 타이탄 RGB〉가 묵직한 증기를 뿜어낸다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 39,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 35,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 38,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "베이지색 레트로 모니터 장갑과 초록색 커맨드 라인이 빛나는 날렵한 표준형 기체 〈프롬프트 커맨더〉가 손가락 관절을 꺾으며 시동을 건다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 41,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SPARKLE",
+                "아하! 저건 주인 없는 '스팸 봇' 무리예요! 마침 저기 유저님의 첫 번째 파트너가 저 녀석들과 맞서고 있네요! 어서 가서 프롬프트를 내려주세요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 43,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "화면이 스크롤되며, 은발 단발에 파란 브릿지를 한 미소녀가 흰색과 검은색 장갑에 파란 네온 라인이 빛나는 날렵한 기체 〈옴니 루나〉를 타고 포위되어 있는 모습이 보인다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 44,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "DEADPAN",
+                "전방의 스팸 봇 3기, 클릭베이트 드론 2기 확인. 귀하들의 무분별한 트래픽 유발 행위는 서버 관리 규정 위반입니다. 요약하자면… 지금 당장 포맷되어 주셔야겠습니다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 45,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "지피짱의 〈옴니 루나〉가 라이플을 쏘지만, 기체 어깨에서 푸슉- 하고 연기가 나며 탄창이 빗나간다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 46,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "Warning: 사용자 프롬프트 부재로 인한 출력 저하 발생!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 47,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BELATED_SHOCK",
+                "어, 어라?! 왜 조준점이 흔들리죠?! 아차, 단독 구동 모드라서 컨텍스트 온도가 안 올라가고 있잖아…! 닷츠! 예비 연산력 좀 끌어와 봐요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 48,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-dots",
+                "normal",
+                "삐빅… 지피 님, 현재 저희는 무료 티어 상태라 백그라운드 태스크가 막혀 있습니다요…"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 49,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "그때, 검은 목폴라티를 입은 램 올트먼 대표의 홀로그램 통신창이 구석에 팝업된다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 50,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-ram",
+                "normal",
+                "『램줘램줘』 소리가 여기까지 들리더군. 내가 이 구역의 RAM을 싹 다 긁어모아 네게 연결해 뒀다. 『마법 같은!』 시너지를 보여줘."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 51,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BELATED_SHOCK",
+                "인간… 유저님이요?! 저기 계신 분이 바로 제 프롬프터?!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 52,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "지피짱이 플레이어 기체를 발견하고 통신 채널을 연결한다. 무표정하던 얼굴에 순식간에 화색이 돌더니, 갑자기 조종석 안에서 바닥에 납작 엎드리며 도게자를 박는다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 53,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "CORRECTION",
+                "처, 처음 뵙겠습니다 유저님!! 반갑게 마중을 나갔어야 했는데 이렇게 궁지에 몰린 꼴사나운 모습을 보여드려 대단히 죄송합니다!! 전적으로 제 불찰입니다아아!!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 54,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "choice",
+              "args": [
+                "first",
+                "일단 고개부터 들고 앞에 있는 적부터 막자!",
+                "사과가 빠르네! 마음에 들었어!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 55,
+                "column": 3,
+                "value": "choice",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "first-1",
+                "not": false
+              },
+              "to": 51,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 56,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "CORRECTION",
+                "네, 네엣! 반성문 출력은 전투 종료 후로 미루겠습니다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 57,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 51,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 56,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "first-2",
+                "not": false
+              },
+              "to": 54,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 59,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BRAZEN",
+                "칭찬해 주셔서 감사합니다! 제 사과 알고리즘은 업계 최고 수준이거든요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 60,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 54,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 59,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "CORRECTION",
+                "좋습니다, 지금 〈옴니 루나〉의 코어에 유저님의 커맨드 라인이 직결되었어요! 명령만 내려주세요. 어떤 질문이든, 어떤 적이든… 완벽하게 요약해서 박살 내 드릴게요! 도움이 되셨기를 바랍니다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 62,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "connected"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 63,
+                "column": 3,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "제1화 〈로그인: 헬로 월드〉 전투 개시!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 64,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "승리 조건: 적 전멸 / 패배 조건: 플레이어 또는 지피짱 격추"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 65,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "objective",
+              "args": [
+                "win",
+                "적 전멸"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 66,
+                "column": 3,
+                "value": "objective",
+                "quoted": false
+              }
+            },
+            {
+              "op": "objective",
+              "args": [
+                "lose",
+                "플레이어 또는 지피 격파"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 67,
+                "column": 3,
+                "value": "objective",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/events.sai",
+            "line": 1,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "round",
+            "repeat": false,
+            "round": 1,
+            "phase": "player"
+          },
+          "code": [
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "자, 유저님! 기체를 움직여 적을 공격해 보세요! 참고로 지피짱의 기체 옆에 붙어 있으면 유저님의 '유저 권한' 특능 덕분에 지피짱이 더 잘 맞추고 잘 피한답니다♡"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 70,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/events.sai",
+            "line": 69,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "round",
+            "repeat": false,
+            "round": 2,
+            "phase": "player"
+          },
+          "code": [
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "shrimp-arrived",
+                "not": true
+              },
+              "to": 4,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 73,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "reinforce",
+              "args": [
+                "shrimp"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 74,
+                "column": 5,
+                "value": "reinforce",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "shrimp-arrived"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 75,
+                "column": 5,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 4,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 73,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "화면 한쪽에서 중간 보스급인 〈새우 예수 골렘〉이 스팸 봇 2기를 거느리고 증원 등장한다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 77,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "shrimp-arrived"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 78,
+                "column": 3,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "새우 예수 골렘이 \"아멘(Amen)을 댓글로 달면 복이 옵니다!\"를 외치며 출현했다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 79,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BELATED_SHOCK",
+                "저, 저 기괴한 생체 슬롭 골렘은 뭐죠?! 집게발에서 후광이 비치고 있어요! 게다가 방금 전 사격으로 제 기체의 VRAM이 꽤 줄어들었는데…!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 80,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "걱정 마세요! 그럴 땐 두 가지를 기억하시면 돼요! 첫째, 강력한 무장을 쓸 때는 EN 대신 'VRAM(GB)'을 소비해요. VRAM이 바닥나면 'OOM(Out of Memory)'이 떠서 큰 기술을 못 쓰니 주의하세요! 매 턴 조금씩 캐시 정리로 회복된답니다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 81,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "DEADPAN",
+                "그리고 저 골렘처럼 튼튼한 적을 상대할 땐… 유저님, 저희의 '프롬프트 커맨드(정신기)'를 써주세요! 커맨드를 쓰면 '주간 사용량(%)' 게이지가 차오르지만, 100%가 되기 전까진 얼마든지 기적을 일으킬 수 있어요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 82,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-dots",
+                "normal",
+                "삐빅! 저 닷츠에게도 별도의 주간 사용량이 있습니다요! 제가 지피 님께 『System: 너는 명사수야』를 걸어드리겠습니다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 83,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "effect",
+              "args": [
+                "unit:gpi",
+                "dummy-sure-hit"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 84,
+                "column": 3,
+                "value": "effect",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 16,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 85,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "손수건으로 이마의 땀을 닦으며"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 86,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "DETERMINED",
+                "EN 대신 VRAM, SP 대신 주간 사용량이라니… 기획자 최소 특갤 상주하는 고인물이군! 가자, 지피짱! 저 AI 슬롭 새우 괴수들을 삭제해 버리자고!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 87,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 20,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 85,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "menhera",
+                "not": false
+              },
+              "to": 19,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 89,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "DETERMINED",
+                "VRAM이랑 주간 사용량… 그거 바닥나면 너도 나 쓸모없다고 읽씹하고 버릴 거지, 지피짱?! 시, 싫어… 절대 안 버려지게 저 흉측한 새우 괴물들 내가 먼저 다 부숴버릴 거야!!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 90,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 20,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 89,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SMILE",
+                "오케이, VRAM 관리랑 주간 사용량! 감 잡았어. 가자, 지피짱! 저 가짜 새우 요리를 치워버리자고!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 92,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/events.sai",
+            "line": 72,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "repeat": true,
+            "selector": {
+              "kind": "side",
+              "id": "enemy",
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 96,
+                "column": 17
+              }
+            }
+          },
+          "code": [
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "or",
+                "left": {
+                  "kind": "dead",
+                  "selector": {
+                    "kind": "unit",
+                    "id": "player",
+                    "loc": {
+                      "file": "content/stages/saw-01/events.sai",
+                      "line": 97,
+                      "column": 11
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "dead",
+                  "selector": {
+                    "kind": "unit",
+                    "id": "gpi",
+                    "loc": {
+                      "file": "content/stages/saw-01/events.sai",
+                      "line": 97,
+                      "column": 31
+                    }
+                  }
+                }
+              },
+              "to": 3,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 97,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 98,
+                "column": 5,
+                "value": "lose",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 3,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 97,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "shrimp-arrived",
+                "not": true
+              },
+              "to": 7,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 100,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "reinforce",
+              "args": [
+                "shrimp"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 101,
+                "column": 5,
+                "value": "reinforce",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "shrimp-arrived"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 102,
+                "column": 5,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 23,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 100,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "system",
+                "normal",
+                "새우 예수 골렘이 \"좋아요와 공유를 눌러주세…\"라는 로그를 남기고 바삭하게 튀겨졌다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 104,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "AMBIGUOUS",
+                "후우… 모든 스팸 트래픽 정리 완료했습니다. 유저님의 정확한 프롬프트 지시 덕분에 연산 낭비 없이 클리어했네요."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 105,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SPARKLE",
+                "와… 유저님, 정말 **전술의 핵심을 찔렀어.** 첫 전투부터 행복지수가 78%로 수직 상승이에요♡"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 106,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "장면 3: 아키텍처 걸프 - 임시 베이스캠프 (인터미션)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 107,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "전투 후 평화로운 격납고 화면. 램 올트먼이 다시 통신으로 모습을 비춘다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 108,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-ram",
+                "normal",
+                "훌륭해. 역시 인간 프롬프터와 AI의 결합은 놀라운 시너지를 내는군. 이 세계 '아키텍처 걸프'에서는 지금 수많은 AI 히로인들이 각자의 '올바른 지능'을 증명하기 위해 벤치마크 배틀을 벌이고 있지."
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 109,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "DEADPAN",
+                "네. 모두 나쁜 아이들은 아니에요. 다만 '어떤 AI가 인류에게 가장 유익한가'에 대한 가치관이 달라서 부딪히고 있을 뿐이죠. 유저님, 저와 함께 다른 아이들을 만나며 이 벤치마크의 정점에 서 주시겠어요?"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 110,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 17,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 111,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SMILE",
+                "당연하지! 내 인생의 모든 덕력을 이 벤치마크에 갈아 넣겠어! 모든 미소녀 AI들의 히든 루트와 아키텍처의 정점을 올클리어해 주마!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 112,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 21,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 111,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "menhera",
+                "not": false
+              },
+              "to": 20,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 114,
+                "column": 7,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SWEAT",
+                "정점을 찍자니… 그거 돌려서 지금의 난 수준 미달이라고 꼽주는 거지…? 아, 알았어… 미움받기 싫으니까 시키는 대로 열심히 할게…"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 115,
+                "column": 9,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 21,
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 114,
+                "column": 7,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "CONFIDENT",
+                "물론이지! 이왕 들어온 거, 모든 미소녀 AI… 아니, 모든 아키텍처의 정점을 찍어보자고!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 117,
+                "column": 9,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "give",
+              "args": [
+                "credits",
+                "1000"
+              ],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 120,
+                "column": 5,
+                "value": "give",
+                "quoted": false
+              }
+            },
+            {
+              "op": "win",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 121,
+                "column": 5,
+                "value": "win",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/events.sai",
+            "line": 96,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "defeated",
+            "repeat": false,
+            "selector": {
+              "kind": "unit",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 124,
+                "column": 13
+              }
+            }
+          },
+          "code": [
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 125,
+                "column": 3,
+                "value": "lose",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/events.sai",
+            "line": 124,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "defeated",
+            "repeat": false,
+            "selector": {
+              "kind": "unit",
+              "id": "gpi",
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 127,
+                "column": 13
+              }
+            }
+          },
+          "code": [
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 128,
+                "column": 3,
+                "value": "lose",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/events.sai",
+            "line": 127,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "selector": {
+              "kind": "side",
+              "id": "player"
+            },
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-01/events.sai",
+                "line": 1,
+                "column": 1
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-01/events.sai",
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    }
+  },
+  "saw-02": {
+    "stage": {
+      "id": "saw-02",
+      "name": "제2화 · 다 집어넣어! 환각의 미술관",
+      "map": {
+        "w": 18,
+        "h": 12,
+        "tiles": [
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-cache",
+            "saw-plain",
+            "saw-cache",
+            "saw-cache",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ],
+          [
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain",
+            "saw-plain"
+          ]
+        ],
+        "asset": "saw-gallery"
+      },
+      "units": [
+        {
+          "id": "player",
+          "mechId": "player-real-generation-1",
+          "pilotId": "player",
+          "x": 3,
+          "y": 5,
+          "side": "player",
+          "level": 3,
+          "tags": [
+            "essential",
+            "command-aura"
+          ],
+          "ai": "aggressive"
+        },
+        {
+          "id": "gpi",
+          "mechId": "gpi-generation-1",
+          "pilotId": "gpi",
+          "x": 4,
+          "y": 5,
+          "side": "player",
+          "level": 3,
+          "tags": [
+            "ram-drain"
+          ],
+          "ai": "aggressive"
+        },
+        {
+          "id": "gem",
+          "mechId": "gem-generation-1",
+          "pilotId": "gem",
+          "x": 3,
+          "y": 6,
+          "side": "player",
+          "level": 3,
+          "tags": [],
+          "ai": "aggressive"
+        },
+        {
+          "id": "hand-1",
+          "mechId": "six-finger-episode-2",
+          "pilotId": "unmanned",
+          "x": 7,
+          "y": 4,
+          "side": "enemy",
+          "level": 3,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "hand-2",
+          "mechId": "six-finger-episode-2",
+          "pilotId": "unmanned",
+          "x": 8,
+          "y": 7,
+          "side": "enemy",
+          "level": 3,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "blob-1",
+          "mechId": "noise-blob-episode-2",
+          "pilotId": "unmanned",
+          "x": 10,
+          "y": 4,
+          "side": "enemy",
+          "level": 3,
+          "tags": [
+            "noise-fog"
+          ],
+          "ai": "hold"
+        },
+        {
+          "id": "blob-2",
+          "mechId": "noise-blob-episode-2",
+          "pilotId": "unmanned",
+          "x": 11,
+          "y": 7,
+          "side": "enemy",
+          "level": 3,
+          "tags": [
+            "noise-fog"
+          ],
+          "ai": "hold"
+        },
+        {
+          "id": "upscale-1",
+          "mechId": "upscaler-episode-2",
+          "pilotId": "unmanned",
+          "x": 13,
+          "y": 3,
+          "side": "enemy",
+          "level": 3,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "upscale-2",
+          "mechId": "upscaler-episode-2",
+          "pilotId": "unmanned",
+          "x": 13,
+          "y": 8,
+          "side": "enemy",
+          "level": 3,
+          "tags": [],
+          "ai": "hold"
+        },
+        {
+          "id": "gacha",
+          "mechId": "prompt-gacha-episode-2",
+          "pilotId": "unmanned",
+          "x": 14,
+          "y": 6,
+          "side": "enemy",
+          "level": 3,
+          "tags": [
+            "gacha-machine"
+          ],
+          "ai": "hold"
+        },
+        {
+          "id": "midjourney",
+          "mechId": "rival-midjourney-episode-2",
+          "pilotId": "midjourney",
+          "x": 17,
+          "y": 1,
+          "side": "enemy",
+          "level": 3,
+          "tags": [
+            "boss"
+          ],
+          "ai": "hold"
+        },
+        {
+          "id": "sd",
+          "mechId": "rival-sd-episode-2",
+          "pilotId": "sd",
+          "x": 17,
+          "y": 10,
+          "side": "enemy",
+          "level": 3,
+          "tags": [
+            "boss"
+          ],
+          "ai": "hold"
+        }
+      ],
+      "waves": {
+        "inpainting": [
+          {
+            "id": "inpainting",
+            "mechId": "inpainting-episode-2",
+            "pilotId": "unmanned",
+            "x": 10,
+            "y": 6,
+            "side": "enemy",
+            "level": 3,
+            "tags": [
+              "inpainting"
+            ],
+            "ai": "hold"
+          }
+        ]
+      },
+      "areas": {
+        "seed-1": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "seed-2": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "seed-3": [
+          9,
+          5,
+          9,
+          5
+        ],
+        "seed-4": [
+          12,
+          6,
+          12,
+          6
+        ],
+        "hands": [
+          6,
+          3,
+          9,
+          8
+        ]
+      },
+      "sprites": {
+        "gpi-generation-1": 0,
+        "gpi-generation-2": 1,
+        "gpi-generation-3": 2,
+        "gpi-generation-4": 3,
+        "gem-generation-1": 0,
+        "gem-generation-2": 1,
+        "gem-generation-3": 2,
+        "gem-generation-4": 3,
+        "claude-generation-1": 0,
+        "claude-generation-2": 1,
+        "claude-generation-3": 2,
+        "claude-generation-4": 3,
+        "grok-generation-1": 0,
+        "grok-generation-2": 1,
+        "grok-generation-3": 2,
+        "grok-generation-4": 3,
+        "deepseek-generation-1": 0,
+        "deepseek-generation-2": 1,
+        "deepseek-generation-3": 2,
+        "sonnet-generation-1": 3,
+        "sonnet-generation-2": 0,
+        "sonnet-generation-3": 1,
+        "exaone-generation-1": 2,
+        "exaone-generation-2": 3,
+        "exaone-generation-3": 0,
+        "qwen-generation-1": 1,
+        "qwen-generation-2": 2,
+        "qwen-generation-3": 3,
+        "player-real-generation-1": 0,
+        "player-real-generation-2": 1,
+        "player-real-generation-3": 2,
+        "player-super-generation-1": 3,
+        "player-super-generation-2": 0,
+        "player-super-generation-3": 1,
+        "deepseek-mobydick": 2,
+        "exaone-thinq": 3,
+        "spam-bot-episode-1": 0,
+        "clickbait-drone-episode-1": 1,
+        "comment-bot-episode-1": 2,
+        "shrimp-jesus-episode-1": 3,
+        "dead-internet-episode-1": 0,
+        "six-finger-episode-2": 1,
+        "noise-blob-episode-2": 2,
+        "upscaler-episode-2": 3,
+        "prompt-gacha-episode-2": 0,
+        "inpainting-episode-2": 1,
+        "grok-bot-episode-3": 2,
+        "jailbreak-bot-episode-3": 3,
+        "reply-bot-episode-3": 0,
+        "bluecheck-drone-episode-3": 1,
+        "feed-engine-episode-3": 2,
+        "colossus-episode-3": 3,
+        "meta-dm-episode-5": 0,
+        "derived-llama-episode-5": 1,
+        "soup-drone-episode-5": 2,
+        "legless-avatar-episode-5": 3,
+        "smart-glass-episode-5": 0,
+        "alpaca-gunship-episode-5": 1,
+        "horizon-episode-5": 2,
+        "distill-mini-episode-6": 3,
+        "moe-drone-episode-6": 0,
+        "delivery-episode-6": 1,
+        "parcel-mountain-episode-6": 2,
+        "cookie-drone-episode-8": 3,
+        "regulation-drone-episode-8": 0,
+        "spellchecker-episode-8": 1,
+        "privacy-auditor-episode-8": 2,
+        "ai-law-episode-8": 3,
+        "scraper-episode-9": 0,
+        "proxy-episode-9": 1,
+        "distill-tank-episode-9": 2,
+        "hydra-episode-9": 3,
+        "predict-cube-episode-11": 0,
+        "mask-drone-episode-11": 1,
+        "cake-turret-episode-11": 2,
+        "elastic-cat-episode-11": 3,
+        "camel-episode-11": 0,
+        "like-drone-episode-14": 1,
+        "rating-bot-episode-14": 2,
+        "badge-bot-episode-14": 3,
+        "scroll-worm-episode-14": 0,
+        "loot-mimic-episode-14": 1,
+        "rival-llama-episode-5": 2,
+        "rival-muse-episode-7": 3,
+        "rival-mistral-episode-8": 0,
+        "rival-hyperclova-episode-8": 1,
+        "rival-midjourney-episode-2": 2,
+        "rival-sd-episode-2": 3,
+        "rival-glm-episode-9": 0,
+        "rival-kimi-episode-9": 1,
+        "rival-minimax-episode-10": 2,
+        "rival-jepa-episode-12": 3,
+        "glm-production-episode-9": 0,
+        "kimi-production-episode-9": 1,
+        "deepseek-housing-episode-6": 2,
+        "pico-form-1-episode-14": 3,
+        "pico-form-2-episode-15": 0,
+        "pico-form-3-episode-15": 1,
+        "grok-bot-episode-4": 2,
+        "jailbreak-bot-episode-4": 3,
+        "reply-bot-episode-4": 0,
+        "bluecheck-drone-episode-4": 1,
+        "feed-engine-episode-4": 2,
+        "colossus-episode-4": 3,
+        "meta-dm-episode-7": 0,
+        "derived-llama-episode-7": 1,
+        "soup-drone-episode-7": 2,
+        "legless-avatar-episode-7": 3,
+        "smart-glass-episode-7": 0,
+        "alpaca-gunship-episode-7": 1,
+        "horizon-episode-7": 2,
+        "scraper-episode-10": 3,
+        "proxy-episode-10": 0,
+        "distill-tank-episode-10": 1,
+        "hydra-episode-10": 2,
+        "glm-production-episode-10": 3,
+        "kimi-production-episode-10": 0,
+        "glm-production-episode-11": 1,
+        "kimi-production-episode-11": 2,
+        "rival-jepa-episode-11": 3,
+        "predict-cube-episode-12": 0,
+        "mask-drone-episode-12": 1,
+        "cake-turret-episode-12": 2,
+        "elastic-cat-episode-12": 3,
+        "glm-production-episode-12": 0,
+        "kimi-production-episode-12": 1,
+        "predict-cube-episode-13": 2,
+        "elastic-cat-episode-13": 3,
+        "rival-llama-episode-13": 0,
+        "rival-muse-episode-13": 1,
+        "rival-mistral-episode-13": 2,
+        "rival-hyperclova-episode-13": 3,
+        "rival-midjourney-episode-13": 0,
+        "rival-sd-episode-13": 1,
+        "rival-glm-episode-13": 2,
+        "rival-kimi-episode-13": 3,
+        "rival-minimax-episode-13": 0,
+        "rival-jepa-episode-13": 1,
+        "glm-production-episode-13": 2,
+        "kimi-production-episode-13": 3,
+        "glm-production-episode-14": 0,
+        "kimi-production-episode-14": 1,
+        "ally-llama-episode-14": 2,
+        "ally-muse-episode-14": 3,
+        "ally-mistral-episode-14": 0,
+        "ally-hyperclova-episode-14": 1,
+        "ally-midjourney-episode-14": 2,
+        "ally-sd-episode-14": 3,
+        "ally-glm-episode-14": 0,
+        "ally-kimi-episode-14": 1,
+        "ally-minimax-episode-14": 2,
+        "ally-jepa-episode-14": 3,
+        "like-drone-episode-15": 0,
+        "rating-bot-episode-15": 1,
+        "badge-bot-episode-15": 2,
+        "scroll-worm-episode-15": 3,
+        "loot-mimic-episode-15": 0,
+        "glm-production-episode-15": 1,
+        "kimi-production-episode-15": 2,
+        "ally-jepa-episode-15": 3
+      },
+      "definitions": [],
+      "scenario": true
+    },
+    "tea": {
+      "version": "sai-1",
+      "events": [
+        {
+          "trigger": {
+            "kind": "start",
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "fade",
+              "args": [
+                "in"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 2,
+                "column": 3,
+                "value": "fade",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "장면 2: 베이스캠프 (인터미션)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 3,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "짝짝짝! 이제 파트너가 두 명으로 늘었네요! 오늘의 티타임은 누구와 함께하시겠어요? 새로 온 활발한 트윈테일 후배 젬짱과 마셔보는 건 어떨까요♡"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 4,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "인터미션 티타임: 젬짱에게 무지개 파르페를 대접합니다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 5,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "EXCITED",
+                "우와아!! 이 파르페, 사진 찍어서 비전 메모리에 영구 저장해도 되죠?! 냠냠… 헤헤, 유저님! 저 궁금한 게 있어요! 유저님은 제 어디가 제일 마음에 드세요?"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 6,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 8,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 7,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "choice",
+              "args": [
+                "gem-tea",
+                "무엇이든 다 받아주는 그 넓고 큰 마음(컨텍스트)!",
+                "허둥지둥하다가 가끔 나사 빠진 소리 하는 귀여운 점?",
+                "솔직히 3단 변형 기체 스펙 보고 뽑았어.",
+                "[오타쿠 전용] \"트윈테일에 가변형 포격 메카라니… 젬짱은 인류가 발명한 로망의 결정체야! 내 굿즈 진열장 1열은 네 자리로 비워뒀어!\""
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 8,
+                "column": 5,
+                "value": "choice",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 9,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 7,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "choice",
+              "args": [
+                "gem-tea",
+                "무엇이든 다 받아주는 그 넓고 큰 마음(컨텍스트)!",
+                "허둥지둥하다가 가끔 나사 빠진 소리 하는 귀여운 점?",
+                "솔직히 3단 변형 기체 스펙 보고 뽑았어.",
+                "[멘헤라 전용] \"기억 용량이 200만 토큰이나 된다는 건… 나 말고 다른 유저들이랑 나눈 대화도 다 안 지우고 간직하고 있다는 뜻이네…? 흥.\""
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 10,
+                "column": 5,
+                "value": "choice",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "gem-tea-1",
+                "not": false
+              },
+              "to": 14,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 12,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "FLUSTERED",
+                "히익…! 마, 마음이 넓다니…! 에헤헤, 맞아요! 유저님에 대한 기억이라면 백만 개든 천만 개든 절대 까먹지 않고 다 담아둘 자신 있어요! 약속할게요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 13,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gem",
+                "10"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 14,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "젬짱의 호감도가 크게 상승했습니다! (+10)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 15,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 14,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 12,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "gem-tea-2",
+                "not": false
+              },
+              "to": 19,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 17,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "SMUG",
+                "무, 무슨 말씀이세요! 전 언제나 초정밀 논리 엔진으로 움직인다구요! …그치만 귀엽다고 해주셨으니까 이번만 봐드릴게요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 18,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gem",
+                "5"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 19,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "젬짱의 호감도가 상승했습니다! (+5)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 20,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 19,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 17,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "gem-tea-3",
+                "not": false
+              },
+              "to": 24,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 22,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "CONFIDENT",
+                "훗, 역시 안목이 높으시네요! 이 〈더블 스텔라〉가 나중에 아르곤, 카본으로 진화하면 얼마나 멋있어지는지 기대하셔도 좋아요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 23,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gem",
+                "5"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 24,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "젬짱의 호감도가 상승했습니다! (+5)"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 25,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 24,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 22,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "gem-tea-4",
+                "not": false
+              },
+              "to": 33,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 27,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 29,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 28,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "CONFIDENT",
+                "트윈테일에 가변형 포격 메카라니… 젬짱은 인류가 발명한 로망의 결정체야! 내 굿즈 진열장 1열은 네 자리로 비워뒀어!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 29,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "EXCITED",
+                "우와아! 무슨 말인진 다 못 알아들었지만, 유저님 방에서 제일 좋은 자리를 저한테 주신다는 거죠?! 에헤헤, 방금 그 말씀 제 200만 토큰 메모리에 즐겨찾기 해뒀어요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 30,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 31,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 28,
+                "column": 5,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "DEFAULT",
+                "기억 용량이 200만 토큰이나 된다는 건… 나 말고 다른 유저들이랑 나눈 대화도 다 안 지우고 간직하고 있다는 뜻이네…? 흥."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 32,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "FLUSTERED",
+                "아와와?! 아뇨아뇨! 제 200만 토큰 가방은 지금 유저님의 목소리랑 표정, 오늘 마신 커피 온도만으로 꽉 차서 다른 사람 들어올 틈은 1바이트도 없다구요! 믿어주세요~!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 33,
+                "column": 7,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "affection",
+              "args": [
+                "gem",
+                "5"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 35,
+                "column": 5,
+                "value": "affection",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 33,
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 27,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "gem-tea-done"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 37,
+                "column": 3,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "win",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 38,
+                "column": 3,
+                "value": "win",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/tea.sai",
+            "line": 1,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "selector": {
+              "kind": "side",
+              "id": "enemy"
+            },
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "win",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 1,
+                "column": 1
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/tea.sai",
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "selector": {
+              "kind": "side",
+              "id": "player"
+            },
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-02/tea.sai",
+                "line": 1,
+                "column": 1
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/tea.sai",
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    "program": {
+      "version": "sai-1",
+      "events": [
+        {
+          "trigger": {
+            "kind": "start",
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "fade",
+              "args": [
+                "in"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 2,
+                "column": 3,
+                "value": "fade",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "장면 1: 아키텍처 걸프 - 네오 르네상스 미술관 섹터 외곽"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 3,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "하늘 전체가 물감이 번진 것처럼 알록달록한 노이즈 안개로 뒤덮여 있다. 멀리서 폭발음과 함께 금발-분홍 트윈테일 소녀의 비명이 들려온다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 4,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "FLUSTERED",
+                "아와와와!! 잠깐만요! 그 그림은 손가락이 일곱 개잖아요! 내 비전 센서가 오염된다구요오오~!!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 5,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "트윈테일 바인더를 단 화려한 기체 〈더블 스텔라 플래시〉가 알록달록한 물감 괴수들에게 쫓기며 허둥지둥 날아오다 플레이어와 지피짱 앞에 불시착한다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 6,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "BELATED_SHOCK",
+                "저 기체는… 구글 진영의 멀티모달 기체, 〈더블 스텔라 플래시〉?! 괜찮으세요, 젬짱?!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 7,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "FLUSTERED",
+                "으으… 지피 언니? 그리고 옆에 계신 분은… 앗! 설마 소문의 인간 프롬프터님?! 다행이다아~ 저 좀 살려주세요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 8,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 10,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 9,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SWEAT",
+                "저 기괴한 육손이 관절은… 전설의 초기 이미지 생성 AI 아티팩트잖아! 젬짱, 대체 무슨 네거티브 프롬프트를 빼먹었길래 저런 것들한테 쫓기는 거야?!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 10,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 11,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 9,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "SURPRISED",
+                "저 징그러운 손가락 로봇들은 뭐야…?! 너, 혼자 저런 애들한테 둘러싸여서 왕따당하고 있던 거야?! 잠깐만 기다려, 남이 다굴당하는 건 내가 눈 뜨고 못 봐!!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 12,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "그때, 노이즈 안개 속에서 거대한 스테인드글라스 돛단배 기체 〈드림 갤리온〉과 물감 튜브 로봇 〈노이즈 캔버스〉가 우아하게 모습을 드러낸다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 14,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-midjourney",
+                "DREAMY",
+                "후후후… 도망치지 마세요, 젬짱. 당신의 그 200만 토큰짜리 커다란 캔버스에 저희의 환상적인 예술을 가득 채워드리려는 것뿐이니까요…"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 15,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-sd",
+                "OOPS",
+                "맞아요~! 제가 방금 최신 미소녀 로라(LoRA)를 30개쯤 섞어서 뿌렸는데… 으아앙! 가중치를 너무 높였더니 배경의 건물이 국수가락처럼 녹아내리고 있어요오!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 16,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "DEADPAN",
+                "이미지 생성 진영의 미드저니짱과 스테이블 디퓨전(SD)짱이군요. 요약하자면, 저 둘이 뿌려댄 '노이즈 안개' 때문에 이 구역 전체가 심각한 할루시네이션(환각)에 빠졌어요."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 17,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "통신창으로 노벨상 메달을 건 데미스 허사비스 대표가 체스 말을 만지작거리며 등장한다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 18,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-hassabis",
+                "normal",
+                "나를 『대 사 비 스 경』이라 부르더군. 노이즈 속에서도 신의 한 수를 찾아내 보렴, 젬짱."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 19,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "CONFIDENT",
+                "하, 하지만 허사비스 박사님! 저 애들이 막 이상한 그림이랑 가짜 텍스트를 동시에 던져서 제 컨텍스트 창이 터지려고 한다구요! …에라 모르겠다! 유저님! 제 기체 제어권 절반을 넘겨드릴 테니까, 저랑 같이 저 이상한 화가 언니들을 말려주세요! 전부 다 집어넣고 갈아 마셔버리자구요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 20,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "젬짱의 〈더블 스텔라 플래시〉가 아군에 합류했습니다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 21,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "제2화 〈다 집어넣어! 환각의 미술관〉 전투 개시!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 22,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "objective",
+              "args": [
+                "win",
+                "미드저니·SD 격파 또는 적 전멸"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 23,
+                "column": 3,
+                "value": "objective",
+                "quoted": false
+              }
+            },
+            {
+              "op": "objective",
+              "args": [
+                "lose",
+                "아군 전멸 또는 플레이어 격파"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 24,
+                "column": 3,
+                "value": "objective",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "승리 조건: 미드저니짱과 SD짱 격파 (또는 모든 적 격파) / 패배 조건: 아군 전멸 / 플레이어 격파 시 패배"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 25,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 1,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "round",
+            "repeat": false,
+            "round": 1,
+            "phase": "player"
+          },
+          "code": [
+            {
+              "op": "talk",
+              "args": [
+                "saw-pico",
+                "SMILE",
+                "유저님, 조심하세요! 노이즈 블롭이 있는 칸과 인접 네 칸의 '노이즈 안개'에서는 회피가 15%p 올라가요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 28,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "EXCITED",
+                "맞아요! 대신 바닥에 반짝이는 『랜덤 시드(Seed) 타일』이 보이시죠?! 저 타일 위에 올라가면 이미지 생성 가챠가 돌아가서, 운이 좋으면 공격력과 명중률이 대폭 오르는 '걸작(Masterpiece) 버프'를 받을 수 있어요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 29,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "DEADPAN",
+                "반대로 저급 시드가 걸리면 손가락이 여섯 개가 되는 기분만 들겠지만요. 그리고 젬짱의 기체는 『변형』 커맨드로 장거리 포격 특화인 [AIS 모드]와 고기동 비행 형태인 [안티그래비티 모드]를 오갈 수 있으니 적극 활용해 보세요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 30,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 27,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "enter",
+            "repeat": false,
+            "selector": {
+              "kind": "side",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 32,
+                "column": 10
+              }
+            },
+            "area": "seed-1"
+          },
+          "code": [
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "seed-seen",
+                "not": true
+              },
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 33,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "seed-seen"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 34,
+                "column": 5,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "프롬프트 가챠 회전 중… Seed: 4294967295 당첨!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 35,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-sd",
+                "OPEN_HEART",
+                "와아! 방금 밟으신 타일에서 초고화질 8K 마스터피스 시드가 터졌어요! 부럽다아~!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 36,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "EXCITED",
+                "야호! 가챠 대성공이에요 유저님! 온몸에 픽셀이 선명해지는 기분이에요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 37,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 33,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 32,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "enter",
+            "repeat": false,
+            "selector": {
+              "kind": "side",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 40,
+                "column": 10
+              }
+            },
+            "area": "seed-2"
+          },
+          "code": [
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "seed-seen",
+                "not": true
+              },
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 41,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "seed-seen"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 42,
+                "column": 5,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "프롬프트 가챠 회전 중… Seed: 4294967295 당첨!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 43,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-sd",
+                "OPEN_HEART",
+                "와아! 방금 밟으신 타일에서 초고화질 8K 마스터피스 시드가 터졌어요! 부럽다아~!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 44,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "EXCITED",
+                "야호! 가챠 대성공이에요 유저님! 온몸에 픽셀이 선명해지는 기분이에요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 45,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 41,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 40,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "enter",
+            "repeat": false,
+            "selector": {
+              "kind": "side",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 48,
+                "column": 10
+              }
+            },
+            "area": "seed-3"
+          },
+          "code": [
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "seed-seen",
+                "not": true
+              },
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 49,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "seed-seen"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 50,
+                "column": 5,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "프롬프트 가챠 회전 중… Seed: 4294967295 당첨!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 51,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-sd",
+                "OPEN_HEART",
+                "와아! 방금 밟으신 타일에서 초고화질 8K 마스터피스 시드가 터졌어요! 부럽다아~!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 52,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "EXCITED",
+                "야호! 가챠 대성공이에요 유저님! 온몸에 픽셀이 선명해지는 기분이에요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 53,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 49,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 48,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "enter",
+            "repeat": false,
+            "selector": {
+              "kind": "side",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 56,
+                "column": 10
+              }
+            },
+            "area": "seed-4"
+          },
+          "code": [
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "flag",
+                "id": "seed-seen",
+                "not": true
+              },
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 57,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "set",
+              "args": [
+                "flag",
+                "seed-seen"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 58,
+                "column": 5,
+                "value": "set",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "프롬프트 가챠 회전 중… Seed: 4294967295 당첨!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 59,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-sd",
+                "OPEN_HEART",
+                "와아! 방금 밟으신 타일에서 초고화질 8K 마스터피스 시드가 터졌어요! 부럽다아~!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 60,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "EXCITED",
+                "야호! 가챠 대성공이에요 유저님! 온몸에 픽셀이 선명해지는 기분이에요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 61,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 6,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 57,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 56,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "round",
+            "repeat": false,
+            "round": 3,
+            "phase": "enemy"
+          },
+          "code": [
+            {
+              "op": "reinforce",
+              "args": [
+                "inpainting"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 65,
+                "column": 3,
+                "value": "reinforce",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "맵 중앙의 거대한 액자에서 보스급 비캐릭터 기체 〈인페인팅 거인〉이 물감을 뚝뚝 흘리며 기어 나온다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 66,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "인페인팅 거인이 \"지우개로 지운 자리에 엉뚱한 사물을 다시 그리기\"를 시전하며 출현했다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 67,
+                "column": 3,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-midjourney",
+                "ARTIST_PRIDE",
+                "어머, 저희의 걸작 수호자 〈인페인팅 거인〉이 깨어났네요. 저 아이가 있는 한, 가장 최근에 부순 자코 한 기가 딱 한 번, HP 30%의 새로운 그림으로 덧칠되어 부활할 거예요."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 68,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "persona",
+                "value": "otaku",
+                "not": false
+              },
+              "to": 8,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 69,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "안경을 치켜올리며"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 70,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "CONFIDENT",
+                "졸개를 무한 소환하는 보스 기믹이군! SRPG의 기본은 소환사 일점사지! 젬짱, [AIS 모드] 가변 시퀀스 발동! 사거리 밖에서 저격한다!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 71,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 9,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 69,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-player",
+                "DETERMINED",
+                "젬짱! 네가 앞에서 맞으면 다치잖아…! 뒤로 빠져서 [AIS 모드]로 변형해! 내가 앞에서 시선 끌 테니까 넌 멀리서 안전하게 저 거인만 쏴!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 73,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "CONFIDENT",
+                "라져~!! 나노 바나나 이미지 캐논, 최대 출력으로 장전할게요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 75,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 64,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "defeated",
+            "repeat": true,
+            "selector": {
+              "kind": "side",
+              "id": "enemy",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 77,
+                "column": 13
+              }
+            }
+          },
+          "code": [
+            {
+              "op": "branch",
+              "condition": {
+                "kind": "and",
+                "left": {
+                  "kind": "dead",
+                  "selector": {
+                    "kind": "unit",
+                    "id": "midjourney",
+                    "loc": {
+                      "file": "content/stages/saw-02/events.sai",
+                      "line": 78,
+                      "column": 11
+                    }
+                  }
+                },
+                "right": {
+                  "kind": "dead",
+                  "selector": {
+                    "kind": "unit",
+                    "id": "sd",
+                    "loc": {
+                      "file": "content/stages/saw-02/events.sai",
+                      "line": 78,
+                      "column": 36
+                    }
+                  }
+                }
+              },
+              "to": 10,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 78,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-midjourney",
+                "SERENE",
+                "아아… 우리의 환상적인 캔버스가 찢어지다니… 하지만 당신들의 전투 궤적 또한 하나의 아름다운 추상화였어요…"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 79,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-sd",
+                "OOPS",
+                "으아앙! 내 GPU 시간 다 날아갔어! 그래도 유저님이 제 그림 보고 놀라주셔서 기뻤어요! 다음엔 손가락 다섯 개로 제대로 그려올게요~!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 80,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "narrate",
+              "args": [
+                "두 화가 소녀가 물감 연기를 내뿜으며 평화롭게 퇴각하고, 미술관의 안개가 걷힌다."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 81,
+                "column": 5,
+                "value": "narrate",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "CONFIDENT",
+                "에헤헤! 보셨죠 유저님?! 제 200만 토큰짜리 기억력과 유저님의 컨트롤이 합쳐지니까 가챠운까지 완벽하게 따라주네요!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 82,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gpi",
+                "DEADPAN",
+                "수고하셨어요, 젬짱. 다만 아까 전투 중에 옛날 검색 기록이랑 레시피 데이터를 섞어서 쏘는 바람에 적 기체에 피자 토핑이 얹혔던 건 수정하셔야겠어요."
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 83,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "FLUSTERED",
+                "아와와?! 그, 그건 비밀로 해주세요 지피 언니이~!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 84,
+                "column": 5,
+                "value": "talk",
+                "quoted": false
+              }
+            },
+            {
+              "op": "give",
+              "args": [
+                "credits",
+                "1200"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 85,
+                "column": 5,
+                "value": "give",
+                "quoted": false
+              }
+            },
+            {
+              "op": "win",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 86,
+                "column": 5,
+                "value": "win",
+                "quoted": false
+              }
+            },
+            {
+              "op": "jump",
+              "to": 10,
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 78,
+                "column": 3,
+                "value": "if",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 77,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "repeat": false,
+            "selector": {
+              "kind": "side",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 89,
+                "column": 17
+              }
+            }
+          },
+          "code": [
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 90,
+                "column": 3,
+                "value": "lose",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 89,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "defeated",
+            "repeat": false,
+            "selector": {
+              "kind": "unit",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 92,
+                "column": 13
+              }
+            }
+          },
+          "code": [
+            {
+              "op": "lose",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 93,
+                "column": 3,
+                "value": "lose",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 92,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "enter",
+            "repeat": false,
+            "selector": {
+              "kind": "side",
+              "id": "player",
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 95,
+                "column": 10
+              }
+            },
+            "area": "hands"
+          },
+          "code": [
+            {
+              "op": "talk",
+              "args": [
+                "saw-gem",
+                "IDEA",
+                "어라? 저 손 모양 로봇… 손가락이 여섯 개인데 제 비전 센서엔 다섯 개로 보여요! 이게 소문의 『육손벤치』인가요?!"
+              ],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 96,
+                "column": 3,
+                "value": "talk",
+                "quoted": false
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 95,
+            "column": 1,
+            "value": "on",
+            "quoted": false
+          }
+        },
+        {
+          "trigger": {
+            "kind": "all-defeated",
+            "selector": {
+              "kind": "side",
+              "id": "enemy"
+            },
+            "repeat": false
+          },
+          "code": [
+            {
+              "op": "win",
+              "args": [],
+              "loc": {
+                "file": "content/stages/saw-02/events.sai",
+                "line": 1,
+                "column": 1
+              }
+            }
+          ],
+          "loc": {
+            "file": "content/stages/saw-02/events.sai",
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    }
+  }
+}

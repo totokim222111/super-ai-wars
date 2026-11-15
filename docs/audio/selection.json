@@ -1,0 +1,1350 @@
+{
+  "licenses": {
+    "S1": {
+      "path": "audio-src/downloads/kenney/S1/data/License.txt",
+      "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+      "license": "CC0"
+    },
+    "S2": {
+      "path": "audio-src/downloads/kenney/S2/data/License.txt",
+      "sha256": "a9767b25c3533f69d03af136480efad08efba19a9f0d89616992b34c79fd6186",
+      "license": "CC0"
+    },
+    "S3": {
+      "path": "audio-src/downloads/kenney/S3/data/License.txt",
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db",
+      "license": "CC0"
+    },
+    "S4": {
+      "page": "https://opengameart.org/content/512-sound-effects-8-bit-style",
+      "license": "CC0",
+      "confirmed": true
+    },
+    "M1": {
+      "page": "https://opengameart.org/content/jrpg-epic-rock-battle-theme-1",
+      "license": "CC0",
+      "confirmed": true
+    },
+    "M2": {
+      "page": "https://opengameart.org/node/84428",
+      "license": "CC0",
+      "confirmed": true
+    },
+    "M3-M13": {
+      "page": "https://maou.audio/rule/",
+      "license": "CC BY 4.0",
+      "credit": "音楽：魔王魂"
+    },
+    "T01": {
+      "page": "https://maou.audio/se_onepoint03/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T02": {
+      "page": "https://opengameart.org/content/determination-anime-style-music",
+      "license": "CC0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T03": {
+      "page": "https://maou.audio/bgm_cyber38/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T04": {
+      "page": "https://maou.audio/bgm_neorock33/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T05": {
+      "page": "https://maou.audio/bgm_fantasy11/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T06": {
+      "page": "https://maou.audio/bgm_neorock76/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T07": {
+      "page": "https://maou.audio/bgm_neorock30/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T08": {
+      "page": "https://maou.audio/bgm_neorock72/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T09": {
+      "page": "https://maou.audio/bgm_neorock73/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T10": {
+      "page": "https://maou.audio/bgm_neorock62/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T11": {
+      "page": "https://maou.audio/bgm_cyber15/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T12": {
+      "page": "https://maou.audio/bgm_acoustic05/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T13": {
+      "page": "https://maou.audio/bgm_cyber19/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T14": {
+      "page": "https://maou.audio/bgm_neorock34/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T15": {
+      "page": "https://maou.audio/bgm_healing16/",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    },
+    "T16": {
+      "page": "https://opengameart.org/content/samurai-nights",
+      "license": "CC BY 4.0",
+      "confirmed": true,
+      "confirmedBy": "사용자 승인 및 제공 출처 기록 (2026-11-13)"
+    }
+  },
+  "sfx": {
+    "cursor": {
+      "approved": "S1",
+      "original": "audio-src/downloads/kenney/S1/data/Audio/click_004.ogg",
+      "originalSha256": "09e2c1b643b71b9aff9932b4e02d78db116446b9a14b00a5b2a9b28d2668fd8e",
+      "reason": "짧은 광대역 클릭, 50Hz 최고 대역 에너지 비중 <10%, 99% 에너지 감쇠 <15ms",
+      "trimStart": 0,
+      "before": {
+        "seconds": 0.021768707482993196,
+        "peak": 0.8679941296577454,
+        "rms": 0.11713395267724991
+      },
+      "after": {
+        "seconds": 0.021768707482993196,
+        "peak": 0.9385520219802856,
+        "rms": 0.11595706641674042
+      },
+      "gain": 0.319641
+    },
+    "confirm": {
+      "approved": "S1",
+      "original": "audio-src/downloads/kenney/S1/data/Audio/select_001.ogg",
+      "originalSha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a",
+      "reason": "짧은 광대역 클릭, 50Hz 최고 대역 에너지 비중 <10%, 99% 에너지 감쇠 <15ms",
+      "trimStart": 0,
+      "before": {
+        "seconds": 0.04038548752834467,
+        "peak": 1.2423423528671265,
+        "rms": 0.19237540662288666
+      },
+      "after": {
+        "seconds": 0.04038548752834467,
+        "peak": 0.7972105741500854,
+        "rms": 0.11817795038223267
+      },
+      "gain": 0.376312
+    },
+    "cancel": {
+      "approved": "S1",
+      "original": "audio-src/downloads/kenney/S1/data/Audio/back_001.ogg",
+      "reason": "짧게 되돌아가는 인터페이스음",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.060975,
+        "peak": 0.895816,
+        "rms": 0.08662,
+        "centroidHz": 2090,
+        "lowBelow300": 0.0695,
+        "highAbove3000": 0.2153,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.2512
+      },
+      "after": {
+        "seconds": 0.056009,
+        "peak": 0.784791,
+        "rms": 0.066943,
+        "centroidHz": 2029,
+        "lowBelow300": 0.0772,
+        "highAbove3000": 0.2059,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.5765
+      },
+      "gain": 0.8665
+    },
+    "deny": {
+      "approved": "S1",
+      "original": "audio-src/downloads/kenney/S1/data/Audio/error_002.ogg",
+      "reason": "강한 고주파 시작으로 오류 구분",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.165442,
+        "peak": 1.511123,
+        "rms": 0.187592,
+        "centroidHz": 6793,
+        "lowBelow300": 0.0182,
+        "highAbove3000": 0.563,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0538
+      },
+      "after": {
+        "seconds": 0.16254,
+        "peak": 0.826297,
+        "rms": 0.098666,
+        "centroidHz": 7104,
+        "lowBelow300": 0.0186,
+        "highAbove3000": 0.5861,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0669
+      },
+      "gain": 0.7201
+    },
+    "text": {
+      "approved": "S1",
+      "original": "audio-src/downloads/kenney/S1/data/Audio/tick_001.ogg",
+      "reason": "매우 짧은 고주파 틱, 반복 피로를 줄여 작게",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.044989,
+        "peak": 0.91149,
+        "rms": 0.084337,
+        "centroidHz": 4748,
+        "lowBelow300": 0.0024,
+        "highAbove3000": 0.6853,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0002
+      },
+      "after": {
+        "seconds": 0.024671,
+        "peak": 0.715472,
+        "rms": 0.077754,
+        "centroidHz": 4818,
+        "lowBelow300": 0.0016,
+        "highAbove3000": 0.6919,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0014
+      },
+      "gain": 0.2376
+    },
+    "whoosh": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/thrusterFire_000.ogg",
+      "reason": "추진기의 넓은 잡음 대역을 짧게 자름",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 5.0,
+        "peak": 0.89105,
+        "rms": 0.114493,
+        "centroidHz": 1169,
+        "lowBelow300": 0.9212,
+        "highAbove3000": 0.0712,
+        "attack10ms": 0.2711,
+        "tailRmsRatio": 0.3967
+      },
+      "after": {
+        "seconds": 0.380227,
+        "peak": 0.737041,
+        "rms": 0.15215,
+        "centroidHz": 1366,
+        "lowBelow300": 0.9061,
+        "highAbove3000": 0.085,
+        "attack10ms": 0.4972,
+        "tailRmsRatio": 0.831
+      },
+      "gain": 0.7821
+    },
+    "slash": {
+      "approved": "S1",
+      "original": "audio-src/downloads/kenney/S1/data/Audio/scratch_002.ogg",
+      "reason": "짧고 고주파가 많은 마찰음",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.13932,
+        "peak": 0.890063,
+        "rms": 0.261135,
+        "centroidHz": 6186,
+        "lowBelow300": 0.0,
+        "highAbove3000": 0.9477,
+        "attack10ms": 0.6257,
+        "tailRmsRatio": 0.0001
+      },
+      "after": {
+        "seconds": 0.137868,
+        "peak": 0.796805,
+        "rms": 0.231403,
+        "centroidHz": 6143,
+        "lowBelow300": 0.0,
+        "highAbove3000": 0.9492,
+        "attack10ms": 0.6138,
+        "tailRmsRatio": 0.0
+      },
+      "gain": 0.5445
+    },
+    "shot": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/laserSmall_000.ogg",
+      "reason": "짧은 소형 레이저",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.236304,
+        "peak": 0.737608,
+        "rms": 0.118002,
+        "centroidHz": 244,
+        "lowBelow300": 0.7903,
+        "highAbove3000": 0.001,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.077
+      },
+      "after": {
+        "seconds": 0.233401,
+        "peak": 0.78027,
+        "rms": 0.161294,
+        "centroidHz": 249,
+        "lowBelow300": 0.7959,
+        "highAbove3000": 0.0012,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0743
+      },
+      "gain": 0.7812
+    },
+    "hit": {
+      "approved": "S3",
+      "original": "audio-src/downloads/kenney/S3/data/Audio/impactMetal_light_000.ogg",
+      "reason": "금속의 빠른 타격과 잔향",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.372971,
+        "peak": 1.265943,
+        "rms": 0.125115,
+        "centroidHz": 2668,
+        "lowBelow300": 0.0124,
+        "highAbove3000": 0.3381,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0
+      },
+      "after": {
+        "seconds": 0.179615,
+        "peak": 0.740417,
+        "rms": 0.109969,
+        "centroidHz": 2718,
+        "lowBelow300": 0.0009,
+        "highAbove3000": 0.3538,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0138
+      },
+      "gain": 1.0332
+    },
+    "heavy": {
+      "approved": "S3",
+      "original": "audio-src/downloads/kenney/S3/data/Audio/impactPlate_heavy_000.ogg",
+      "reason": "두꺼운 판 타격, 보통 타격보다 긴 감쇠",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.488662,
+        "peak": 1.264462,
+        "rms": 0.104423,
+        "centroidHz": 85,
+        "lowBelow300": 0.9678,
+        "highAbove3000": 0.002,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0061
+      },
+      "after": {
+        "seconds": 0.307188,
+        "peak": 0.760093,
+        "rms": 0.083141,
+        "centroidHz": 111,
+        "lowBelow300": 0.9497,
+        "highAbove3000": 0.004,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0207
+      },
+      "gain": 1.1183
+    },
+    "explode": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/explosionCrunch_001.ogg",
+      "reason": "넓은 잡음 대역과 긴 감쇠",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 1.35678,
+        "peak": 0.893905,
+        "rms": 0.25136,
+        "centroidHz": 227,
+        "lowBelow300": 0.8605,
+        "highAbove3000": 0.011,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0184
+      },
+      "after": {
+        "seconds": 1.353333,
+        "peak": 0.761174,
+        "rms": 0.22331,
+        "centroidHz": 219,
+        "lowBelow300": 0.8631,
+        "highAbove3000": 0.0104,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0161
+      },
+      "gain": 0.6269
+    },
+    "charge": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/forceField_002.ogg",
+      "reason": "낮은 대역의 지속 전자음",
+      "trimStart": 0.00229,
+      "before": {
+        "seconds": 0.955079,
+        "peak": 0.897445,
+        "rms": 0.263149,
+        "centroidHz": 273,
+        "lowBelow300": 0.9323,
+        "highAbove3000": 0.0001,
+        "attack10ms": 0.0405,
+        "tailRmsRatio": 0.0004
+      },
+      "after": {
+        "seconds": 0.669864,
+        "peak": 0.805114,
+        "rms": 0.281856,
+        "centroidHz": 273,
+        "lowBelow300": 0.9323,
+        "highAbove3000": 0.0001,
+        "attack10ms": 0.0547,
+        "tailRmsRatio": 0.0112
+      },
+      "gain": 0.4222
+    },
+    "flash": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/laserRetro_003.ogg",
+      "reason": "짧고 밝은 전자음",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.254785,
+        "peak": 0.906639,
+        "rms": 0.417475,
+        "centroidHz": 2832,
+        "lowBelow300": 0.0001,
+        "highAbove3000": 0.1549,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0185
+      },
+      "after": {
+        "seconds": 0.251882,
+        "peak": 0.86764,
+        "rms": 0.368793,
+        "centroidHz": 2788,
+        "lowBelow300": 0.0001,
+        "highAbove3000": 0.1515,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0285
+      },
+      "gain": 0.2468
+    },
+    "gauge": {
+      "approved": "S4",
+      "original": "audio-src/downloads/opengameart/S4/data/The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala/General Sounds/Menu Sounds/sfx_menu_move3.wav",
+      "reason": "아주 짧은 레트로 피드백음",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.075896,
+        "peak": 0.501129,
+        "rms": 0.127519,
+        "centroidHz": 2964,
+        "lowBelow300": 0.0005,
+        "highAbove3000": 0.3839,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.2136
+      },
+      "after": {
+        "seconds": 0.072993,
+        "peak": 0.828338,
+        "rms": 0.209992,
+        "centroidHz": 2868,
+        "lowBelow300": 0.0004,
+        "highAbove3000": 0.3709,
+        "attack10ms": 0.9682,
+        "tailRmsRatio": 0.2967
+      },
+      "gain": 0.4333
+    },
+    "beam": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/laserLarge_000.ogg",
+      "reason": "소형 사격보다 길고 밝은 대형 레이저",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.676644,
+        "peak": 0.897563,
+        "rms": 0.138298,
+        "centroidHz": 1401,
+        "lowBelow300": 0.6578,
+        "highAbove3000": 0.1939,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0059
+      },
+      "after": {
+        "seconds": 0.44263,
+        "peak": 0.840372,
+        "rms": 0.152273,
+        "centroidHz": 1381,
+        "lowBelow300": 0.6925,
+        "highAbove3000": 0.198,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0
+      },
+      "gain": 0.9194
+    },
+    "missile": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/thrusterFire_002.ogg",
+      "reason": "추진 잡음의 시작 구간",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 5.0,
+        "peak": 0.895693,
+        "rms": 0.114657,
+        "centroidHz": 1529,
+        "lowBelow300": 0.892,
+        "highAbove3000": 0.0982,
+        "attack10ms": 0.2606,
+        "tailRmsRatio": 0.3867
+      },
+      "after": {
+        "seconds": 0.751746,
+        "peak": 0.773,
+        "rms": 0.139512,
+        "centroidHz": 1499,
+        "lowBelow300": 0.8945,
+        "highAbove3000": 0.0967,
+        "attack10ms": 0.3711,
+        "tailRmsRatio": 0.1897
+      },
+      "gain": 0.9031
+    },
+    "transform": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/doorClose_001.ogg",
+      "reason": "금속 구동부가 닫히는 짧은 기계음",
+      "trimStart": 0.018027,
+      "before": {
+        "seconds": 0.528594,
+        "peak": 0.899512,
+        "rms": 0.169596,
+        "centroidHz": 13448,
+        "lowBelow300": 0.0045,
+        "highAbove3000": 0.9798,
+        "attack10ms": 0.0034,
+        "tailRmsRatio": 1.0
+      },
+      "after": {
+        "seconds": 0.510839,
+        "peak": 0.823442,
+        "rms": 0.161945,
+        "centroidHz": 13404,
+        "lowBelow300": 0.0042,
+        "highAbove3000": 0.9811,
+        "attack10ms": 0.0171,
+        "tailRmsRatio": 0.7237
+      },
+      "gain": 0.778
+    },
+    "servo": {
+      "approved": "S2",
+      "original": "audio-src/downloads/kenney/S2/data/Audio/doorOpen_001.ogg",
+      "reason": "기계 구동부의 열림",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.528594,
+        "peak": 0.895896,
+        "rms": 0.169637,
+        "centroidHz": 13447,
+        "lowBelow300": 0.0045,
+        "highAbove3000": 0.9798,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0034
+      },
+      "after": {
+        "seconds": 0.511633,
+        "peak": 0.806071,
+        "rms": 0.150242,
+        "centroidHz": 13367,
+        "lowBelow300": 0.0042,
+        "highAbove3000": 0.981,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0142
+      },
+      "gain": 0.6057
+    },
+    "alarm": {
+      "approved": "S4",
+      "original": "audio-src/downloads/opengameart/S4/data/The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala/General Sounds/Alarms/Alarms/sfx_alarm_loop1.wav",
+      "reason": "규칙적으로 반복되는 높은 경보 파형",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.789524,
+        "peak": 0.498871,
+        "rms": 0.265022,
+        "centroidHz": 1805,
+        "lowBelow300": 0.0607,
+        "highAbove3000": 0.1282,
+        "attack10ms": 0.3693,
+        "tailRmsRatio": 0.3251
+      },
+      "after": {
+        "seconds": 0.80254,
+        "peak": 0.902169,
+        "rms": 0.415655,
+        "centroidHz": 1758,
+        "lowBelow300": 0.0623,
+        "highAbove3000": 0.125,
+        "attack10ms": 0.3651,
+        "tailRmsRatio": 0.0
+      },
+      "gain": 0.2695
+    },
+    "levelup": {
+      "approved": "S4",
+      "original": "audio-src/downloads/opengameart/S4/data/The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala/General Sounds/Positive Sounds/sfx_sounds_powerup3.wav",
+      "reason": "파워업 계열의 구별되는 전자음",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.417937,
+        "peak": 0.50119,
+        "rms": 0.294858,
+        "centroidHz": 1081,
+        "lowBelow300": 0.0215,
+        "highAbove3000": 0.0584,
+        "attack10ms": 0.9577,
+        "tailRmsRatio": 0.197
+      },
+      "after": {
+        "seconds": 0.417959,
+        "peak": 0.916346,
+        "rms": 0.4668,
+        "centroidHz": 1036,
+        "lowBelow300": 0.022,
+        "highAbove3000": 0.0551,
+        "attack10ms": 0.9334,
+        "tailRmsRatio": 0.1523
+      },
+      "gain": 0.2549
+    },
+    "important": {
+      "approved": "S1",
+      "original": "audio-src/downloads/kenney/S1/data/Audio/confirmation_002.ogg",
+      "reason": "기존 종 확인음 보존: 스토리 분기·일회성 선택·출격 확정·NG+ 전용",
+      "trimStart": 0.0,
+      "before": {
+        "seconds": 0.539002,
+        "peak": 0.895789,
+        "rms": 0.180229,
+        "centroidHz": 3259,
+        "lowBelow300": 0.0,
+        "highAbove3000": 0.6393,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0016
+      },
+      "after": {
+        "seconds": 0.501814,
+        "peak": 0.807472,
+        "rms": 0.166226,
+        "centroidHz": 3187,
+        "lowBelow300": 0.0,
+        "highAbove3000": 0.6051,
+        "attack10ms": 1.0,
+        "tailRmsRatio": 0.0127
+      },
+      "gain": 0.45,
+      "originalSha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+    }
+  },
+  "bgm": {
+    "battle": {
+      "approved": "M1",
+      "originals": [
+        "audio-src/downloads/opengameart/M1/jrpg_battle_intro.mp3",
+        "audio-src/downloads/opengameart/M1/jrpg_battle_loop.mp3"
+      ],
+      "partSeconds": [
+        1.623945578,
+        113.66893424
+      ],
+      "before": {
+        "seconds": 115.29288,
+        "peak": 0.986481,
+        "rms": 0.275175,
+        "centroidHz": 552,
+        "lowBelow300": 0.7169,
+        "highAbove3000": 0.0533,
+        "attack10ms": 0.0,
+        "tailRmsRatio": 0.3093
+      },
+      "gain": 0.4188,
+      "loopStart": 1.623945578,
+      "loopEnd": 115.292879819
+    },
+    "boss": {
+      "approved": "M2",
+      "originals": [
+        "audio-src/downloads/opengameart/M2/data/boss_battle_#2_metal_loop.wav",
+        "audio-src/downloads/opengameart/M2/data/boss_battle_#2_metal_opening.wav"
+      ],
+      "partSeconds": [
+        39.72414966,
+        26.48276644
+      ],
+      "before": {
+        "seconds": 66.206916,
+        "peak": 0.608337,
+        "rms": 0.123507,
+        "centroidHz": 227,
+        "lowBelow300": 0.8638,
+        "highAbove3000": 0.001,
+        "attack10ms": 0.0158,
+        "tailRmsRatio": 0.5616
+      },
+      "gain": 0.8954,
+      "loopStart": 39.72414966,
+      "loopEnd": 66.2069161
+    },
+    "title": {
+      "approved": "M3",
+      "originals": [
+        "audio-src/downloads/maou/M3/maou_loop_bgm_neorock82.ogg"
+      ],
+      "partSeconds": [
+        102.0
+      ],
+      "before": {
+        "seconds": 102.0,
+        "peak": 1.030671,
+        "rms": 0.26663,
+        "centroidHz": 709,
+        "lowBelow300": 0.6875,
+        "highAbove3000": 0.0963,
+        "attack10ms": 0.4026,
+        "tailRmsRatio": 0.3891
+      },
+      "gain": 0.4308,
+      "loopStart": 0,
+      "loopEnd": 102.0
+    },
+    "map": {
+      "approved": "M4",
+      "originals": [
+        "audio-src/downloads/maou/M4/maou_bgm_cyber43.ogg"
+      ],
+      "partSeconds": [
+        107.157414966
+      ],
+      "before": {
+        "seconds": 107.157415,
+        "peak": 0.99257,
+        "rms": 0.240298,
+        "centroidHz": 992,
+        "lowBelow300": 0.0567,
+        "highAbove3000": 0.0626,
+        "attack10ms": 0.0004,
+        "tailRmsRatio": 0.0002
+      },
+      "gain": 0.4539,
+      "loopStart": 0,
+      "loopEnd": 107.157414966
+    },
+    "enemy-phase": {
+      "approved": "M5",
+      "originals": [
+        "audio-src/downloads/maou/M5/maou_loop_bgm_neorock75.ogg"
+      ],
+      "partSeconds": [
+        101.813945578
+      ],
+      "before": {
+        "seconds": 101.813946,
+        "peak": 1.013914,
+        "rms": 0.250123,
+        "centroidHz": 466,
+        "lowBelow300": 0.825,
+        "highAbove3000": 0.0394,
+        "attack10ms": 0.1127,
+        "tailRmsRatio": 0.407
+      },
+      "gain": 0.4445,
+      "loopStart": 0,
+      "loopEnd": 101.813945578
+    },
+    "lastboss": {
+      "approved": "M6",
+      "originals": [
+        "audio-src/downloads/maou/M6/maou_loop_bgm_neorock80.ogg"
+      ],
+      "partSeconds": [
+        70.469569161
+      ],
+      "before": {
+        "seconds": 70.469569,
+        "peak": 1.057518,
+        "rms": 0.248167,
+        "centroidHz": 505,
+        "lowBelow300": 0.7533,
+        "highAbove3000": 0.0406,
+        "attack10ms": 0.4413,
+        "tailRmsRatio": 0.3678
+      },
+      "gain": 0.4565,
+      "loopStart": 0,
+      "loopEnd": 70.469569161
+    },
+    "intermission": {
+      "approved": "M7",
+      "originals": [
+        "audio-src/downloads/maou/M7/maou_loop_bgm_cyber36.ogg"
+      ],
+      "partSeconds": [
+        124.787482993
+      ],
+      "before": {
+        "seconds": 124.787483,
+        "peak": 1.063565,
+        "rms": 0.290347,
+        "centroidHz": 871,
+        "lowBelow300": 0.4362,
+        "highAbove3000": 0.0644,
+        "attack10ms": 0.1726,
+        "tailRmsRatio": 0.1152
+      },
+      "gain": 0.4013,
+      "loopStart": 0,
+      "loopEnd": 124.787482993
+    },
+    "comedy": {
+      "approved": "M8",
+      "originals": [
+        "audio-src/downloads/maou/M8/maou_loop_bgm_cyber41.ogg"
+      ],
+      "partSeconds": [
+        156.44446712
+      ],
+      "before": {
+        "seconds": 156.444467,
+        "peak": 1.003253,
+        "rms": 0.338074,
+        "centroidHz": 158,
+        "lowBelow300": 0.9683,
+        "highAbove3000": 0.004,
+        "attack10ms": 0.7486,
+        "tailRmsRatio": 0.0079
+      },
+      "gain": 0.3521,
+      "loopStart": 0,
+      "loopEnd": 156.44446712
+    },
+    "tension": {
+      "approved": "M9",
+      "originals": [
+        "audio-src/downloads/maou/M9/maou_bgm_neorock83.ogg"
+      ],
+      "partSeconds": [
+        87.187505669
+      ],
+      "before": {
+        "seconds": 87.187506,
+        "peak": 0.996713,
+        "rms": 0.237674,
+        "centroidHz": 799,
+        "lowBelow300": 0.738,
+        "highAbove3000": 0.1293,
+        "attack10ms": 0.0001,
+        "tailRmsRatio": 0.0001
+      },
+      "gain": 0.4597,
+      "loopStart": 0,
+      "loopEnd": 87.187505669
+    },
+    "sad": {
+      "approved": "M10",
+      "originals": [
+        "audio-src/downloads/maou/M10/maou_bgm_piano24.ogg"
+      ],
+      "partSeconds": [
+        88.812018141
+      ],
+      "before": {
+        "seconds": 88.812018,
+        "peak": 0.881406,
+        "rms": 0.181789,
+        "centroidHz": 643,
+        "lowBelow300": 0.0005,
+        "highAbove3000": 0.0002,
+        "attack10ms": 0.0001,
+        "tailRmsRatio": 0.0001
+      },
+      "gain": 0.5672,
+      "loopStart": 0,
+      "loopEnd": 88.812018141
+    },
+    "hope": {
+      "approved": "M11",
+      "originals": [
+        "audio-src/downloads/maou/M11/maou_loop_bgm_neorock74.ogg"
+      ],
+      "partSeconds": [
+        76.133174603
+      ],
+      "before": {
+        "seconds": 76.133175,
+        "peak": 0.993219,
+        "rms": 0.228324,
+        "centroidHz": 995,
+        "lowBelow300": 0.5542,
+        "highAbove3000": 0.0927,
+        "attack10ms": 0.6878,
+        "tailRmsRatio": 0.233
+      },
+      "gain": 0.4827,
+      "loopStart": 0,
+      "loopEnd": 76.133174603
+    },
+    "victory": {
+      "approved": "M12",
+      "originals": [
+        "audio-src/downloads/maou/M12/maou_game_jingle03.ogg"
+      ],
+      "partSeconds": [
+        11.467755102
+      ],
+      "before": {
+        "seconds": 11.467755,
+        "peak": 1.011073,
+        "rms": 0.146348,
+        "centroidHz": 526,
+        "lowBelow300": 0.7488,
+        "highAbove3000": 0.0437,
+        "attack10ms": 0.0,
+        "tailRmsRatio": 0.0
+      },
+      "gain": 0.744,
+      "loopStart": 0,
+      "loopEnd": 11.467755102
+    },
+    "gameover": {
+      "approved": "M13",
+      "originals": [
+        "audio-src/downloads/maou/M13/maou_game_jingle08.ogg"
+      ],
+      "partSeconds": [
+        17.449795918
+      ],
+      "before": {
+        "seconds": 17.449796,
+        "peak": 0.32343,
+        "rms": 0.054465,
+        "centroidHz": 567,
+        "lowBelow300": 0.2905,
+        "highAbove3000": 0.0068,
+        "attack10ms": 0.0,
+        "tailRmsRatio": 0.0
+      },
+      "gain": 2.0697,
+      "loopStart": 0,
+      "loopEnd": 17.449795918
+    },
+    "battle-intro-jingle": {
+      "approved": "T01",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T01/maou_se_onepoint03.ogg"
+      ],
+      "partSeconds": [
+        1.979501133786848
+      ],
+      "gain": 0.539299,
+      "before": {
+        "seconds": 1.979501133786848,
+        "rms": 0.20396855616916143,
+        "peak": 1.022689938545227
+      },
+      "processing": {},
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-player": {
+      "approved": "T02",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T02-determination/determination_1.mp3"
+      ],
+      "partSeconds": [
+        68.62367346938775
+      ],
+      "gain": 0.374316,
+      "before": {
+        "seconds": 68.62367346938775,
+        "rms": 0.29386929357540936,
+        "peak": 0.9689512848854065
+      },
+      "processing": {
+        "fadeIn": 0.01,
+        "fadeOut": 0.75
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC0"
+    },
+    "theme-gpi": {
+      "approved": "T03",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T03-cyber38/maou_loop_bgm_cyber38.ogg"
+      ],
+      "partSeconds": [
+        95.95777777777778
+      ],
+      "gain": 0.392603,
+      "before": {
+        "seconds": 95.95777777777778,
+        "rms": 0.2801814103756376,
+        "peak": 1.0530778169631958
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-gem": {
+      "approved": "T04",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T04-neorock33/maou_loop_bgm_neorock33.ogg"
+      ],
+      "partSeconds": [
+        86.67868480725623
+      ],
+      "gain": 0.331725,
+      "before": {
+        "seconds": 86.67868480725623,
+        "rms": 0.331600195540912,
+        "peak": 1.072466254234314
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-claude": {
+      "approved": "T05",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T05-fantasy11/maou_loop_bgm_fantasy11.ogg"
+      ],
+      "partSeconds": [
+        170.68013605442178
+      ],
+      "gain": 0.37721,
+      "before": {
+        "seconds": 170.68013605442178,
+        "rms": 0.2916150222957003,
+        "peak": 1.0605465173721313
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-grok": {
+      "approved": "T06",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T06-neorock76/maou_loop_bgm_neorock76.ogg"
+      ],
+      "partSeconds": [
+        80.0
+      ],
+      "gain": 0.413412,
+      "before": {
+        "seconds": 80.0,
+        "rms": 0.2660784450391346,
+        "peak": 1.0377933979034424
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-deepseek": {
+      "approved": "T07",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T07-neorock30/maou_loop_bgm_neorock30.ogg"
+      ],
+      "partSeconds": [
+        59.99573696145125
+      ],
+      "gain": 0.328342,
+      "before": {
+        "seconds": 59.99573696145125,
+        "rms": 0.33501674944183013,
+        "peak": 1.0753928422927856
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-sonnet": {
+      "approved": "T08",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T08-neorock72/maou_loop_bgm_neorock72.ogg"
+      ],
+      "partSeconds": [
+        67.18501133786847
+      ],
+      "gain": 0.377008,
+      "before": {
+        "seconds": 67.18501133786847,
+        "rms": 0.29177068557378716,
+        "peak": 1.0796735286712646
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-exaone": {
+      "approved": "T09",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T09-neorock73/maou_loop_bgm_neorock73.ogg"
+      ],
+      "partSeconds": [
+        119.17242630385488
+      ],
+      "gain": 0.386694,
+      "before": {
+        "seconds": 119.17242630385488,
+        "rms": 0.2844622828567879,
+        "peak": 1.065428376197815
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-rival": {
+      "approved": "T10",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T10-neorock62/maou_loop_bgm_neorock62.ogg"
+      ],
+      "partSeconds": [
+        108.38705215419502
+      ],
+      "gain": 0.362522,
+      "before": {
+        "seconds": 108.38705215419502,
+        "rms": 0.30343017088706664,
+        "peak": 1.0494933128356934
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "screen-upgrade": {
+      "approved": "T11",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T11-cyber15/maou_loop_bgm_cyber15.ogg"
+      ],
+      "partSeconds": [
+        126.54546485260771
+      ],
+      "gain": 0.52248,
+      "before": {
+        "seconds": 126.54546485260771,
+        "rms": 0.2105344042173282,
+        "peak": 1.0312994718551636
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "story-daily": {
+      "approved": "T12",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T12-acoustic05/maou_loop_bgm_acoustic05.ogg"
+      ],
+      "partSeconds": [
+        23.23795918367347
+      ],
+      "gain": 0.507097,
+      "before": {
+        "seconds": 23.23795918367347,
+        "rms": 0.21692090081916418,
+        "peak": 1.029134750366211
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "story-mystery": {
+      "approved": "T13",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T13-cyber19/maou_loop_bgm_cyber19.ogg"
+      ],
+      "partSeconds": [
+        133.56521541950113
+      ],
+      "gain": 0.434999,
+      "before": {
+        "seconds": 133.56521541950113,
+        "rms": 0.25287424566867994,
+        "peak": 1.0358855724334717
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "story-resolve": {
+      "approved": "T14",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T14-neorock34/maou_loop_bgm_neorock34.ogg"
+      ],
+      "partSeconds": [
+        128.0
+      ],
+      "gain": 0.337953,
+      "before": {
+        "seconds": 128.0,
+        "rms": 0.3254894210307494,
+        "peak": 1.0947377681732178
+      },
+      "processing": {
+        "loopSource": true
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "story-memory": {
+      "approved": "T15",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T15-healing16/maou_bgm_healing16.ogg"
+      ],
+      "partSeconds": [
+        204.9816326530612
+      ],
+      "gain": 0.500171,
+      "before": {
+        "seconds": 204.9816326530612,
+        "rms": 0.21992486932400246,
+        "peak": 1.0283706188201904
+      },
+      "processing": {
+        "fadeIn": 0.01,
+        "fadeOut": 0.75
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    },
+    "theme-qwen": {
+      "approved": "T16",
+      "originals": [
+        "audio-src/downloads/themes-2026-11-13/T16-samurai-nights/extracted/Samurai-Nights-Demo.mp3"
+      ],
+      "partSeconds": [
+        68.62367346938775
+      ],
+      "gain": 0.481935,
+      "before": {
+        "seconds": 68.62367346938775,
+        "rms": 0.22824655738892588,
+        "peak": 1.0730507373809814
+      },
+      "processing": {
+        "fadeIn": 0.01,
+        "fadeOut": 0.75
+      },
+      "volumeTarget": {
+        "rms": 0.11,
+        "peakLimit": 0.8
+      },
+      "license": "CC BY 4.0"
+    }
+  },
+  "files": 33,
+  "bytes": 17625942
+}

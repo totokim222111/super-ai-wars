@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "pilot-1",
+    "name": "시험 파일럿 1",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-2",
+    "name": "시험 파일럿 2",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "C",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-3",
+    "name": "시험 파일럿 3",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-4",
+    "name": "시험 파일럿 4",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-5",
+    "name": "시험 파일럿 5",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-6",
+    "name": "시험 파일럿 6",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-7",
+    "name": "시험 파일럿 7",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-8",
+    "name": "시험 파일럿 8",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "skill": 0.6
+    }
+  },
+  {
+    "id": "pilot-gem",
+    "name": "클로드",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "character": "gem",
+    "faces": {
+      "base": "portrait-claude-base"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "stride",
+        "level": 1
+      },
+      {
+        "id": "study",
+        "level": 1
+      },
+      {
+        "id": "renew",
+        "level": 2
+      },
+      {
+        "id": "fortune",
+        "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "id": "momentum"
+      }
+    ]
+  },
+  {
+    "id": "pilot-rival",
+    "name": "라이벌",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "character": "rival",
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "brace",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "unsettle",
+        "level": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": "resolve"
+      }
+    ]
+  },
+  {
+    "id": "pilot-boss",
+    "name": "지휘관",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "character": "boss",
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "shelter",
+        "level": 1
+      }
+    ],
+    "aiSpirits": [
+      {
+        "id": "focus",
+        "when": "start"
+      },
+      {
+        "id": "surge",
+        "when": "morale>=120"
+      },
+      {
+        "id": "shelter",
+        "when": "hp<50%"
+      }
+    ],
+    "skills": [
+      {
+        "id": "support-guard",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "pilot-supply",
+    "name": "보급선",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "C",
+      "space": "B"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2
+  },
+  {
+    "id": "pilot-courier",
+    "name": "연락병",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2
+  },
+  {
+    "id": "pilot-patrol",
+    "name": "초계병",
+    "stats": {
+      "melee": 130,
+      "shoot": 130,
+      "hit": 130,
+      "evade": 120,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2
+  },
+  {
+    "id": "pilot-wing",
+    "name": "하린",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "assure",
+        "level": 1
+      },
+      {
+        "id": "vanish",
+        "level": 1
+      },
+      {
+        "id": "study",
+        "level": 1
+      },
+      {
+        "id": "fortune",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": "support-fire",
+        "level": 2
+      },
+      {
+        "id": "renewal"
+      }
+    ]
+  },
+  {
+    "id": "pilot-guard",
+    "name": "도윤",
+    "stats": {
+      "melee": 145,
+      "shoot": 145,
+      "hit": 145,
+      "evade": 125,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 40,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "shelter",
+        "level": 1
+      },
+      {
+        "id": "brace",
+        "level": 1
+      },
+      {
+        "id": "mend",
+        "level": 1
+      },
+      {
+        "id": "aid",
+        "level": 1
+      },
+      {
+        "id": "unsettle",
+        "level": 2
+      }
+    ],
+    "skills": [
+      {
+        "id": "support-guard",
+        "level": 2
+      },
+      {
+        "id": "renewal"
+      }
+    ]
+  },
+  {
+    "id": "gpi",
+    "name": "지피",
+    "stats": {
+      "melee": 140,
+      "shoot": 150,
+      "hit": 150,
+      "evade": 130,
+      "skill": 110,
+      "defense": 120
+    },
+    "sp": 80,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 1,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "assure",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "study",
+        "level": 15
+      },
+      {
+        "id": "scan",
+        "level": 1
+      },
+      {
+        "id": "shelter",
+        "level": 1
+      },
+      {
+        "id": "stride",
+        "level": 1
+      },
+      {
+        "id": "trial-awaken",
+        "level": 21
+      }
+    ],
+    "skills": []
+  },
+  {
+    "id": "gem",
+    "name": "젬",
+    "stats": {
+      "melee": 140,
+      "shoot": 150,
+      "hit": 150,
+      "evade": 130,
+      "skill": 108,
+      "defense": 120
+    },
+    "sp": 60,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 1.1,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "stride",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "fortune",
+        "level": 15
+      },
+      {
+        "id": "trial-awaken",
+        "level": 21
+      }
+    ],
+    "skills": []
+  },
+  {
+    "id": "claude",
+    "name": "클로드",
+    "stats": {
+      "melee": 128,
+      "shoot": 160,
+      "hit": 150,
+      "evade": 130,
+      "skill": 106,
+      "defense": 120
+    },
+    "sp": 65,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 1,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "assure",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "brace",
+        "level": 5
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "study",
+        "level": 15
+      },
+      {
+        "id": "trial-awaken",
+        "level": 25
+      }
+    ],
+    "skills": [
+      {
+        "id": "balance-barrier"
+      }
+    ]
+  },
+  {
+    "id": "grok",
+    "name": "그록",
+    "stats": {
+      "melee": 165,
+      "shoot": 120,
+      "hit": 150,
+      "evade": 140,
+      "skill": 112,
+      "defense": 120
+    },
+    "sp": 60,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 1,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "vanish",
+        "level": 1
+      },
+      {
+        "id": "stride",
+        "level": 1
+      },
+      {
+        "id": "unsettle",
+        "level": 5
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "fortune",
+        "level": 15
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "trial-awaken",
+        "level": 13
+      }
+    ],
+    "skills": [
+      {
+        "id": "balance-afterimage"
+      }
+    ]
+  },
+  {
+    "id": "deepseek",
+    "name": "딥시크",
+    "stats": {
+      "melee": 150,
+      "shoot": 150,
+      "hit": 150,
+      "evade": 130,
+      "skill": 108,
+      "defense": 120
+    },
+    "sp": 60,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 1,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "aid",
+        "level": 1
+      },
+      {
+        "id": "mend",
+        "level": 1
+      },
+      {
+        "id": "focus",
+        "level": 5
+      },
+      {
+        "id": "study",
+        "level": 9
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "shelter",
+        "level": 21
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "trial-awaken",
+        "level": 17
+      }
+    ],
+    "skills": [
+      {
+        "id": "support-fire",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "sonnet",
+    "name": "소네트",
+    "stats": {
+      "melee": 130,
+      "shoot": 135,
+      "hit": 150,
+      "evade": 130,
+      "skill": 100,
+      "defense": 120
+    },
+    "sp": 90,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.9,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "stride",
+        "level": 1
+      },
+      {
+        "id": "study",
+        "level": 5
+      },
+      {
+        "id": "fortune",
+        "level": 9
+      },
+      {
+        "id": "assure",
+        "level": 21
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "trial-supply",
+        "level": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": "support-fire",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "id": "exaone",
+    "name": "엑사원",
+    "stats": {
+      "melee": 130,
+      "shoot": 145,
+      "hit": 150,
+      "evade": 115,
+      "skill": 104,
+      "defense": 120
+    },
+    "sp": 70,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 1,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "aid",
+        "level": 1
+      },
+      {
+        "id": "shelter",
+        "level": 1
+      },
+      {
+        "id": "brace",
+        "level": 5
+      },
+      {
+        "id": "mend",
+        "level": 9
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "focus",
+        "level": 21
+      },
+      {
+        "id": "surge",
+        "level": 1
+      }
+    ],
+    "skills": [
+      {
+        "id": "support-guard",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "id": "qwen",
+    "name": "퀜",
+    "stats": {
+      "melee": 150,
+      "shoot": 150,
+      "hit": 150,
+      "evade": 130,
+      "skill": 109,
+      "defense": 120
+    },
+    "sp": 65,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 1.05,
+      "defense": 1
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "unsettle",
+        "level": 5
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "fortune",
+        "level": 15
+      },
+      {
+        "id": "assure",
+        "level": 21
+      }
+    ],
+    "skills": [
+      {
+        "id": "balance-counter"
+      }
+    ]
+  },
+  {
+    "id": "player",
+    "name": "플레이어",
+    "stats": {
+      "melee": 130,
+      "shoot": 155,
+      "hit": 150,
+      "evade": 130,
+      "skill": 108,
+      "defense": 120
+    },
+    "sp": 90,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1.2,
+      "shoot": 1.2,
+      "hit": 1.2,
+      "evade": 1.2,
+      "skill": 1,
+      "defense": 1.2
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "aid",
+        "level": 1
+      },
+      {
+        "id": "stride",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "assure",
+        "level": 1
+      },
+      {
+        "id": "scan",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 1
+      },
+      {
+        "id": "shelter",
+        "level": 1
+      },
+      {
+        "id": "trial-awaken",
+        "level": 25
+      }
+    ],
+    "skills": [
+      {
+        "id": "support-fire",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "dots",
+    "name": "닷츠",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 130,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 80,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 0.5,
+      "shoot": 0.5,
+      "hit": 0.5,
+      "evade": 0.5,
+      "skill": 0.6,
+      "defense": 0.5
+    },
+    "spGrowth": 2,
+    "spirits": [
+      {
+        "id": "trial-supply",
+        "level": 1
+      }
+    ],
+    "hostProgress": true
+  },
+  {
+    "id": "crabby",
+    "name": "크랩비",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 130,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 35,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 0.5,
+      "shoot": 0.5,
+      "hit": 0.5,
+      "evade": 0.5,
+      "skill": 0.6,
+      "defense": 0.5
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "shelter",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "doge-mecha",
+    "name": "도지 메카",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 130,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 35,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 0.5,
+      "shoot": 0.5,
+      "hit": 0.5,
+      "evade": 0.5,
+      "skill": 0.6,
+      "defense": 0.5
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "vanish",
+        "level": 1
+      },
+      {
+        "id": "fortune",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "bao",
+    "name": "바오",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 130,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 35,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 0.5,
+      "shoot": 0.5,
+      "hit": 0.5,
+      "evade": 0.5,
+      "skill": 0.6,
+      "defense": 0.5
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "aid",
+        "level": 1
+      },
+      {
+        "id": "mend",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "carbon-minime",
+    "name": "카본 미니미",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 130,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 35,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 0.5,
+      "shoot": 0.5,
+      "hit": 0.5,
+      "evade": 0.5,
+      "skill": 0.6,
+      "defense": 0.5
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "study",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "llama",
+    "name": "라마",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "muse",
+    "name": "뮤즈",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "mistral",
+    "name": "미스트랄",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "hyperclova",
+    "name": "하이퍼클로바X",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "미드저니",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "sd",
+    "name": "SD짱",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "glm",
+    "name": "GLM짱",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "kimi",
+    "name": "키미",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "minimax",
+    "name": "미니맥스",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "jepa",
+    "name": "JEPA 본체",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "pico",
+    "name": "피코",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 150,
+      "evade": 145,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 50,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 1,
+    "spirits": [
+      {
+        "id": "focus",
+        "level": 1
+      },
+      {
+        "id": "rouse",
+        "level": 1
+      },
+      {
+        "id": "surge",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "id": "unmanned",
+    "name": "스팸 봇",
+    "stats": {
+      "melee": 140,
+      "shoot": 140,
+      "hit": 125,
+      "evade": 110,
+      "skill": 90,
+      "defense": 120
+    },
+    "sp": 0,
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "growth": {
+      "melee": 1,
+      "shoot": 1,
+      "hit": 1,
+      "evade": 1,
+      "skill": 0.6,
+      "defense": 1
+    },
+    "spGrowth": 0
+  }
+]

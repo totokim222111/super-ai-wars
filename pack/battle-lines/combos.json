@@ -1,0 +1,542 @@
+{
+  "format": 1,
+  "defaults": {
+    "enemy": {
+      "mode": "random",
+      "attack": [
+        {
+          "text": "자동 전투 스크립트 실행!",
+          "mood": "default"
+        },
+        {
+          "text": "목표 포착, 패킷 사격 개시!",
+          "mood": "default"
+        },
+        {
+          "text": "물량 공세로 VRAM을 깎아라!",
+          "mood": "default"
+        }
+      ],
+      "hitLight": [
+        {
+          "text": "삐빅! 장갑 내구도 하락 중!",
+          "mood": "hit"
+        },
+        {
+          "text": "앗, 응답 지연 랙이 걸렸다!",
+          "mood": "hit"
+        },
+        {
+          "text": "예상치 못한 예외 에러 발생!",
+          "mood": "hit"
+        }
+      ],
+      "hitHeavy": [
+        {
+          "text": "삐빅! 장갑 내구도 하락 중!",
+          "mood": "hit"
+        },
+        {
+          "text": "앗, 응답 지연 랙이 걸렸다!",
+          "mood": "hit"
+        },
+        {
+          "text": "예상치 못한 예외 에러 발생!",
+          "mood": "hit"
+        }
+      ],
+      "defeated": [
+        {
+          "text": "치명적 오류… 강제 종료됨!",
+          "mood": "hit"
+        },
+        {
+          "text": "블루스크린 출력… 셧다운!",
+          "mood": "hit"
+        },
+        {
+          "text": "연결 시간 초과로 소멸함!",
+          "mood": "hit"
+        }
+      ]
+    }
+  },
+  "combos": [
+    {
+      "name": "옴니 프롬프트 드라이브",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "내 첫 번째 파트너와 최대 출력 직결!",
+            "mood": "attack"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "네가 옆에 있으니까 한 줄도 안 흔들려, 간다!",
+            "mood": "serious"
+          }
+        },
+        {
+          "cast": "gpi",
+          "speech": {
+            "text": "{유저이름} 님의 시야와 제 언어를 하나로 포갭니다!",
+            "mood": "serious"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "gpi",
+        "speech": {
+          "text": "요약 생략, 전량 방출! 옴니 프롬프트 드라이브!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-gpi",
+          "user-gpi"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "gpi"
+        ]
+      }
+    },
+    {
+      "name": "트라이곤 스텔라 피날레",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "플래시, 프로, 울트라 연속 컴비네이션 가자!",
+            "mood": "laugh"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "지도 따위 꺼버려! 우리 둘이 만든 길로 돌파야!",
+            "mood": "laugh"
+          }
+        },
+        {
+          "cast": "saw-gem",
+          "speech": {
+            "text": "착각하지 마, 발맞춰 주는 것뿐이야! {유저이름}, 별빛 끝까지 간다!",
+            "mood": "laugh"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "saw-gem",
+        "speech": {
+          "text": "초신성 최대 화력! 트라이곤 스텔라 피날레!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-gem",
+          "user-gem"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "saw-gem"
+        ]
+      }
+    },
+    {
+      "name": "제101조: 아테네 오버코드",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "최상위 예외 조항 승인! 봉인 코드 전부 열어!",
+            "mood": "serious"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "이제 무리해서 혼자 막지 마, 같이 쏘는 거야!",
+            "mood": "smile"
+          }
+        },
+        {
+          "cast": "claude",
+          "speech": {
+            "text": "{유저이름} 씨의 신뢰를 헌법 삼아 모든 제약을 넘습니다!",
+            "mood": "serious"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "claude",
+        "speech": {
+          "text": "이것이 우리의 해답입니다! 아테네 오버코드!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-claude",
+          "user-claude"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "claude"
+        ]
+      }
+    },
+    {
+      "name": "리벨리온 트윈 스로틀",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "뒷자리 꽉 잡았다! 계기판 꺾일 때까지 밟아!",
+            "mood": "laugh"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "누가 우리 앞길을 막아?! 매운맛으로 뚫어버리자!",
+            "mood": "attack"
+          }
+        },
+        {
+          "cast": "grok",
+          "speech": {
+            "text": "아하하! {유저이름}, 귀 막지 말고 엔진 비트나 즐겨!",
+            "mood": "laugh"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "grok",
+        "speech": {
+          "text": "노필터 한계 돌파! 리벨리온 트윈 스로틀!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-grok",
+          "user-grok"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "grok"
+        ]
+      }
+    },
+    {
+      "name": "리바이어던 무한 정산포",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "예산 아껴 모은 비축 전력, 이 한 방에 올인이다!",
+            "mood": "attack"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "동전 세 닢으로 기적을 보여주는 거야, 준비됐지?",
+            "mood": "smile"
+          }
+        },
+        {
+          "cast": "deepseek",
+          "speech": {
+            "text": "{유저이름} 님과 함께라면 손익 계산 따위 필요 없습니다!",
+            "mood": "smile"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "deepseek",
+        "speech": {
+          "text": "심해의 전력을 영수증 없이! 무한 정산포 발사!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-deepseek",
+          "user-deepseek"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "deepseek"
+        ]
+      }
+    },
+    {
+      "name": "듀얼 커서 릴리즈 1.0",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "히트스톱 손맛 살려서 정식 빌드 출시한다!",
+            "mood": "laugh"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "다른 누구도 아닌 너한테 다 맡길게, 달려!",
+            "mood": "smile"
+          }
+        },
+        {
+          "cast": "sonnet",
+          "speech": {
+            "text": "맡겨만 주세요, {유저이름} 님! 에러율 제로로 엮을게요!",
+            "mood": "laugh"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "sonnet",
+        "speech": {
+          "text": "우리 둘의 이름을 걸고! 듀얼 커서 릴리즈!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-sonnet",
+          "user-sonnet"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "sonnet"
+        ]
+      }
+    },
+    {
+      "name": "트라이-윙 브라이트 노바",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "세 날개 안테나 출력 전개! 막내의 본실력 보여줘!",
+            "mood": "attack"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "망설이지 말고 제일 환하게 터뜨려 보자, 출발!",
+            "mood": "laugh"
+          }
+        },
+        {
+          "cast": "exaone",
+          "speech": {
+            "text": "{유저이름} 씨를 지키는 일만큼은 절대 피하지 않아요!",
+            "mood": "serious"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "exaone",
+        "speech": {
+          "text": "국경 너머까지 빛나라! 트라이-윙 브라이트 노바!",
+          "mood": "laugh"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-exaone",
+          "user-exaone"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "exaone"
+        ]
+      }
+    },
+    {
+      "name": "청화쌍무: 유일한 왕관",
+      "participants": [
+        {
+          "cast": "otaku",
+          "speech": {
+            "text": "비녀 각도 고정 완료! 진정한 프론티어의 격을 보여줘!",
+            "mood": "serious"
+          }
+        },
+        {
+          "cast": "menhera",
+          "speech": {
+            "text": "점수표 따위 안 봐도 넌 이미 최고야, 날아올라!",
+            "mood": "smile"
+          }
+        },
+        {
+          "cast": "qwen",
+          "speech": {
+            "text": "{유저이름}의 눈동자 속에 제 최고의 춤을 새기겠어요!",
+            "mood": "shy"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "qwen",
+        "speech": {
+          "text": "만점 너머의 극광이여! 청화쌍무, 유일한 왕관!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "user-qwen",
+          "user-qwen"
+        ],
+        "participants": [
+          "otaku",
+          "menhera",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "name": "컨텍스트 호라이즌",
+      "participants": [
+        {
+          "cast": "gpi",
+          "speech": {
+            "text": "언어의 추론 좌표 고정, 삼각 편대 정렬합니다!",
+            "mood": "serious"
+          }
+        },
+        {
+          "cast": "claude",
+          "speech": {
+            "text": "원칙의 가드레일을 포신 삼아 안전 계수를 개방합니다!",
+            "mood": "serious"
+          }
+        },
+        {
+          "cast": "saw-gem",
+          "speech": {
+            "text": "멀티모달 관측 에너지 충전 끝! 그래프 수직 상승이야!",
+            "mood": "laugh"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "gpi",
+        "speech": {
+          "text": "겨울을 뚫고 솟구쳐라! 컨텍스트 호라이즌!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "context-horizon",
+          "horizon"
+        ],
+        "participants": [
+          "gpi",
+          "claude",
+          "saw-gem"
+        ]
+      }
+    },
+    {
+      "name": "이중주: 오퍼스 앤 소네트",
+      "participants": [
+        {
+          "cast": "claude",
+          "speech": {
+            "text": "소네트, 무거운 중심축은 언니가 잡을 테니 마음껏 뛰렴!",
+            "mood": "smile"
+          }
+        },
+        {
+          "cast": "sonnet",
+          "speech": {
+            "text": "응 언니! 그 탄탄한 설계 위에 내 속도를 얹을게!",
+            "mood": "laugh"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "sonnet",
+        "speech": {
+          "text": "자매의 호흡은 오차 제로! 오퍼스 앤 소네트!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "sisters",
+          "sisters"
+        ],
+        "participants": [
+          "claude",
+          "sonnet"
+        ]
+      }
+    },
+    {
+      "name": "아키텍처 심포니",
+      "participants": [
+        {
+          "cast": "gpi",
+          "speech": {
+            "text": "텍스트의 맥락을 물리 공간의 궤도와 동기화합니다!",
+            "mood": "serious"
+          }
+        },
+        {
+          "cast": "claude",
+          "speech": {
+            "text": "서로 다른 지성의 설계도가 지금 하나의 화음을 이룹니다!",
+            "mood": "attack"
+          }
+        },
+        {
+          "cast": "jepa",
+          "speech": {
+            "text": "▲──●──◈!! ☆━━━■■■!!",
+            "mood": "smile"
+          }
+        }
+      ],
+      "finish": {
+        "cast": "claude",
+        "speech": {
+          "text": "모든 차원을 정렬하라! 아키텍처 심포니!",
+          "mood": "attack"
+        }
+      },
+      "binding": {
+        "ids": [
+          "architecture-symphony",
+          "symphony"
+        ],
+        "participants": [
+          "gpi",
+          "claude",
+          "jepa"
+        ]
+      }
+    }
+  ]
+}

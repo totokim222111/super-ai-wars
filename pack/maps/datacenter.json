@@ -1,0 +1,162 @@
+{
+  "ground": "map-datacenter-ground-v2",
+  "color": "#263645",
+  "tiles": {
+    "saw-plain": {
+      "props": [
+        "map-datacenter-decal-1",
+        "map-datacenter-decal-2",
+        "map-datacenter-decal-3"
+      ],
+      "density": 0.22,
+      "scale": 0.9
+    },
+    "saw-road": {
+      "surface": "map-datacenter-road",
+      "edge": "road",
+      "color": "#48545c"
+    },
+    "saw-water": {
+      "surface": "map-datacenter-water",
+      "edge": "water",
+      "color": "#184758"
+    },
+    "saw-cache": {
+      "props": [
+        "map-datacenter-cache"
+      ],
+      "density": 1,
+      "scale": 0.95
+    },
+    "saw-cover": {
+      "props": [
+        "map-datacenter-cover-1",
+        "map-datacenter-cover-2",
+        "map-datacenter-cover-3",
+        "map-datacenter-cover-4"
+      ],
+      "density": 1,
+      "scale": 0.85
+    },
+    "saw-wall": {
+      "props": [
+        "map-datacenter-wall-1",
+        "map-datacenter-wall-2",
+        "map-datacenter-wall-3"
+      ],
+      "density": 1,
+      "scale": 1
+    },
+    "saw-boost": {
+      "surface": "map-datacenter-road",
+      "edge": "road",
+      "color": "#42c9c0"
+    }
+  },
+  "buildings": {
+    "art": "map-datacenter-buildings",
+    "cols": 4,
+    "rows": 2,
+    "sizes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "trim": "#7c919c",
+  "accent": "#76dfd0",
+  "propsAtlas": {
+    "art": "map-datacenter-props",
+    "width": 1024,
+    "height": 768,
+    "rects": {
+      "map-datacenter-decal-1": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "map-datacenter-decal-2": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "map-datacenter-decal-3": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "map-datacenter-cache": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "map-datacenter-cover-1": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "map-datacenter-cover-2": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "map-datacenter-cover-3": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "map-datacenter-cover-4": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "map-datacenter-wall-1": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "map-datacenter-wall-2": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "map-datacenter-wall-3": [
+        512,
+        512,
+        256,
+        256
+      ]
+    }
+  },
+  "roles": {
+    "plain": "saw-plain",
+    "wall": "saw-wall",
+    "cache": "saw-cache",
+    "cover": "saw-cover"
+  },
+  "plainDetail": false,
+  "vegetationColor": "#526c3d"
+}

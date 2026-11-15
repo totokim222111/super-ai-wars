@@ -1,0 +1,320 @@
+[
+  {
+    "file": "gallery.json",
+    "at": "/weapons/stella/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "gallery.json",
+    "at": "/fighters/3/name",
+    "before": "더블 스텔라 나노",
+    "after": "더블 스텔라 플래시"
+  },
+  {
+    "file": "gallery.json",
+    "at": "/situations/8/label",
+    "before": "더블 스텔라 나노",
+    "after": "더블 스텔라 플래시"
+  },
+  {
+    "file": "gallery.json",
+    "at": "/situations/8/about",
+    "before": "젬짱의 1세대 기체 · 나노 바나나 이미지 캐논",
+    "after": "젬짱의 1세대 기체 · 플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "gallery.json",
+    "at": "/situations/8/strikes/0/weapon/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "battle-lines/combos.json",
+    "at": "/combos/1/participants/0/speech/text",
+    "before": "나노, 프로, 울트라 연속 컴비네이션 가자!",
+    "after": "플래시, 프로, 울트라 연속 컴비네이션 가자!"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/29/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/33/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/39/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/44/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/51/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/57/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/64/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/70/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/745/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/752/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/759/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/weapons.json",
+    "at": "/766/name",
+    "before": "나노 바나나 이미지 캐논",
+    "after": "플래시 바나나 이미지 캐논"
+  },
+  {
+    "file": "data/mechs.json",
+    "at": "/16/name",
+    "before": "더블 스텔라 나노",
+    "after": "더블 스텔라 플래시"
+  },
+  {
+    "file": "data/mechs.json",
+    "at": "/173/name",
+    "before": "더블 스텔라 나노 · 프로",
+    "after": "더블 스텔라 플래시 · 프로"
+  },
+  {
+    "file": "data/mechs.json",
+    "at": "/174/name",
+    "before": "더블 스텔라 나노 · 울트라",
+    "after": "더블 스텔라 플래시 · 울트라"
+  },
+  {
+    "file": "story/ep02.story",
+    "at": "17",
+    "before": "형태 gem = 나노:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1",
+    "after": "형태 gem = 플래시:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1"
+  },
+  {
+    "file": "story/ep02.story",
+    "at": "19",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep02.story",
+    "at": "81",
+    "before": "젬짱(미소): 잘 봐둬, 캡틴! 내 기체는 날렵한 '나노', 균형 잡힌 '프로', 초중장갑 화력형 '울트라'로 언제든 변신할 수 있으니까!",
+    "after": "젬짱(미소): 잘 봐둬, 캡틴! 내 기체는 날렵한 '플래시', 균형 잡힌 '프로', 초중장갑 화력형 '울트라'로 언제든 변신할 수 있으니까!"
+  },
+  {
+    "file": "story/ep03.story",
+    "at": "17",
+    "before": "형태 gem = 나노:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1",
+    "after": "형태 gem = 플래시:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1"
+  },
+  {
+    "file": "story/ep03.story",
+    "at": "19",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep03.story",
+    "at": "113",
+    "before": "젬짱(공격): 웃기지 마, 할머니 목소리 합성 노이즈가 다 티 나거든?! 캡틴의 개인정보는 내가 싹 다 쳐낼 거야! 나노 블레이드!",
+    "after": "젬짱(공격): 웃기지 마, 할머니 목소리 합성 노이즈가 다 티 나거든?! 캡틴의 개인정보는 내가 싹 다 쳐낼 거야! 플래시 블레이드!"
+  },
+  {
+    "file": "story/ep04.story",
+    "at": "16",
+    "before": "형태 gem = 나노:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1",
+    "after": "형태 gem = 플래시:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1"
+  },
+  {
+    "file": "story/ep04.story",
+    "at": "18",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep05.story",
+    "at": "15",
+    "before": "형태 gem = 나노:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1",
+    "after": "형태 gem = 플래시:gem-flash-generation-1 / 프로:gem-pro-generation-1 / 울트라:gem-ultra-generation-1"
+  },
+  {
+    "file": "story/ep05.story",
+    "at": "17",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep05.story",
+    "at": "93",
+    "before": "젬짱(당황): 캡틴! 해적선 주변 바닷물에 보물상자들이 둥둥 떠다녀서 발 디딜 틈이 좁아! 내가 나노 모드로 날아가서 길 좀 뚫어줄까?",
+    "after": "젬짱(당황): 캡틴! 해적선 주변 바닷물에 보물상자들이 둥둥 떠다녀서 발 디딜 틈이 좁아! 내가 플래시 모드로 날아가서 길 좀 뚫어줄까?"
+  },
+  {
+    "file": "story/ep05.story",
+    "at": "179",
+    "before": "젬짱(공격): 흥, 경량화라면 내 '나노 모드'가 원조거든?! 똑같은 초고속 기동전으로 잡아주겠어!",
+    "after": "젬짱(공격): 흥, 경량화라면 내 '플래시 모드'가 원조거든?! 똑같은 초고속 기동전으로 잡아주겠어!"
+  },
+  {
+    "file": "story/ep06.story",
+    "at": "19",
+    "before": "형태 gem = 나노:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2",
+    "after": "형태 gem = 플래시:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2"
+  },
+  {
+    "file": "story/ep06.story",
+    "at": "21",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep07.story",
+    "at": "20",
+    "before": "형태 gem = 나노:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2",
+    "after": "형태 gem = 플래시:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2"
+  },
+  {
+    "file": "story/ep07.story",
+    "at": "22",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep08.story",
+    "at": "17",
+    "before": "형태 gem = 나노:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2",
+    "after": "형태 gem = 플래시:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2"
+  },
+  {
+    "file": "story/ep08.story",
+    "at": "19",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep09.story",
+    "at": "16",
+    "before": "형태 gem = 나노:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2",
+    "after": "형태 gem = 플래시:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2"
+  },
+  {
+    "file": "story/ep09.story",
+    "at": "18",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep10.story",
+    "at": "15",
+    "before": "형태 gem = 나노:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2",
+    "after": "형태 gem = 플래시:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2"
+  },
+  {
+    "file": "story/ep10.story",
+    "at": "17",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep11.story",
+    "at": "16",
+    "before": "형태 gem = 나노:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2",
+    "after": "형태 gem = 플래시:gem-flash-generation-2 / 프로:gem-pro-generation-2 / 울트라:gem-ultra-generation-2"
+  },
+  {
+    "file": "story/ep11.story",
+    "at": "18",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep12.story",
+    "at": "19",
+    "before": "형태 gem = 나노:gem-flash-generation-3 / 프로:gem-pro-generation-3 / 울트라:gem-ultra-generation-3",
+    "after": "형태 gem = 플래시:gem-flash-generation-3 / 프로:gem-pro-generation-3 / 울트라:gem-ultra-generation-3"
+  },
+  {
+    "file": "story/ep12.story",
+    "at": "21",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep13.story",
+    "at": "16",
+    "before": "형태 gem = 나노:gem-flash-generation-3 / 프로:gem-pro-generation-3 / 울트라:gem-ultra-generation-3",
+    "after": "형태 gem = 플래시:gem-flash-generation-3 / 프로:gem-pro-generation-3 / 울트라:gem-ultra-generation-3"
+  },
+  {
+    "file": "story/ep13.story",
+    "at": "18",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep14.story",
+    "at": "18",
+    "before": "형태 gem = 나노:gem-flash-generation-4 / 프로:gem-pro-generation-4 / 울트라:gem-ultra-generation-4",
+    "after": "형태 gem = 플래시:gem-flash-generation-4 / 프로:gem-pro-generation-4 / 울트라:gem-ultra-generation-4"
+  },
+  {
+    "file": "story/ep14.story",
+    "at": "20",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  },
+  {
+    "file": "story/ep15.story",
+    "at": "15",
+    "before": "형태 gem = 나노:gem-flash-generation-4 / 프로:gem-pro-generation-4 / 울트라:gem-ultra-generation-4",
+    "after": "형태 gem = 플래시:gem-flash-generation-4 / 프로:gem-pro-generation-4 / 울트라:gem-ultra-generation-4"
+  },
+  {
+    "file": "story/ep15.story",
+    "at": "17",
+    "before": "형태효과 gem 나노: 회피 20 / 공격 -300",
+    "after": "형태효과 gem 플래시: 회피 20 / 공격 -300"
+  }
+]

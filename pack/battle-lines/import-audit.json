@@ -1,0 +1,47 @@
+{
+  "sourceFiles": {
+    "battle-lines-1-allies.md": "bbfa604283565a5f706ccce04026e3e3e6d05e5293c4b4d76d489390b3182138",
+    "battle-lines-2-rivals.md": "d0a5f568541f9425cabadacadfcac020a0f94ca16f03f6569a1628d570d2ccfc",
+    "battle-lines-3-combos-zako.md": "c7a399f47ec3ef89c9603b711a59c3c65ff7a52a35346040e8320a1e5123074d"
+  },
+  "characters": 47,
+  "mappedCharacters": 48,
+  "castBanks": 51,
+  "sourceLines": 530,
+  "comboCount": 11,
+  "unboundFinishers": [],
+  "storedCombos": [],
+  "expressionFallbacks": {
+    "saw-dots": {
+      "laugh": "default",
+      "serious": "default"
+    },
+    "jepa": {
+      "attack": "default",
+      "laugh": "default",
+      "serious": "default",
+      "shock": "hit",
+      "smile": "default"
+    },
+    "deus-ex-pico-form2": {
+      "angry": "hit",
+      "attack": "default",
+      "laugh": "default",
+      "sad": "hit",
+      "shock": "hit"
+    },
+    "deus-ex-pico-form1": {
+      "attack": "default",
+      "laugh": "default",
+      "serious": "default",
+      "shock": "hit",
+      "smile": "default"
+    },
+    "deus-ex-pico-form3": {
+      "attack": "default",
+      "sad": "hit",
+      "shock": "hit",
+      "smile": "default"
+    }
+  }
+}

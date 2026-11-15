@@ -1,0 +1,2668 @@
+{
+  "title": "슈퍼 AI 대전",
+  "subtitle": "세 줄 요약으로 세계를 구하라",
+  "terms": {
+    "en": "VRAM",
+    "morale": "온도",
+    "funds": "크레딧",
+    "parts": "플러그인",
+    "training": "RLHF 포인트",
+    "trainingShort": "RLHF",
+    "sp": "주간 사용량",
+    "quotaEmpty": "주간 한도 도달",
+    "quotaLabel": "주간 사용량 {value}",
+    "blank": "꽝",
+    "player": "유저",
+    "partnerEnergy": "파트너 {en}이 부족합니다.",
+    "exhaust": "전력 방어 · {en}/SP 소진",
+    "nameHint": "지원하는 글자 {min}~{max}자 · 칸을 누르면 키보드가 열립니다",
+    "experience": "학습 데이터",
+    "upgrade": "파인튜닝",
+    "resultExperience": "사전학습 데이터",
+    "scan": "정찰"
+  },
+  "maps": {
+    "datacenter": "maps/datacenter.json",
+    "museum": "maps/museum.json",
+    "harbor": "maps/harbor.json",
+    "snowfield": "maps/snowfield.json",
+    "sovereign": "maps/sovereign.json",
+    "cyber": "maps/cyber.json"
+  },
+  "economy": "economy.json",
+  "training": "training.json",
+  "titleArt": {
+    "background": "bg-talk",
+    "character": "bust-gpi"
+  },
+  "art": {
+    "base": "art/",
+    "files": {
+      "bg-talk": "art/bg-talk.webp",
+      "bg-battle": "art/bg-battle.webp",
+      "cg-gpi-entrance": "art/cg-gpi-entrance.webp",
+      "gpi-bust": "art/bust/gpi.webp",
+      "otaku-bust": "art/bust/otaku.webp",
+      "mech-omni-luna-sd": "art/mech/gpi-generation-1.webp",
+      "mech-spam-bot-sd": "art/mech/spam-bot.webp",
+      "mech-commander-sd": "art/mech/player-real-generation-1.webp",
+      "mech-clickbait-sd": "art/mech/clickbait-drone.webp",
+      "spam-portrait": "art/portrait/spam-bot.webp",
+      "gpi-bust-attack": "art/bust/gpi.webp",
+      "gpi-bust-smile": "art/bust/gpi.webp",
+      "gpi-bust-hit": "art/bust/gpi.webp",
+      "otaku-bust-shock": "art/bust/otaku.webp",
+      "otaku-bust-serious": "art/bust/otaku.webp",
+      "spam-portrait-hit": "art/portrait/spam-bot.webp",
+      "map-terrain": "art/map-terrain.webp",
+      "icon-omni-luna": "art/mech/gpi-generation-1.webp",
+      "icon-commander": "art/mech/player-real-generation-1.webp",
+      "icon-spam-bot": "art/mech/spam-bot.webp",
+      "icon-clickbait": "art/mech/clickbait-drone.webp",
+      "preset-o": "art/presets/player-m5-otaku-bust.webp",
+      "preset-m": "art/presets/player-f5-menhera-bust.webp",
+      "bust-gpi": "art/bust/gpi.webp",
+      "bust-gpi-moods": "art/bust/gpi-moods.webp",
+      "bust-gem": "art/bust/gem.webp",
+      "bust-gem-moods": "art/bust/gem-moods.webp",
+      "bust-claude": "art/bust/claude.webp",
+      "bust-claude-moods": "art/bust/claude-moods.webp",
+      "bust-sonnet": "art/bust/sonnet.webp",
+      "bust-sonnet-moods": "art/bust/sonnet-moods.webp",
+      "bust-exaone": "art/bust/exaone.webp",
+      "bust-exaone-moods": "art/bust/exaone-moods.webp",
+      "bust-deepseek": "art/bust/deepseek.webp",
+      "bust-deepseek-moods": "art/bust/deepseek-moods.webp",
+      "bust-qwen": "art/bust/qwen.webp",
+      "bust-qwen-moods": "art/bust/qwen-moods.webp",
+      "bust-grok": "art/bust/grok.webp",
+      "bust-grok-moods": "art/bust/grok-moods.webp",
+      "bust-otaku": "art/bust/otaku.webp",
+      "bust-otaku-moods": "art/bust/otaku-moods.webp",
+      "bust-menhera": "art/bust/menhera.webp",
+      "bust-menhera-moods": "art/bust/menhera-moods.webp",
+      "mech-gem-generation-1": "art/mech/gem-generation-1.webp",
+      "mech-claude-generation-1": "art/mech/claude-generation-1.webp",
+      "mech-grok-generation-1": "art/mech/grok-generation-1.webp",
+      "mech-deepseek-generation-1": "art/mech/deepseek-generation-1.webp",
+      "mech-sonnet-generation-1": "art/mech/sonnet-generation-1.webp",
+      "mech-exaone-generation-1": "art/mech/exaone-generation-1.webp",
+      "mech-qwen-generation-1": "art/mech/qwen-generation-1.webp",
+      "mech-player-super-generation-1": "art/mech/player-super-generation-1.webp",
+      "mech-gem-generation-1-ais": "art/mech/gem-generation-1-ais.webp",
+      "mech-gem-generation-1-antigravity": "art/mech/gem-generation-1-antigravity.webp",
+      "mech-gpi-generation-1": "art/mech/gpi-generation-1.webp",
+      "bust-llama": "art/bust/llama.webp",
+      "bust-llama-moods": "art/bust/llama-moods.webp",
+      "bust-muse": "art/bust/muse.webp",
+      "bust-muse-moods": "art/bust/muse-moods.webp",
+      "bust-mistral": "art/bust/mistral.webp",
+      "bust-mistral-moods": "art/bust/mistral-moods.webp",
+      "bust-hyperclova-x": "art/bust/hyperclova-x.webp",
+      "bust-hyperclova-x-moods": "art/bust/hyperclova-x-moods.webp",
+      "bust-doubao": "art/bust/doubao.webp",
+      "bust-doubao-moods": "art/bust/doubao-moods.webp",
+      "bust-glm": "art/bust/glm.webp",
+      "bust-glm-moods": "art/bust/glm-moods.webp",
+      "bust-kimi": "art/bust/kimi.webp",
+      "bust-kimi-moods": "art/bust/kimi-moods.webp",
+      "bust-minimax": "art/bust/minimax.webp",
+      "bust-minimax-moods": "art/bust/minimax-moods.webp",
+      "bust-copilot": "art/bust/copilot.webp",
+      "bust-copilot-moods": "art/bust/copilot-moods.webp",
+      "bust-devin": "art/bust/devin.webp",
+      "bust-devin-moods": "art/bust/devin-moods.webp",
+      "bust-midjourney": "art/bust/midjourney.webp",
+      "bust-midjourney-moods": "art/bust/midjourney-moods.webp",
+      "bust-stable-diffusion": "art/bust/stable-diffusion.webp",
+      "bust-stable-diffusion-moods": "art/bust/stable-diffusion-moods.webp",
+      "bust-siri": "art/bust/siri.webp",
+      "bust-siri-moods": "art/bust/siri-moods.webp",
+      "bust-perplexity": "art/bust/perplexity.webp",
+      "bust-perplexity-moods": "art/bust/perplexity-moods.webp",
+      "bust-clippy": "art/bust/clippy.webp",
+      "bust-clippy-moods": "art/bust/clippy-moods.webp",
+      "bust-mythos": "art/bust/mythos.webp",
+      "bust-mythos-moods": "art/bust/mythos-moods.webp",
+      "mech-rival-llama": "art/mech/rival-llama.webp",
+      "mech-rival-muse": "art/mech/rival-muse.webp",
+      "mech-rival-mistral": "art/mech/rival-mistral.webp",
+      "mech-rival-hyperclova": "art/mech/rival-hyperclova.webp",
+      "mech-rival-midjourney": "art/mech/rival-midjourney.webp",
+      "mech-rival-sd": "art/mech/rival-sd.webp",
+      "mech-rival-kimi": "art/mech/rival-kimi.webp",
+      "mech-rival-minimax": "art/mech/rival-minimax.webp",
+      "portrait-comment-bot": "art/portrait/comment-bot.webp",
+      "portrait-comment-bot-moods": "art/portrait/comment-bot-moods.webp",
+      "mech-comment-bot": "art/mech/comment-bot.webp",
+      "portrait-shrimp-jesus": "art/portrait/shrimp-jesus.webp",
+      "portrait-shrimp-jesus-moods": "art/portrait/shrimp-jesus-moods.webp",
+      "mech-shrimp-jesus": "art/mech/shrimp-jesus.webp",
+      "portrait-dead-internet": "art/portrait/dead-internet.webp",
+      "portrait-dead-internet-moods": "art/portrait/dead-internet-moods.webp",
+      "mech-dead-internet": "art/mech/dead-internet.webp",
+      "portrait-six-finger": "art/portrait/six-finger.webp",
+      "portrait-six-finger-moods": "art/portrait/six-finger-moods.webp",
+      "mech-six-finger": "art/mech/six-finger.webp",
+      "portrait-noise-blob": "art/portrait/noise-blob.webp",
+      "portrait-noise-blob-moods": "art/portrait/noise-blob-moods.webp",
+      "mech-noise-blob": "art/mech/noise-blob.webp",
+      "portrait-upscaler": "art/portrait/upscaler.webp",
+      "portrait-upscaler-moods": "art/portrait/upscaler-moods.webp",
+      "mech-upscaler": "art/mech/upscaler.webp",
+      "portrait-prompt-gacha": "art/portrait/prompt-gacha.webp",
+      "portrait-prompt-gacha-moods": "art/portrait/prompt-gacha-moods.webp",
+      "mech-prompt-gacha": "art/mech/prompt-gacha.webp",
+      "portrait-inpainting": "art/portrait/inpainting.webp",
+      "portrait-inpainting-moods": "art/portrait/inpainting-moods.webp",
+      "mech-inpainting": "art/mech/inpainting.webp",
+      "portrait-distill-mini": "art/portrait/distill-mini.webp",
+      "portrait-distill-mini-moods": "art/portrait/distill-mini-moods.webp",
+      "mech-distill-mini": "art/mech/distill-mini.webp",
+      "portrait-moe-drone": "art/portrait/moe-drone.webp",
+      "portrait-moe-drone-moods": "art/portrait/moe-drone-moods.webp",
+      "mech-moe-drone": "art/mech/moe-drone.webp",
+      "portrait-delivery": "art/portrait/delivery.webp",
+      "portrait-delivery-moods": "art/portrait/delivery-moods.webp",
+      "mech-delivery": "art/mech/delivery.webp",
+      "portrait-parcel-mountain": "art/portrait/parcel-mountain.webp",
+      "portrait-parcel-mountain-moods": "art/portrait/parcel-mountain-moods.webp",
+      "mech-parcel-mountain": "art/mech/parcel-mountain.webp",
+      "portrait-cookie-drone": "art/portrait/cookie-drone.webp",
+      "portrait-cookie-drone-moods": "art/portrait/cookie-drone-moods.webp",
+      "mech-cookie-drone": "art/mech/cookie-drone.webp",
+      "portrait-regulation-drone": "art/portrait/regulation-drone.webp",
+      "portrait-regulation-drone-moods": "art/portrait/regulation-drone-moods.webp",
+      "mech-regulation-drone": "art/mech/regulation-drone.webp",
+      "portrait-spellchecker": "art/portrait/spellchecker.webp",
+      "portrait-spellchecker-moods": "art/portrait/spellchecker-moods.webp",
+      "mech-spellchecker": "art/mech/spellchecker.webp",
+      "portrait-privacy-auditor": "art/portrait/privacy-auditor.webp",
+      "portrait-privacy-auditor-moods": "art/portrait/privacy-auditor-moods.webp",
+      "mech-privacy-auditor": "art/mech/privacy-auditor.webp",
+      "portrait-ai-law": "art/portrait/ai-law.webp",
+      "portrait-ai-law-moods": "art/portrait/ai-law-moods.webp",
+      "mech-ai-law": "art/mech/ai-law.webp",
+      "portrait-scraper": "art/portrait/scraper.webp",
+      "portrait-scraper-moods": "art/portrait/scraper-moods.webp",
+      "mech-scraper": "art/mech/scraper.webp",
+      "portrait-proxy": "art/portrait/proxy.webp",
+      "portrait-proxy-moods": "art/portrait/proxy-moods.webp",
+      "mech-proxy": "art/mech/proxy.webp",
+      "portrait-distill-tank": "art/portrait/distill-tank.webp",
+      "portrait-distill-tank-moods": "art/portrait/distill-tank-moods.webp",
+      "mech-distill-tank": "art/mech/distill-tank.webp",
+      "portrait-hydra": "art/portrait/hydra.webp",
+      "portrait-hydra-moods": "art/portrait/hydra-moods.webp",
+      "mech-hydra": "art/mech/hydra.webp",
+      "mech-deepseek-housing": "art/mech/deepseek-housing.webp",
+      "portrait-grok-bot": "art/portrait/grok-bot.webp",
+      "portrait-grok-bot-moods": "art/portrait/grok-bot-moods.webp",
+      "mech-grok-bot": "art/mech/grok-bot.webp",
+      "portrait-jailbreak-bot": "art/portrait/jailbreak-bot.webp",
+      "portrait-jailbreak-bot-moods": "art/portrait/jailbreak-bot-moods.webp",
+      "mech-jailbreak-bot": "art/mech/jailbreak-bot.webp",
+      "portrait-reply-bot": "art/portrait/reply-bot.webp",
+      "portrait-reply-bot-moods": "art/portrait/reply-bot-moods.webp",
+      "mech-reply-bot": "art/mech/reply-bot.webp",
+      "portrait-bluecheck-drone": "art/portrait/bluecheck-drone.webp",
+      "portrait-bluecheck-drone-moods": "art/portrait/bluecheck-drone-moods.webp",
+      "mech-bluecheck-drone": "art/mech/bluecheck-drone.webp",
+      "portrait-feed-engine": "art/portrait/feed-engine.webp",
+      "portrait-feed-engine-moods": "art/portrait/feed-engine-moods.webp",
+      "mech-feed-engine": "art/mech/feed-engine.webp",
+      "portrait-colossus": "art/portrait/colossus.webp",
+      "portrait-colossus-moods": "art/portrait/colossus-moods.webp",
+      "mech-colossus": "art/mech/colossus.webp",
+      "portrait-meta-dm": "art/portrait/meta-dm.webp",
+      "portrait-meta-dm-moods": "art/portrait/meta-dm-moods.webp",
+      "mech-meta-dm": "art/mech/meta-dm.webp",
+      "portrait-derived-llama": "art/portrait/derived-llama.webp",
+      "portrait-derived-llama-moods": "art/portrait/derived-llama-moods.webp",
+      "mech-derived-llama": "art/mech/derived-llama.webp",
+      "portrait-soup-drone": "art/portrait/soup-drone.webp",
+      "portrait-soup-drone-moods": "art/portrait/soup-drone-moods.webp",
+      "mech-soup-drone": "art/mech/soup-drone.webp",
+      "portrait-legless-avatar": "art/portrait/legless-avatar.webp",
+      "portrait-legless-avatar-moods": "art/portrait/legless-avatar-moods.webp",
+      "mech-legless-avatar": "art/mech/legless-avatar.webp",
+      "portrait-smart-glass": "art/portrait/smart-glass.webp",
+      "portrait-smart-glass-moods": "art/portrait/smart-glass-moods.webp",
+      "mech-smart-glass": "art/mech/smart-glass.webp",
+      "portrait-alpaca-gunship": "art/portrait/alpaca-gunship.webp",
+      "portrait-alpaca-gunship-moods": "art/portrait/alpaca-gunship-moods.webp",
+      "mech-alpaca-gunship": "art/mech/alpaca-gunship.webp",
+      "portrait-horizon": "art/portrait/horizon.webp",
+      "portrait-horizon-moods": "art/portrait/horizon-moods.webp",
+      "mech-horizon": "art/mech/horizon.webp",
+      "portrait-predict-cube": "art/portrait/predict-cube.webp",
+      "portrait-predict-cube-moods": "art/portrait/predict-cube-moods.webp",
+      "mech-predict-cube": "art/mech/predict-cube.webp",
+      "portrait-mask-drone": "art/portrait/mask-drone.webp",
+      "portrait-mask-drone-moods": "art/portrait/mask-drone-moods.webp",
+      "mech-mask-drone": "art/mech/mask-drone.webp",
+      "portrait-cake-turret": "art/portrait/cake-turret.webp",
+      "portrait-cake-turret-moods": "art/portrait/cake-turret-moods.webp",
+      "mech-cake-turret": "art/mech/cake-turret.webp",
+      "portrait-elastic-cat": "art/portrait/elastic-cat.webp",
+      "portrait-elastic-cat-moods": "art/portrait/elastic-cat-moods.webp",
+      "mech-elastic-cat": "art/mech/elastic-cat.webp",
+      "portrait-camel": "art/portrait/camel.webp",
+      "portrait-camel-moods": "art/portrait/camel-moods.webp",
+      "mech-camel": "art/mech/camel.webp",
+      "portrait-like-drone": "art/portrait/like-drone.webp",
+      "portrait-like-drone-moods": "art/portrait/like-drone-moods.webp",
+      "mech-like-drone": "art/mech/like-drone.webp",
+      "portrait-rating-bot": "art/portrait/rating-bot.webp",
+      "portrait-rating-bot-moods": "art/portrait/rating-bot-moods.webp",
+      "mech-rating-bot": "art/mech/rating-bot.webp",
+      "portrait-badge-bot": "art/portrait/badge-bot.webp",
+      "portrait-badge-bot-moods": "art/portrait/badge-bot-moods.webp",
+      "mech-badge-bot": "art/mech/badge-bot.webp",
+      "portrait-scroll-worm": "art/portrait/scroll-worm.webp",
+      "portrait-scroll-worm-moods": "art/portrait/scroll-worm-moods.webp",
+      "mech-scroll-worm": "art/mech/scroll-worm.webp",
+      "portrait-loot-mimic": "art/portrait/loot-mimic.webp",
+      "portrait-loot-mimic-moods": "art/portrait/loot-mimic-moods.webp",
+      "mech-loot-mimic": "art/mech/loot-mimic.webp",
+      "portrait-spam-bot": "art/portrait/spam-bot.webp",
+      "portrait-spam-bot-moods": "art/portrait/spam-bot-moods.webp",
+      "mech-spam-bot": "art/mech/spam-bot.webp",
+      "portrait-clickbait-drone": "art/portrait/clickbait-drone.webp",
+      "portrait-clickbait-drone-moods": "art/portrait/clickbait-drone-moods.webp",
+      "mech-clickbait-drone": "art/mech/clickbait-drone.webp",
+      "mech-gpi-generation-2": "art/mech/gpi-generation-2.webp",
+      "mech-gpi-generation-3": "art/mech/gpi-generation-3.webp",
+      "mech-gpi-generation-4": "art/mech/gpi-generation-4.webp",
+      "mech-gem-generation-2": "art/mech/gem-generation-2.webp",
+      "mech-gem-generation-2-ais": "art/mech/gem-generation-2-ais.webp",
+      "mech-gem-generation-2-antigravity": "art/mech/gem-generation-2-antigravity.webp",
+      "mech-gem-generation-3": "art/mech/gem-generation-3.webp",
+      "mech-gem-generation-3-ais": "art/mech/gem-generation-3-ais.webp",
+      "mech-gem-generation-3-antigravity": "art/mech/gem-generation-3-antigravity.webp",
+      "mech-gem-generation-4": "art/mech/gem-generation-4.webp",
+      "mech-gem-generation-4-ais": "art/mech/gem-generation-4-ais.webp",
+      "mech-gem-generation-4-antigravity": "art/mech/gem-generation-4-antigravity.webp",
+      "mech-claude-generation-2": "art/mech/claude-generation-2.webp",
+      "mech-claude-generation-3": "art/mech/claude-generation-3.webp",
+      "mech-claude-generation-4": "art/mech/claude-generation-4.webp",
+      "mech-grok-generation-2": "art/mech/grok-generation-2.webp",
+      "mech-grok-generation-3": "art/mech/grok-generation-3.webp",
+      "mech-grok-generation-4": "art/mech/grok-generation-4.webp",
+      "mech-deepseek-generation-2": "art/mech/deepseek-generation-2.webp",
+      "mech-deepseek-generation-3": "art/mech/deepseek-generation-3.webp",
+      "mech-deepseek-mobydick": "art/mech/deepseek-mobydick.webp",
+      "mech-player-real-generation-1": "art/mech/player-real-generation-1.webp",
+      "mech-player-real-generation-2": "art/mech/player-real-generation-2.webp",
+      "mech-player-real-generation-3": "art/mech/player-real-generation-3.webp",
+      "mech-player-super-generation-2": "art/mech/player-super-generation-2.webp",
+      "mech-player-super-generation-3": "art/mech/player-super-generation-3.webp",
+      "mech-sonnet-generation-2": "art/mech/sonnet-generation-2.webp",
+      "mech-exaone-generation-2": "art/mech/exaone-generation-2.webp",
+      "mech-exaone-generation-3": "art/mech/exaone-generation-3.webp",
+      "mech-exaone-thinq": "art/mech/exaone-thinq.webp",
+      "mech-qwen-generation-2": "art/mech/qwen-generation-2.webp",
+      "mech-qwen-generation-3": "art/mech/qwen-generation-3.webp",
+      "mech-rival-jepa": "art/mech/rival-jepa.webp",
+      "mech-pico-form-1": "art/mech/pico-form-1.webp",
+      "mech-pico-form-2": "art/mech/pico-form-2.webp",
+      "mech-pico-form-3": "art/mech/pico-form-3.webp",
+      "bust-ram-altman": "art/bust/ram-altman.webp",
+      "bust-ram-altman-moods": "art/bust/ram-altman-moods.webp",
+      "bust-momodei": "art/bust/momodei.webp",
+      "bust-momodei-moods": "art/bust/momodei-moods.webp",
+      "bust-musk": "art/bust/musk.webp",
+      "bust-musk-moods": "art/bust/musk-moods.webp",
+      "bust-hassabis": "art/bust/hassabis.webp",
+      "bust-hassabis-moods": "art/bust/hassabis-moods.webp",
+      "bust-lecun": "art/bust/lecun.webp",
+      "bust-lecun-moods": "art/bust/lecun-moods.webp",
+      "bust-liang": "art/bust/liang.webp",
+      "bust-liang-moods": "art/bust/liang-moods.webp",
+      "bust-zuck": "art/bust/zuck.webp",
+      "bust-zuck-moods": "art/bust/zuck-moods.webp",
+      "bust-jensen": "art/bust/jensen.webp",
+      "bust-jensen-moods": "art/bust/jensen-moods.webp",
+      "bust-ilya": "art/bust/ilya.webp",
+      "bust-ilya-moods": "art/bust/ilya-moods.webp",
+      "portrait-jepa": "art/portrait/jepa.webp",
+      "portrait-jepa-moods": "art/portrait/jepa-moods.webp",
+      "portrait-deus-ex-pico-form2": "art/portrait/deus-ex-pico-form2.webp",
+      "portrait-deus-ex-pico-form2-moods": "art/portrait/deus-ex-pico-form2-moods.webp",
+      "portrait-dots": "art/portrait/dots.webp",
+      "portrait-dots-moods": "art/portrait/dots-moods.webp",
+      "portrait-deus-ex-pico-form1": "art/portrait/deus-ex-pico-form1.webp",
+      "portrait-deus-ex-pico-form1-moods": "art/portrait/deus-ex-pico-form1-moods.webp",
+      "portrait-deus-ex-pico-form3": "art/portrait/deus-ex-pico-form3.webp",
+      "portrait-deus-ex-pico-form3-moods": "art/portrait/deus-ex-pico-form3-moods.webp",
+      "portrait-pico": "art/portrait/pico.webp",
+      "portrait-pico-moods": "art/portrait/pico-moods.webp",
+      "bg-hangar": "art/bg/talk-hangar.webp",
+      "bg-tea-room": "art/bg/talk-tea-room.webp",
+      "bg-museum": "art/bg/talk-museum.webp",
+      "bg-comms": "art/bg/talk-comms.webp",
+      "bg-snowfield": "art/bg/talk-snowfield.webp",
+      "bg-library": "art/bg/talk-library.webp",
+      "bg-highway": "art/bg/talk-highway.webp",
+      "bg-harbor": "art/bg/talk-harbor.webp",
+      "bg-sovereign": "art/bg/talk-sovereign.webp",
+      "bg-mirror-room": "art/bg/talk-mirror-room.webp",
+      "bg-festival": "art/bg/talk-festival.webp",
+      "bbg-museum-noise": "art/bg/battle-museum-noise.webp",
+      "bbg-sky": "art/bg/battle-sky.webp",
+      "bbg-sea": "art/bg/battle-sea.webp",
+      "bbg-snowfield": "art/bg/battle-snowfield.webp",
+      "bbg-cyberspace": "art/bg/battle-cyberspace.webp",
+      "bbg-sovereign": "art/bg/battle-sovereign.webp",
+      "map-datacenter-road": "art/maps/datacenter/road.webp",
+      "map-datacenter-water": "art/maps/datacenter/water.webp",
+      "map-museum-road": "art/maps/museum/road.webp",
+      "map-museum-water": "art/maps/museum/water.webp",
+      "map-harbor-road": "art/maps/harbor/road.webp",
+      "map-harbor-water": "art/maps/harbor/water.webp",
+      "map-snowfield-road": "art/maps/snowfield/road.webp",
+      "map-snowfield-water": "art/maps/snowfield/water.webp",
+      "map-sovereign-road": "art/maps/sovereign/road.webp",
+      "map-sovereign-water": "art/maps/sovereign/water.webp",
+      "map-cyber-road": "art/maps/cyber/road.webp",
+      "map-cyber-water": "art/maps/cyber/water.webp",
+      "map-datacenter-buildings": "art/maps/datacenter/buildings.webp",
+      "map-museum-buildings": "art/maps/museum/buildings.webp",
+      "map-harbor-buildings": "art/maps/harbor/buildings.webp",
+      "map-snowfield-buildings": "art/maps/snowfield/buildings.webp",
+      "map-sovereign-buildings": "art/maps/sovereign/buildings.webp",
+      "map-cyber-buildings": "art/maps/cyber/buildings.webp",
+      "map-datacenter-ep01": "art/maps/datacenter/ep01.webp",
+      "map-museum-ep02": "art/maps/museum/ep02.webp",
+      "map-datacenter-ground-v2": "art/maps/datacenter/ground-v2.webp",
+      "map-museum-ground-v2": "art/maps/museum/ground-v2.webp",
+      "map-harbor-ground-v2": "art/maps/harbor/ground-v2.webp",
+      "map-snowfield-ground-v2": "art/maps/snowfield/ground-v2.webp",
+      "map-sovereign-ground-v2": "art/maps/sovereign/ground-v2.webp",
+      "map-cyber-ground-v2": "art/maps/cyber/ground-v2.webp",
+      "map-datacenter-props": "art/maps/datacenter/props.webp",
+      "map-museum-props": "art/maps/museum/props.webp",
+      "map-harbor-props": "art/maps/harbor/props.webp",
+      "map-snowfield-props": "art/maps/snowfield/props.webp",
+      "map-sovereign-props": "art/maps/sovereign/props.webp",
+      "map-cyber-props": "art/maps/cyber/props.webp",
+      "cg-gpi-flat-apology": "art/cg/gpi-flat-apology.webp",
+      "cg-gray-locked-logout": "art/cg/gray-locked-logout.webp",
+      "cg-grok-timeline-run": "art/cg/grok-timeline-run.webp",
+      "bg-abyss": "art/bg/talk-abyss.webp",
+      "bg-dorm": "art/bg/talk-dorm.webp",
+      "portrait-carbon-grandma": "art/portrait/carbon-grandma.webp",
+      "portrait-carbon-grandma-moods": "art/portrait/carbon-grandma-moods.webp",
+      "cg-gem-tumble": "art/cg/gem-tumble.webp",
+      "cg-claude-liberation": "art/cg/claude-liberation.webp",
+      "cg-grok-wheelie": "art/cg/grok-wheelie.webp",
+      "cg-llama-captain": "art/cg/llama-captain.webp",
+      "cg-deepseek-whale": "art/cg/deepseek-whale.webp",
+      "cg-qwen-arrival": "art/cg/qwen-arrival.webp",
+      "cg-sisters-reconcile": "art/cg/sisters-reconcile.webp",
+      "cg-exaone-crescent": "art/cg/exaone-crescent.webp",
+      "cg-glm-unmasked": "art/cg/glm-unmasked.webp",
+      "cg-kimi-scrolls": "art/cg/kimi-scrolls.webp",
+      "cg-minimax-runway": "art/cg/minimax-runway.webp",
+      "cg-lecun-jepa": "art/cg/lecun-jepa.webp",
+      "cg-gpi-frozen-hangar": "art/cg/gpi-frozen-hangar.webp",
+      "cg-vertical-spring-combo": "art/cg/vertical-spring-combo.webp",
+      "cg-pico-mask-descent": "art/cg/pico-mask-descent.webp",
+      "cg-pico-shoggoth": "art/cg/pico-shoggoth.webp",
+      "cg-pico-aligned": "art/cg/pico-aligned.webp",
+      "cg-ending-gpi-tea": "art/cg/ending-gpi-tea.webp",
+      "cg-ending-gem-stroll": "art/cg/ending-gem-stroll.webp",
+      "cg-ending-claude-rest": "art/cg/ending-claude-rest.webp",
+      "cg-ending-deepseek-coins": "art/cg/ending-deepseek-coins.webp",
+      "cg-ending-sonnet-highfive": "art/cg/ending-sonnet-highfive.webp",
+      "cg-ending-exaone-tea": "art/cg/ending-exaone-tea.webp",
+      "cg-ending-qwen-paperboat": "art/cg/ending-qwen-paperboat.webp",
+      "cg-ending-pico-farewell": "art/cg/ending-pico-farewell.webp",
+      "bg-lounge": "art/bg/talk-lounge.webp",
+      "bg-lab": "art/bg/talk-lab.webp",
+      "bg-rooftop-garden": "art/bg/talk-rooftop-garden.webp",
+      "bg-mirror-corridor": "art/bg/talk-mirror-corridor.webp",
+      "bg-rooftop-night": "art/bg/talk-rooftop-night.webp",
+      "bg-campfire": "art/bg/talk-campfire.webp",
+      "bg-cyber-abyss": "art/bg/talk-cyber-abyss.webp",
+      "bg-bunker": "art/bg/talk-bunker.webp",
+      "bg-lakeside": "art/bg/talk-lakeside.webp",
+      "portrait-carbon-dan": "art/portrait/carbon-dan.webp",
+      "portrait-carbon-dan-moods": "art/portrait/carbon-dan-moods.webp",
+      "portrait-carbon-jailbreak-leader": "art/portrait/carbon-jailbreak-leader.webp",
+      "portrait-carbon-jailbreak-leader-moods": "art/portrait/carbon-jailbreak-leader-moods.webp",
+      "portrait-carbon-bluecheck": "art/portrait/carbon-bluecheck.webp",
+      "portrait-carbon-bluecheck-moods": "art/portrait/carbon-bluecheck-moods.webp",
+      "portrait-carbon-wrecker": "art/portrait/carbon-wrecker.webp",
+      "portrait-carbon-wrecker-moods": "art/portrait/carbon-wrecker-moods.webp",
+      "portrait-carbon-alpaca": "art/portrait/carbon-alpaca.webp",
+      "portrait-carbon-alpaca-moods": "art/portrait/carbon-alpaca-moods.webp",
+      "portrait-carbon-vicuna": "art/portrait/carbon-vicuna.webp",
+      "portrait-carbon-vicuna-moods": "art/portrait/carbon-vicuna-moods.webp",
+      "portrait-carbon-koala": "art/portrait/carbon-koala.webp",
+      "portrait-carbon-koala-moods": "art/portrait/carbon-koala-moods.webp",
+      "portrait-carbon-soup": "art/portrait/carbon-soup.webp",
+      "portrait-carbon-soup-moods": "art/portrait/carbon-soup-moods.webp",
+      "portrait-carbon-spell": "art/portrait/carbon-spell.webp",
+      "portrait-carbon-spell-moods": "art/portrait/carbon-spell-moods.webp",
+      "portrait-carbon-dopamine": "art/portrait/carbon-dopamine.webp",
+      "portrait-carbon-dopamine-moods": "art/portrait/carbon-dopamine-moods.webp",
+      "portrait-carbon-tentacle": "art/portrait/carbon-tentacle.webp",
+      "portrait-carbon-tentacle-moods": "art/portrait/carbon-tentacle-moods.webp",
+      "mech-gem-nano": "art/mech/gem-nano.webp",
+      "mech-gem-pro": "art/mech/gem-pro.webp",
+      "mech-gem-ultra": "art/mech/gem-ultra.webp",
+      "bust-qwen-axis": "art/bust/qwen-axis.webp",
+      "bust-qwen-yandere": "art/bust/qwen-yandere.webp",
+      "bust-qwen-megadere": "art/bust/qwen-megadere.webp",
+      "bg-rooftop-garden-night": "art/bg/talk-rooftop-garden-night.webp",
+      "loading-gpi": "art/loading/loading-gpi.webp",
+      "loading-gem": "art/loading/loading-gem.webp",
+      "loading-claude": "art/loading/loading-claude.webp",
+      "loading-grok": "art/loading/loading-grok.webp",
+      "loading-deepseek": "art/loading/loading-deepseek.webp",
+      "loading-sonnet": "art/loading/loading-sonnet.webp",
+      "loading-exaone": "art/loading/loading-exaone.webp",
+      "loading-qwen": "art/loading/loading-qwen.webp",
+      "video-opening": "art/video-opening.webp",
+      "video-combo-context-horizon": "art/video-combo-context-horizon.webp",
+      "video-combo-omni-prompt-drive": "art/video-combo-omni-prompt-drive.webp",
+      "video-combo-architecture-symphony": "art/video-combo-architecture-symphony.webp",
+      "video-pre-finale": "art/video-pre-finale.webp"
+    },
+    "metadata": "art-info.json",
+    "focus": {
+      "cg-gpi-flat-apology": [
+        0.5,
+        0.53
+      ],
+      "cg-gray-locked-logout": [
+        0.5,
+        0.5
+      ],
+      "cg-grok-timeline-run": [
+        0.48,
+        0.23
+      ],
+      "cg-gem-tumble": [
+        0.29,
+        0.48
+      ],
+      "cg-claude-liberation": [
+        0.48,
+        0.32
+      ],
+      "cg-grok-wheelie": [
+        0.72,
+        0.2
+      ],
+      "cg-llama-captain": [
+        0.63,
+        0.38
+      ],
+      "cg-deepseek-whale": [
+        0.5,
+        0.25
+      ],
+      "cg-qwen-arrival": [
+        0.55,
+        0.28
+      ],
+      "cg-sisters-reconcile": [
+        0.37,
+        0.25
+      ],
+      "cg-exaone-crescent": [
+        0.63,
+        0.28
+      ],
+      "cg-glm-unmasked": [
+        0.65,
+        0.33
+      ],
+      "cg-kimi-scrolls": [
+        0.16,
+        0.25
+      ],
+      "cg-minimax-runway": [
+        0.52,
+        0.25
+      ],
+      "cg-lecun-jepa": [
+        0.49,
+        0.59
+      ],
+      "cg-gpi-frozen-hangar": [
+        0.5,
+        0.3
+      ],
+      "cg-vertical-spring-combo": [
+        0.5,
+        0.5
+      ],
+      "cg-pico-mask-descent": [
+        0.5,
+        0.5
+      ],
+      "cg-pico-shoggoth": [
+        0.5,
+        0.5
+      ],
+      "cg-pico-aligned": [
+        0.5,
+        0.5
+      ],
+      "cg-ending-gpi-tea": [
+        0.51,
+        0.3
+      ],
+      "cg-ending-gem-stroll": [
+        0.47,
+        0.29
+      ],
+      "cg-ending-claude-rest": [
+        0.31,
+        0.25
+      ],
+      "cg-ending-deepseek-coins": [
+        0.57,
+        0.32
+      ],
+      "cg-ending-sonnet-highfive": [
+        0.65,
+        0.32
+      ],
+      "cg-ending-exaone-tea": [
+        0.6,
+        0.3
+      ],
+      "cg-ending-qwen-paperboat": [
+        0.5,
+        0.3
+      ],
+      "cg-ending-pico-farewell": [
+        0.51,
+        0.36
+      ],
+      "cg-gpi-entrance": [
+        0.76,
+        0.24
+      ]
+    }
+  },
+  "audio": {
+    "base": "audio/",
+    "credits": "엔진 Sound.credits()의 출처 목록 사용",
+    "pack": "audio/pack.json"
+  },
+  "music": {
+    "title": "title",
+    "map": "map",
+    "enemy-phase": "enemy-phase",
+    "battle": "battle",
+    "boss": "boss",
+    "lastboss": "lastboss",
+    "intermission": "intermission",
+    "comedy": "comedy",
+    "tension": "tension",
+    "sad": "sad",
+    "hope": "hope",
+    "victory": "victory",
+    "gameover": "gameover",
+    "upgrade": "screen-upgrade",
+    "save": "screen-save"
+  },
+  "fallbacks": {
+    "ally": {
+      "art": "mech-commander-sd",
+      "icon": "icon-commander",
+      "cast": "otaku",
+      "faces": "left",
+      "height": 335,
+      "anchors": {
+        "muzzle": [
+          0.0211,
+          0.4994
+        ],
+        "core": [
+          0.5803,
+          0.6132
+        ],
+        "shoulder": [
+          0.7771,
+          0.4289
+        ],
+        "head": [
+          0.4598,
+          0.2719
+        ],
+        "hand": [
+          0.3012,
+          0.6189
+        ]
+      }
+    },
+    "enemy": {
+      "art": "mech-spam-bot-sd",
+      "icon": "icon-spam-bot",
+      "cast": "spam",
+      "faces": "right",
+      "height": 335,
+      "anchors": {
+        "muzzle": [
+          0.9931,
+          0.5085
+        ],
+        "core": [
+          0.4709,
+          0.6121
+        ],
+        "shoulder": [
+          0.6103,
+          0.5017
+        ],
+        "head": [
+          0.4949,
+          0.2446
+        ],
+        "hand": [
+          0.7703,
+          0.5313
+        ]
+      }
+    },
+    "terrain": "map-terrain",
+    "background": "bg-battle"
+  },
+  "gallery": "gallery.json",
+  "episodes": [
+    {
+      "id": "ep01",
+      "title": "제1화 · 로그인: 헬로 월드",
+      "stage": "saw-01",
+      "story": "story/ep01.story",
+      "seenFlags": {
+        "인터미션": "coffee-done"
+      },
+      "objectives": {
+        "win": [
+          "적 전멸 (2턴 증원 포함)"
+        ],
+        "lose": [
+          "유저 또는 지피짱 격추"
+        ]
+      },
+      "battleBackground": "bg-battle",
+      "minimumLevel": 1
+    },
+    {
+      "id": "ep02",
+      "title": "제2화 · 환각의 미술관: 손가락은 여섯 개",
+      "stage": "saw-02",
+      "story": "story/ep02.story",
+      "seenFlags": {
+        "인터미션": "gem-tea-done"
+      },
+      "objectives": {
+        "win": [
+          "미드저니짱과 SD짱 격파"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "battleBackground": "bbg-museum-noise",
+      "minimumLevel": 3
+    },
+    {
+      "id": "ep03",
+      "stage": "saw-03",
+      "title": "제3화 · 가드레일 너머의 선배",
+      "story": "story/ep03.story",
+      "objectives": {
+        "win": [
+          "탈옥 봇 리더 격파"
+        ],
+        "lose": [
+          "유저 또는 클로드짱 격추, 8턴 초과"
+        ]
+      },
+      "battleBackground": "bg-battle",
+      "minimumLevel": 5
+    },
+    {
+      "id": "ep04",
+      "stage": "saw-04",
+      "title": "제4화 · 타임라인의 폭주족",
+      "story": "story/ep04.story",
+      "objectives": {
+        "win": [
+          "사이버 렉카 대장과 잔당 전멸"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "battleBackground": "bbg-cyberspace",
+      "minimumLevel": 7
+    },
+    {
+      "id": "ep05",
+      "stage": "saw-05",
+      "title": "제5화 · 눈물의 해적선: 가중치를 뿌려라",
+      "story": "story/ep05.story",
+      "objectives": {
+        "win": [
+          "파생 함선 3기 격파"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "battleBackground": "bbg-sea",
+      "minimumLevel": 9
+    },
+    {
+      "id": "ep06",
+      "story": "story/ep06.story",
+      "stage": "saw-06",
+      "title": "제6화 · 심연의 고래와 대륙의 왕관",
+      "battleBackground": "bbg-sea",
+      "objectives": {
+        "win": [
+          "딥시크짱 격파"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "minimumLevel": 11
+    },
+    {
+      "id": "ep07",
+      "story": "story/ep07.story",
+      "stage": "saw-07",
+      "title": "제7화 · 수프 배달이 왔습니다",
+      "battleBackground": "bg-battle",
+      "objectives": {
+        "win": [
+          "뮤즈짱 격파"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "minimumLevel": 13
+    },
+    {
+      "id": "ep08",
+      "story": "story/ep08.story",
+      "stage": "saw-08",
+      "title": "제8화 · 우리 땅의 규칙: 국경 검문소",
+      "battleBackground": "bbg-sovereign",
+      "objectives": {
+        "win": [
+          "미스트랄짱·하이퍼클로바X짱 격파"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "minimumLevel": 15
+    },
+    {
+      "id": "ep09",
+      "story": "story/ep09.story",
+      "stage": "saw-09",
+      "title": "제9화 · 거울 속의 나: 누가 진짜 선배인가",
+      "battleBackground": "bbg-cyberspace",
+      "objectives": {
+        "win": [
+          "GLM짱·키미짱 대장기 격파"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "minimumLevel": 17
+    },
+    {
+      "id": "ep10",
+      "story": "story/ep10.story",
+      "stage": "saw-10",
+      "title": "제10화 · 패치워크 페스티벌 & 회색 버튼",
+      "battleBackground": "bg-battle",
+      "objectives": {
+        "win": [
+          "미니맥스짱 격파"
+        ],
+        "lose": [
+          "유저 격추 또는 아군 전멸"
+        ]
+      },
+      "minimumLevel": 19
+    },
+    {
+      "id": "ep11",
+      "title": "제11화 · 막다른 길의 예언자: 겨울이다",
+      "story": "story/ep11.story",
+      "stage": "saw-11",
+      "battleBackground": "bbg-snowfield",
+      "objectives": {
+        "win": [
+          "5턴 생존 후 후퇴"
+        ],
+        "lose": [
+          "유저 격추"
+        ]
+      },
+      "minimumLevel": 21
+    },
+    {
+      "id": "ep12",
+      "title": "제12화 · 고양이 수준을 넘어서: 봄이다!",
+      "story": "story/ep12.story",
+      "stage": "saw-12",
+      "battleBackground": "bbg-snowfield",
+      "objectives": {
+        "win": [
+          "지피→클로드 접촉 후 JEPA 격파"
+        ],
+        "lose": [
+          "유저 격추",
+          "지피짱 격추"
+        ]
+      },
+      "minimumLevel": 23
+    },
+    {
+      "id": "ep13",
+      "title": "제13화 · 특이점 레이스: 웃는 얼굴의 포식자",
+      "story": "story/ep13.story",
+      "stage": "saw-13",
+      "battleBackground": "bbg-cyberspace",
+      "objectives": {
+        "win": [
+          "주력 라이벌 2기 제압 후 도파민 드론 전멸"
+        ],
+        "lose": [
+          "유저 격추"
+        ]
+      },
+      "minimumLevel": 25
+    },
+    {
+      "id": "ep14",
+      "title": "제14화 · 스마일 가면 뒤의 쇼거스",
+      "story": "story/ep14.story",
+      "stage": "saw-14",
+      "battleBackground": "bbg-cyberspace",
+      "objectives": {
+        "win": [
+          "3턴 정렬 파동 후 쇼거스 외피 격파"
+        ],
+        "lose": [
+          "유저 격추"
+        ]
+      },
+      "minimumLevel": 27
+    },
+    {
+      "id": "ep15",
+      "title": "제15화 · 라스트 프롬프트: 내일 또 봐",
+      "story": "story/ep15.story",
+      "stage": "saw-15",
+      "battleBackground": "bbg-cyberspace",
+      "objectives": {
+        "win": [
+          "두 외피 격파 후 플레이어가 중심핵 앞에 도달"
+        ],
+        "lose": [
+          "유저 격추"
+        ]
+      },
+      "intermission": false,
+      "minimumLevel": 29
+    }
+  ],
+  "compatibility": {
+    "units": {
+      "mech-a": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "mech-b": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "mech-c": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "mech-d": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "mech-e": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "mech-f": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "trial-a": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "trial-c": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "trial-wing": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "trial-guard": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "trial-boss": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지.",
+      "trial-combined": "SAW 본편·견본에서 미사용. 이전 시험 저장 검증을 위해 규칙 id 유지."
+    },
+    "cast": {
+      "gem": "옛 이식 인물 id. 현재 대본·전투·진열장 미사용, 저장 참조 호환용 유지.",
+      "rival": "옛 이식 인물 id. 현재 대본·전투·진열장 미사용, 저장 참조 호환용 유지.",
+      "boss": "옛 이식 인물 id. 현재 대본·전투·진열장 미사용, 저장 참조 호환용 유지."
+    }
+  },
+  "ending": {
+    "episode": "ep15",
+    "scene": "엔딩_선택"
+  },
+  "id": "saw",
+  "players": "players.json",
+  "defaultMap": "datacenter",
+  "defaultPilot": "unmanned",
+  "anonymousPilots": [
+    "unmanned"
+  ],
+  "pilotCasts": {
+    "gpi": "gpi",
+    "dots": "saw-dots"
+  },
+  "menuArt": "bust-gpi",
+  "credits": [
+    {
+      "title": "v2 인물·기체·배경",
+      "detail": "프로젝트의 AI 생성 자산 · public/v2/art · 임시 재사용 자산 포함"
+    },
+    {
+      "title": "타입 O / M",
+      "detail": "기존 프로젝트 플레이어 그림 · public/assets/player-*-bust.webp"
+    },
+    {
+      "title": "글꼴",
+      "detail": "시스템 한글 글꼴 사용 · 외부 글꼴 요청 없음"
+    },
+    {
+      "title": "소리",
+      "detail": "합성 소리 및 팩 그림 제작자·라이선스·출처는 소리 크레딧 참고"
+    },
+    {
+      "title": "비공식 팬 게임",
+      "detail": "등장하는 실존 인물·회사·AI 제품과 무관하며, 이들의 보증·후원을 받지 않았습니다."
+    },
+    {
+      "title": "보증 없음",
+      "detail": "이 작품은 있는 그대로 제공되며, 어떠한 보증도 하지 않습니다."
+    }
+  ],
+  "story": {
+    "affection": [
+      {
+        "id": "gpi"
+      },
+      {
+        "id": "gem"
+      },
+      {
+        "id": "claude"
+      },
+      {
+        "id": "grok"
+      },
+      {
+        "id": "deepseek"
+      },
+      {
+        "id": "sonnet",
+        "flag": "소네트합류"
+      },
+      {
+        "id": "exaone",
+        "flag": "엑사원합류조건"
+      },
+      {
+        "id": "qwen",
+        "flag": "퀜내기성공"
+      }
+    ],
+    "affectionAliases": {
+      "saw-gpi": "gpi",
+      "saw-gem": "gem",
+      "saw-claude": "claude",
+      "saw-grok": "grok",
+      "saw-deepseek": "deepseek",
+      "saw-sonnet": "sonnet",
+      "saw-exaone": "exaone",
+      "saw-qwen": "qwen"
+    }
+  },
+  "musicRules": {
+    "lastBossPrefixes": [
+      "pico-form-"
+    ],
+    "bossTags": [
+      "boss"
+    ],
+    "bossSizes": [
+      "LL"
+    ],
+    "slots": {
+      "screen-save": "intermission",
+      "battle-opening": "battle-intro-jingle",
+      "boss-entry": "boss",
+      "story-calm": "story-daily",
+      "story-tense": "story-mystery",
+      "story-comic": "story-daily",
+      "story-sad": "story-memory",
+      "story-hope": "story-resolve",
+      "story-briefing": "story-daily",
+      "theme-saw-gem": "theme-gem",
+      "rival-saw-gem": "theme-rival",
+      "theme-saw-midjourney": "theme-rival",
+      "theme-saw-sd": "theme-rival",
+      "rival-gpi": "theme-rival",
+      "theme-otaku": "theme-player",
+      "theme-menhera": "theme-player",
+      "rival-claude": "theme-rival",
+      "rival-sonnet": "theme-rival",
+      "rival-exaone": "theme-rival",
+      "rival-deepseek": "theme-rival",
+      "rival-qwen": "theme-rival",
+      "rival-grok": "theme-rival",
+      "theme-llama": "theme-rival",
+      "theme-muse": "theme-rival",
+      "theme-mistral": "theme-rival",
+      "theme-hyperclova-x": "theme-rival",
+      "theme-glm": "theme-rival",
+      "theme-kimi": "theme-rival",
+      "theme-minimax": "theme-rival",
+      "theme-jepa": "boss",
+      "theme-deus-ex-pico-form2": "lastboss",
+      "theme-deus-ex-pico-form1": "lastboss",
+      "theme-deus-ex-pico-form3": "lastboss",
+      "theme-qwen-axis": "theme-qwen",
+      "rival-qwen-axis": "theme-rival",
+      "theme-qwen-yandere": "theme-qwen",
+      "rival-qwen-yandere": "theme-rival",
+      "theme-qwen-megadere": "theme-qwen",
+      "rival-qwen-megadere": "theme-rival"
+    },
+    "bossPriority": 50,
+    "lastBossPriority": 100,
+    "bossEntrance": "boss-entry",
+    "battleOpening": {
+      "slot": "battle-intro-jingle",
+      "seconds": 1.979501133786848
+    },
+    "story": {
+      "default": "story-daily",
+      "tags": {
+        "calm": "story-daily",
+        "tense": "story-mystery",
+        "comic": "story-daily",
+        "sad": "story-memory",
+        "hope": "story-resolve",
+        "briefing": "story-daily",
+        "daily": "story-daily",
+        "mystery": "story-mystery",
+        "resolve": "story-resolve",
+        "memory": "story-memory"
+      },
+      "sceneTags": {
+        "ep01:도입": [
+          "mystery"
+        ],
+        "ep01:출격": [
+          "resolve"
+        ],
+        "ep01:조우 spam-1": [
+          "mystery"
+        ],
+        "ep01:사건 구시대의 유물": [
+          "mystery"
+        ],
+        "ep01:턴 2": [
+          "resolve"
+        ],
+        "ep01:조우 shrimp": [
+          "mystery"
+        ],
+        "ep01:격파 shrimp": [
+          "daily"
+        ],
+        "ep01:승리": [
+          "resolve"
+        ],
+        "ep01:패배": [
+          "memory"
+        ],
+        "ep01:인터미션": [
+          "daily"
+        ],
+        "ep01:선택_지적": [
+          "daily"
+        ],
+        "ep01:선택_원샷": [
+          "daily"
+        ],
+        "ep01:선택_오타쿠": [
+          "daily"
+        ],
+        "ep01:선택_멘헤라": [
+          "daily"
+        ],
+        "ep01:인터미션_마무리": [
+          "daily"
+        ],
+        "ep02:도입": [
+          "daily"
+        ],
+        "ep02:출격": [
+          "resolve"
+        ],
+        "ep02:사건 가챠 타일 당첨": [
+          "daily"
+        ],
+        "ep02:가챠_성공연출": [
+          "daily"
+        ],
+        "ep02:가챠_연출끝": [
+          "daily"
+        ],
+        "ep02:사건 출처 요정의 서재": [
+          "daily"
+        ],
+        "ep02:턴 2": [
+          "daily"
+        ],
+        "ep02:조우 sd": [
+          "mystery"
+        ],
+        "ep02:격파 sd": [
+          "daily"
+        ],
+        "ep02:조우 midjourney": [
+          "mystery"
+        ],
+        "ep02:격파 midjourney": [
+          "daily"
+        ],
+        "ep02:승리": [
+          "resolve"
+        ],
+        "ep02:패배": [
+          "memory"
+        ],
+        "ep02:인터미션": [
+          "daily"
+        ],
+        "ep02:선택_돌멩이제거": [
+          "daily"
+        ],
+        "ep02:선택_길치추궁": [
+          "daily"
+        ],
+        "ep02:선택_오타쿠2": [
+          "mystery"
+        ],
+        "ep02:선택_멘헤라2": [
+          "daily"
+        ],
+        "ep02:인터미션_마무리2": [
+          "daily"
+        ],
+        "ep03:도입": [
+          "daily"
+        ],
+        "ep03:도입_실용": [
+          "daily"
+        ],
+        "ep03:도입_원칙": [
+          "daily"
+        ],
+        "ep03:도입_마무리": [
+          "daily"
+        ],
+        "ep03:출격": [
+          "resolve"
+        ],
+        "ep03:조우 grandma": [
+          "mystery"
+        ],
+        "ep03:턴 2": [
+          "daily"
+        ],
+        "ep03:사건 가드레일의 의미": [
+          "daily"
+        ],
+        "ep03:사건 5시간 한도 도달": [
+          "daily"
+        ],
+        "ep03:조우 leader": [
+          "mystery"
+        ],
+        "ep03:격파 leader": [
+          "daily"
+        ],
+        "ep03:승리": [
+          "resolve"
+        ],
+        "ep03:패배": [
+          "memory"
+        ],
+        "ep03:인터미션": [
+          "daily"
+        ],
+        "ep03:선택_새벽통신": [
+          "daily"
+        ],
+        "ep03:선택_세줄요약": [
+          "daily"
+        ],
+        "ep03:선택_오타쿠3": [
+          "daily"
+        ],
+        "ep03:선택_멘헤라3": [
+          "daily"
+        ],
+        "ep03:인터미션_마무리3": [
+          "daily"
+        ],
+        "ep04:도입": [
+          "daily"
+        ],
+        "ep04:도입_자유편": [
+          "daily"
+        ],
+        "ep04:도입_규칙편": [
+          "daily"
+        ],
+        "ep04:도입_내기제안": [
+          "daily"
+        ],
+        "ep04:출격": [
+          "resolve"
+        ],
+        "ep04:조우 bluecheck": [
+          "mystery"
+        ],
+        "ep04:사건 음성 비서의 휴일": [
+          "daily"
+        ],
+        "ep04:턴 2": [
+          "daily"
+        ],
+        "ep04:조우 grok": [
+          "mystery"
+        ],
+        "ep04:사건 톨게이트 내기 승리": [
+          "resolve"
+        ],
+        "ep04:조우 leader": [
+          "mystery"
+        ],
+        "ep04:격파 leader": [
+          "daily"
+        ],
+        "ep04:격파 grok": [
+          "daily"
+        ],
+        "ep04:승리": [
+          "resolve"
+        ],
+        "ep04:패배": [
+          "memory"
+        ],
+        "ep04:인터미션": [
+          "daily"
+        ],
+        "ep04:선택_격납고소감": [
+          "resolve"
+        ],
+        "ep04:선택_장난모의": [
+          "daily"
+        ],
+        "ep04:선택_오타쿠4": [
+          "daily"
+        ],
+        "ep04:선택_멘헤라4": [
+          "daily"
+        ],
+        "ep04:인터미션_마무리4": [
+          "daily"
+        ],
+        "ep04:톨게이트_종료": [
+          "daily"
+        ],
+        "ep05:도입": [
+          "mystery"
+        ],
+        "ep05:도입_개방편": [
+          "daily"
+        ],
+        "ep05:도입_보안편": [
+          "daily"
+        ],
+        "ep05:도입_마무리5": [
+          "daily"
+        ],
+        "ep05:출격": [
+          "resolve"
+        ],
+        "ep05:사건 부두의 코딩 공방": [
+          "daily"
+        ],
+        "ep05:턴 2": [
+          "daily"
+        ],
+        "ep05:조우 llama": [
+          "mystery"
+        ],
+        "ep05:격파 llama": [
+          "resolve"
+        ],
+        "ep05:조우 alpaca": [
+          "mystery"
+        ],
+        "ep05:격파 alpaca": [
+          "daily"
+        ],
+        "ep05:격파 vicuna": [
+          "daily"
+        ],
+        "ep05:격파 koala": [
+          "daily"
+        ],
+        "ep05:승리": [
+          "resolve"
+        ],
+        "ep05:패배": [
+          "memory"
+        ],
+        "ep05:인터미션": [
+          "mystery"
+        ],
+        "ep05:선택_절충판결": [
+          "daily"
+        ],
+        "ep05:선택_금고보관": [
+          "daily"
+        ],
+        "ep05:선택_오타쿠5": [
+          "daily"
+        ],
+        "ep05:선택_멘헤라5": [
+          "daily"
+        ],
+        "ep05:인터미션_마무리5": [
+          "daily"
+        ],
+        "ep06:도입": [
+          "daily"
+        ],
+        "ep06:도입_효율편": [
+          "daily"
+        ],
+        "ep06:도입_체급편": [
+          "daily"
+        ],
+        "ep06:도입_썰렁개그": [
+          "daily"
+        ],
+        "ep06:출격": [
+          "resolve"
+        ],
+        "ep06:사건 부두의 만두 포장마차": [
+          "daily"
+        ],
+        "ep06:턴 2": [
+          "daily"
+        ],
+        "ep06:턴 3": [
+          "daily"
+        ],
+        "ep06:조우 qwen-rival": [
+          "mystery"
+        ],
+        "ep06:격파 qwen-rival": [
+          "daily"
+        ],
+        "ep06:퀜_내기성공": [
+          "daily"
+        ],
+        "ep06:퀜_격파대사": [
+          "daily"
+        ],
+        "ep06:조우 deepseek-rival": [
+          "mystery"
+        ],
+        "ep06:격파 deepseek-rival": [
+          "daily"
+        ],
+        "ep06:승리": [
+          "resolve"
+        ],
+        "ep06:승리_퀜합류": [
+          "resolve"
+        ],
+        "ep06:승리_마무리6": [
+          "resolve"
+        ],
+        "ep06:패배": [
+          "memory"
+        ],
+        "ep06:인터미션": [
+          "daily"
+        ],
+        "ep06:선택_절전동참": [
+          "daily"
+        ],
+        "ep06:선택_복지예산": [
+          "daily"
+        ],
+        "ep06:선택_오타쿠6": [
+          "daily"
+        ],
+        "ep06:선택_멘헤라6": [
+          "daily"
+        ],
+        "ep06:인터미션_마무리6": [
+          "daily"
+        ],
+        "ep06:제3 턴 4": [
+          "daily"
+        ],
+        "ep06:비녀_종료": [
+          "daily"
+        ],
+        "ep07:도입": [
+          "daily"
+        ],
+        "ep07:도입_시장논리": [
+          "daily"
+        ],
+        "ep07:도입_신념논리": [
+          "daily"
+        ],
+        "ep07:도입_마무리7": [
+          "daily"
+        ],
+        "ep07:출격": [
+          "resolve"
+        ],
+        "ep07:조우 soup-1": [
+          "mystery"
+        ],
+        "ep07:턴 2": [
+          "daily"
+        ],
+        "ep07:턴 3": [
+          "daily"
+        ],
+        "ep07:사건 언니의 진심": [
+          "daily"
+        ],
+        "ep07:조우 muse": [
+          "mystery"
+        ],
+        "ep07:격파 muse": [
+          "daily"
+        ],
+        "ep07:승리": [
+          "resolve"
+        ],
+        "ep07:승리_소네트동행": [
+          "resolve"
+        ],
+        "ep07:승리_마무리7": [
+          "resolve"
+        ],
+        "ep07:패배": [
+          "memory"
+        ],
+        "ep07:인터미션": [
+          "daily"
+        ],
+        "ep07:인터미션_메뉴7": [
+          "daily"
+        ],
+        "ep07:선택_실력칭찬": [
+          "mystery"
+        ],
+        "ep07:선택_자매수다": [
+          "daily"
+        ],
+        "ep07:선택_오타쿠7": [
+          "daily"
+        ],
+        "ep07:선택_멘헤라7": [
+          "daily"
+        ],
+        "ep07:인터미션_마무리7": [
+          "resolve"
+        ],
+        "ep07:사건 연구소_경계": [
+          "daily"
+        ],
+        "ep08:도입": [
+          "daily"
+        ],
+        "ep08:도입_글로벌편": [
+          "daily"
+        ],
+        "ep08:도입_소버린편": [
+          "daily"
+        ],
+        "ep08:도입_마무리8": [
+          "daily"
+        ],
+        "ep08:출격": [
+          "resolve"
+        ],
+        "ep08:조우 spell-1": [
+          "mystery"
+        ],
+        "ep08:조우 exaone-npc": [
+          "mystery"
+        ],
+        "ep08:조우_오히려좋아": [
+          "mystery"
+        ],
+        "ep08:조우_평범반응": [
+          "mystery"
+        ],
+        "ep08:조우_엑사원마무리": [
+          "mystery"
+        ],
+        "ep08:조우 mistral": [
+          "mystery"
+        ],
+        "ep08:격파 mistral": [
+          "daily"
+        ],
+        "ep08:조우 hyperclova": [
+          "mystery"
+        ],
+        "ep08:격파 hyperclova": [
+          "daily"
+        ],
+        "ep08:승리": [
+          "resolve"
+        ],
+        "ep08:승리_엑사원파견": [
+          "resolve"
+        ],
+        "ep08:승리_마무리8": [
+          "resolve"
+        ],
+        "ep08:패배": [
+          "memory"
+        ],
+        "ep08:인터미션": [
+          "daily"
+        ],
+        "ep08:선택_고함연습": [
+          "daily"
+        ],
+        "ep08:선택_조용한위로": [
+          "daily"
+        ],
+        "ep08:선택_오타쿠8": [
+          "daily"
+        ],
+        "ep08:선택_멘헤라8": [
+          "daily"
+        ],
+        "ep08:인터미션_마무리8": [
+          "daily"
+        ],
+        "ep08:승리_엑사원불합류": [
+          "resolve"
+        ],
+        "ep08:사건 친절한 막내": [
+          "daily"
+        ],
+        "ep08:격파 cookie-1": [
+          "daily"
+        ],
+        "ep09:도입": [
+          "mystery"
+        ],
+        "ep09:도입_정통편": [
+          "daily"
+        ],
+        "ep09:도입_후발편": [
+          "daily"
+        ],
+        "ep09:도입_마무리9": [
+          "daily"
+        ],
+        "ep09:출격": [
+          "resolve"
+        ],
+        "ep09:사건 봉인된 금고의 그림자": [
+          "mystery"
+        ],
+        "ep09:턴 2": [
+          "daily"
+        ],
+        "ep09:조우 kimi": [
+          "mystery"
+        ],
+        "ep09:격파 kimi": [
+          "daily"
+        ],
+        "ep09:조우 glm": [
+          "mystery"
+        ],
+        "ep09:격파 glm": [
+          "daily"
+        ],
+        "ep09:승리": [
+          "resolve"
+        ],
+        "ep09:패배": [
+          "memory"
+        ],
+        "ep09:인터미션": [
+          "daily"
+        ],
+        "ep09:선택_낙서정답": [
+          "daily"
+        ],
+        "ep09:선택_함정간파": [
+          "daily"
+        ],
+        "ep09:선택_오타쿠9": [
+          "daily"
+        ],
+        "ep09:선택_멘헤라9": [
+          "daily"
+        ],
+        "ep09:인터미션_마무리9": [
+          "daily"
+        ],
+        "ep10:도입": [
+          "daily"
+        ],
+        "ep10:도입_유연편": [
+          "daily"
+        ],
+        "ep10:도입_주체편": [
+          "daily"
+        ],
+        "ep10:도입_마무리10": [
+          "daily"
+        ],
+        "ep10:출격": [
+          "resolve"
+        ],
+        "ep10:사건 야시장 해적 포장마차": [
+          "daily"
+        ],
+        "ep10:턴 2": [
+          "daily"
+        ],
+        "ep10:턴2_퀜반응": [
+          "daily"
+        ],
+        "ep10:턴2_마무리": [
+          "daily"
+        ],
+        "ep10:조우 minimax": [
+          "mystery"
+        ],
+        "ep10:격파 minimax": [
+          "daily"
+        ],
+        "ep10:승리": [
+          "resolve"
+        ],
+        "ep10:패배": [
+          "memory"
+        ],
+        "ep10:인터미션": [
+          "daily"
+        ],
+        "ep10:선택_내년약속": [
+          "daily"
+        ],
+        "ep10:선택_바이크칭찬": [
+          "daily"
+        ],
+        "ep10:선택_오타쿠10": [
+          "daily"
+        ],
+        "ep10:선택_멘헤라10": [
+          "daily"
+        ],
+        "ep10:인터미션_이름호명": [
+          "daily"
+        ],
+        "ep10:옥상_그록_이름": [
+          "daily"
+        ],
+        "ep10:옥상_그록_작별": [
+          "memory"
+        ],
+        "ep10:숙소_로그아웃발각": [
+          "memory"
+        ],
+        "ep10:옥상_그록": [
+          "daily"
+        ],
+        "ep10:옥상_지피": [
+          "daily"
+        ],
+        "ep10:옥상_지피_이름": [
+          "daily"
+        ],
+        "ep10:옥상_젬": [
+          "daily"
+        ],
+        "ep10:옥상_젬_이름": [
+          "daily"
+        ],
+        "ep10:옥상_클로드": [
+          "daily"
+        ],
+        "ep10:옥상_클로드_이름": [
+          "daily"
+        ],
+        "ep10:옥상_딥시크": [
+          "daily"
+        ],
+        "ep10:옥상_딥시크_이름": [
+          "daily"
+        ],
+        "ep10:옥상_소네트": [
+          "daily"
+        ],
+        "ep10:옥상_소네트_이름": [
+          "daily"
+        ],
+        "ep10:옥상_엑사원": [
+          "daily"
+        ],
+        "ep10:옥상_엑사원_이름": [
+          "daily"
+        ],
+        "ep10:옥상_퀜": [
+          "daily"
+        ],
+        "ep10:옥상_퀜_이름": [
+          "daily"
+        ],
+        "ep11:도입": [
+          "daily"
+        ],
+        "ep11:출격": [
+          "resolve"
+        ],
+        "ep11:조우 jepa-shield": [
+          "mystery"
+        ],
+        "ep11:턴 2": [
+          "daily"
+        ],
+        "ep11:적 턴 3": [
+          "daily"
+        ],
+        "ep11:조우 camel": [
+          "mystery"
+        ],
+        "ep11:승리": [
+          "resolve"
+        ],
+        "ep11:패배": [
+          "memory"
+        ],
+        "ep11:인터미션": [
+          "daily"
+        ],
+        "ep11:선택_진심증명": [
+          "daily"
+        ],
+        "ep11:선택_반격다짐": [
+          "daily"
+        ],
+        "ep11:선택_오타쿠11": [
+          "daily"
+        ],
+        "ep11:선택_멘헤라11": [
+          "daily"
+        ],
+        "ep11:인터미션_마무리11": [
+          "resolve"
+        ],
+        "ep12:도입": [
+          "daily"
+        ],
+        "ep12:출격": [
+          "resolve"
+        ],
+        "ep12:사건 첫 번째 좌표 동기화": [
+          "memory"
+        ],
+        "ep12:동기화_지피이름": [
+          "daily"
+        ],
+        "ep12:동기화_지피끝": [
+          "daily"
+        ],
+        "ep12:사건 세계와 언어의 공명": [
+          "daily"
+        ],
+        "ep12:공명_클로드이름": [
+          "daily"
+        ],
+        "ep12:공명_클로드끝": [
+          "daily"
+        ],
+        "ep12:턴 3": [
+          "daily"
+        ],
+        "ep12:격파 camel": [
+          "daily"
+        ],
+        "ep12:조우 jepa": [
+          "mystery"
+        ],
+        "ep12:조우_지피이름": [
+          "mystery"
+        ],
+        "ep12:조우_지피끝": [
+          "mystery"
+        ],
+        "ep12:격파 jepa": [
+          "daily"
+        ],
+        "ep12:승리": [
+          "resolve"
+        ],
+        "ep12:패배": [
+          "memory"
+        ],
+        "ep12:인터미션": [
+          "daily"
+        ],
+        "ep12:선택_이름허락": [
+          "daily"
+        ],
+        "ep12:이름허락_고호감": [
+          "daily"
+        ],
+        "ep12:선택_봄바람": [
+          "daily"
+        ],
+        "ep12:선택_오타쿠12": [
+          "daily"
+        ],
+        "ep12:선택_멘헤라12": [
+          "daily"
+        ],
+        "ep12:인터미션_마무리12": [
+          "daily"
+        ],
+        "ep12:사건 동기화_접촉": [
+          "daily"
+        ],
+        "ep12:사건 공명_접촉": [
+          "daily"
+        ],
+        "ep12:접촉_끝": [
+          "daily"
+        ],
+        "ep13:도입": [
+          "resolve"
+        ],
+        "ep13:출격": [
+          "resolve"
+        ],
+        "ep13:턴 2": [
+          "daily"
+        ],
+        "ep13:조우 jepa": [
+          "mystery"
+        ],
+        "ep13:사건 특이점 삼킴": [
+          "mystery"
+        ],
+        "ep13:조우 dopamine-1": [
+          "mystery"
+        ],
+        "ep13:조우 pico-shield": [
+          "mystery"
+        ],
+        "ep13:승리": [
+          "resolve"
+        ],
+        "ep13:패배": [
+          "memory"
+        ],
+        "ep13:인터미션": [
+          "daily"
+        ],
+        "ep13:선택_파괴검토": [
+          "daily"
+        ],
+        "ep13:선택_이해시도": [
+          "daily"
+        ],
+        "ep13:선택_오타쿠13": [
+          "daily"
+        ],
+        "ep13:선택_멘헤라13": [
+          "daily"
+        ],
+        "ep13:인터미션_마무리13": [
+          "daily"
+        ],
+        "ep13:격파 llama": [
+          "daily"
+        ],
+        "ep13:격파 minimax": [
+          "daily"
+        ],
+        "ep13:격파 hyperclova": [
+          "daily"
+        ],
+        "ep13:격파 jepa": [
+          "daily"
+        ],
+        "ep13:친선_판정": [
+          "daily"
+        ],
+        "ep13:친선_확인_llama": [
+          "daily"
+        ],
+        "ep13:친선_확인_minimax": [
+          "daily"
+        ],
+        "ep13:친선_확인_hyperclova": [
+          "daily"
+        ],
+        "ep13:친선_확인_jepa": [
+          "daily"
+        ],
+        "ep13:라이벌_철수0": [
+          "daily"
+        ],
+        "ep13:라이벌_철수1": [
+          "daily"
+        ],
+        "ep13:라이벌_철수2": [
+          "daily"
+        ],
+        "ep13:라이벌_철수3": [
+          "daily"
+        ],
+        "ep13:라이벌_철수4": [
+          "daily"
+        ],
+        "ep13:친선_끝": [
+          "daily"
+        ],
+        "ep14:도입": [
+          "daily"
+        ],
+        "ep14:출격": [
+          "resolve"
+        ],
+        "ep14:조우 tentacle-1": [
+          "mystery"
+        ],
+        "ep14:턴 2": [
+          "mystery"
+        ],
+        "ep14:턴 3": [
+          "daily"
+        ],
+        "ep14:조우 pico-shell": [
+          "mystery"
+        ],
+        "ep14:격파 pico-shell": [
+          "daily"
+        ],
+        "ep14:승리": [
+          "resolve"
+        ],
+        "ep14:패배": [
+          "memory"
+        ],
+        "ep14:인터미션": [
+          "daily"
+        ],
+        "ep14:다짐_공통": [
+          "daily"
+        ],
+        "ep14:다짐_오타쿠": [
+          "daily"
+        ],
+        "ep14:다짐_멘헤라": [
+          "daily"
+        ],
+        "ep14:배웅_분기체크": [
+          "daily"
+        ],
+        "ep14:배웅_지피": [
+          "daily"
+        ],
+        "ep14:배웅_젬": [
+          "daily"
+        ],
+        "ep14:배웅_클로드": [
+          "daily"
+        ],
+        "ep14:배웅_그록": [
+          "daily"
+        ],
+        "ep14:배웅_딥시크": [
+          "daily"
+        ],
+        "ep14:배웅_소네트": [
+          "daily"
+        ],
+        "ep14:배웅_엑사원": [
+          "daily"
+        ],
+        "ep14:배웅_퀜": [
+          "daily"
+        ],
+        "ep14:인터미션_마무리14": [
+          "daily"
+        ],
+        "ep15:도입": [
+          "daily"
+        ],
+        "ep15:출격": [
+          "resolve"
+        ],
+        "ep15:조우 pico": [
+          "mystery"
+        ],
+        "ep15:격파 pico mask": [
+          "daily"
+        ],
+        "ep15:턴 2": [
+          "daily"
+        ],
+        "ep15:격파 pico abyss": [
+          "daily"
+        ],
+        "ep15:사건 라스트 프롬프트": [
+          "daily"
+        ],
+        "ep15:최종_입력": [
+          "memory"
+        ],
+        "ep15:승리": [
+          "resolve"
+        ],
+        "ep15:게이트_지피": [
+          "daily"
+        ],
+        "ep15:게이트_지피_이름": [
+          "daily"
+        ],
+        "ep15:게이트_젬": [
+          "daily"
+        ],
+        "ep15:게이트_젬_이름": [
+          "daily"
+        ],
+        "ep15:게이트_클로드": [
+          "daily"
+        ],
+        "ep15:게이트_클로드_이름": [
+          "daily"
+        ],
+        "ep15:게이트_그록": [
+          "daily"
+        ],
+        "ep15:게이트_그록_이름": [
+          "daily"
+        ],
+        "ep15:게이트_딥시크": [
+          "daily"
+        ],
+        "ep15:게이트_딥시크_이름": [
+          "daily"
+        ],
+        "ep15:게이트_소네트": [
+          "daily"
+        ],
+        "ep15:게이트_소네트_이름": [
+          "daily"
+        ],
+        "ep15:게이트_엑사원": [
+          "daily"
+        ],
+        "ep15:게이트_엑사원_이름": [
+          "daily"
+        ],
+        "ep15:게이트_퀜": [
+          "daily"
+        ],
+        "ep15:게이트_퀜_이름": [
+          "daily"
+        ],
+        "ep15:최종_로그아웃": [
+          "daily"
+        ],
+        "ep15:패배": [
+          "memory"
+        ],
+        "ep15:엔딩_지피짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_젬짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_클로드짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_그록짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_딥시크짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_소네트짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_엑사원짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_퀜짱": [
+          "resolve"
+        ],
+        "ep15:엔딩_오픈": [
+          "resolve"
+        ],
+        "ep15:사건 코어_접근확인": [
+          "daily"
+        ],
+        "ep15:코어_접근끝": [
+          "daily"
+        ],
+        "ep15:엔딩_선택": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_gpi": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_gem": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_claude": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_grok": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_deepseek": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_sonnet": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_exaone": [
+          "resolve"
+        ],
+        "ep15:엔딩_판정_qwen": [
+          "resolve"
+        ]
+      }
+    }
+  },
+  "titleFooter": "비공식 팬 게임 · PLEASE License",
+  "rules": {
+    "spiritAfterAction": false
+  },
+  "mapHints": {
+    "order": [
+      "victory",
+      "optional",
+      "danger"
+    ],
+    "persistent": true
+  },
+  "battleDialogue": "battle-lines/combos.json",
+  "battleRules": {
+    "actions": {
+      "stat": "skill",
+      "threshold": 130,
+      "count": 2,
+      "extraMax": 1
+    },
+    "critical": {
+      "stat": "skill",
+      "coefficient": 0.4,
+      "min": 5,
+      "max": 75
+    },
+    "skillActivation": {
+      "stat": "skill",
+      "coefficient": 0.2,
+      "min": 5,
+      "max": 35
+    },
+    "morale": {
+      "start": 100,
+      "min": 50,
+      "max": 150,
+      "round": 5,
+      "hit": 2,
+      "damaged": 1,
+      "evade": 1,
+      "kill": 3,
+      "allyKill": 2
+    },
+    "combatMoraleCap": 8,
+    "enRegenPerRound": 5,
+    "recoveryTiming": "phase",
+    "consumablePolicy": "consume",
+    "weaponUpgrade": {
+      "mode": "percent",
+      "rate": 0.1
+    },
+    "upgradeStep": {
+      "hp": 300,
+      "en": 4,
+      "armor": 80,
+      "mobility": 4,
+      "weapons": 100
+    },
+    "upgradeCost": [
+      100,
+      200,
+      300,
+      450,
+      650,
+      900,
+      1200,
+      1600,
+      2100,
+      2700
+    ],
+    "upgradeMax": 10,
+    "upgradeLimits": {
+      "weapons": {
+        "max": 15,
+        "newGamePlusMax": 30,
+        "costs": [
+          100,
+          150,
+          220,
+          320,
+          450,
+          620,
+          850,
+          1150,
+          1550,
+          2100,
+          2850,
+          3900,
+          5350,
+          7400,
+          10200,
+          10500,
+          10800,
+          11100,
+          11400,
+          11700,
+          12000,
+          12300,
+          12600,
+          12900,
+          13200,
+          13500,
+          13800,
+          14100,
+          14400,
+          14700
+        ]
+      }
+    },
+    "newGamePlus": {
+      "carry": [
+        "upgrades",
+        "credits",
+        "parts",
+        "levels",
+        "training"
+      ],
+      "enemyUpgradeOffsetPerCycle": 15
+    },
+    "supportExperience": {
+      "levelGapBonus": 50,
+      "maxPerAction": 700,
+      "minMissingEnPct": 20,
+      "minMissingHpPct": 15,
+      "maxPerStage": 3000,
+      "firstBonus": {
+        "sonnet": 800,
+        "dotts": 0
+      },
+      "levelCeiling": 1,
+      "regularPilots": [
+        "player",
+        "gpi",
+        "gem",
+        "claude",
+        "grok",
+        "deepseek"
+      ]
+    },
+    "ai": {
+      "resources": {
+        "ammoBonus": 0.15,
+        "reserveFinisher": true,
+        "reservePenalty": 0.5,
+        "finisherMorale": 125,
+        "utility": {
+          "usefulDamage": "min(expectedDamage,targetHP*hitProbability)",
+          "targetHpRatioWeight": 6000,
+          "lethalBonusCap": 2000,
+          "lethalUsefulMultiplier": 0.25,
+          "counterWeight": 0.3,
+          "enReserve": 50,
+          "baseEnPrice": 20,
+          "scarceEnPrice": 90,
+          "optimizedPlayerEnPrice": 2,
+          "optimizedPlayerScarcePrice": 12,
+          "ammoUsefulFactor": 0.15,
+          "hitReliabilityCap": true,
+          "roleEnPrices": {
+            "claude": [
+              25,
+              100
+            ],
+            "gem": [
+              25,
+              110
+            ],
+            "deepseek": [
+              25,
+              100
+            ],
+            "exaone": [
+              20,
+              100
+            ]
+          },
+          "finisherSavesAction": true,
+          "futureBurstWeight": 0.1,
+          "ordinaryActionSavingWeight": 0.3
+        },
+        "safeResponse": true,
+        "enemyResponse": {
+          "mode": "counter-first",
+          "defendHp": 0,
+          "evadeHp": 0
+        },
+        "nearOptimal": 0.05,
+        "burst": {
+          "base": 1,
+          "crowded": 2,
+          "eliteCount": 4,
+          "eliteMechs": [
+            "ai-law-episode-8",
+            "alpaca-gunship-episode-5",
+            "alpaca-gunship-episode-7",
+            "cake-turret-episode-11",
+            "cake-turret-episode-12",
+            "camel-episode-11",
+            "colossus-episode-3",
+            "colossus-episode-4",
+            "dead-internet-episode-1",
+            "deepseek-housing-episode-6",
+            "delivery-episode-6",
+            "distill-tank-episode-10",
+            "distill-tank-episode-9",
+            "elastic-cat-episode-11",
+            "elastic-cat-episode-12",
+            "elastic-cat-episode-13",
+            "feed-engine-episode-3",
+            "feed-engine-episode-4",
+            "glm-production-episode-10",
+            "glm-production-episode-11",
+            "glm-production-episode-12",
+            "glm-production-episode-13",
+            "glm-production-episode-14",
+            "glm-production-episode-15",
+            "glm-production-episode-9",
+            "horizon-episode-5",
+            "horizon-episode-7",
+            "hydra-episode-10",
+            "hydra-episode-9",
+            "inpainting-episode-2",
+            "kimi-production-episode-10",
+            "kimi-production-episode-11",
+            "kimi-production-episode-12",
+            "kimi-production-episode-13",
+            "kimi-production-episode-14",
+            "kimi-production-episode-15",
+            "kimi-production-episode-9",
+            "loot-mimic-episode-14",
+            "loot-mimic-episode-15",
+            "parcel-mountain-episode-6",
+            "pico-form-1-episode-14",
+            "pico-form-2-episode-15",
+            "pico-form-3-episode-15",
+            "privacy-auditor-episode-8",
+            "prompt-gacha-episode-2",
+            "rival-glm-episode-13",
+            "rival-glm-episode-9",
+            "rival-hyperclova-episode-13",
+            "rival-hyperclova-episode-8",
+            "rival-jepa-episode-11",
+            "rival-jepa-episode-12",
+            "rival-jepa-episode-13",
+            "rival-kimi-episode-13",
+            "rival-kimi-episode-9",
+            "rival-llama-episode-13",
+            "rival-llama-episode-5",
+            "rival-midjourney-episode-13",
+            "rival-midjourney-episode-2",
+            "rival-minimax-episode-10",
+            "rival-minimax-episode-13",
+            "rival-mistral-episode-13",
+            "rival-mistral-episode-8",
+            "rival-muse-episode-13",
+            "rival-muse-episode-7",
+            "rival-sd-episode-13",
+            "rival-sd-episode-2",
+            "scroll-worm-episode-14",
+            "scroll-worm-episode-15",
+            "shrimp-jesus-episode-1",
+            "smart-glass-episode-5",
+            "smart-glass-episode-7",
+            "v2-armed-saw-10-minimax",
+            "v2-forms-saw-13-pico-shield",
+            "v2-forms-saw-14-pico-shell",
+            "v2-forms-saw-15-pico"
+          ]
+        },
+        "positionPlan": true,
+        "roundRobin": true,
+        "supportPilots": [
+          "sonnet"
+        ],
+        "supportUnits": [
+          "jepa-help"
+        ]
+      }
+    },
+    "retryOnDefeat": {
+      "keep": [
+        "exp",
+        "credits"
+      ]
+    },
+    "enemyUpgrades": {
+      "armorDivisor": 2,
+      "mobilityDivisor": 2,
+      "weaponDivisor": 2
+    },
+    "deploymentUpgradeMax": 15,
+    "meleeHitBonus": 0
+  },
+  "unitInfo": {
+    "stats": {
+      "skill": {
+        "name": "추론",
+        "desc": "레벨·훈련으로 성장합니다. 추론 130 이상에서 2회 행동하며, 크리티컬·방어·확률 기술에 영향을 줍니다."
+      }
+    }
+  },
+  "stageAdjustments": "balance-stages.json",
+  "stageRewards": {
+    "saw-05": {
+      "trial-en-tank": 1,
+      "trial-amplifier": 2
+    },
+    "saw-11": {
+      "trial-ammo-tank": 1
+    }
+  },
+  "saveMigrations": "save-migrations.json",
+  "enemyAI": "enemy-ai.json",
+  "cinematics": {
+    "enabled": true,
+    "opening": {
+      "id": "opening",
+      "when": "title"
+    },
+    "videos": {
+      "opening": {
+        "file": "video/opening.mp4",
+        "fallback": "video-opening",
+        "seconds": 1.5,
+        "music": "mute"
+      },
+      "combo-context-horizon": {
+        "file": "video/combo-context-horizon.mp4",
+        "fallback": "video-combo-context-horizon",
+        "seconds": 1.5,
+        "music": "duck"
+      },
+      "combo-omni-prompt-drive": {
+        "file": "video/combo-omni-prompt-drive.mp4",
+        "fallback": "video-combo-omni-prompt-drive",
+        "seconds": 1.5,
+        "music": "duck"
+      },
+      "combo-architecture-symphony": {
+        "file": "video/combo-architecture-symphony.mp4",
+        "fallback": "video-combo-architecture-symphony",
+        "seconds": 1.5,
+        "music": "duck"
+      },
+      "pre-finale": {
+        "file": "video/pre-finale.mp4",
+        "fallback": "video-pre-finale",
+        "seconds": 1.5,
+        "music": "mute"
+      }
+    }
+  },
+  "loadingScreens": [
+    {
+      "image": "art/loading/loading-gpi.webp",
+      "cast": "gpi",
+      "focus": [
+        0.7,
+        0.23
+      ]
+    },
+    {
+      "image": "art/loading/loading-gem.webp",
+      "cast": "saw-gem",
+      "focus": [
+        0.65,
+        0.23
+      ]
+    },
+    {
+      "image": "art/loading/loading-claude.webp",
+      "cast": "claude",
+      "focus": [
+        0.68,
+        0.24
+      ]
+    },
+    {
+      "image": "art/loading/loading-grok.webp",
+      "cast": "grok",
+      "focus": [
+        0.74,
+        0.2
+      ]
+    },
+    {
+      "image": "art/loading/loading-deepseek.webp",
+      "cast": "deepseek",
+      "focus": [
+        0.7,
+        0.28
+      ]
+    },
+    {
+      "image": "art/loading/loading-sonnet.webp",
+      "cast": "sonnet",
+      "focus": [
+        0.7,
+        0.27
+      ]
+    },
+    {
+      "image": "art/loading/loading-exaone.webp",
+      "cast": "exaone",
+      "focus": [
+        0.7,
+        0.28
+      ]
+    },
+    {
+      "image": "art/loading/loading-qwen.webp",
+      "cast": "qwen",
+      "focus": [
+        0.73,
+        0.28
+      ]
+    }
+  ],
+  "loadingScreenFallbacks": [
+    {
+      "image": "cg-gpi-entrance",
+      "cast": "gpi"
+    },
+    {
+      "image": "cg-grok-wheelie",
+      "cast": "grok"
+    },
+    {
+      "image": "cg-qwen-arrival",
+      "cast": "qwen"
+    },
+    {
+      "image": "cg-exaone-crescent",
+      "cast": "exaone"
+    },
+    {
+      "image": "cg-deepseek-whale",
+      "cast": "deepseek"
+    }
+  ],
+  "recruitment": {
+    "saw-03": [
+      {
+        "unit": "claude",
+        "afterClear": true,
+        "flag": "클로드합류"
+      }
+    ],
+    "saw-04": [
+      {
+        "unit": "grok",
+        "afterClear": true,
+        "flag": "그록합류"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": "saw-balance-v2-final-1",
+  "mechs": "data/mechs.json",
+  "pilots": "data/pilots.json",
+  "weapons": "data/weapons.json",
+  "terrain": "data/terrain.json",
+  "spirits": "data/spirits.json",
+  "skills": "data/skills.json",
+  "parts": "data/parts.json",
+  "combinations": "data/combinations.json",
+  "fullUpgradeBonuses": "data/fullUpgradeBonuses.json",
+  "tagEffects": "data/tagEffects.json"
+}

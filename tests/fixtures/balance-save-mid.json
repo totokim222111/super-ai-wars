@@ -1,0 +1,396 @@
+{
+  "packId": "saw",
+  "saveVersion": 6,
+  "contentVersion": 3117265941,
+  "savedAt": "2026-11-01T00:00:00.000Z",
+  "playTimeMs": 60000,
+  "summary": {
+    "stage": "제8화 · 우리 땅의 규칙: 국경 검문소",
+    "credits": 80000,
+    "pilot": "player",
+    "turn": 4
+  },
+  "screen": "battle",
+  "campaign": {
+    "node": 14,
+    "roster": [
+      {
+        "id": "player",
+        "pilotId": "player",
+        "mechId": "player-real-generation-2",
+        "side": "player",
+        "x": 1,
+        "y": 5,
+        "ai": "aggressive",
+        "tags": [
+          "command-aura",
+          "v2-rules:%7B%22version%22%3A1%2C%22units%22%3A%7B%22gem%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%EB%82%98%EB%85%B8%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22evade%22%3A20%2C%22attack%22%3A-300%7D%2C%7B%22id%22%3A%22%ED%94%84%EB%A1%9C%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22armor%22%3A150%7D%2C%7B%22id%22%3A%22%EC%9A%B8%ED%8A%B8%EB%9D%BC%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22attack%22%3A450%2C%22armor%22%3A-100%7D%5D%7D%2C%22qwen%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%EC%95%85%EC%9D%98%EC%B6%95%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22attack%22%3A600%2C%22armor%22%3A-150%7D%2C%7B%22id%22%3A%22%EC%96%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22counter%22%3A140%2C%22evade%22%3A10%7D%2C%7B%22id%22%3A%22%EB%A9%94%EA%B0%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22support%22%3A1%2C%22restore%22%3A16%2C%22armor%22%3A200%7D%5D%7D%7D%2C%22combos%22%3A%5B%5D%2C%22gachas%22%3A%5B%5D%2C%22haste%22%3A%7B%7D%7D"
+        ],
+        "level": 16,
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "gpi",
+        "pilotId": "gpi",
+        "mechId": "gpi-generation-2",
+        "side": "player",
+        "x": 2,
+        "y": 5,
+        "ai": "aggressive",
+        "tags": [],
+        "level": 16,
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "gem",
+        "pilotId": "gem",
+        "mechId": "v2-forms-saw-08-gem",
+        "side": "player",
+        "x": 2,
+        "y": 6,
+        "ai": "aggressive",
+        "tags": [],
+        "level": 16,
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "claude",
+        "pilotId": "claude",
+        "mechId": "claude-generation-2",
+        "side": "player",
+        "x": 1,
+        "y": 6,
+        "ai": "aggressive",
+        "tags": [],
+        "level": 16,
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "grok",
+        "pilotId": "grok",
+        "mechId": "grok-generation-2",
+        "side": "player",
+        "x": 1,
+        "y": 4,
+        "ai": "aggressive",
+        "tags": [],
+        "level": 16,
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "deepseek",
+        "pilotId": "deepseek",
+        "mechId": "deepseek-generation-2",
+        "side": "player",
+        "x": 2,
+        "y": 4,
+        "ai": "aggressive",
+        "tags": [],
+        "level": 16,
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      }
+    ],
+    "credits": 80000,
+    "parts": [
+      "repair-kit"
+    ],
+    "flags": {
+      "player-male": true,
+      "player-real": true,
+      "fixtureProgress": true
+    },
+    "cleared": [
+      "saw-01",
+      "saw-02",
+      "saw-03",
+      "saw-04",
+      "saw-05",
+      "saw-06",
+      "saw-07"
+    ],
+    "stageCredits": 80000,
+    "persona": "otaku",
+    "player": {
+      "name": "검사",
+      "preset": "otaku",
+      "type": "O",
+      "line": "real",
+      "cast": "otaku",
+      "actor": "otaku",
+      "unitId": "player",
+      "pilotId": "player",
+      "unitName": "프롬프트 커맨더",
+      "alternative": 0,
+      "placeholders": {
+        "이름": "name",
+        "플레이어": "name",
+        "플레이어기": "unitName",
+        "유저이름": "name"
+      }
+    },
+    "affection": {
+      "gpi": 41
+    }
+  },
+  "stageStart": {
+    "node": 14,
+    "roster": [
+      {
+        "id": "player",
+        "mechId": "player-real-generation-2",
+        "pilotId": "player",
+        "x": 1,
+        "y": 5,
+        "side": "player",
+        "level": 16,
+        "tags": [
+          "command-aura",
+          "v2-rules:%7B%22version%22%3A1%2C%22units%22%3A%7B%22gem%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%EB%82%98%EB%85%B8%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22evade%22%3A20%2C%22attack%22%3A-300%7D%2C%7B%22id%22%3A%22%ED%94%84%EB%A1%9C%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22armor%22%3A150%7D%2C%7B%22id%22%3A%22%EC%9A%B8%ED%8A%B8%EB%9D%BC%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22attack%22%3A450%2C%22armor%22%3A-100%7D%5D%7D%2C%22qwen%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%EC%95%85%EC%9D%98%EC%B6%95%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22attack%22%3A600%2C%22armor%22%3A-150%7D%2C%7B%22id%22%3A%22%EC%96%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22counter%22%3A140%2C%22evade%22%3A10%7D%2C%7B%22id%22%3A%22%EB%A9%94%EA%B0%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22support%22%3A1%2C%22restore%22%3A16%2C%22armor%22%3A200%7D%5D%7D%7D%2C%22combos%22%3A%5B%5D%2C%22gachas%22%3A%5B%5D%2C%22haste%22%3A%7B%7D%7D"
+        ],
+        "ai": "aggressive",
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "gpi",
+        "mechId": "gpi-generation-2",
+        "pilotId": "gpi",
+        "x": 2,
+        "y": 5,
+        "side": "player",
+        "level": 16,
+        "tags": [],
+        "ai": "aggressive",
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "gem",
+        "mechId": "v2-forms-saw-08-gem",
+        "pilotId": "gem",
+        "x": 2,
+        "y": 6,
+        "side": "player",
+        "level": 16,
+        "tags": [],
+        "ai": "aggressive",
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "claude",
+        "mechId": "claude-generation-2",
+        "pilotId": "claude",
+        "x": 1,
+        "y": 6,
+        "side": "player",
+        "level": 16,
+        "tags": [],
+        "ai": "aggressive",
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "grok",
+        "mechId": "grok-generation-2",
+        "pilotId": "grok",
+        "x": 1,
+        "y": 4,
+        "side": "player",
+        "level": 16,
+        "tags": [],
+        "ai": "aggressive",
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      },
+      {
+        "id": "deepseek",
+        "mechId": "deepseek-generation-2",
+        "pilotId": "deepseek",
+        "x": 2,
+        "y": 4,
+        "side": "player",
+        "level": 16,
+        "tags": [],
+        "ai": "aggressive",
+        "exp": 19,
+        "upgrades": {
+          "hp": 1,
+          "en": 2,
+          "armor": 0,
+          "mobility": 0,
+          "weapons": 3
+        },
+        "parts": []
+      }
+    ],
+    "credits": 80000,
+    "parts": [
+      "repair-kit"
+    ],
+    "flags": {
+      "player-male": true,
+      "player-real": true,
+      "fixtureProgress": true
+    },
+    "cleared": [
+      "saw-01",
+      "saw-02",
+      "saw-03",
+      "saw-04",
+      "saw-05",
+      "saw-06",
+      "saw-07"
+    ],
+    "stageCredits": 80000,
+    "persona": "otaku",
+    "player": {
+      "name": "검사",
+      "preset": "otaku",
+      "type": "O",
+      "line": "real",
+      "cast": "otaku",
+      "actor": "otaku",
+      "unitId": "player",
+      "pilotId": "player",
+      "unitName": "프롬프트 커맨더",
+      "alternative": 0,
+      "placeholders": {
+        "이름": "name",
+        "플레이어": "name",
+        "플레이어기": "unitName",
+        "유저이름": "name"
+      }
+    },
+    "affection": {
+      "gpi": 41
+    }
+  },
+  "seed": 1,
+  "battle": {
+    "battle": "{\"version\":\"m2-save-2\",\"contentVersion\":\"m2-test-1\",\"stageId\":\"saw-08\",\"battle\":{\"round\":4,\"phase\":\"player\",\"rng\":1,\"options\":{\"autoResponse\":false},\"pending\":null,\"outcome\":null,\"units\":[{\"id\":\"player\",\"mechId\":\"player-real-generation-2\",\"pilotId\":\"player\",\"x\":1,\"y\":5,\"side\":\"player\",\"level\":16,\"tags\":[\"command-aura\",\"v2-rules:%7B%22version%22%3A1%2C%22units%22%3A%7B%22gem%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%EB%82%98%EB%85%B8%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22evade%22%3A20%2C%22attack%22%3A-300%7D%2C%7B%22id%22%3A%22%ED%94%84%EB%A1%9C%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22armor%22%3A150%7D%2C%7B%22id%22%3A%22%EC%9A%B8%ED%8A%B8%EB%9D%BC%22%2C%22mech%22%3A%22gem-generation-2%22%2C%22attack%22%3A450%2C%22armor%22%3A-100%7D%5D%7D%2C%22qwen%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%EC%95%85%EC%9D%98%EC%B6%95%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22attack%22%3A600%2C%22armor%22%3A-150%7D%2C%7B%22id%22%3A%22%EC%96%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22counter%22%3A140%2C%22evade%22%3A10%7D%2C%7B%22id%22%3A%22%EB%A9%94%EA%B0%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-generation-2%22%2C%22support%22%3A1%2C%22restore%22%3A16%2C%22armor%22%3A200%7D%5D%7D%7D%2C%22combos%22%3A%5B%5D%2C%22gachas%22%3A%5B%5D%2C%22haste%22%3A%7B%7D%7D\"],\"ai\":\"aggressive\",\"exp\":19,\"upgrades\":{\"hp\":1,\"en\":2,\"armor\":0,\"mobility\":0,\"weapons\":3},\"parts\":[],\"hp\":7800,\"en\":150,\"ammo\":{},\"morale\":100,\"sp\":90,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[]},{\"id\":\"gpi\",\"mechId\":\"gpi-generation-2\",\"pilotId\":\"gpi\",\"x\":2,\"y\":5,\"side\":\"player\",\"level\":16,\"tags\":[],\"ai\":\"aggressive\",\"exp\":19,\"upgrades\":{\"hp\":1,\"en\":2,\"armor\":0,\"mobility\":0,\"weapons\":3},\"parts\":[],\"hp\":8425,\"en\":150,\"ammo\":{},\"morale\":100,\"sp\":80,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[]},{\"id\":\"gem\",\"mechId\":\"v2-forms-saw-08-gem\",\"pilotId\":\"gem\",\"x\":2,\"y\":6,\"side\":\"player\",\"level\":16,\"tags\":[],\"ai\":\"aggressive\",\"exp\":19,\"upgrades\":{\"hp\":1,\"en\":2,\"armor\":0,\"mobility\":0,\"weapons\":3},\"parts\":[],\"hp\":8800,\"en\":210,\"ammo\":{},\"morale\":100,\"sp\":80,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[]},{\"id\":\"claude\",\"mechId\":\"claude-generation-2\",\"pilotId\":\"claude\",\"x\":1,\"y\":6,\"side\":\"player\",\"level\":16,\"tags\":[],\"ai\":\"aggressive\",\"exp\":19,\"upgrades\":{\"hp\":1,\"en\":2,\"armor\":0,\"mobility\":0,\"weapons\":3},\"parts\":[],\"hp\":6925,\"en\":170,\"ammo\":{},\"morale\":100,\"sp\":80,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[]},{\"id\":\"grok\",\"mechId\":\"grok-generation-2\",\"pilotId\":\"grok\",\"x\":1,\"y\":4,\"side\":\"player\",\"level\":16,\"tags\":[],\"ai\":\"aggressive\",\"exp\":19,\"upgrades\":{\"hp\":1,\"en\":2,\"armor\":0,\"mobility\":0,\"weapons\":3},\"parts\":[],\"hp\":7175,\"en\":150,\"ammo\":{},\"morale\":100,\"sp\":80,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[]},{\"id\":\"deepseek\",\"mechId\":\"deepseek-generation-2\",\"pilotId\":\"deepseek\",\"x\":2,\"y\":4,\"side\":\"player\",\"level\":16,\"tags\":[],\"ai\":\"aggressive\",\"exp\":19,\"upgrades\":{\"hp\":1,\"en\":2,\"armor\":0,\"mobility\":0,\"weapons\":3},\"parts\":[],\"hp\":8175,\"en\":150,\"ammo\":{},\"morale\":100,\"sp\":80,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[]},{\"id\":\"exaone-npc\",\"mechId\":\"exaone-generation-1\",\"pilotId\":\"exaone\",\"x\":5,\"y\":5,\"side\":\"neutral\",\"level\":3,\"tags\":[],\"ai\":\"hold\",\"hp\":7000,\"en\":120,\"ammo\":{},\"morale\":100,\"sp\":54,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"cookie-1\",\"mechId\":\"cookie-drone-episode-8\",\"pilotId\":\"unmanned\",\"x\":7,\"y\":5,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":5328,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"cookie-2\",\"mechId\":\"cookie-drone-episode-8\",\"pilotId\":\"unmanned\",\"x\":8,\"y\":7,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":5328,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"spell-1\",\"mechId\":\"spellchecker-episode-8\",\"pilotId\":\"unmanned\",\"x\":10,\"y\":3,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":5328,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"spell-2\",\"mechId\":\"spellchecker-episode-8\",\"pilotId\":\"unmanned\",\"x\":15,\"y\":10,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":5328,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"mistral\",\"mechId\":\"rival-mistral-episode-8\",\"pilotId\":\"mistral\",\"x\":13,\"y\":1,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":30626,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":50,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"hyperclova\",\"mechId\":\"rival-hyperclova-episode-8\",\"pilotId\":\"hyperclova\",\"x\":13,\"y\":9,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":34060,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":50,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0}]}}",
+    "seed": 1,
+    "mode": "idle",
+    "cursor": {
+      "x": 1,
+      "y": 5
+    },
+    "selected": null,
+    "target": null,
+    "weapon": null,
+    "path": [],
+    "lastTap": null,
+    "menuIndex": 0,
+    "elapsed": 0,
+    "clips": [],
+    "before": null,
+    "returnMode": "idle",
+    "held": false,
+    "mapKeys": false,
+    "commands": [],
+    "bannerPending": false
+  },
+  "scenario": {
+    "queue": [],
+    "fired": [
+      "0:"
+    ],
+    "allCounts": {
+      "2": 6
+    },
+    "waiting": null,
+    "objectives": {
+      "win": [
+        "미스트랄짱, 하이퍼클로바X짱 격파"
+      ],
+      "lose": [
+        "유저 격파 또는 아군 전멸"
+      ]
+    },
+    "bgm": null,
+    "fade": 7
+  }
+}

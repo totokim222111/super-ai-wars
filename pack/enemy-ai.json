@@ -1,0 +1,443 @@
+{
+  "saw-01": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "shrimp"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-02": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "midjourney",
+          "sd"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-03": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "leader"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 5
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-04": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "leader",
+          "grok"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-05": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "llama"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "llama-escorts",
+        "ids": [
+          "alpaca",
+          "vicuna",
+          "koala"
+        ],
+        "behavior": {
+          "pattern": "guard",
+          "anchorUnit": "llama",
+          "radius": 3
+        }
+      }
+    ]
+  },
+  "saw-06": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "deepseek-rival"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-07": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "muse"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "lab-raiders",
+        "ids": [
+          "soup-1",
+          "soup-2",
+          "soup-east",
+          "soup-west"
+        ],
+        "behavior": {
+          "pattern": "objective",
+          "area": "lab"
+        }
+      }
+    ]
+  },
+  "saw-08": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "mistral",
+          "hyperclova"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-09": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "glm",
+          "kimi"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "event-wave",
+        "ids": [
+          "kimi-2",
+          "kimi-3"
+        ],
+        "behavior": {
+          "pattern": "ambush",
+          "when": [
+            {
+              "turn": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-10": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "minimax"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-11": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "jepa-shield",
+          "camel"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-12": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "jepa",
+          "camel"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-13": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "pico-shield"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-14": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "pico-shell"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "event-wave",
+        "ids": [
+          "trial-tentacle-return-1",
+          "trial-tentacle-return-2"
+        ],
+        "behavior": {
+          "pattern": "ambush",
+          "when": [
+            {
+              "turn": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "saw-15": {
+    "default": {
+      "pattern": "aggressive"
+    },
+    "groups": [
+      {
+        "id": "bosses",
+        "ids": [
+          "pico"
+        ],
+        "behavior": {
+          "pattern": "boss",
+          "when": [
+            {
+              "hpBelow": 0.7
+            },
+            {
+              "turn": 4
+            }
+          ]
+        }
+      },
+      {
+        "id": "event-wave",
+        "ids": [
+          "trial-mask-break-1",
+          "trial-mask-break-2",
+          "trial-abyss-half-1",
+          "trial-abyss-half-2",
+          "trial-abyss-extra-0",
+          "trial-abyss-extra-1"
+        ],
+        "behavior": {
+          "pattern": "ambush",
+          "when": [
+            {
+              "turn": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

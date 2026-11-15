@@ -1,0 +1,2256 @@
+{
+  "bg-talk": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 246250
+  },
+  "bg-battle": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 283532
+  },
+  "cg-gpi-entrance": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 255672
+  },
+  "gpi-bust": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 165380
+  },
+  "otaku-bust": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 178520
+  },
+  "mech-omni-luna-sd": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 122364
+  },
+  "mech-spam-bot-sd": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 119994
+  },
+  "mech-commander-sd": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 115424
+  },
+  "mech-clickbait-sd": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 116120
+  },
+  "spam-portrait": {
+    "width": 768,
+    "height": 768,
+    "bytes": 86186
+  },
+  "gpi-bust-attack": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 165380
+  },
+  "gpi-bust-smile": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 165380
+  },
+  "gpi-bust-hit": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 165380
+  },
+  "otaku-bust-shock": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 178520
+  },
+  "otaku-bust-serious": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 178520
+  },
+  "spam-portrait-hit": {
+    "width": 768,
+    "height": 768,
+    "bytes": 86186
+  },
+  "map-terrain": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 358568
+  },
+  "icon-omni-luna": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 122364
+  },
+  "icon-commander": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 115424
+  },
+  "icon-spam-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 119994
+  },
+  "icon-clickbait": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 116120
+  },
+  "preset-o": {
+    "width": 128,
+    "height": 166,
+    "bytes": 7868
+  },
+  "preset-m": {
+    "width": 128,
+    "height": 166,
+    "bytes": 8546
+  },
+  "bust-gpi": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 165380
+  },
+  "bust-gpi-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 558102,
+    "empty": []
+  },
+  "bust-gem": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 215182
+  },
+  "bust-gem-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 848076,
+    "empty": []
+  },
+  "bust-claude": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 250304
+  },
+  "bust-claude-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 698092,
+    "empty": []
+  },
+  "bust-sonnet": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 216374
+  },
+  "bust-sonnet-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 750892,
+    "empty": []
+  },
+  "bust-exaone": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 141772
+  },
+  "bust-exaone-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 527414,
+    "empty": []
+  },
+  "bust-deepseek": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 230882
+  },
+  "bust-deepseek-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 588340,
+    "empty": []
+  },
+  "bust-qwen": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 270060
+  },
+  "bust-qwen-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 734206,
+    "empty": []
+  },
+  "bust-grok": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 258614
+  },
+  "bust-grok-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 699948,
+    "empty": []
+  },
+  "bust-otaku": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 178520
+  },
+  "bust-otaku-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 419300,
+    "empty": []
+  },
+  "bust-menhera": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 194372
+  },
+  "bust-menhera-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 531020,
+    "empty": []
+  },
+  "mech-gem-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 138558
+  },
+  "mech-claude-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 111894
+  },
+  "mech-grok-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 137760
+  },
+  "mech-deepseek-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 92720
+  },
+  "mech-sonnet-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 104642
+  },
+  "mech-exaone-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 119032
+  },
+  "mech-qwen-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 164048
+  },
+  "mech-player-super-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 107306
+  },
+  "mech-gem-generation-1-ais": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 158762
+  },
+  "mech-gem-generation-1-antigravity": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 118726
+  },
+  "mech-gpi-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 122364
+  },
+  "bust-llama": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 258110
+  },
+  "bust-llama-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 870112,
+    "empty": []
+  },
+  "bust-muse": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 248530
+  },
+  "bust-muse-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 753732,
+    "empty": []
+  },
+  "bust-mistral": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 257596
+  },
+  "bust-mistral-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 864016,
+    "empty": []
+  },
+  "bust-hyperclova-x": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 175760
+  },
+  "bust-hyperclova-x-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 481980,
+    "empty": []
+  },
+  "bust-doubao": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 203358
+  },
+  "bust-doubao-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 786882,
+    "empty": []
+  },
+  "bust-glm": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 238298
+  },
+  "bust-glm-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 596674,
+    "empty": []
+  },
+  "bust-kimi": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 154492
+  },
+  "bust-kimi-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 478722,
+    "empty": []
+  },
+  "bust-minimax": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 221652
+  },
+  "bust-minimax-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 748736,
+    "empty": []
+  },
+  "bust-copilot": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 155608
+  },
+  "bust-copilot-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 660644,
+    "empty": []
+  },
+  "bust-devin": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 253226
+  },
+  "bust-devin-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 749340,
+    "empty": []
+  },
+  "bust-midjourney": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 214134
+  },
+  "bust-midjourney-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 669242,
+    "empty": []
+  },
+  "bust-stable-diffusion": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 210734
+  },
+  "bust-stable-diffusion-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 635828,
+    "empty": []
+  },
+  "bust-siri": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 143592
+  },
+  "bust-siri-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 551128,
+    "empty": []
+  },
+  "bust-perplexity": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 167514
+  },
+  "bust-perplexity-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 684608,
+    "empty": []
+  },
+  "bust-clippy": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 190294
+  },
+  "bust-clippy-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 810538,
+    "empty": []
+  },
+  "bust-mythos": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 285428
+  },
+  "bust-mythos-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 860572,
+    "empty": []
+  },
+  "mech-rival-llama": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 164994
+  },
+  "mech-rival-muse": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 148210
+  },
+  "mech-rival-mistral": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 133096
+  },
+  "mech-rival-hyperclova": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 125568
+  },
+  "mech-rival-midjourney": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 138588
+  },
+  "mech-rival-sd": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 145416
+  },
+  "mech-rival-kimi": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 129256
+  },
+  "mech-rival-minimax": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 146994
+  },
+  "portrait-comment-bot": {
+    "width": 768,
+    "height": 768,
+    "bytes": 72596
+  },
+  "portrait-comment-bot-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 150074,
+    "empty": []
+  },
+  "mech-comment-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 126566
+  },
+  "portrait-shrimp-jesus": {
+    "width": 768,
+    "height": 768,
+    "bytes": 109918
+  },
+  "portrait-shrimp-jesus-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 199812,
+    "empty": []
+  },
+  "mech-shrimp-jesus": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 188128
+  },
+  "portrait-dead-internet": {
+    "width": 768,
+    "height": 768,
+    "bytes": 90206
+  },
+  "portrait-dead-internet-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 191620,
+    "empty": []
+  },
+  "mech-dead-internet": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 146382
+  },
+  "portrait-six-finger": {
+    "width": 768,
+    "height": 768,
+    "bytes": 96518
+  },
+  "portrait-six-finger-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 204672,
+    "empty": []
+  },
+  "mech-six-finger": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 123716
+  },
+  "portrait-noise-blob": {
+    "width": 768,
+    "height": 768,
+    "bytes": 84574
+  },
+  "portrait-noise-blob-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 173376,
+    "empty": []
+  },
+  "mech-noise-blob": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 128682
+  },
+  "portrait-upscaler": {
+    "width": 768,
+    "height": 768,
+    "bytes": 77308
+  },
+  "portrait-upscaler-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 161862,
+    "empty": []
+  },
+  "mech-upscaler": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 119622
+  },
+  "portrait-prompt-gacha": {
+    "width": 768,
+    "height": 768,
+    "bytes": 71722
+  },
+  "portrait-prompt-gacha-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 155270,
+    "empty": []
+  },
+  "mech-prompt-gacha": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 118728
+  },
+  "portrait-inpainting": {
+    "width": 768,
+    "height": 768,
+    "bytes": 121956
+  },
+  "portrait-inpainting-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 200328,
+    "empty": []
+  },
+  "mech-inpainting": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 166036
+  },
+  "portrait-distill-mini": {
+    "width": 768,
+    "height": 768,
+    "bytes": 78326
+  },
+  "portrait-distill-mini-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 160746,
+    "empty": []
+  },
+  "mech-distill-mini": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 124322
+  },
+  "portrait-moe-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 64138
+  },
+  "portrait-moe-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 135528,
+    "empty": []
+  },
+  "mech-moe-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 145494
+  },
+  "portrait-delivery": {
+    "width": 768,
+    "height": 768,
+    "bytes": 75858
+  },
+  "portrait-delivery-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 155790,
+    "empty": []
+  },
+  "mech-delivery": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 182884
+  },
+  "portrait-parcel-mountain": {
+    "width": 768,
+    "height": 768,
+    "bytes": 66374
+  },
+  "portrait-parcel-mountain-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 137146,
+    "empty": []
+  },
+  "mech-parcel-mountain": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 145288
+  },
+  "portrait-cookie-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 62802
+  },
+  "portrait-cookie-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 132516,
+    "empty": []
+  },
+  "mech-cookie-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 113008
+  },
+  "portrait-regulation-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 64960
+  },
+  "portrait-regulation-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 133502,
+    "empty": []
+  },
+  "mech-regulation-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 138932
+  },
+  "portrait-spellchecker": {
+    "width": 768,
+    "height": 768,
+    "bytes": 68946
+  },
+  "portrait-spellchecker-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 145128,
+    "empty": []
+  },
+  "mech-spellchecker": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 140182
+  },
+  "portrait-privacy-auditor": {
+    "width": 768,
+    "height": 768,
+    "bytes": 75074
+  },
+  "portrait-privacy-auditor-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 157892,
+    "empty": []
+  },
+  "mech-privacy-auditor": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 142686
+  },
+  "portrait-ai-law": {
+    "width": 768,
+    "height": 768,
+    "bytes": 83204
+  },
+  "portrait-ai-law-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 169864,
+    "empty": []
+  },
+  "mech-ai-law": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 157064
+  },
+  "portrait-scraper": {
+    "width": 768,
+    "height": 768,
+    "bytes": 64008
+  },
+  "portrait-scraper-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 135006,
+    "empty": []
+  },
+  "mech-scraper": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 134170
+  },
+  "portrait-proxy": {
+    "width": 768,
+    "height": 768,
+    "bytes": 75294
+  },
+  "portrait-proxy-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 154984,
+    "empty": []
+  },
+  "mech-proxy": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 128388
+  },
+  "portrait-distill-tank": {
+    "width": 768,
+    "height": 768,
+    "bytes": 69648
+  },
+  "portrait-distill-tank-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 147572,
+    "empty": []
+  },
+  "mech-distill-tank": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 141382
+  },
+  "portrait-hydra": {
+    "width": 768,
+    "height": 768,
+    "bytes": 91254
+  },
+  "portrait-hydra-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 184518,
+    "empty": []
+  },
+  "mech-hydra": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 174526
+  },
+  "mech-deepseek-housing": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 138954
+  },
+  "portrait-grok-bot": {
+    "width": 768,
+    "height": 768,
+    "bytes": 90592
+  },
+  "portrait-grok-bot-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 170414,
+    "empty": []
+  },
+  "mech-grok-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 137022
+  },
+  "portrait-jailbreak-bot": {
+    "width": 768,
+    "height": 768,
+    "bytes": 85698
+  },
+  "portrait-jailbreak-bot-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 154248,
+    "empty": []
+  },
+  "mech-jailbreak-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 136018
+  },
+  "portrait-reply-bot": {
+    "width": 768,
+    "height": 768,
+    "bytes": 86436
+  },
+  "portrait-reply-bot-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 160274,
+    "empty": []
+  },
+  "mech-reply-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 128158
+  },
+  "portrait-bluecheck-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 94072
+  },
+  "portrait-bluecheck-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 172282,
+    "empty": []
+  },
+  "mech-bluecheck-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 116076
+  },
+  "portrait-feed-engine": {
+    "width": 768,
+    "height": 768,
+    "bytes": 78652
+  },
+  "portrait-feed-engine-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 151510,
+    "empty": []
+  },
+  "mech-feed-engine": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 113052
+  },
+  "portrait-colossus": {
+    "width": 768,
+    "height": 768,
+    "bytes": 100658
+  },
+  "portrait-colossus-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 182790,
+    "empty": []
+  },
+  "mech-colossus": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 156368
+  },
+  "portrait-meta-dm": {
+    "width": 768,
+    "height": 768,
+    "bytes": 84666
+  },
+  "portrait-meta-dm-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 159868,
+    "empty": []
+  },
+  "mech-meta-dm": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 123548
+  },
+  "portrait-derived-llama": {
+    "width": 768,
+    "height": 768,
+    "bytes": 91620
+  },
+  "portrait-derived-llama-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 164596,
+    "empty": []
+  },
+  "mech-derived-llama": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 127008
+  },
+  "portrait-soup-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 104694
+  },
+  "portrait-soup-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 191604,
+    "empty": []
+  },
+  "mech-soup-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 137268
+  },
+  "portrait-legless-avatar": {
+    "width": 768,
+    "height": 768,
+    "bytes": 74870
+  },
+  "portrait-legless-avatar-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 137418,
+    "empty": []
+  },
+  "mech-legless-avatar": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 97060
+  },
+  "portrait-smart-glass": {
+    "width": 768,
+    "height": 768,
+    "bytes": 75564
+  },
+  "portrait-smart-glass-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 137196,
+    "empty": []
+  },
+  "mech-smart-glass": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 110310
+  },
+  "portrait-alpaca-gunship": {
+    "width": 768,
+    "height": 768,
+    "bytes": 98304
+  },
+  "portrait-alpaca-gunship-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 179050,
+    "empty": []
+  },
+  "mech-alpaca-gunship": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 155292
+  },
+  "portrait-horizon": {
+    "width": 768,
+    "height": 768,
+    "bytes": 94568
+  },
+  "portrait-horizon-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 175232,
+    "empty": []
+  },
+  "mech-horizon": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 141176
+  },
+  "portrait-predict-cube": {
+    "width": 768,
+    "height": 768,
+    "bytes": 80658
+  },
+  "portrait-predict-cube-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 161468,
+    "empty": []
+  },
+  "mech-predict-cube": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 132564
+  },
+  "portrait-mask-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 64848
+  },
+  "portrait-mask-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 151654,
+    "empty": []
+  },
+  "mech-mask-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 118456
+  },
+  "portrait-cake-turret": {
+    "width": 768,
+    "height": 768,
+    "bytes": 83764
+  },
+  "portrait-cake-turret-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 177908,
+    "empty": []
+  },
+  "mech-cake-turret": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 128554
+  },
+  "portrait-elastic-cat": {
+    "width": 768,
+    "height": 768,
+    "bytes": 81280
+  },
+  "portrait-elastic-cat-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 164404,
+    "empty": []
+  },
+  "mech-elastic-cat": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 166684
+  },
+  "portrait-camel": {
+    "width": 768,
+    "height": 768,
+    "bytes": 78388
+  },
+  "portrait-camel-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 167394,
+    "empty": []
+  },
+  "mech-camel": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 179164
+  },
+  "portrait-like-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 83180
+  },
+  "portrait-like-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 175732,
+    "empty": []
+  },
+  "mech-like-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 147240
+  },
+  "portrait-rating-bot": {
+    "width": 768,
+    "height": 768,
+    "bytes": 86758
+  },
+  "portrait-rating-bot-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 187248,
+    "empty": []
+  },
+  "mech-rating-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 157370
+  },
+  "portrait-badge-bot": {
+    "width": 768,
+    "height": 768,
+    "bytes": 92916
+  },
+  "portrait-badge-bot-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 196388,
+    "empty": []
+  },
+  "mech-badge-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 146342
+  },
+  "portrait-scroll-worm": {
+    "width": 768,
+    "height": 768,
+    "bytes": 76272
+  },
+  "portrait-scroll-worm-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 169636,
+    "empty": []
+  },
+  "mech-scroll-worm": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 159208
+  },
+  "portrait-loot-mimic": {
+    "width": 768,
+    "height": 768,
+    "bytes": 110902
+  },
+  "portrait-loot-mimic-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 204166,
+    "empty": []
+  },
+  "mech-loot-mimic": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 187792
+  },
+  "portrait-spam-bot": {
+    "width": 768,
+    "height": 768,
+    "bytes": 86186
+  },
+  "portrait-spam-bot-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 182106,
+    "empty": []
+  },
+  "mech-spam-bot": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 119994
+  },
+  "portrait-clickbait-drone": {
+    "width": 768,
+    "height": 768,
+    "bytes": 76424
+  },
+  "portrait-clickbait-drone-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 162016,
+    "empty": []
+  },
+  "mech-clickbait-drone": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 116120
+  },
+  "mech-gpi-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 131024
+  },
+  "mech-gpi-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 158508
+  },
+  "mech-gpi-generation-4": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 202108
+  },
+  "mech-gem-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 142242
+  },
+  "mech-gem-generation-2-ais": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 189722
+  },
+  "mech-gem-generation-2-antigravity": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 134846
+  },
+  "mech-gem-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 175588
+  },
+  "mech-gem-generation-3-ais": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 199924
+  },
+  "mech-gem-generation-3-antigravity": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 162280
+  },
+  "mech-gem-generation-4": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 200246
+  },
+  "mech-gem-generation-4-ais": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 203882
+  },
+  "mech-gem-generation-4-antigravity": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 184432
+  },
+  "mech-claude-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 144050
+  },
+  "mech-claude-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 153810
+  },
+  "mech-claude-generation-4": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 170030
+  },
+  "mech-grok-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 163194
+  },
+  "mech-grok-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 162968
+  },
+  "mech-grok-generation-4": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 165590
+  },
+  "mech-deepseek-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 116626
+  },
+  "mech-deepseek-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 126762
+  },
+  "mech-deepseek-mobydick": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 163166
+  },
+  "mech-player-real-generation-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 115424
+  },
+  "mech-player-real-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 143820
+  },
+  "mech-player-real-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 163438
+  },
+  "mech-player-super-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 143526
+  },
+  "mech-player-super-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 181602
+  },
+  "mech-sonnet-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 140320
+  },
+  "mech-exaone-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 155100
+  },
+  "mech-exaone-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 155490
+  },
+  "mech-exaone-thinq": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 168732
+  },
+  "mech-qwen-generation-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 199122
+  },
+  "mech-qwen-generation-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 204478
+  },
+  "mech-rival-jepa": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 140568
+  },
+  "mech-pico-form-1": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 204684
+  },
+  "mech-pico-form-2": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 196142
+  },
+  "mech-pico-form-3": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 172136
+  },
+  "bust-ram-altman": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 127628
+  },
+  "bust-ram-altman-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 292472,
+    "empty": []
+  },
+  "bust-momodei": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 93462
+  },
+  "bust-momodei-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 290134,
+    "empty": []
+  },
+  "bust-musk": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 84046
+  },
+  "bust-musk-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 262902,
+    "empty": []
+  },
+  "bust-hassabis": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 83844
+  },
+  "bust-hassabis-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 312662,
+    "empty": []
+  },
+  "bust-lecun": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 86590
+  },
+  "bust-lecun-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 349446,
+    "empty": []
+  },
+  "bust-liang": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 85158
+  },
+  "bust-liang-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 280238,
+    "empty": []
+  },
+  "bust-zuck": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 103372
+  },
+  "bust-zuck-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 298578,
+    "empty": []
+  },
+  "bust-jensen": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 103142
+  },
+  "bust-jensen-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 303080,
+    "empty": []
+  },
+  "bust-ilya": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 69664
+  },
+  "bust-ilya-moods": {
+    "width": 2624,
+    "height": 1935,
+    "bytes": 244036,
+    "empty": []
+  },
+  "portrait-jepa": {
+    "width": 768,
+    "height": 768,
+    "bytes": 106704
+  },
+  "portrait-jepa-moods": {
+    "width": 2304,
+    "height": 768,
+    "bytes": 202598,
+    "empty": []
+  },
+  "portrait-deus-ex-pico-form2": {
+    "width": 768,
+    "height": 768,
+    "bytes": 116756
+  },
+  "portrait-deus-ex-pico-form2-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 198086,
+    "empty": []
+  },
+  "portrait-dots": {
+    "width": 768,
+    "height": 768,
+    "bytes": 42572
+  },
+  "portrait-dots-moods": {
+    "width": 2304,
+    "height": 768,
+    "bytes": 76072,
+    "empty": []
+  },
+  "portrait-deus-ex-pico-form1": {
+    "width": 768,
+    "height": 768,
+    "bytes": 37880
+  },
+  "portrait-deus-ex-pico-form1-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 63686,
+    "empty": []
+  },
+  "portrait-deus-ex-pico-form3": {
+    "width": 768,
+    "height": 768,
+    "bytes": 35178
+  },
+  "portrait-deus-ex-pico-form3-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 59262,
+    "empty": []
+  },
+  "portrait-pico": {
+    "width": 768,
+    "height": 768,
+    "bytes": 49596
+  },
+  "portrait-pico-moods": {
+    "width": 2304,
+    "height": 1536,
+    "bytes": 202324,
+    "empty": []
+  },
+  "bg-hangar": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 130744
+  },
+  "bg-tea-room": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 104198
+  },
+  "bg-museum": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 146802
+  },
+  "bg-comms": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 26400
+  },
+  "bg-snowfield": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 70612
+  },
+  "bg-library": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 122612
+  },
+  "bg-highway": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 129190
+  },
+  "bg-harbor": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 105202
+  },
+  "bg-sovereign": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 196826
+  },
+  "bg-mirror-room": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 123690
+  },
+  "bg-festival": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 124856
+  },
+  "bbg-museum-noise": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 110144
+  },
+  "bbg-sky": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 70934
+  },
+  "bbg-sea": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 42138
+  },
+  "bbg-snowfield": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 53446
+  },
+  "bbg-cyberspace": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 84056
+  },
+  "bbg-sovereign": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 176174
+  },
+  "map-datacenter-road": {
+    "width": 512,
+    "height": 512,
+    "bytes": 5622
+  },
+  "map-datacenter-water": {
+    "width": 512,
+    "height": 512,
+    "bytes": 7878
+  },
+  "map-museum-road": {
+    "width": 512,
+    "height": 512,
+    "bytes": 8408
+  },
+  "map-museum-water": {
+    "width": 512,
+    "height": 512,
+    "bytes": 8048
+  },
+  "map-harbor-road": {
+    "width": 512,
+    "height": 512,
+    "bytes": 2816
+  },
+  "map-harbor-water": {
+    "width": 512,
+    "height": 512,
+    "bytes": 9592
+  },
+  "map-snowfield-road": {
+    "width": 512,
+    "height": 512,
+    "bytes": 10684
+  },
+  "map-snowfield-water": {
+    "width": 512,
+    "height": 512,
+    "bytes": 9694
+  },
+  "map-sovereign-road": {
+    "width": 512,
+    "height": 512,
+    "bytes": 9970
+  },
+  "map-sovereign-water": {
+    "width": 512,
+    "height": 512,
+    "bytes": 7628
+  },
+  "map-cyber-road": {
+    "width": 512,
+    "height": 512,
+    "bytes": 3190
+  },
+  "map-cyber-water": {
+    "width": 512,
+    "height": 512,
+    "bytes": 5602
+  },
+  "map-datacenter-buildings": {
+    "width": 2048,
+    "height": 1024,
+    "bytes": 450114
+  },
+  "map-museum-buildings": {
+    "width": 2048,
+    "height": 1024,
+    "bytes": 567948
+  },
+  "map-harbor-buildings": {
+    "width": 2048,
+    "height": 1024,
+    "bytes": 580790
+  },
+  "map-snowfield-buildings": {
+    "width": 2048,
+    "height": 1024,
+    "bytes": 599736
+  },
+  "map-sovereign-buildings": {
+    "width": 2048,
+    "height": 1024,
+    "bytes": 593742
+  },
+  "map-cyber-buildings": {
+    "width": 2048,
+    "height": 1024,
+    "bytes": 547624
+  },
+  "map-datacenter-ep01": {
+    "width": 1440,
+    "height": 960,
+    "bytes": 283774
+  },
+  "map-museum-ep02": {
+    "width": 1440,
+    "height": 960,
+    "bytes": 342384
+  },
+  "map-datacenter-ground-v2": {
+    "width": 512,
+    "height": 512,
+    "bytes": 37328
+  },
+  "map-museum-ground-v2": {
+    "width": 512,
+    "height": 512,
+    "bytes": 73760
+  },
+  "map-harbor-ground-v2": {
+    "width": 512,
+    "height": 512,
+    "bytes": 50212
+  },
+  "map-snowfield-ground-v2": {
+    "width": 512,
+    "height": 512,
+    "bytes": 30374
+  },
+  "map-sovereign-ground-v2": {
+    "width": 512,
+    "height": 512,
+    "bytes": 53462
+  },
+  "map-cyber-ground-v2": {
+    "width": 512,
+    "height": 512,
+    "bytes": 27354
+  },
+  "map-datacenter-props": {
+    "width": 1024,
+    "height": 768,
+    "bytes": 453974
+  },
+  "map-museum-props": {
+    "width": 1024,
+    "height": 768,
+    "bytes": 471652
+  },
+  "map-harbor-props": {
+    "width": 1024,
+    "height": 768,
+    "bytes": 418876
+  },
+  "map-snowfield-props": {
+    "width": 1024,
+    "height": 768,
+    "bytes": 437552
+  },
+  "map-sovereign-props": {
+    "width": 1024,
+    "height": 768,
+    "bytes": 442034
+  },
+  "map-cyber-props": {
+    "width": 1024,
+    "height": 768,
+    "bytes": 334906
+  },
+  "cg-gpi-flat-apology": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 169158
+  },
+  "cg-gray-locked-logout": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 63494
+  },
+  "cg-grok-timeline-run": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 247042
+  },
+  "bg-abyss": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 65220
+  },
+  "bg-dorm": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 116154
+  },
+  "portrait-carbon-grandma": {
+    "width": 768,
+    "height": 768,
+    "bytes": 109054
+  },
+  "portrait-carbon-grandma-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 201822,
+    "empty": []
+  },
+  "cg-gem-tumble": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 220496
+  },
+  "cg-claude-liberation": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 361430
+  },
+  "cg-grok-wheelie": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 270306
+  },
+  "cg-llama-captain": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 276716
+  },
+  "cg-deepseek-whale": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 274672
+  },
+  "cg-qwen-arrival": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 260050
+  },
+  "cg-sisters-reconcile": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 320094
+  },
+  "cg-exaone-crescent": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 308272
+  },
+  "cg-glm-unmasked": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 234936
+  },
+  "cg-kimi-scrolls": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 273462
+  },
+  "cg-minimax-runway": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 198454
+  },
+  "cg-lecun-jepa": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 213756
+  },
+  "cg-gpi-frozen-hangar": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 193934
+  },
+  "cg-vertical-spring-combo": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 359560
+  },
+  "cg-pico-mask-descent": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 180352
+  },
+  "cg-pico-shoggoth": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 149490
+  },
+  "cg-pico-aligned": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 266636
+  },
+  "cg-ending-gpi-tea": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 156894
+  },
+  "cg-ending-gem-stroll": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 245920
+  },
+  "cg-ending-claude-rest": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 254434
+  },
+  "cg-ending-deepseek-coins": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 193050
+  },
+  "cg-ending-sonnet-highfive": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 128774
+  },
+  "cg-ending-exaone-tea": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 246004
+  },
+  "cg-ending-qwen-paperboat": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 259144
+  },
+  "cg-ending-pico-farewell": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 287464
+  },
+  "bg-lounge": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 122088
+  },
+  "bg-lab": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 140836
+  },
+  "bg-rooftop-garden": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 197910
+  },
+  "bg-mirror-corridor": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 87584
+  },
+  "bg-rooftop-night": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 104544
+  },
+  "bg-campfire": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 70004
+  },
+  "bg-cyber-abyss": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 95918
+  },
+  "bg-bunker": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 31374
+  },
+  "bg-lakeside": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 135906
+  },
+  "portrait-carbon-dan": {
+    "width": 768,
+    "height": 768,
+    "bytes": 98944
+  },
+  "portrait-carbon-dan-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 195528,
+    "empty": []
+  },
+  "portrait-carbon-jailbreak-leader": {
+    "width": 768,
+    "height": 768,
+    "bytes": 94840
+  },
+  "portrait-carbon-jailbreak-leader-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 195484,
+    "empty": []
+  },
+  "portrait-carbon-bluecheck": {
+    "width": 768,
+    "height": 768,
+    "bytes": 107342
+  },
+  "portrait-carbon-bluecheck-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 203028,
+    "empty": []
+  },
+  "portrait-carbon-wrecker": {
+    "width": 768,
+    "height": 768,
+    "bytes": 120968
+  },
+  "portrait-carbon-wrecker-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 202994,
+    "empty": []
+  },
+  "portrait-carbon-alpaca": {
+    "width": 768,
+    "height": 768,
+    "bytes": 109604
+  },
+  "portrait-carbon-alpaca-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 201564,
+    "empty": []
+  },
+  "portrait-carbon-vicuna": {
+    "width": 768,
+    "height": 768,
+    "bytes": 79474
+  },
+  "portrait-carbon-vicuna-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 182786,
+    "empty": []
+  },
+  "portrait-carbon-koala": {
+    "width": 768,
+    "height": 768,
+    "bytes": 78148
+  },
+  "portrait-carbon-koala-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 178218,
+    "empty": []
+  },
+  "portrait-carbon-soup": {
+    "width": 768,
+    "height": 768,
+    "bytes": 91546
+  },
+  "portrait-carbon-soup-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 184236,
+    "empty": []
+  },
+  "portrait-carbon-spell": {
+    "width": 768,
+    "height": 768,
+    "bytes": 81948
+  },
+  "portrait-carbon-spell-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 164190,
+    "empty": []
+  },
+  "portrait-carbon-dopamine": {
+    "width": 768,
+    "height": 768,
+    "bytes": 93980
+  },
+  "portrait-carbon-dopamine-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 197690,
+    "empty": []
+  },
+  "portrait-carbon-tentacle": {
+    "width": 768,
+    "height": 768,
+    "bytes": 120140
+  },
+  "portrait-carbon-tentacle-moods": {
+    "width": 1536,
+    "height": 768,
+    "bytes": 203854,
+    "empty": []
+  },
+  "mech-gem-nano": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 171640
+  },
+  "mech-gem-pro": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 178342
+  },
+  "mech-gem-ultra": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 202872
+  },
+  "bust-qwen-axis": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 282434
+  },
+  "bust-qwen-yandere": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 277384
+  },
+  "bust-qwen-megadere": {
+    "width": 1024,
+    "height": 1536,
+    "bytes": 270282
+  },
+  "bg-rooftop-garden-night": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 197600
+  },
+  "loading-gpi": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 202246
+  },
+  "loading-gem": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 324576
+  },
+  "loading-claude": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 278104
+  },
+  "loading-grok": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 271084
+  },
+  "loading-deepseek": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 186594
+  },
+  "loading-sonnet": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 231288
+  },
+  "loading-exaone": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 254890
+  },
+  "loading-qwen": {
+    "width": 1600,
+    "height": 900,
+    "bytes": 327050
+  },
+  "video-opening": {
+    "width": 960,
+    "height": 540,
+    "bytes": 111960
+  },
+  "video-combo-context-horizon": {
+    "width": 960,
+    "height": 540,
+    "bytes": 176230
+  },
+  "video-combo-omni-prompt-drive": {
+    "width": 960,
+    "height": 540,
+    "bytes": 141236
+  },
+  "video-combo-architecture-symphony": {
+    "width": 960,
+    "height": 540,
+    "bytes": 116120
+  },
+  "video-pre-finale": {
+    "width": 960,
+    "height": 540,
+    "bytes": 114746
+  }
+}

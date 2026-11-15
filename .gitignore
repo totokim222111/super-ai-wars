@@ -1,0 +1,16 @@
+node_modules/
+dist/
+tools/out/
+__pycache__/
+*.pyc
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# The engine and copied media are managed in their own repositories.
+/engine/
+/pack/art/
+/pack/video/
+/pack/audio/**
+!/pack/audio/pack.json

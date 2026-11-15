@@ -1,0 +1,160 @@
+[
+  {
+    "id": "sea",
+    "name": "바다",
+    "env": "sea",
+    "moveCost": {
+      "air": 1,
+      "ground": 2,
+      "sea": 1,
+      "space": null
+    },
+    "hitMod": 0,
+    "damageMod": 0
+  },
+  {
+    "id": "ground",
+    "name": "구조물",
+    "env": "ground",
+    "moveCost": {
+      "air": 1,
+      "ground": 1,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": -5,
+    "damageMod": -5
+  },
+  {
+    "id": "base",
+    "name": "시험 기지",
+    "env": "ground",
+    "moveCost": {
+      "air": 1,
+      "ground": 1,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": -10,
+    "damageMod": -10,
+    "recover": {
+      "hp": 10,
+      "en": 10
+    }
+  },
+  {
+    "id": "wall",
+    "name": "시험 장벽",
+    "env": "ground",
+    "moveCost": {
+      "air": 1,
+      "ground": null,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": 0,
+    "damageMod": 0
+  },
+  {
+    "id": "saw-plain",
+    "name": "데이터셋",
+    "env": "ground",
+    "moveCost": {
+      "ground": 1,
+      "air": 1,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": 0,
+    "damageMod": 0,
+    "char": "."
+  },
+  {
+    "id": "saw-cache",
+    "name": "복구 서버",
+    "env": "ground",
+    "moveCost": {
+      "ground": 1,
+      "air": 1,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": -10,
+    "damageMod": -10,
+    "recover": {
+      "hp": 10,
+      "en": 10
+    },
+    "char": "C"
+  },
+  {
+    "id": "saw-road",
+    "name": "길",
+    "char": "=",
+    "env": "ground",
+    "moveCost": {
+      "ground": 1,
+      "air": 1,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": 0,
+    "damageMod": 0
+  },
+  {
+    "id": "saw-water",
+    "name": "물",
+    "char": "~",
+    "env": "sea",
+    "moveCost": {
+      "ground": null,
+      "air": 1,
+      "sea": 1,
+      "space": null
+    },
+    "hitMod": 0,
+    "damageMod": 0
+  },
+  {
+    "id": "saw-cover",
+    "name": "엄폐물",
+    "char": "^",
+    "env": "ground",
+    "moveCost": {
+      "ground": 1,
+      "air": 1,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": -15,
+    "damageMod": -10
+  },
+  {
+    "id": "saw-wall",
+    "name": "벽",
+    "char": "#",
+    "env": "ground",
+    "moveCost": {
+      "ground": null,
+      "air": null,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": 0,
+    "damageMod": 0
+  },
+  {
+    "id": "saw-boost",
+    "name": "하이웨이 가속 레인",
+    "char": ">",
+    "env": "ground",
+    "moveCost": {
+      "ground": 1,
+      "air": 1,
+      "sea": null,
+      "space": null
+    },
+    "hitMod": 0,
+    "damageMod": 0
+  }
+]

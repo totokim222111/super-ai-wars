@@ -1,0 +1,25 @@
+import {memoryStoryState} from './pack-fixture';
+import {readFile,stat} from '../tools/files.mjs';
+import {beforeAll,describe,it,expect} from 'vitest';
+import {loadPack,packActors,packLookup,type Pack} from '@engine/src/v2/pack/load';
+import {parseStory} from '@engine/src/v2/story/parse';
+import {StoryPlayback} from '@engine/src/v2/story/play';
+import {Screen} from '@engine/src/v2/screen';
+import {Sprite} from '@engine/src/v2/stage';
+import {Director,Taps} from '@engine/src/v2/director';
+import {Board} from '@engine/src/v2/map/board';
+import {Stage} from '@engine/src/v2/stage';
+import {Runner} from '@engine/src/v2/flow';
+let pack:Pack;
+beforeAll(async()=>{pack=await loadPack('content/packs/saw',p=>readFile(p,'utf8'));});
+const castIds=['gpi','saw-gem','claude','sonnet','exaone','deepseek','qwen','grok','otaku','menhera'];
+describe('물결1 등록',()=>{
+  it('같은 좌석에는 현재 발화자만 보여서 새 상반신끼리 겹치지 않는다',()=>{const show={stage:new Stage(),runner:new Runner()},taps=new Taps(),cast={a:{name:'A',color:'#fff',height:650},b:{name:'B',color:'#fff',height:650}},d=new Director(show,cast,{},taps);show.runner.run(d.play([{do:'enter',who:'a',side:'left'},{do:'enter',who:'b',side:'left'},{do:'say',who:'b',text:'둘'},{do:'say',who:'a',text:'하나'}]));for(let i=0;i<90;i++)show.runner.update(1/60);expect(show.stage.talk.nodes.filter(n=>n instanceof Sprite).map(n=>n.visible)).toEqual([false,true]);taps.press();show.runner.update(1/60);expect(show.stage.talk.nodes.filter(n=>n instanceof Sprite).map(n=>n.visible)).toEqual([true,false]);});
+  it('기체 그림을 쓰는 말은 칸 안의 72px에 맞춘다',()=>{const show={stage:new Stage(),runner:new Runner()},board=new Board(show,10,10);board.sync([{id:'a',cell:{col:1,row:1},iconFit:true} as never]);const sprite=show.stage.world.nodes.find(n=>n instanceof Sprite) as Sprite;expect(sprite.height).toBe(72);expect(sprite.width).toBeLessThanOrEqual(72);});
+  it.each(castIds)('%s의 상반신·표정 묶음·이름표와 실제 파일이 있다',async id=>{const c=pack.cast[id];expect(c.bust).toMatch(/^bust-/);expect(c.moodSheet?.order.slice(0,10)).toEqual(['default','smile','laugh','attack','serious','hit','shock','sad','angry','shy']);expect(c.moodSheet?.order.length).toBeLessThanOrEqual(12);expect(c.moods).toEqual({});expect(c.height).toBeGreaterThan(0);for(const art of [c.bust!,c.moodSheet!.art])expect((await stat('public'+pack.game.art.files[art])).size).toBeGreaterThan(0);expect(c.temporary).toBeUndefined();});
+  it('11장 기체의 기준점은 보이는 영역 안에 있고 빌린 말과 temporary가 없다',async()=>{const manifest=JSON.parse(await readFile('art-src/wave1/anchors-reviewed.json','utf8'));expect(Object.keys(manifest)).toHaveLength(11);for(const d of Object.values(manifest) as {unit:string;form?:string;art:string}[]){const u=d.form?pack.units[d.unit].forms![d.form]:pack.units[d.unit];expect(u.art).toBe(d.art);expect(u.icon).toBeUndefined();expect(u.temporary).toBeUndefined();expect(u.faces).toBe('left');for(const key of ['muzzle','hand','core','head','shoulder']){expect(u.anchors?.[key]).toHaveLength(2);expect(u.anchors![key].every(n=>n>=0&&n<=1)).toBe(true);}}});
+  it('젬 형태와 6명 새 파일럿이 스팸 초상 대신 자기 초상을 쓴다',()=>{for(const [mech,id]of [['gem-generation-1','saw-gem'],...['claude','sonnet','deepseek','exaone','qwen','grok'].map(id=>[id+'-generation-1',id])]){expect(pack.units[mech].pilotCast).toBe(id);const c=pack.cast[id],images={[c.bust!]:{id} as unknown as HTMLImageElement},u={mechId:mech,side:'player'} as never;const portrait=packLookup(pack,images).battle.pilot({id:'not-aliased'} as never,u).portrait;expect(portrait.faces.default).toBe(images[c.bust!]);}});
+  it('표준 영어/우리말·고유 표정 우리말이 모두 묶음 id로 읽힌다',()=>{const story=parseStory('@ 장면\ngpi(smile): 하나\ngpi(미소): 둘\ngpi(태연한 사과): 셋\n소네트짱(볼빵빵 서운함): 넷\ngpi(진지): 다섯','fixture',{cast:pack.cast});expect(story.issues).toEqual([]);expect(story.scenes['장면'].map(c=>'face'in c?c.face:undefined)).toEqual(['smile','smile','apology','pout','serious']);});
+  it('모든 팩 대본이 오류 없이 읽히며 옛 이식 흔적은 보존된다',()=>{expect(pack.errors).toEqual([]);for(const id of ['gem','rival','boss'])expect(pack.cast[id]).toBeDefined();});
+  it('타입 M의 등장과 표정은 menhera에 연결한다',()=>{class Page extends Screen{enter(){}}const screen=new Page();screen.app={sound:{play(){},music(){}}} as never;const o={naturalWidth:0} as HTMLImageElement,m={naturalWidth:0} as HTMLImageElement;const actors=packActors(pack,{});actors.otaku.faces={default:o};actors.menhera.faces={default:m};const p=new StoryPlayback(screen,actors,{},memoryStoryState('M'));screen.run(p.play({title:'',file:'fixture',issues:[],locations:[],scenes:{test:[{do:'enter',who:'otaku',side:'right'},{do:'face',who:'otaku',face:'smile'},{do:'say',who:'otaku',text:'같은 대사',face:'smile'}]}},'test'));for(let i=0;i<60;i++)screen.update(1/60);expect((screen.stage.talk.nodes.find(n=>n instanceof Sprite) as Sprite).image).toBe(m);expect((screen.stage.talk.nodes.find(n=>n instanceof Sprite) as Sprite).mood).toBe('smile');});
+});

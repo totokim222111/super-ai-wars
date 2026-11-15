@@ -1,0 +1,1621 @@
+{
+  "default": "story-daily",
+  "counts": {
+    "story-daily": 190,
+    "story-mystery": 22,
+    "story-resolve": 17,
+    "story-memory": 1
+  },
+  "assignments": [
+    {
+      "episode": "ep01",
+      "scene": "조우 spam-1",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "사건 구시대의 유물",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "조우 shrimp",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "격파 shrimp",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "선택_지적",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "선택_원샷",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "선택_오타쿠",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "선택_멘헤라",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep01",
+      "scene": "인터미션_마무리",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "사건 가챠 타일 당첨",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "가챠_성공연출",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "가챠_연출끝",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "사건 출처 요정의 서재",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "격파 sd",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "격파 midjourney",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "선택_돌멩이제거",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "선택_길치추궁",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "선택_오타쿠2",
+      "slot": "story-mystery",
+      "reason": "첫 대화의 미스터리 키워드",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "선택_멘헤라2",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep02",
+      "scene": "인터미션_마무리2",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "도입_실용",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "도입_원칙",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "도입_마무리",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "조우 grandma",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "사건 5시간 한도 도달",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "격파 leader",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "선택_새벽통신",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "선택_세줄요약",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "선택_오타쿠3",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep03",
+      "scene": "선택_멘헤라3",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "도입_자유편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "도입_규칙편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "도입_내기제안",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "조우 bluecheck",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "사건 음성 비서의 휴일",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "격파 leader",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "격파 grok",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "선택_격납고소감",
+      "slot": "story-resolve",
+      "reason": "첫 대화의 결의·희망 키워드",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "선택_장난모의",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "선택_오타쿠4",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "선택_멘헤라4",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "톨게이트_종료",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "도입_개방편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "도입_보안편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "도입_마무리5",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "사건 부두의 코딩 공방",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "조우 alpaca",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "격파 alpaca",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "격파 vicuna",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "격파 koala",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "선택_절충판결",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "선택_금고보관",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "선택_오타쿠5",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "선택_멘헤라5",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "도입_효율편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "도입_체급편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "사건 부두의 만두 포장마차",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "격파 qwen-rival",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "퀜_내기성공",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "퀜_격파대사",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "격파 deepseek-rival",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "승리_퀜합류",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "승리_마무리6",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "선택_절전동참",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "선택_복지예산",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "선택_오타쿠6",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "선택_멘헤라6",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "인터미션_마무리6",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "제3 턴 4",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep06",
+      "scene": "비녀_종료",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "도입_시장논리",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "도입_신념논리",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "도입_마무리7",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "조우 soup-1",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "턴 3",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "격파 muse",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "승리_소네트동행",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "승리_마무리7",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "인터미션_메뉴7",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "선택_실력칭찬",
+      "slot": "story-mystery",
+      "reason": "첫 대화의 미스터리 키워드",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "선택_자매수다",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "선택_오타쿠7",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "선택_멘헤라7",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "사건 연구소_경계",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "도입_글로벌편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "도입_소버린편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "도입_마무리8",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "조우 spell-1",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "조우_평범반응",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "조우_엑사원마무리",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "격파 mistral",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "격파 hyperclova",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "승리_엑사원파견",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "승리_마무리8",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "선택_고함연습",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "선택_조용한위로",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "선택_오타쿠8",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "선택_멘헤라8",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "승리_엑사원불합류",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "사건 친절한 막내",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep08",
+      "scene": "격파 cookie-1",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "도입_정통편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "도입_후발편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "도입_마무리9",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "조우 kimi",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "격파 kimi",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "격파 glm",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "선택_낙서정답",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "선택_함정간파",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "선택_오타쿠9",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "선택_멘헤라9",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "도입_유연편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "도입_주체편",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "도입_마무리10",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "사건 야시장 해적 포장마차",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "턴2_퀜반응",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "턴2_마무리",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "격파 minimax",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "선택_내년약속",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "선택_바이크칭찬",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "선택_오타쿠10",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "선택_멘헤라10",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "인터미션_이름호명",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_그록_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_그록_작별",
+      "slot": "story-memory",
+      "reason": "장면 이름: 회상·상실",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_그록",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_지피",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_지피_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_젬",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_젬_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_클로드",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_클로드_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_딥시크",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_딥시크_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_소네트",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_소네트_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_엑사원",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_엑사원_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_퀜",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "옥상_퀜_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep11",
+      "scene": "조우 jepa-shield",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep11",
+      "scene": "조우 camel",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep11",
+      "scene": "선택_진심증명",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep11",
+      "scene": "선택_반격다짐",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep11",
+      "scene": "선택_오타쿠11",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep11",
+      "scene": "선택_멘헤라11",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "동기화_지피이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "동기화_지피끝",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "공명_클로드이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "공명_클로드끝",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "격파 camel",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "조우_지피이름",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "조우_지피끝",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "격파 jepa",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "선택_이름허락",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "이름허락_고호감",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "선택_봄바람",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "선택_오타쿠12",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "선택_멘헤라12",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "인터미션_마무리12",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "사건 동기화_접촉",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "사건 공명_접촉",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep12",
+      "scene": "접촉_끝",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "조우 jepa",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "조우 dopamine-1",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "조우 pico-shield",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "선택_파괴검토",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "선택_이해시도",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "선택_오타쿠13",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "선택_멘헤라13",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "격파 llama",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "격파 minimax",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "격파 hyperclova",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "격파 jepa",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "친선_판정",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "친선_확인_llama",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "친선_확인_minimax",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "친선_확인_hyperclova",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "친선_확인_jepa",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "라이벌_철수0",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "라이벌_철수1",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "라이벌_철수2",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "라이벌_철수3",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "라이벌_철수4",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep13",
+      "scene": "친선_끝",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "조우 tentacle-1",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "격파 pico-shell",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "다짐_공통",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "다짐_오타쿠",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "다짐_멘헤라",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_지피",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_젬",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_클로드",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_그록",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_딥시크",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_소네트",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_엑사원",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "배웅_퀜",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep14",
+      "scene": "인터미션_마무리14",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "조우 pico",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "격파 pico mask",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "격파 pico abyss",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_지피",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_지피_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_젬",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_젬_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_클로드",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_클로드_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_그록",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_그록_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_딥시크",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_딥시크_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_소네트",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_소네트_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_엑사원",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_엑사원_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_퀜",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "게이트_퀜_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "최종_로그아웃",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "사건 코어_접근확인",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "코어_접근끝",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_선택",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_gpi",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_gem",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_claude",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_grok",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_deepseek",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_sonnet",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_exaone",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "엔딩_판정_qwen",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    }
+  ]
+}

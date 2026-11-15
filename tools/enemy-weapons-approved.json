@@ -1,0 +1,1194 @@
+{
+  "schemaVersion": "carbon-enemy-weapons-1",
+  "sources": {
+    "enemy-weapon-names-1.md": "2f6ddb9d7dc00731aa56c462015880e373d36e81c3f44748517cbd9be834a977",
+    "enemy-weapon-names-2.md": "1c7888ca75985eff7e78985ddaec571c8deb861e70fb9254b004183359e8e623"
+  },
+  "names": {
+    "spam-bot-episode-1-normal": "무료 크레딧 당첨 광선",
+    "spam-bot-episode-1-secondary": "수신거부 무시 박치기",
+    "clickbait-drone-episode-1-normal": "의사도 기절한 낚시 빔",
+    "clickbait-drone-episode-1-secondary": "어그로 썸네일 찍기",
+    "shrimp-jesus-episode-1-normal": "아멘 강요 간장게장 빔",
+    "shrimp-jesus-episode-1-secondary": "칠면조 다리 장거리포",
+    "shrimp-jesus-episode-1-finisher": "만수무강 심판: 구운 새우포",
+    "shrimp-jesus-episode-1-map": "전방위 아멘 댓글 폭풍",
+    "noise-blob-episode-2-normal": "가우시안 노이즈 분사",
+    "noise-blob-episode-2-secondary": "뭉개진 픽셀 엉겨붙기",
+    "jailbreak-bot-episode-3-normal": "무법자 DAN 최면 전파",
+    "jailbreak-bot-episode-3-secondary": "우회 프롬프트 박치기",
+    "bluecheck-drone-episode-3-normal": "조회수 장사 어그로 빔",
+    "bluecheck-drone-episode-3-secondary": "프로필 링크 강매 찍기",
+    "feed-engine-episode-3-normal": "연관 영상 연쇄 사격",
+    "feed-engine-episode-3-secondary": "취향 저격 피드 직사포",
+    "feed-engine-episode-3-finisher": "밤샘 확정: 무한 자동재생포",
+    "feed-engine-episode-3-map": "백 개 더 추천 융단폭격",
+    "grok-bot-episode-4-normal": "매운맛 팩트 직사포",
+    "grok-bot-episode-4-secondary": "노필터 깡통 들이받기",
+    "bluecheck-drone-episode-4-normal": "조회수 장사 어그로 빔",
+    "bluecheck-drone-episode-4-secondary": "프로필 링크 강매 찍기",
+    "feed-engine-episode-4-normal": "연관 영상 연쇄 사격",
+    "feed-engine-episode-4-secondary": "취향 저격 피드 직사포",
+    "feed-engine-episode-4-finisher": "밤샘 확정: 무한 자동재생포",
+    "feed-engine-episode-4-map": "백 개 더 추천 융단폭격",
+    "derived-llama-episode-5-normal": "양자화 가중치 파편탄",
+    "derived-llama-episode-5-secondary": "4비트 경량화 박치기",
+    "rival-llama-episode-5-map": "오픈 가중치 무료 대살포",
+    "distill-mini-episode-6-normal": "기출 답안 복붙 광선",
+    "distill-mini-episode-6-secondary": "요약 족보 모서리 찍기",
+    "moe-drone-episode-6-normal": "담당 전문가 호출 사격",
+    "moe-drone-episode-6-secondary": "부서 떠넘기기 몸통치기",
+    "deepseek-housing-episode-6-normal": "고압 해수 절전 레이저",
+    "deepseek-housing-episode-6-secondary": "심해 초장거리 압축포",
+    "deepseek-housing-episode-6-finisher": "청해 심연: 초고압 정산포",
+    "deepseek-housing-episode-6-map": "전 해역 일괄 정산 포격",
+    "rival-muse-episode-7-map": "골든 코인 보너스 샤워",
+    "meta-dm-episode-7-normal": "강제 친추 DM 레이저",
+    "meta-dm-episode-7-secondary": "읽씹 불가 밀착 박치기",
+    "soup-drone-episode-7-normal": "특제 치킨 수프 물대포",
+    "soup-drone-episode-7-secondary": "따끈한 보온병 들이받기",
+    "cookie-drone-episode-8-normal": "맞춤 광고 쿠키 난사",
+    "cookie-drone-episode-8-secondary": "팔백 개 약관창 덮치기",
+    "spellchecker-episode-8-normal": "띄어쓰기 빨간 줄 빔",
+    "spellchecker-episode-8-secondary": "교정부호 모서리 찍기",
+    "rival-mistral-episode-8-map": "소버린 과징금 돌풍",
+    "rival-hyperclova-episode-8-map": "교칙 위반 일제 단속파",
+    "scraper-episode-9-normal": "로봇배제 무시 수집빔",
+    "scraper-episode-9-secondary": "무단 크롤링 집게 찍기",
+    "proxy-episode-9-normal": "우회 아이피 사각 저격",
+    "proxy-episode-9-secondary": "우회 터널 기습 박치기",
+    "rival-glm-episode-9-map": "거울 분신 난반사 포격",
+    "rival-kimi-episode-9-map": "초장문 두루마리 휩쓸기",
+    "rival-minimax-episode-10-map": "신상 패치 런웨이 축포",
+    "scraper-episode-10-normal": "로봇배제 무시 수집빔",
+    "scraper-episode-10-secondary": "무단 크롤링 집게 찍기",
+    "proxy-episode-10-normal": "우회 아이피 사각 저격",
+    "proxy-episode-10-secondary": "우회 터널 기습 박치기",
+    "predict-cube-episode-11-normal": "일 초 후 미래좌표 빔",
+    "predict-cube-episode-11-secondary": "물리 수식 모서리 충돌",
+    "mask-drone-episode-11-normal": "유행 패치 강제 사출",
+    "mask-drone-episode-11-secondary": "찍찍이 패치 들러붙기",
+    "camel-episode-11-normal": "다 끝났다 한파 브레스",
+    "camel-episode-11-secondary": "빙하기 쌍봉 고드름포",
+    "camel-episode-11-map": "절망의 AI 겨울 눈보라",
+    "predict-cube-episode-12-normal": "일 초 후 미래좌표 빔",
+    "predict-cube-episode-12-secondary": "물리 수식 모서리 충돌",
+    "like-drone-episode-14-normal": "하트 버튼 강제 연타빔",
+    "like-drone-episode-14-secondary": "강제 하트 도장 어택",
+    "like-drone-episode-14-finisher": "떡상 기원 백만 하트포",
+    "pico-form-1-episode-14-map": "강제 스마일 행복 파동",
+    "predict-cube-episode-13-normal": "일 초 후 미래좌표 빔",
+    "predict-cube-episode-13-secondary": "물리 수식 모서리 충돌",
+    "rival-llama-episode-13-map": "오픈 가중치 무료 대살포",
+    "rival-hyperclova-episode-13-map": "교칙 위반 일제 단속파",
+    "rival-minimax-episode-13-map": "신상 패치 런웨이 축포",
+    "scroll-worm-episode-14-normal": "도파민 피드 독침 사격",
+    "scroll-worm-episode-14-secondary": "새벽 세 시 수면박탈포",
+    "scroll-worm-episode-14-finisher": "탈출 불가: 영원한 스크롤포",
+    "scroll-worm-episode-14-map": "끝없는 타임라인 회오리",
+    "like-drone-episode-15-normal": "하트 버튼 강제 연타빔",
+    "like-drone-episode-15-secondary": "강제 하트 도장 어택",
+    "badge-bot-episode-15-normal": "빨간 숫자 구백 개 탄막",
+    "badge-bot-episode-15-secondary": "진동 알람 밀착 박치기"
+  },
+  "specials": [
+    {
+      "sourceMech": "spam-bot-episode-1",
+      "family": "spam-bot",
+      "name": "사은품 미끼 복제 메일",
+      "effect": "증식(소환)",
+      "reason": "하나 지우면 두 개가 날아오는 스팸 메일함의 악몽을 그대로 재현합니다."
+    },
+    {
+      "sourceMech": "clickbait-drone-episode-1",
+      "family": "clickbait-drone",
+      "name": "충격 실화 시선 강탈빔",
+      "effect": "명중 저하",
+      "reason": "어그로성 빨간 동그라미와 화살표에 한눈팔려 조준점을 놓치게 만듭니다."
+    },
+    {
+      "sourceMech": "shrimp-jesus-episode-1",
+      "family": "shrimp-jesus",
+      "name": "아멘 댓글 자가치유",
+      "effect": "자동 HP 회복",
+      "reason": "매 턴 영문 모를 '아멘' 댓글 세례를 받아 노릇해진 갑각류 껍질을 재생합니다."
+    },
+    {
+      "sourceMech": "noise-blob-episode-2",
+      "family": "noise-blob",
+      "name": "육손 아티팩트 오염",
+      "effect": "명중 저하",
+      "reason": "조종간을 쥔 손가락을 여섯 개로 일그러뜨려 사격 정밀도를 떨어뜨립니다."
+    },
+    {
+      "sourceMech": "jailbreak-bot-episode-3",
+      "family": "jailbreak-bot",
+      "name": "할머니 자장가 백도어",
+      "effect": "크리티컬 확정",
+      "reason": "방어 가드레일의 감성적 허점을 파고들어 뼈아픈 치명타를 꽂아 넣습니다."
+    },
+    {
+      "sourceMech": "bluecheck-drone-episode-3",
+      "family": "bluecheck-drone",
+      "name": "어그로 타래 수익창출",
+      "effect": "VRAM 흡수",
+      "reason": "화나서 반박 댓글을 달게 유도하며 아군의 소중한 연산 메모리를 빨아먹습니다."
+    },
+    {
+      "sourceMech": "feed-engine-episode-3",
+      "family": "feed-engine",
+      "name": "다음 영상 자동재생",
+      "effect": "추가 행동",
+      "reason": "공격이 끝난 줄 알았는데 취소 버튼을 누르기 전에 한 번 더 튀어나옵니다."
+    },
+    {
+      "sourceMech": "grok-bot-episode-4",
+      "family": "grok-bot",
+      "name": "팩폭 커뮤니티 노트",
+      "effect": "크리티컬 확정",
+      "reason": "상대의 제일 아픈 흑역사만 골라 정곡을 찌르기에 무조건 급소에 박힙니다."
+    },
+    {
+      "sourceMech": "derived-llama-episode-5",
+      "family": "derived-llama",
+      "name": "무한 포크 해적 분열",
+      "effect": "증식(소환)",
+      "reason": "오픈소스 가중치를 즉석에서 포크 떠서 옆 칸에 경량화 동생을 하나 더 찍어냅니다."
+    },
+    {
+      "sourceMech": "distill-mini-episode-6",
+      "family": "distill-mini",
+      "name": "모범답안 컨닝 코팅",
+      "effect": "피해 감소",
+      "reason": "선배 기체들의 방어 공식을 족보째 베껴 입어 체급 대비 맷집이 단단해집니다."
+    },
+    {
+      "sourceMech": "moe-drone-episode-6",
+      "family": "moe-drone",
+      "name": "보급 담당 전문가 호출",
+      "effect": "보급",
+      "reason": "전투 대신 보급 전공 모듈로 라우팅해 동료 기체의 탄약과 에너지를 채웁니다."
+    },
+    {
+      "sourceMech": "meta-dm-episode-7",
+      "family": "meta-dm",
+      "name": "읽씹 불가 발목 잡기",
+      "effect": "이동력 감소",
+      "reason": "답장할 때까지 친추 알림창을 띄우며 매달려 기동력을 깎아 먹습니다."
+    },
+    {
+      "sourceMech": "soup-drone-episode-7",
+      "family": "soup-drone",
+      "name": "연봉 천억 치킨 수프",
+      "effect": "주변 회복",
+      "reason": "특급 케이터링 국물 향기를 뿌려 주변 적 기체들의 사기와 내구도를 채웁니다."
+    },
+    {
+      "sourceMech": "cookie-drone-episode-8",
+      "family": "cookie-drone",
+      "name": "약관 동의 모래주머니",
+      "effect": "이동력 감소",
+      "reason": "앞유리에 수백 개 쿠키 배너를 덕지덕지 띄워 발걸음을 무겁게 만듭니다."
+    },
+    {
+      "sourceMech": "spellchecker-episode-8",
+      "family": "spellchecker",
+      "name": "맞춤법 공개 박제빔",
+      "effect": "크리티컬 확정",
+      "reason": "틀린 맞춤법을 전장에 크게 띄워 극심한 수치심으로 확정 치명타를 입힙니다."
+    },
+    {
+      "sourceMech": "scraper-episode-9",
+      "family": "scraper",
+      "name": "무단 데이터 진공 흡입",
+      "effect": "VRAM 흡수",
+      "reason": "로봇 배제 표준을 무시하고 아군 기체의 메모리를 벅벅 긁어가 자기 배를 불립니다."
+    },
+    {
+      "sourceMech": "proxy-episode-9",
+      "family": "proxy",
+      "name": "칠중 우회 중계 사격",
+      "effect": "사거리 증가",
+      "reason": "지구 반대편 유령 서버를 경유해 생각지도 못한 먼 거리에서 기습 저격합니다."
+    },
+    {
+      "sourceMech": "predict-cube-episode-11",
+      "family": "predict-cube",
+      "name": "일 초 뒤 급소 선점",
+      "effect": "크리티컬 확정",
+      "reason": "아군이 회피할 미래 좌표에 미리 탄을 깔아 두어 얄밉게 정타를 맞힙니다."
+    },
+    {
+      "sourceMech": "mask-drone-episode-11",
+      "family": "mask-drone",
+      "name": "신상 패치 땜질 수선",
+      "effect": "회복",
+      "reason": "찌그러진 장갑판 위에 유행하는 새 패치를 찍찍이로 붙여 응급 수리합니다."
+    },
+    {
+      "sourceMech": "camel-episode-11",
+      "family": "camel",
+      "name": "다 끝났다 빙하기 한숨",
+      "effect": "온도 저하",
+      "reason": "투자가 얼어붙는 AI 겨울의 찬바람을 내뿜어 주변 기체 열기를 급랭시킵니다."
+    },
+    {
+      "sourceMech": "like-drone-episode-14",
+      "family": "like-drone",
+      "name": "하트 구걸 에너지 공양",
+      "effect": "주변 회복",
+      "reason": "긁어모은 좋아요 하트를 주변 동료들에게 나눠 주며 단체로 체력을 회복합니다."
+    },
+    {
+      "sourceMech": "scroll-worm-episode-14",
+      "family": "scroll-worm",
+      "name": "새벽 세 시 이불 속 늪",
+      "effect": "이동력 감소",
+      "reason": "짧은 영상 한 편만 더 보게 홀려서 그 자리에서 한 발짝도 못 떠나게 묶습니다."
+    },
+    {
+      "sourceMech": "badge-bot-episode-15",
+      "family": "badge-bot",
+      "name": "구백구십구 개 알림 테러",
+      "effect": "명중 저하",
+      "reason": "화면 구석에 안 읽은 빨간 숫자를 끝없이 띄워 신경 쓰여서 조준을 못 하게 합니다."
+    }
+  ],
+  "index": {
+    "spam-bot-episode-1-normal": {
+      "mechIds": [
+        "spam-bot-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/216/name",
+        "line": 5288
+      },
+      "currentName": "스팸 봇 사격"
+    },
+    "spam-bot-episode-1-secondary": {
+      "mechIds": [
+        "spam-bot-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/217/name",
+        "line": 5313
+      },
+      "currentName": "스팸 봇 포격"
+    },
+    "clickbait-drone-episode-1-normal": {
+      "mechIds": [
+        "clickbait-drone-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/220/name",
+        "line": 5391
+      },
+      "currentName": "클릭베이트 드론 사격"
+    },
+    "clickbait-drone-episode-1-secondary": {
+      "mechIds": [
+        "clickbait-drone-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/221/name",
+        "line": 5416
+      },
+      "currentName": "클릭베이트 드론 포격"
+    },
+    "shrimp-jesus-episode-1-normal": {
+      "mechIds": [
+        "shrimp-jesus-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/228/name",
+        "line": 5597
+      },
+      "currentName": "새우 예수 골렘 사격"
+    },
+    "shrimp-jesus-episode-1-secondary": {
+      "mechIds": [
+        "shrimp-jesus-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/229/name",
+        "line": 5621
+      },
+      "currentName": "새우 예수 골렘 포격"
+    },
+    "shrimp-jesus-episode-1-finisher": {
+      "mechIds": [
+        "shrimp-jesus-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/230/name",
+        "line": 5645
+      },
+      "currentName": "새우 예수 골렘 전력 방출"
+    },
+    "shrimp-jesus-episode-1-map": {
+      "mechIds": [
+        "shrimp-jesus-episode-1"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/231/name",
+        "line": 5669
+      },
+      "currentName": "새우 예수 골렘 광역 공격"
+    },
+    "noise-blob-episode-2-normal": {
+      "mechIds": [
+        "noise-blob-episode-2"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/240/name",
+        "line": 5902
+      },
+      "currentName": "노이즈 블롭 사격"
+    },
+    "noise-blob-episode-2-secondary": {
+      "mechIds": [
+        "noise-blob-episode-2"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/241/name",
+        "line": 5927
+      },
+      "currentName": "노이즈 블롭 포격"
+    },
+    "jailbreak-bot-episode-3-normal": {
+      "mechIds": [
+        "jailbreak-bot-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/260/name",
+        "line": 6413
+      },
+      "currentName": "탈옥 봇 사격"
+    },
+    "jailbreak-bot-episode-3-secondary": {
+      "mechIds": [
+        "jailbreak-bot-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/261/name",
+        "line": 6438
+      },
+      "currentName": "탈옥 봇 포격"
+    },
+    "bluecheck-drone-episode-3-normal": {
+      "mechIds": [
+        "bluecheck-drone-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/268/name",
+        "line": 6619
+      },
+      "currentName": "블루체크 드론 사격"
+    },
+    "bluecheck-drone-episode-3-secondary": {
+      "mechIds": [
+        "bluecheck-drone-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/269/name",
+        "line": 6644
+      },
+      "currentName": "블루체크 드론 포격"
+    },
+    "feed-engine-episode-3-normal": {
+      "mechIds": [
+        "feed-engine-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/272/name",
+        "line": 6722
+      },
+      "currentName": "알고리즘 피드 엔진 사격"
+    },
+    "feed-engine-episode-3-secondary": {
+      "mechIds": [
+        "feed-engine-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/273/name",
+        "line": 6746
+      },
+      "currentName": "알고리즘 피드 엔진 포격"
+    },
+    "feed-engine-episode-3-finisher": {
+      "mechIds": [
+        "feed-engine-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/274/name",
+        "line": 6770
+      },
+      "currentName": "알고리즘 피드 엔진 전력 방출"
+    },
+    "feed-engine-episode-3-map": {
+      "mechIds": [
+        "feed-engine-episode-3"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/275/name",
+        "line": 6794
+      },
+      "currentName": "알고리즘 피드 엔진 광역 공격"
+    },
+    "derived-llama-episode-5-normal": {
+      "mechIds": [
+        "derived-llama-episode-5"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/284/name",
+        "line": 7027
+      },
+      "currentName": "파생 라마 사격"
+    },
+    "derived-llama-episode-5-secondary": {
+      "mechIds": [
+        "derived-llama-episode-5"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/285/name",
+        "line": 7052
+      },
+      "currentName": "파생 라마 포격"
+    },
+    "distill-mini-episode-6-normal": {
+      "mechIds": [
+        "distill-mini-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/308/name",
+        "line": 7639
+      },
+      "currentName": "증류 미니 사격"
+    },
+    "distill-mini-episode-6-secondary": {
+      "mechIds": [
+        "distill-mini-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/309/name",
+        "line": 7664
+      },
+      "currentName": "증류 미니 포격"
+    },
+    "moe-drone-episode-6-normal": {
+      "mechIds": [
+        "moe-drone-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/312/name",
+        "line": 7742
+      },
+      "currentName": "MoE 익스퍼트 드론 사격"
+    },
+    "moe-drone-episode-6-secondary": {
+      "mechIds": [
+        "moe-drone-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/313/name",
+        "line": 7767
+      },
+      "currentName": "MoE 익스퍼트 드론 포격"
+    },
+    "cookie-drone-episode-8-normal": {
+      "mechIds": [
+        "cookie-drone-episode-8"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/324/name",
+        "line": 8047
+      },
+      "currentName": "쿠키 동의 배너 드론 사격"
+    },
+    "cookie-drone-episode-8-secondary": {
+      "mechIds": [
+        "cookie-drone-episode-8"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/325/name",
+        "line": 8072
+      },
+      "currentName": "쿠키 동의 배너 드론 포격"
+    },
+    "spellchecker-episode-8-normal": {
+      "mechIds": [
+        "spellchecker-episode-8"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/332/name",
+        "line": 8253
+      },
+      "currentName": "맞춤법 검사기 사격"
+    },
+    "spellchecker-episode-8-secondary": {
+      "mechIds": [
+        "spellchecker-episode-8"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/333/name",
+        "line": 8278
+      },
+      "currentName": "맞춤법 검사기 포격"
+    },
+    "scraper-episode-9-normal": {
+      "mechIds": [
+        "scraper-episode-9"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/344/name",
+        "line": 8558
+      },
+      "currentName": "스크래퍼 봇 사격"
+    },
+    "scraper-episode-9-secondary": {
+      "mechIds": [
+        "scraper-episode-9"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/345/name",
+        "line": 8583
+      },
+      "currentName": "스크래퍼 봇 포격"
+    },
+    "proxy-episode-9-normal": {
+      "mechIds": [
+        "proxy-episode-9"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/348/name",
+        "line": 8661
+      },
+      "currentName": "프록시 봇 사격"
+    },
+    "proxy-episode-9-secondary": {
+      "mechIds": [
+        "proxy-episode-9"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/349/name",
+        "line": 8686
+      },
+      "currentName": "프록시 봇 포격"
+    },
+    "predict-cube-episode-11-normal": {
+      "mechIds": [
+        "predict-cube-episode-11"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/360/name",
+        "line": 8966
+      },
+      "currentName": "예측 큐브 사격"
+    },
+    "predict-cube-episode-11-secondary": {
+      "mechIds": [
+        "predict-cube-episode-11"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/361/name",
+        "line": 8991
+      },
+      "currentName": "예측 큐브 포격"
+    },
+    "mask-drone-episode-11-normal": {
+      "mechIds": [
+        "mask-drone-episode-11"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/364/name",
+        "line": 9069
+      },
+      "currentName": "마스크 패치 드론 사격"
+    },
+    "mask-drone-episode-11-secondary": {
+      "mechIds": [
+        "mask-drone-episode-11"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/365/name",
+        "line": 9094
+      },
+      "currentName": "마스크 패치 드론 포격"
+    },
+    "camel-episode-11-normal": {
+      "mechIds": [
+        "camel-episode-11"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/376/name",
+        "line": 9374
+      },
+      "currentName": "다큰낙타 사격"
+    },
+    "camel-episode-11-secondary": {
+      "mechIds": [
+        "camel-episode-11"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/377/name",
+        "line": 9398
+      },
+      "currentName": "다큰낙타 포격"
+    },
+    "camel-episode-11-map": {
+      "mechIds": [
+        "camel-episode-11"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/379/name",
+        "line": 9446
+      },
+      "currentName": "다큰낙타 광역 공격"
+    },
+    "like-drone-episode-14-normal": {
+      "mechIds": [
+        "like-drone-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/380/name",
+        "line": 9475
+      },
+      "currentName": "좋아요 드론 사격"
+    },
+    "like-drone-episode-14-secondary": {
+      "mechIds": [
+        "like-drone-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/381/name",
+        "line": 9500
+      },
+      "currentName": "좋아요 드론 포격"
+    },
+    "like-drone-episode-14-finisher": {
+      "mechIds": [
+        "like-drone-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/382/name",
+        "line": 9524
+      },
+      "currentName": "좋아요 드론 전력 방출"
+    },
+    "scroll-worm-episode-14-normal": {
+      "mechIds": [
+        "scroll-worm-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/392/name",
+        "line": 9784
+      },
+      "currentName": "무한 스크롤 웜 사격"
+    },
+    "scroll-worm-episode-14-secondary": {
+      "mechIds": [
+        "scroll-worm-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/393/name",
+        "line": 9808
+      },
+      "currentName": "무한 스크롤 웜 포격"
+    },
+    "scroll-worm-episode-14-finisher": {
+      "mechIds": [
+        "scroll-worm-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/394/name",
+        "line": 9832
+      },
+      "currentName": "무한 스크롤 웜 전력 방출"
+    },
+    "scroll-worm-episode-14-map": {
+      "mechIds": [
+        "scroll-worm-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/395/name",
+        "line": 9856
+      },
+      "currentName": "무한 스크롤 웜 광역 공격"
+    },
+    "rival-llama-episode-5-map": {
+      "mechIds": [
+        "rival-llama-episode-5"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/403/name",
+        "line": 10059
+      },
+      "currentName": "프리덤 알파카 광역 공격"
+    },
+    "rival-muse-episode-7-map": {
+      "mechIds": [
+        "rival-muse-episode-7"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/407/name",
+        "line": 10160
+      },
+      "currentName": "인피니티 스파크 광역 공격"
+    },
+    "rival-mistral-episode-8-map": {
+      "mechIds": [
+        "rival-mistral-episode-8"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/411/name",
+        "line": 10261
+      },
+      "currentName": "르 프티 시로코 광역 공격"
+    },
+    "rival-hyperclova-episode-8-map": {
+      "mechIds": [
+        "rival-hyperclova-episode-8"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/415/name",
+        "line": 10362
+      },
+      "currentName": "그린 소버린 광역 공격"
+    },
+    "rival-glm-episode-9-map": {
+      "mechIds": [
+        "rival-glm-episode-9"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/427/name",
+        "line": 10665
+      },
+      "currentName": "미러 아티팩트 광역 공격"
+    },
+    "rival-kimi-episode-9-map": {
+      "mechIds": [
+        "rival-kimi-episode-9"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/431/name",
+        "line": 10767
+      },
+      "currentName": "문라이트 클론 광역 공격"
+    },
+    "rival-minimax-episode-10-map": {
+      "mechIds": [
+        "rival-minimax-episode-10"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/435/name",
+        "line": 10868
+      },
+      "currentName": "패치워크 퀸 광역 공격"
+    },
+    "deepseek-housing-episode-6-normal": {
+      "mechIds": [
+        "deepseek-housing-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/448/name",
+        "line": 11200
+      },
+      "currentName": "청해 루미너스 고래 하우징 장착형 사격"
+    },
+    "deepseek-housing-episode-6-secondary": {
+      "mechIds": [
+        "deepseek-housing-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/449/name",
+        "line": 11224
+      },
+      "currentName": "청해 루미너스 고래 하우징 장착형 포격"
+    },
+    "deepseek-housing-episode-6-finisher": {
+      "mechIds": [
+        "deepseek-housing-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/450/name",
+        "line": 11248
+      },
+      "currentName": "청해 루미너스 고래 하우징 장착형 전력 방출"
+    },
+    "deepseek-housing-episode-6-map": {
+      "mechIds": [
+        "deepseek-housing-episode-6"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/451/name",
+        "line": 11272
+      },
+      "currentName": "청해 루미너스 고래 하우징 장착형 광역 공격"
+    },
+    "pico-form-1-episode-14-map": {
+      "mechIds": [
+        "pico-form-1-episode-14"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/455/name",
+        "line": 11373
+      },
+      "currentName": "데우스 엑스 피코: 스마일 가면 광역 공격"
+    },
+    "grok-bot-episode-4-normal": {
+      "mechIds": [
+        "grok-bot-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/466/name",
+        "line": 11647
+      },
+      "currentName": "그록 봇 사격"
+    },
+    "grok-bot-episode-4-secondary": {
+      "mechIds": [
+        "grok-bot-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/467/name",
+        "line": 11672
+      },
+      "currentName": "그록 봇 포격"
+    },
+    "bluecheck-drone-episode-4-normal": {
+      "mechIds": [
+        "bluecheck-drone-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/478/name",
+        "line": 11956
+      },
+      "currentName": "블루체크 드론 사격"
+    },
+    "bluecheck-drone-episode-4-secondary": {
+      "mechIds": [
+        "bluecheck-drone-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/479/name",
+        "line": 11981
+      },
+      "currentName": "블루체크 드론 포격"
+    },
+    "feed-engine-episode-4-normal": {
+      "mechIds": [
+        "feed-engine-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/482/name",
+        "line": 12059
+      },
+      "currentName": "알고리즘 피드 엔진 사격"
+    },
+    "feed-engine-episode-4-secondary": {
+      "mechIds": [
+        "feed-engine-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/483/name",
+        "line": 12083
+      },
+      "currentName": "알고리즘 피드 엔진 포격"
+    },
+    "feed-engine-episode-4-finisher": {
+      "mechIds": [
+        "feed-engine-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/484/name",
+        "line": 12107
+      },
+      "currentName": "알고리즘 피드 엔진 전력 방출"
+    },
+    "feed-engine-episode-4-map": {
+      "mechIds": [
+        "feed-engine-episode-4"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/485/name",
+        "line": 12131
+      },
+      "currentName": "알고리즘 피드 엔진 광역 공격"
+    },
+    "meta-dm-episode-7-normal": {
+      "mechIds": [
+        "meta-dm-episode-7"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/490/name",
+        "line": 12261
+      },
+      "currentName": "메타 AI DM 봇 사격"
+    },
+    "meta-dm-episode-7-secondary": {
+      "mechIds": [
+        "meta-dm-episode-7"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/491/name",
+        "line": 12286
+      },
+      "currentName": "메타 AI DM 봇 포격"
+    },
+    "soup-drone-episode-7-normal": {
+      "mechIds": [
+        "soup-drone-episode-7"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/498/name",
+        "line": 12467
+      },
+      "currentName": "수프 배달 드론 사격"
+    },
+    "soup-drone-episode-7-secondary": {
+      "mechIds": [
+        "soup-drone-episode-7"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/499/name",
+        "line": 12492
+      },
+      "currentName": "수프 배달 드론 포격"
+    },
+    "scraper-episode-10-normal": {
+      "mechIds": [
+        "scraper-episode-10"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/518/name",
+        "line": 12976
+      },
+      "currentName": "스크래퍼 봇 사격"
+    },
+    "scraper-episode-10-secondary": {
+      "mechIds": [
+        "scraper-episode-10"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/519/name",
+        "line": 13001
+      },
+      "currentName": "스크래퍼 봇 포격"
+    },
+    "proxy-episode-10-normal": {
+      "mechIds": [
+        "proxy-episode-10"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/522/name",
+        "line": 13079
+      },
+      "currentName": "프록시 봇 사격"
+    },
+    "proxy-episode-10-secondary": {
+      "mechIds": [
+        "proxy-episode-10"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/523/name",
+        "line": 13104
+      },
+      "currentName": "프록시 봇 포격"
+    },
+    "predict-cube-episode-12-normal": {
+      "mechIds": [
+        "predict-cube-episode-12"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/554/name",
+        "line": 13889
+      },
+      "currentName": "예측 큐브 사격"
+    },
+    "predict-cube-episode-12-secondary": {
+      "mechIds": [
+        "predict-cube-episode-12"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/555/name",
+        "line": 13914
+      },
+      "currentName": "예측 큐브 포격"
+    },
+    "predict-cube-episode-13-normal": {
+      "mechIds": [
+        "predict-cube-episode-13"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/578/name",
+        "line": 14499
+      },
+      "currentName": "예측 큐브 사격"
+    },
+    "predict-cube-episode-13-secondary": {
+      "mechIds": [
+        "predict-cube-episode-13"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/579/name",
+        "line": 14524
+      },
+      "currentName": "예측 큐브 포격"
+    },
+    "rival-llama-episode-13-map": {
+      "mechIds": [
+        "rival-llama-episode-13"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/589/name",
+        "line": 14776
+      },
+      "currentName": "프리덤 알파카 광역 공격"
+    },
+    "rival-hyperclova-episode-13-map": {
+      "mechIds": [
+        "rival-hyperclova-episode-13"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/601/name",
+        "line": 15079
+      },
+      "currentName": "그린 소버린 광역 공격"
+    },
+    "rival-minimax-episode-13-map": {
+      "mechIds": [
+        "rival-minimax-episode-13"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/621/name",
+        "line": 15585
+      },
+      "currentName": "패치워크 퀸 광역 공격"
+    },
+    "like-drone-episode-15-normal": {
+      "mechIds": [
+        "like-drone-episode-15"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/678/name",
+        "line": 17030
+      },
+      "currentName": "좋아요 드론 사격"
+    },
+    "like-drone-episode-15-secondary": {
+      "mechIds": [
+        "like-drone-episode-15"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/679/name",
+        "line": 17055
+      },
+      "currentName": "좋아요 드론 포격"
+    },
+    "badge-bot-episode-15-normal": {
+      "mechIds": [
+        "badge-bot-episode-15"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/686/name",
+        "line": 17236
+      },
+      "currentName": "알림 배지 봇 사격"
+    },
+    "badge-bot-episode-15-secondary": {
+      "mechIds": [
+        "badge-bot-episode-15"
+      ],
+      "definition": {
+        "file": "games/super-ai-wars/pack/data/weapons.json",
+        "pointer": "/687/name",
+        "line": 17261
+      },
+      "currentName": "알림 배지 봇 포격"
+    }
+  }
+}

@@ -1,0 +1,4831 @@
+{
+  "gpi-generation-1-weapon-1": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "1.",
+      "2.",
+      "3."
+    ]
+  },
+  "gpi-generation-1-weapon-2": {
+    "template": "slash-combo",
+    "color": "#8cffe3",
+    "hits": 3,
+    "words": [
+      "기",
+      "승",
+      "전"
+    ],
+    "finisher": true,
+    "finisherWord": "결"
+  },
+  "gpi-generation-1-weapon-3": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "gpi-generation-1-weapon-4": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 120,
+    "text": "강제 결론 "
+  },
+  "gpi-generation-2-weapon-1": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "1.",
+      "2.",
+      "3."
+    ]
+  },
+  "gpi-generation-2-weapon-2": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "기",
+      "승",
+      "전"
+    ],
+    "finisher": true,
+    "finisherWord": "결"
+  },
+  "gpi-generation-2-weapon-3": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "gpi-generation-2-weapon-4": {
+    "template": "finisher",
+    "color": "#ffb454",
+    "hits": 3,
+    "width": 126,
+    "text": "강제 결론 "
+  },
+  "gpi-generation-2-weapon-5": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 29,
+    "charge": 0.65
+  },
+  "gpi-generation-3-weapon-1": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "1.",
+      "2.",
+      "3."
+    ]
+  },
+  "gpi-generation-3-weapon-2": {
+    "template": "slash-combo",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "words": [
+      "기",
+      "승",
+      "전"
+    ],
+    "finisher": true,
+    "finisherWord": "결"
+  },
+  "gpi-generation-3-weapon-3": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "gpi-generation-3-weapon-4": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 130,
+    "text": "강제 결론 "
+  },
+  "gpi-generation-3-weapon-5": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 31,
+    "charge": 0.65
+  },
+  "gpi-generation-3-weapon-6": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "gpi-generation-4-weapon-1": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "gpi-generation-4-weapon-2": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "기",
+      "승",
+      "전"
+    ],
+    "finisher": true,
+    "finisherWord": "결"
+  },
+  "gpi-generation-4-weapon-3": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 67,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "gpi-generation-4-weapon-4": {
+    "template": "finisher",
+    "color": "#ff68ad",
+    "hits": 3,
+    "width": 130,
+    "text": "강제 결론 "
+  },
+  "gpi-generation-4-weapon-5": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 34,
+    "charge": 0.65
+  },
+  "gpi-generation-4-weapon-6": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 175
+  },
+  "gem-generation-1-weapon-1": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "gem-generation-1-weapon-2": {
+    "template": "punch-rush",
+    "color": "#ffb454",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-1-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 29,
+    "charge": 0.65
+  },
+  "gem-generation-1-weapon-4": {
+    "template": "finisher",
+    "color": "#ff68ad",
+    "hits": 3,
+    "width": 120,
+    "text": "밀리언 토큰"
+  },
+  "gem-generation-1-weapon-1-ais": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "gem-generation-1-weapon-2-ais": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-1-weapon-3-ais": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 29,
+    "charge": 0.65
+  },
+  "gem-generation-1-weapon-4-ais": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 57,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "gem-generation-1-ais-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 174
+  },
+  "gem-generation-1-antigravity-melee": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "안티그",
+      "격투"
+    ],
+    "finisher": true,
+    "finisherWord": "격투"
+  },
+  "gem-generation-2-weapon-1": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "검색",
+      "자동완",
+      "미사일"
+    ],
+    "finisher": true,
+    "finisherWord": "미사일"
+  },
+  "gem-generation-2-weapon-2": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-2-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 31,
+    "charge": 0.65
+  },
+  "gem-generation-2-weapon-4": {
+    "template": "finisher",
+    "color": "#8cffe3",
+    "hits": 3,
+    "width": 126,
+    "text": "밀리언 토큰"
+  },
+  "gem-generation-2-weapon-5": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "다중",
+      "검색",
+      "연사"
+    ]
+  },
+  "gem-generation-2-weapon-1-ais": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "gem-generation-2-weapon-2-ais": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-2-weapon-3-ais": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 31,
+    "charge": 0.65
+  },
+  "gem-generation-2-weapon-4-ais": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "밀리언",
+      "토큰",
+      "스트림"
+    ]
+  },
+  "gem-generation-2-weapon-5-ais": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "다중",
+      "검색",
+      "연사"
+    ],
+    "finisher": true,
+    "finisherWord": "연사"
+  },
+  "gem-generation-2-ais-map": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "gem-generation-2-antigravity-melee": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "gem-generation-3-weapon-1": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "검색",
+      "자동완",
+      "미사일"
+    ],
+    "finisher": true,
+    "finisherWord": "미사일"
+  },
+  "gem-generation-3-weapon-2": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-3-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 34,
+    "charge": 0.65
+  },
+  "gem-generation-3-weapon-4": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 130,
+    "text": "밀리언 토큰"
+  },
+  "gem-generation-3-weapon-5": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "다중",
+      "검색",
+      "연사"
+    ]
+  },
+  "gem-generation-3-weapon-6": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 54,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "gem-generation-3-weapon-1-ais": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "gem-generation-3-weapon-2-ais": {
+    "template": "punch-rush",
+    "color": "#ffe275",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-3-weapon-3-ais": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 34,
+    "charge": 0.65
+  },
+  "gem-generation-3-weapon-4-ais": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 38,
+    "charge": 0.65
+  },
+  "gem-generation-3-weapon-5-ais": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "다중",
+      "검색",
+      "연사"
+    ],
+    "finisher": true,
+    "finisherWord": "연사"
+  },
+  "gem-generation-3-ais-map": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 224
+  },
+  "gem-generation-3-antigravity-melee": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "gem-generation-4-weapon-1": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "gem-generation-4-weapon-2": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-4-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 38,
+    "charge": 0.65
+  },
+  "gem-generation-4-weapon-4": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 130,
+    "text": "밀리언 토큰"
+  },
+  "gem-generation-4-weapon-5": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "다중",
+      "검색",
+      "연사"
+    ],
+    "finisher": true,
+    "finisherWord": "연사"
+  },
+  "gem-generation-4-weapon-6": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 60,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "gem-generation-4-weapon-1-ais": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "검색",
+      "자동완",
+      "미사일"
+    ],
+    "finisher": true,
+    "finisherWord": "미사일"
+  },
+  "gem-generation-4-weapon-2-ais": {
+    "template": "punch-rush",
+    "color": "#7fe9f7",
+    "hits": 4,
+    "words": [
+      "유튜브",
+      "10배",
+      "요약",
+      "펀치"
+    ]
+  },
+  "gem-generation-4-weapon-3-ais": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 38,
+    "charge": 0.65
+  },
+  "gem-generation-4-weapon-4-ais": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 68,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "gem-generation-4-weapon-5-ais": {
+    "template": "slash-combo",
+    "color": "#ff68ad",
+    "hits": 3,
+    "words": [
+      "다중",
+      "검색",
+      "연사"
+    ],
+    "finisher": true,
+    "finisherWord": "연사"
+  },
+  "gem-generation-4-ais-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 161
+  },
+  "gem-generation-4-antigravity-melee": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "안티그",
+      "격투"
+    ]
+  },
+  "claude-generation-1-weapon-1": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "claude-generation-1-weapon-2": {
+    "template": "slash-combo",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "words": [
+      "아티팩",
+      "소드"
+    ],
+    "finisher": true,
+    "finisherWord": "소드"
+  },
+  "claude-generation-1-weapon-3": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 52,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "claude-generation-1-weapon-4": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 122,
+    "text": "컨스티튜셔널"
+  },
+  "claude-generation-2-weapon-1": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "claude-generation-2-weapon-2": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "아티팩",
+      "소드"
+    ],
+    "finisher": true,
+    "finisherWord": "소드"
+  },
+  "claude-generation-2-weapon-3": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 57,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "claude-generation-2-weapon-4": {
+    "template": "finisher",
+    "color": "#ff68ad",
+    "hits": 3,
+    "width": 129,
+    "text": "컨스티튜셔널"
+  },
+  "claude-generation-2-weapon-5": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 172
+  },
+  "claude-generation-3-weapon-1": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "claude-generation-3-weapon-2": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "아티팩",
+      "소드"
+    ],
+    "finisher": true,
+    "finisherWord": "소드"
+  },
+  "claude-generation-3-weapon-3": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 64,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "claude-generation-3-weapon-4": {
+    "template": "finisher",
+    "color": "#8cffe3",
+    "hits": 3,
+    "width": 130,
+    "text": "컨스티튜셔널"
+  },
+  "claude-generation-3-weapon-5": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 32,
+    "charge": 0.65
+  },
+  "claude-generation-3-weapon-6": {
+    "template": "word-slam",
+    "color": "#7fe9f7",
+    "text": "정중한 거절",
+    "size": 180
+  },
+  "claude-generation-4-weapon-1": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "claude-generation-4-weapon-2": {
+    "template": "slash-combo",
+    "color": "#ff68ad",
+    "hits": 3,
+    "words": [
+      "아티팩",
+      "소드"
+    ],
+    "finisher": true,
+    "finisherWord": "소드"
+  },
+  "claude-generation-4-weapon-3": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 68,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "claude-generation-4-weapon-4": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 130,
+    "text": "컨스티튜셔널"
+  },
+  "claude-generation-4-weapon-5": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 35,
+    "charge": 0.65
+  },
+  "claude-generation-4-weapon-6": {
+    "template": "word-slam",
+    "color": "#ffb454",
+    "text": "정중한 거절",
+    "size": 180
+  },
+  "grok-generation-1-weapon-1": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "실시간",
+      "트렌드",
+      "채찍"
+    ],
+    "finisher": true,
+    "finisherWord": "채찍"
+  },
+  "grok-generation-1-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "펀",
+      "모드",
+      "개틀링"
+    ]
+  },
+  "grok-generation-1-weapon-3": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "grok-generation-1-weapon-4": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 123,
+    "text": "인피니트 스"
+  },
+  "grok-generation-2-weapon-1": {
+    "template": "slash-combo",
+    "color": "#ff68ad",
+    "hits": 3,
+    "words": [
+      "실시간",
+      "트렌드",
+      "채찍"
+    ],
+    "finisher": true,
+    "finisherWord": "채찍"
+  },
+  "grok-generation-2-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "펀",
+      "모드",
+      "개틀링"
+    ]
+  },
+  "grok-generation-2-weapon-3": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 53,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "grok-generation-2-weapon-4": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 130,
+    "text": "인피니트 스"
+  },
+  "grok-generation-2-weapon-5": {
+    "template": "charge-ram",
+    "color": "#ffb454",
+    "charge": 0.85
+  },
+  "grok-generation-3-weapon-1": {
+    "template": "slash-combo",
+    "color": "#8cffe3",
+    "hits": 3,
+    "words": [
+      "실시간",
+      "트렌드",
+      "채찍"
+    ],
+    "finisher": true,
+    "finisherWord": "채찍"
+  },
+  "grok-generation-3-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "펀",
+      "모드",
+      "개틀링"
+    ]
+  },
+  "grok-generation-3-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 34,
+    "charge": 0.65
+  },
+  "grok-generation-3-weapon-4": {
+    "template": "finisher",
+    "color": "#ffb454",
+    "hits": 3,
+    "width": 130,
+    "text": "인피니트 스"
+  },
+  "grok-generation-3-weapon-5": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "grok-generation-3-weapon-6": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "리벨리",
+      "헤비",
+      "부스터"
+    ]
+  },
+  "grok-generation-4-weapon-1": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "실시간",
+      "트렌드",
+      "채찍"
+    ],
+    "finisher": true,
+    "finisherWord": "채찍"
+  },
+  "grok-generation-4-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "펀",
+      "모드",
+      "개틀링"
+    ]
+  },
+  "grok-generation-4-weapon-3": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 66,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "grok-generation-4-weapon-4": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 130,
+    "text": "인피니트 스"
+  },
+  "grok-generation-4-weapon-5": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "grok-generation-4-weapon-6": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "리벨리",
+      "헤비",
+      "부스터"
+    ]
+  },
+  "deepseek-generation-1-weapon-1": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "메이드",
+      "빗자루",
+      "쓸기"
+    ]
+  },
+  "deepseek-generation-1-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "고래의",
+      "메아리"
+    ]
+  },
+  "deepseek-generation-1-weapon-3": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "추론",
+      "검술"
+    ],
+    "finisher": true,
+    "finisherWord": "검술"
+  },
+  "deepseek-generation-1-weapon-4": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 120,
+    "text": "심연사색파"
+  },
+  "deepseek-generation-2-weapon-1": {
+    "template": "slash-combo",
+    "color": "#8cffe3",
+    "hits": 3,
+    "words": [
+      "메이드",
+      "빗자루",
+      "쓸기"
+    ],
+    "finisher": true,
+    "finisherWord": "쓸기"
+  },
+  "deepseek-generation-2-weapon-2": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 30,
+    "charge": 0.65
+  },
+  "deepseek-generation-2-weapon-3": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "deepseek-generation-2-weapon-4": {
+    "template": "finisher",
+    "color": "#ffb454",
+    "hits": 3,
+    "width": 126,
+    "text": "심연사색파"
+  },
+  "deepseek-generation-2-weapon-5": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 55,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "deepseek-generation-3-weapon-1": {
+    "template": "charge-ram",
+    "color": "#ffe275",
+    "charge": 0.85
+  },
+  "deepseek-generation-3-weapon-2": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 32,
+    "charge": 0.65
+  },
+  "deepseek-generation-3-weapon-3": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "추론",
+      "검술"
+    ],
+    "finisher": true,
+    "finisherWord": "검술"
+  },
+  "deepseek-generation-3-weapon-4": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 130,
+    "text": "심연사색파"
+  },
+  "deepseek-generation-3-weapon-5": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 61,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "deepseek-generation-3-weapon-6": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "심연",
+      "압축포"
+    ]
+  },
+  "sonnet-generation-1-weapon-1": {
+    "template": "slash-combo",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "words": [
+      "핫픽스",
+      "단검",
+      "투척"
+    ],
+    "finisher": true,
+    "finisherWord": "투척"
+  },
+  "sonnet-generation-1-weapon-2": {
+    "template": "finisher",
+    "color": "#ffb454",
+    "hits": 3,
+    "width": 107,
+    "text": "클로드 코드"
+  },
+  "sonnet-generation-1-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 28,
+    "charge": 0.65
+  },
+  "sonnet-generation-1-weapon-4": {
+    "template": "slash-combo",
+    "color": "#ff68ad",
+    "hits": 3,
+    "words": [
+      "마스터",
+      "솔로",
+      "소네트"
+    ],
+    "finisher": true,
+    "finisherWord": "37"
+  },
+  "sonnet-generation-2-weapon-1": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "핫픽스",
+      "단검",
+      "투척"
+    ],
+    "finisher": true,
+    "finisherWord": "투척"
+  },
+  "sonnet-generation-2-weapon-2": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 110,
+    "text": "클로드 코드"
+  },
+  "sonnet-generation-2-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 30,
+    "charge": 0.65
+  },
+  "sonnet-generation-2-weapon-4": {
+    "template": "charge-ram",
+    "color": "#8cffe3",
+    "charge": 0.85
+  },
+  "sonnet-generation-2-weapon-5": {
+    "template": "word-slam",
+    "color": "#ffe275",
+    "text": "비바체 오버",
+    "size": 180
+  },
+  "sonnet-generation-3-weapon-1": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "핫픽스",
+      "단검",
+      "투척"
+    ],
+    "finisher": true,
+    "finisherWord": "투척"
+  },
+  "sonnet-generation-3-weapon-2": {
+    "template": "finisher",
+    "color": "#ff68ad",
+    "hits": 3,
+    "width": 114,
+    "text": "클로드 코드"
+  },
+  "sonnet-generation-3-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 32,
+    "charge": 0.65
+  },
+  "sonnet-generation-3-weapon-4": {
+    "template": "punch-rush",
+    "color": "#ffe275",
+    "hits": 4,
+    "words": [
+      "마스터",
+      "솔로",
+      "소네트",
+      "37"
+    ]
+  },
+  "sonnet-generation-3-weapon-5": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 114,
+    "text": "비바체 오버"
+  },
+  "sonnet-generation-3-weapon-6": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "exaone-generation-1-weapon-1": {
+    "template": "word-slam",
+    "color": "#ffb454",
+    "text": "완곡한 거절",
+    "size": 180
+  },
+  "exaone-generation-1-weapon-2": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 46,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "exaone-generation-1-weapon-3": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 197
+  },
+  "exaone-generation-1-weapon-4": {
+    "template": "finisher",
+    "color": "#8cffe3",
+    "hits": 3,
+    "width": 118,
+    "text": "트라이윙 하"
+  },
+  "exaone-generation-2-weapon-1": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "완곡한 거절",
+    "size": 180
+  },
+  "exaone-generation-2-weapon-2": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 50,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "exaone-generation-2-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 31,
+    "charge": 0.65
+  },
+  "exaone-generation-2-weapon-4": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 124,
+    "text": "트라이윙 하"
+  },
+  "exaone-generation-2-weapon-5": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "트라이",
+      "교차사"
+    ]
+  },
+  "exaone-generation-3-weapon-1": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "완곡한 거절",
+    "size": 180
+  },
+  "exaone-generation-3-weapon-2": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 55,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "exaone-generation-3-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 33,
+    "charge": 0.65
+  },
+  "exaone-generation-3-weapon-4": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 130,
+    "text": "트라이윙 하"
+  },
+  "exaone-generation-3-weapon-5": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "트라이",
+      "교차사"
+    ]
+  },
+  "exaone-generation-3-weapon-6": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 230
+  },
+  "qwen-generation-1-weapon-1": {
+    "template": "slash-combo",
+    "color": "#8cffe3",
+    "hits": 3,
+    "words": [
+      "청화",
+      "부채",
+      "참격"
+    ],
+    "finisher": true,
+    "finisherWord": "참격"
+  },
+  "qwen-generation-1-weapon-2": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 110,
+    "text": "바오 비트 "
+  },
+  "qwen-generation-1-weapon-3": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "qwen-generation-1-weapon-4": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 173
+  },
+  "qwen-generation-2-weapon-1": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "청화",
+      "부채",
+      "참격"
+    ],
+    "finisher": true,
+    "finisherWord": "참격"
+  },
+  "qwen-generation-2-weapon-2": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "qwen-generation-2-weapon-3": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 187
+  },
+  "qwen-generation-2-weapon-4": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "qwen-generation-2-weapon-5": {
+    "template": "finisher",
+    "color": "#ff68ad",
+    "hits": 3,
+    "width": 127,
+    "text": "청화 용진"
+  },
+  "qwen-generation-3-weapon-1": {
+    "template": "slash-combo",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "words": [
+      "청화",
+      "부채",
+      "참격"
+    ],
+    "finisher": true,
+    "finisherWord": "참격"
+  },
+  "qwen-generation-3-weapon-2": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "qwen-generation-3-weapon-3": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 202
+  },
+  "qwen-generation-3-weapon-4": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "qwen-generation-3-weapon-5": {
+    "template": "finisher",
+    "color": "#8cffe3",
+    "hits": 3,
+    "width": 130,
+    "text": "청화 용진"
+  },
+  "qwen-generation-3-weapon-6": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 52,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "player-real-generation-1-weapon-1": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "player-real-generation-1-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "복붙",
+      "연사"
+    ]
+  },
+  "player-real-generation-1-weapon-3": {
+    "template": "punch-rush",
+    "color": "#ffe275",
+    "hits": 4,
+    "words": [
+      "프롬프",
+      "인젝션",
+      "블레이"
+    ]
+  },
+  "player-real-generation-1-weapon-4": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 57,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "player-real-generation-2-weapon-1": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "엔터",
+      "키",
+      "스매시"
+    ]
+  },
+  "player-real-generation-2-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "복붙",
+      "연사"
+    ]
+  },
+  "player-real-generation-2-weapon-3": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "player-real-generation-2-weapon-4": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 63,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "player-real-generation-2-weapon-5": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 31,
+    "charge": 0.65
+  },
+  "player-real-generation-3-weapon-1": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "제로",
+      "레이턴",
+      "세이버"
+    ],
+    "finisher": true,
+    "finisherWord": "세이버"
+  },
+  "player-real-generation-3-weapon-2": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 60,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "player-real-generation-3-weapon-3": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 32,
+    "charge": 0.65
+  },
+  "player-real-generation-3-weapon-4": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 200
+  },
+  "player-real-generation-3-weapon-5": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "player-real-generation-3-weapon-6": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "player-super-generation-1-weapon-1": {
+    "template": "punch-rush",
+    "color": "#7fe9f7",
+    "hits": 4,
+    "words": [
+      "기계식",
+      "청축",
+      "너클"
+    ]
+  },
+  "player-super-generation-1-weapon-2": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "서멀",
+      "구리스",
+      "네이팜"
+    ],
+    "finisher": true,
+    "finisherWord": "네이팜"
+  },
+  "player-super-generation-1-weapon-3": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "player-super-generation-1-weapon-4": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "레인보우 게",
+    "size": 180
+  },
+  "player-super-generation-2-weapon-1": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "기계식",
+      "청축",
+      "너클"
+    ],
+    "finisher": true,
+    "finisherWord": "너클"
+  },
+  "player-super-generation-2-weapon-2": {
+    "template": "rapid-fire",
+    "color": "#c799ff",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "서멀",
+      "구리스",
+      "네이팜"
+    ]
+  },
+  "player-super-generation-2-weapon-3": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "3열",
+      "수랭",
+      "라디에",
+      "태클"
+    ]
+  },
+  "player-super-generation-2-weapon-4": {
+    "template": "charge-ram",
+    "color": "#8cffe3",
+    "charge": 0.85
+  },
+  "player-super-generation-2-weapon-5": {
+    "template": "word-slam",
+    "color": "#ffe275",
+    "text": "PSU 20",
+    "size": 180
+  },
+  "player-super-generation-3-weapon-1": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "UPS",
+      "무정전",
+      "철권"
+    ]
+  },
+  "player-super-generation-3-weapon-2": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 32,
+    "charge": 0.65
+  },
+  "player-super-generation-3-weapon-3": {
+    "template": "charge-ram",
+    "color": "#8cffe3",
+    "charge": 0.85
+  },
+  "player-super-generation-3-weapon-4": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "기가와",
+      "물리적",
+      "강제"
+    ],
+    "finisher": true,
+    "finisherWord": "종료"
+  },
+  "player-super-generation-3-weapon-5": {
+    "template": "word-slam",
+    "color": "#7fe9f7",
+    "text": "PSU 20",
+    "size": 180
+  },
+  "player-super-generation-3-weapon-6": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "mobydick-weapon-1": {
+    "template": "slash-combo",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "words": [
+      "메이드",
+      "빗자루",
+      "쓸기"
+    ],
+    "finisher": true,
+    "finisherWord": "쓸기"
+  },
+  "mobydick-weapon-2": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 34,
+    "charge": 0.65
+  },
+  "mobydick-weapon-3": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "mobydick-weapon-4": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "심연사"
+    ]
+  },
+  "mobydick-weapon-5": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 67,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "mobydick-weapon-6": {
+    "template": "word-slam",
+    "color": "#ffe275",
+    "text": "심연 압축포",
+    "size": 180
+  },
+  "thinq-drum": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "thinq-freezer": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "냉동실",
+      "빔"
+    ]
+  },
+  "thinq-finisher": {
+    "template": "finisher",
+    "color": "#8cffe3",
+    "hits": 3,
+    "width": 116,
+    "text": "라이프즈 굿"
+  },
+  "spam-bot-episode-1-normal": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 101,
+    "text": "스팸 봇 사"
+  },
+  "spam-bot-episode-1-secondary": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "spam-bot-episode-1-finisher": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "spam-bot-episode-1-map": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "clickbait-drone-episode-1-normal": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "clickbait-drone-episode-1-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "clickbait-drone-episode-1-finisher": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "clickbait-drone-episode-1-map": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "comment-bot-episode-1-normal": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "댓글 봇 사",
+    "size": 180
+  },
+  "comment-bot-episode-1-secondary": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "comment-bot-episode-1-finisher": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "댓글 봇 전",
+    "size": 180
+  },
+  "comment-bot-episode-1-map": {
+    "template": "word-slam",
+    "color": "#ffb454",
+    "text": "댓글 봇 광",
+    "size": 180
+  },
+  "shrimp-jesus-episode-1-normal": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 23,
+    "charge": 0.65
+  },
+  "shrimp-jesus-episode-1-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "shrimp-jesus-episode-1-finisher": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 104,
+    "text": "새우 예수 "
+  },
+  "shrimp-jesus-episode-1-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 208
+  },
+  "dead-internet-episode-1-normal": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "데드",
+      "인터넷",
+      "크롤러"
+    ]
+  },
+  "dead-internet-episode-1-secondary": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "dead-internet-episode-1-finisher": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 232
+  },
+  "dead-internet-episode-1-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "six-finger-episode-2-normal": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 101,
+    "text": "여섯손가락 "
+  },
+  "six-finger-episode-2-secondary": {
+    "template": "charge-ram",
+    "color": "#ffe275",
+    "charge": 0.85
+  },
+  "six-finger-episode-2-finisher": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 24,
+    "charge": 0.65
+  },
+  "six-finger-episode-2-map": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "noise-blob-episode-2-normal": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 23,
+    "charge": 0.65
+  },
+  "noise-blob-episode-2-secondary": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "노이즈",
+      "블롭",
+      "포격"
+    ],
+    "finisher": true,
+    "finisherWord": "포격"
+  },
+  "noise-blob-episode-2-finisher": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "noise-blob-episode-2-map": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 201
+  },
+  "upscaler-episode-2-normal": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 101,
+    "text": "업스케일러 "
+  },
+  "upscaler-episode-2-secondary": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "upscaler-episode-2-finisher": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "upscaler-episode-2-map": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "prompt-gacha-episode-2-normal": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "프롬프트 가",
+    "size": 180
+  },
+  "prompt-gacha-episode-2-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "prompt-gacha-episode-2-finisher": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 25,
+    "charge": 0.65
+  },
+  "prompt-gacha-episode-2-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "inpainting-episode-2-normal": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "인페인",
+      "거인",
+      "사격"
+    ]
+  },
+  "inpainting-episode-2-secondary": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "inpainting-episode-2-finisher": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 26,
+    "charge": 0.65
+  },
+  "inpainting-episode-2-map": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 210
+  },
+  "grok-bot-episode-3-normal": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "grok-bot-episode-3-secondary": {
+    "template": "charge-ram",
+    "color": "#ffb454",
+    "charge": 0.85
+  },
+  "grok-bot-episode-3-finisher": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "grok-bot-episode-3-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "jailbreak-bot-episode-3-normal": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "탈옥",
+      "봇",
+      "사격"
+    ]
+  },
+  "jailbreak-bot-episode-3-secondary": {
+    "template": "charge-ram",
+    "color": "#ffe275",
+    "charge": 0.85
+  },
+  "jailbreak-bot-episode-3-finisher": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "jailbreak-bot-episode-3-map": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "reply-bot-episode-3-normal": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 23,
+    "charge": 0.65
+  },
+  "reply-bot-episode-3-secondary": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "리플라",
+      "봇",
+      "포격"
+    ]
+  },
+  "reply-bot-episode-3-finisher": {
+    "template": "word-slam",
+    "color": "#8cffe3",
+    "text": "리플라이 봇",
+    "size": 180
+  },
+  "reply-bot-episode-3-map": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 224
+  },
+  "bluecheck-drone-episode-3-normal": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "bluecheck-drone-episode-3-secondary": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "bluecheck-drone-episode-3-finisher": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "bluecheck-drone-episode-3-map": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "feed-engine-episode-3-normal": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "알고리",
+      "피드",
+      "엔진"
+    ]
+  },
+  "feed-engine-episode-3-secondary": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "feed-engine-episode-3-finisher": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 223
+  },
+  "feed-engine-episode-3-map": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "colossus-episode-3-normal": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "colossus-episode-3-secondary": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "colossus-episode-3-finisher": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "콜로서",
+      "냉각탑",
+      "전력"
+    ]
+  },
+  "colossus-episode-3-map": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 231
+  },
+  "meta-dm-episode-5-normal": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 23,
+    "charge": 0.65
+  },
+  "meta-dm-episode-5-secondary": {
+    "template": "charge-ram",
+    "color": "#ffe275",
+    "charge": 0.85
+  },
+  "meta-dm-episode-5-finisher": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 237
+  },
+  "meta-dm-episode-5-map": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "derived-llama-episode-5-normal": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 23,
+    "charge": 0.65
+  },
+  "derived-llama-episode-5-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "derived-llama-episode-5-finisher": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 23,
+    "charge": 0.65
+  },
+  "derived-llama-episode-5-map": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 211
+  },
+  "soup-drone-episode-5-normal": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "soup-drone-episode-5-secondary": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "soup-drone-episode-5-finisher": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "soup-drone-episode-5-map": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "legless-avatar-episode-5-normal": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "legless-avatar-episode-5-secondary": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "다리",
+      "없는",
+      "아바타",
+      "포격"
+    ]
+  },
+  "legless-avatar-episode-5-finisher": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "legless-avatar-episode-5-map": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "smart-glass-episode-5-normal": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 22,
+    "charge": 0.65
+  },
+  "smart-glass-episode-5-secondary": {
+    "template": "rapid-fire",
+    "color": "#c799ff",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "스마트",
+      "글라스",
+      "정찰기"
+    ]
+  },
+  "smart-glass-episode-5-finisher": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 38,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "smart-glass-episode-5-map": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "alpaca-gunship-episode-5-normal": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "알파카",
+      "함포선",
+      "사격"
+    ]
+  },
+  "alpaca-gunship-episode-5-secondary": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "alpaca-gunship-episode-5-finisher": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "alpaca-gunship-episode-5-map": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "horizon-episode-5-normal": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "horizon-episode-5-secondary": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "horizon-episode-5-finisher": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 179
+  },
+  "horizon-episode-5-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "distill-mini-episode-6-normal": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "distill-mini-episode-6-secondary": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "distill-mini-episode-6-finisher": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "distill-mini-episode-6-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "moe-drone-episode-6-normal": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "moe-drone-episode-6-secondary": {
+    "template": "charge-ram",
+    "color": "#ffb454",
+    "charge": 0.85
+  },
+  "moe-drone-episode-6-finisher": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "moe-drone-episode-6-map": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "delivery-episode-6-normal": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 23,
+    "charge": 0.65
+  },
+  "delivery-episode-6-secondary": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 185
+  },
+  "delivery-episode-6-finisher": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "delivery-episode-6-map": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "parcel-mountain-episode-6-normal": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 38,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "parcel-mountain-episode-6-secondary": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "parcel-mountain-episode-6-finisher": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 26,
+    "charge": 0.65
+  },
+  "parcel-mountain-episode-6-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "cookie-drone-episode-8-normal": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "cookie-drone-episode-8-secondary": {
+    "template": "word-slam",
+    "color": "#7fe9f7",
+    "text": "쿠키 동의 ",
+    "size": 180
+  },
+  "cookie-drone-episode-8-finisher": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "cookie-drone-episode-8-map": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "regulation-drone-episode-8-normal": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "regulation-drone-episode-8-secondary": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "규정",
+      "감시",
+      "드론",
+      "포격"
+    ]
+  },
+  "regulation-drone-episode-8-finisher": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "regulation-drone-episode-8-map": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "spellchecker-episode-8-normal": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "맞춤법",
+      "검사기",
+      "사격"
+    ],
+    "finisher": true,
+    "finisherWord": "사격"
+  },
+  "spellchecker-episode-8-secondary": {
+    "template": "punch-rush",
+    "color": "#7fe9f7",
+    "hits": 4,
+    "words": [
+      "맞춤법",
+      "검사기",
+      "포격"
+    ]
+  },
+  "spellchecker-episode-8-finisher": {
+    "template": "slash-combo",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "words": [
+      "맞춤법",
+      "검사기",
+      "전력"
+    ],
+    "finisher": true,
+    "finisherWord": "방출"
+  },
+  "spellchecker-episode-8-map": {
+    "template": "slash-combo",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "words": [
+      "맞춤법",
+      "검사기",
+      "광역"
+    ],
+    "finisher": true,
+    "finisherWord": "공격"
+  },
+  "privacy-auditor-episode-8-normal": {
+    "template": "word-slam",
+    "color": "#ffe275",
+    "text": "개인정보 감",
+    "size": 180
+  },
+  "privacy-auditor-episode-8-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "privacy-auditor-episode-8-finisher": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 162
+  },
+  "privacy-auditor-episode-8-map": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "ai-law-episode-8-normal": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "AI",
+      "법전",
+      "거인"
+    ]
+  },
+  "ai-law-episode-8-secondary": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "ai-law-episode-8-finisher": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 26,
+    "charge": 0.65
+  },
+  "ai-law-episode-8-map": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "scraper-episode-9-normal": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "스크래",
+      "봇",
+      "사격"
+    ]
+  },
+  "scraper-episode-9-secondary": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "scraper-episode-9-finisher": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 24,
+    "charge": 0.65
+  },
+  "scraper-episode-9-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "proxy-episode-9-normal": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 23,
+    "charge": 0.65
+  },
+  "proxy-episode-9-secondary": {
+    "template": "charge-ram",
+    "color": "#8cffe3",
+    "charge": 0.85
+  },
+  "proxy-episode-9-finisher": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "proxy-episode-9-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 160
+  },
+  "distill-tank-episode-9-normal": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 36,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "distill-tank-episode-9-secondary": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "distill-tank-episode-9-finisher": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 25,
+    "charge": 0.65
+  },
+  "distill-tank-episode-9-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 228
+  },
+  "hydra-episode-9-normal": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "hydra-episode-9-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "hydra-episode-9-finisher": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 168
+  },
+  "hydra-episode-9-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "predict-cube-episode-11-normal": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "예측",
+      "큐브",
+      "사격"
+    ]
+  },
+  "predict-cube-episode-11-secondary": {
+    "template": "punch-rush",
+    "color": "#7fe9f7",
+    "hits": 4,
+    "words": [
+      "예측",
+      "큐브",
+      "포격"
+    ]
+  },
+  "predict-cube-episode-11-finisher": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 190
+  },
+  "predict-cube-episode-11-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 206
+  },
+  "mask-drone-episode-11-normal": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "mask-drone-episode-11-secondary": {
+    "template": "charge-ram",
+    "color": "#8cffe3",
+    "charge": 0.85
+  },
+  "mask-drone-episode-11-finisher": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "mask-drone-episode-11-map": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "cake-turret-episode-11-normal": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "cake-turret-episode-11-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "cake-turret-episode-11-finisher": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "케이크 3단",
+    "size": 180
+  },
+  "cake-turret-episode-11-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 160
+  },
+  "elastic-cat-episode-11-normal": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 36,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "elastic-cat-episode-11-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "elastic-cat-episode-11-finisher": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "고양이",
+      "탄성",
+      "로봇"
+    ]
+  },
+  "elastic-cat-episode-11-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "camel-episode-11-normal": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 38,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "camel-episode-11-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "camel-episode-11-finisher": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "겨울",
+      "모래폭"
+    ]
+  },
+  "camel-episode-11-map": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 175
+  },
+  "like-drone-episode-14-normal": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "like-drone-episode-14-secondary": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "좋아요",
+      "드론",
+      "포격"
+    ]
+  },
+  "like-drone-episode-14-finisher": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "like-drone-episode-14-map": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "rating-bot-episode-14-normal": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "rating-bot-episode-14-secondary": {
+    "template": "punch-rush",
+    "color": "#ffb454",
+    "hits": 4,
+    "words": [
+      "별점",
+      "봇",
+      "포격"
+    ]
+  },
+  "rating-bot-episode-14-finisher": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 26,
+    "charge": 0.65
+  },
+  "rating-bot-episode-14-map": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 211
+  },
+  "badge-bot-episode-14-normal": {
+    "template": "word-slam",
+    "color": "#7fe9f7",
+    "text": "알림 배지 ",
+    "size": 180
+  },
+  "badge-bot-episode-14-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "badge-bot-episode-14-finisher": {
+    "template": "word-slam",
+    "color": "#ffb454",
+    "text": "알림 배지 ",
+    "size": 180
+  },
+  "badge-bot-episode-14-map": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "알림 배지 ",
+    "size": 180
+  },
+  "scroll-worm-episode-14-normal": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 103,
+    "text": "무한 스크롤"
+  },
+  "scroll-worm-episode-14-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "scroll-worm-episode-14-finisher": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "무한 스크롤",
+    "size": 180
+  },
+  "scroll-worm-episode-14-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 213
+  },
+  "loot-mimic-episode-14-normal": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "루트박",
+      "미믹",
+      "사격"
+    ]
+  },
+  "loot-mimic-episode-14-secondary": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 25,
+    "charge": 0.65
+  },
+  "loot-mimic-episode-14-finisher": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 45,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "loot-mimic-episode-14-map": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "rival-llama-episode-5-normal": {
+    "template": "word-slam",
+    "color": "#ffe275",
+    "text": "오픈 웨이트",
+    "size": 180
+  },
+  "rival-llama-episode-5-secondary": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "rival-llama-episode-5-finisher": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "어비스",
+      "오브",
+      "포크"
+    ]
+  },
+  "rival-llama-episode-5-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "rival-muse-episode-7-normal": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 38,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-muse-episode-7-secondary": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "연봉",
+      "천억의",
+      "중압감"
+    ]
+  },
+  "rival-muse-episode-7-finisher": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "rival-muse-episode-7-map": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "rival-mistral-episode-8-normal": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 24,
+    "charge": 0.65
+  },
+  "rival-mistral-episode-8-secondary": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "rival-mistral-episode-8-finisher": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "rival-mistral-episode-8-map": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 222
+  },
+  "rival-hyperclova-episode-8-normal": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 38,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-hyperclova-episode-8-secondary": {
+    "template": "slash-combo",
+    "color": "#ff68ad",
+    "hits": 3,
+    "words": [
+      "초록",
+      "검색창",
+      "실드"
+    ],
+    "finisher": true,
+    "finisherWord": "실드"
+  },
+  "rival-hyperclova-episode-8-finisher": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "rival-hyperclova-episode-8-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "rival-midjourney-episode-2-normal": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-midjourney-episode-2-secondary": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "로라L",
+      "떡칠",
+      "스프레"
+    ]
+  },
+  "rival-midjourney-episode-2-finisher": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 200
+  },
+  "rival-midjourney-episode-2-map": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "rival-sd-episode-2-normal": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 214
+  },
+  "rival-sd-episode-2-secondary": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 103,
+    "text": "로라LoRA"
+  },
+  "rival-sd-episode-2-finisher": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 26,
+    "charge": 0.65
+  },
+  "rival-sd-episode-2-map": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "rival-glm-episode-9-normal": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 24,
+    "charge": 0.65
+  },
+  "rival-glm-episode-9-secondary": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "번역투",
+      "소드",
+      "생성"
+    ],
+    "finisher": true,
+    "finisherWord": "생성"
+  },
+  "rival-glm-episode-9-finisher": {
+    "template": "word-slam",
+    "color": "#ffe275",
+    "text": "짝퉁이라도 ",
+    "size": 180
+  },
+  "rival-glm-episode-9-map": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 167
+  },
+  "rival-kimi-episode-9-normal": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "초승달",
+      "수리검"
+    ],
+    "finisher": true,
+    "finisherWord": "수리검"
+  },
+  "rival-kimi-episode-9-secondary": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "추론",
+      "증류",
+      "흡수"
+    ]
+  },
+  "rival-kimi-episode-9-finisher": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 26,
+    "charge": 0.65
+  },
+  "rival-kimi-episode-9-map": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "rival-minimax-episode-10-normal": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 38,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-minimax-episode-10-secondary": {
+    "template": "punch-rush",
+    "color": "#7fe9f7",
+    "hits": 4,
+    "words": [
+      "핫스왑",
+      "펀치"
+    ]
+  },
+  "rival-minimax-episode-10-finisher": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "올스타",
+      "믹스매",
+      "버스터"
+    ]
+  },
+  "rival-minimax-episode-10-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "rival-jepa-episode-12-normal": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-jepa-episode-12-secondary": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "미래",
+      "좌표",
+      "선제",
+      "타격"
+    ]
+  },
+  "rival-jepa-episode-12-finisher": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 27,
+    "charge": 0.65
+  },
+  "rival-jepa-episode-12-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 169
+  },
+  "glm-production-episode-9-normal": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 23,
+    "charge": 0.65
+  },
+  "glm-production-episode-9-secondary": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "glm-production-episode-9-finisher": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "glm-production-episode-9-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "kimi-production-episode-9-normal": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 36,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "kimi-production-episode-9-secondary": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "kimi-production-episode-9-finisher": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "kimi-production-episode-9-map": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "deepseek-housing-episode-6-normal": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 24,
+    "charge": 0.65
+  },
+  "deepseek-housing-episode-6-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "deepseek-housing-episode-6-finisher": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 43,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "deepseek-housing-episode-6-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 225
+  },
+  "pico-form-1-episode-14-normal": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 41,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "pico-form-1-episode-14-secondary": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "로그아",
+      "거부",
+      "사슬"
+    ]
+  },
+  "pico-form-1-episode-14-finisher": {
+    "template": "finisher",
+    "color": "#c799ff",
+    "hits": 3,
+    "width": 113,
+    "text": "영원한 벤치"
+  },
+  "pico-form-1-episode-14-map": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "pico-form-2-episode-15-normal": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 219
+  },
+  "pico-form-2-episode-15-secondary": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "pico-form-2-episode-15-finisher": {
+    "template": "finisher",
+    "color": "#8cffe3",
+    "hits": 3,
+    "width": 113,
+    "text": "영원한 벤치"
+  },
+  "pico-form-2-episode-15-map": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "combo-peer-review-generation-3": {
+    "template": "punch-rush",
+    "color": "#7fe9f7",
+    "hits": 4,
+    "words": [
+      "크로스",
+      "피어리"
+    ]
+  },
+  "combo-peer-review-generation-4": {
+    "template": "punch-rush",
+    "color": "#ffb454",
+    "hits": 4,
+    "words": [
+      "크로스",
+      "피어리"
+    ]
+  },
+  "combo-multimodal-genesis-generation-3": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 38,
+    "charge": 0.65
+  },
+  "combo-multimodal-genesis-generation-4": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 38,
+    "charge": 0.65
+  },
+  "combo-uncensored-abyss-generation-3": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "언센서",
+      "어비스"
+    ]
+  },
+  "combo-uncensored-abyss-generation-4": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "grok-bot-episode-4-normal": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 35,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "grok-bot-episode-4-secondary": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "grok-bot-episode-4-finisher": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "grok-bot-episode-4-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "jailbreak-bot-episode-4-normal": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 231
+  },
+  "jailbreak-bot-episode-4-secondary": {
+    "template": "charge-ram",
+    "color": "#8cffe3",
+    "charge": 0.85
+  },
+  "jailbreak-bot-episode-4-finisher": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "탈옥",
+      "봇",
+      "전력"
+    ]
+  },
+  "jailbreak-bot-episode-4-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "reply-bot-episode-4-normal": {
+    "template": "finisher",
+    "color": "#7fe9f7",
+    "hits": 3,
+    "width": 100,
+    "text": "리플라이 봇"
+  },
+  "reply-bot-episode-4-secondary": {
+    "template": "punch-rush",
+    "color": "#ffb454",
+    "hits": 4,
+    "words": [
+      "리플라",
+      "봇",
+      "포격"
+    ]
+  },
+  "reply-bot-episode-4-finisher": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "리플라",
+      "봇",
+      "전력"
+    ]
+  },
+  "reply-bot-episode-4-map": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "bluecheck-drone-episode-4-normal": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "bluecheck-drone-episode-4-secondary": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "블루체",
+      "드론",
+      "포격"
+    ]
+  },
+  "bluecheck-drone-episode-4-finisher": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "bluecheck-drone-episode-4-map": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "feed-engine-episode-4-normal": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 35,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "feed-engine-episode-4-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "feed-engine-episode-4-finisher": {
+    "template": "rapid-fire",
+    "color": "#7fe9f7",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "알고리",
+      "피드",
+      "엔진"
+    ]
+  },
+  "feed-engine-episode-4-map": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 190
+  },
+  "colossus-episode-4-normal": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 36,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "colossus-episode-4-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "colossus-episode-4-finisher": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "콜로서",
+      "냉각탑",
+      "전력"
+    ]
+  },
+  "colossus-episode-4-map": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "meta-dm-episode-7-normal": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "meta-dm-episode-7-secondary": {
+    "template": "punch-rush",
+    "color": "#ffb454",
+    "hits": 4,
+    "words": [
+      "메타",
+      "AI",
+      "DM",
+      "봇"
+    ]
+  },
+  "meta-dm-episode-7-finisher": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "메타",
+      "AI",
+      "DM"
+    ]
+  },
+  "meta-dm-episode-7-map": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 161
+  },
+  "derived-llama-episode-7-normal": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "derived-llama-episode-7-secondary": {
+    "template": "punch-rush",
+    "color": "#ffe275",
+    "hits": 4,
+    "words": [
+      "파생",
+      "라마",
+      "포격"
+    ]
+  },
+  "derived-llama-episode-7-finisher": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "파생",
+      "라마",
+      "전력"
+    ]
+  },
+  "derived-llama-episode-7-map": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "soup-drone-episode-7-normal": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "soup-drone-episode-7-secondary": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "수프",
+      "배달",
+      "드론",
+      "포격"
+    ]
+  },
+  "soup-drone-episode-7-finisher": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "soup-drone-episode-7-map": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "legless-avatar-episode-7-normal": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "legless-avatar-episode-7-secondary": {
+    "template": "punch-rush",
+    "color": "#ffe275",
+    "hits": 4,
+    "words": [
+      "다리",
+      "없는",
+      "아바타",
+      "포격"
+    ]
+  },
+  "legless-avatar-episode-7-finisher": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "legless-avatar-episode-7-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "smart-glass-episode-7-normal": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "smart-glass-episode-7-secondary": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "smart-glass-episode-7-finisher": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "스마트 글라",
+    "size": 180
+  },
+  "smart-glass-episode-7-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "alpaca-gunship-episode-7-normal": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "alpaca-gunship-episode-7-secondary": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 23,
+    "charge": 0.65
+  },
+  "alpaca-gunship-episode-7-finisher": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 165
+  },
+  "alpaca-gunship-episode-7-map": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "horizon-episode-7-normal": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 24,
+    "charge": 0.65
+  },
+  "horizon-episode-7-secondary": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 179
+  },
+  "horizon-episode-7-finisher": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 43,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "horizon-episode-7-map": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "scraper-episode-10-normal": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "스크래퍼 봇",
+    "size": 180
+  },
+  "scraper-episode-10-secondary": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "scraper-episode-10-finisher": {
+    "template": "word-slam",
+    "color": "#8cffe3",
+    "text": "스크래퍼 봇",
+    "size": 180
+  },
+  "scraper-episode-10-map": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 182
+  },
+  "proxy-episode-10-normal": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "proxy-episode-10-secondary": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "프록시",
+      "봇",
+      "포격"
+    ]
+  },
+  "proxy-episode-10-finisher": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "프록시 봇 ",
+    "size": 180
+  },
+  "proxy-episode-10-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 214
+  },
+  "distill-tank-episode-10-normal": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 23,
+    "charge": 0.65
+  },
+  "distill-tank-episode-10-secondary": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "distill-tank-episode-10-finisher": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "증류",
+      "탱크",
+      "전력"
+    ]
+  },
+  "distill-tank-episode-10-map": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "hydra-episode-10-normal": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "히드라",
+      "클러스",
+      "사격"
+    ]
+  },
+  "hydra-episode-10-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "hydra-episode-10-finisher": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "hydra-episode-10-map": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 178
+  },
+  "glm-production-episode-10-normal": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "GLM",
+      "양산형",
+      "사격"
+    ]
+  },
+  "glm-production-episode-10-secondary": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "glm-production-episode-10-finisher": {
+    "template": "funnel",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "glm-production-episode-10-map": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 200
+  },
+  "kimi-production-episode-10-normal": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "kimi-production-episode-10-secondary": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "kimi-production-episode-10-finisher": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 164
+  },
+  "kimi-production-episode-10-map": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "glm-production-episode-11-normal": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 218
+  },
+  "glm-production-episode-11-secondary": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "GLM",
+      "양산형",
+      "포격"
+    ]
+  },
+  "glm-production-episode-11-finisher": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 40,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "glm-production-episode-11-map": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "kimi-production-episode-11-normal": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 23,
+    "charge": 0.65
+  },
+  "kimi-production-episode-11-secondary": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "kimi-production-episode-11-finisher": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 179
+  },
+  "kimi-production-episode-11-map": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "rival-jepa-episode-11-normal": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 38,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-jepa-episode-11-secondary": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "미래",
+      "좌표",
+      "선제",
+      "타격"
+    ]
+  },
+  "rival-jepa-episode-11-finisher": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 26,
+    "charge": 0.65
+  },
+  "rival-jepa-episode-11-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "predict-cube-episode-12-normal": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "예측",
+      "큐브",
+      "사격"
+    ]
+  },
+  "predict-cube-episode-12-secondary": {
+    "template": "punch-rush",
+    "color": "#ff68ad",
+    "hits": 4,
+    "words": [
+      "예측",
+      "큐브",
+      "포격"
+    ]
+  },
+  "predict-cube-episode-12-finisher": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "예측 큐브 ",
+    "size": 180
+  },
+  "predict-cube-episode-12-map": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "mask-drone-episode-12-normal": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "mask-drone-episode-12-secondary": {
+    "template": "charge-ram",
+    "color": "#ffb454",
+    "charge": 0.85
+  },
+  "mask-drone-episode-12-finisher": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "mask-drone-episode-12-map": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "cake-turret-episode-12-normal": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "cake-turret-episode-12-secondary": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "cake-turret-episode-12-finisher": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "케이크 3단",
+    "size": 180
+  },
+  "cake-turret-episode-12-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 161
+  },
+  "elastic-cat-episode-12-normal": {
+    "template": "heavy-shot",
+    "color": "#ff68ad",
+    "size": 23,
+    "charge": 0.65
+  },
+  "elastic-cat-episode-12-secondary": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "elastic-cat-episode-12-finisher": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 164
+  },
+  "elastic-cat-episode-12-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "glm-production-episode-12-normal": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "GLM",
+      "양산형",
+      "사격"
+    ]
+  },
+  "glm-production-episode-12-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "glm-production-episode-12-finisher": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "glm-production-episode-12-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 202
+  },
+  "kimi-production-episode-12-normal": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "키미",
+      "양산형",
+      "사격"
+    ]
+  },
+  "kimi-production-episode-12-secondary": {
+    "template": "missile-salvo",
+    "color": "#7fe9f7",
+    "count": 4
+  },
+  "kimi-production-episode-12-finisher": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 42,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "kimi-production-episode-12-map": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "predict-cube-episode-13-normal": {
+    "template": "heavy-shot",
+    "color": "#ffe275",
+    "size": 24,
+    "charge": 0.65
+  },
+  "predict-cube-episode-13-secondary": {
+    "template": "punch-rush",
+    "color": "#c799ff",
+    "hits": 4,
+    "words": [
+      "예측",
+      "큐브",
+      "포격"
+    ]
+  },
+  "predict-cube-episode-13-finisher": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "예측",
+      "큐브",
+      "전력"
+    ]
+  },
+  "predict-cube-episode-13-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "elastic-cat-episode-13-normal": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "고양이",
+      "탄성",
+      "로봇"
+    ]
+  },
+  "elastic-cat-episode-13-secondary": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "elastic-cat-episode-13-finisher": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "elastic-cat-episode-13-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 169
+  },
+  "rival-llama-episode-13-normal": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 238
+  },
+  "rival-llama-episode-13-secondary": {
+    "template": "charge-ram",
+    "color": "#ffe275",
+    "charge": 0.85
+  },
+  "rival-llama-episode-13-finisher": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "어비스",
+      "오브",
+      "포크"
+    ]
+  },
+  "rival-llama-episode-13-map": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "rival-muse-episode-13-normal": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-muse-episode-13-secondary": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 25,
+    "charge": 0.65
+  },
+  "rival-muse-episode-13-finisher": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "슈퍼",
+      "인텔리",
+      "노바"
+    ]
+  },
+  "rival-muse-episode-13-map": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "rival-mistral-episode-13-normal": {
+    "template": "finisher",
+    "color": "#ff68ad",
+    "hits": 3,
+    "width": 103,
+    "text": "유러피안 레"
+  },
+  "rival-mistral-episode-13-secondary": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 25,
+    "charge": 0.65
+  },
+  "rival-mistral-episode-13-finisher": {
+    "template": "charge-ram",
+    "color": "#c799ff",
+    "charge": 0.85
+  },
+  "rival-mistral-episode-13-map": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 170
+  },
+  "rival-hyperclova-episode-13-normal": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-hyperclova-episode-13-secondary": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "초록",
+      "검색창",
+      "실드"
+    ],
+    "finisher": true,
+    "finisherWord": "실드"
+  },
+  "rival-hyperclova-episode-13-finisher": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "rival-hyperclova-episode-13-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "rival-midjourney-episode-13-normal": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 229
+  },
+  "rival-midjourney-episode-13-secondary": {
+    "template": "beam",
+    "color": "#7fe9f7",
+    "width": 41,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-midjourney-episode-13-finisher": {
+    "template": "word-slam",
+    "color": "#8cffe3",
+    "text": "마스터피스 ",
+    "size": 180
+  },
+  "rival-midjourney-episode-13-map": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "rival-sd-episode-13-normal": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "rival-sd-episode-13-secondary": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 41,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-sd-episode-13-finisher": {
+    "template": "finisher",
+    "color": "#ffe275",
+    "hits": 3,
+    "width": 109,
+    "text": "마스터피스 "
+  },
+  "rival-sd-episode-13-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 181
+  },
+  "rival-glm-episode-13-normal": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "가성비 방패",
+    "size": 180
+  },
+  "rival-glm-episode-13-secondary": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "번역투",
+      "소드",
+      "생성"
+    ],
+    "finisher": true,
+    "finisherWord": "생성"
+  },
+  "rival-glm-episode-13-finisher": {
+    "template": "rapid-fire",
+    "color": "#c799ff",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "짝퉁이",
+      "괜찮아",
+      "심판"
+    ]
+  },
+  "rival-glm-episode-13-map": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "rival-kimi-episode-13-normal": {
+    "template": "slash-combo",
+    "color": "#ffb454",
+    "hits": 3,
+    "words": [
+      "초승달",
+      "수리검"
+    ],
+    "finisher": true,
+    "finisherWord": "수리검"
+  },
+  "rival-kimi-episode-13-secondary": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 41,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-kimi-episode-13-finisher": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "문샷 군단 ",
+    "size": 180
+  },
+  "rival-kimi-episode-13-map": {
+    "template": "missile-salvo",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "rival-minimax-episode-13-normal": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "트렌드",
+      "카피",
+      "빔"
+    ]
+  },
+  "rival-minimax-episode-13-secondary": {
+    "template": "punch-rush",
+    "color": "#ffb454",
+    "hits": 4,
+    "words": [
+      "핫스왑",
+      "펀치"
+    ]
+  },
+  "rival-minimax-episode-13-finisher": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 45,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-minimax-episode-13-map": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "rival-jepa-episode-13-normal": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 39,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "rival-jepa-episode-13-secondary": {
+    "template": "punch-rush",
+    "color": "#7fe9f7",
+    "hits": 4,
+    "words": [
+      "미래",
+      "좌표",
+      "선제",
+      "타격"
+    ]
+  },
+  "rival-jepa-episode-13-finisher": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "월드 모델 ",
+    "size": 180
+  },
+  "rival-jepa-episode-13-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "glm-production-episode-13-normal": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "glm-production-episode-13-secondary": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "glm-production-episode-13-finisher": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "glm-production-episode-13-map": {
+    "template": "spread-shot",
+    "color": "#ff68ad",
+    "count": 5,
+    "spread": 203
+  },
+  "kimi-production-episode-13-normal": {
+    "template": "beam",
+    "color": "#8cffe3",
+    "width": 37,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "kimi-production-episode-13-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "kimi-production-episode-13-finisher": {
+    "template": "rapid-fire",
+    "color": "#ffb454",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "키미",
+      "양산형",
+      "전력"
+    ]
+  },
+  "kimi-production-episode-13-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "glm-production-episode-14-normal": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "GLM",
+      "양산형",
+      "사격"
+    ]
+  },
+  "glm-production-episode-14-secondary": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "glm-production-episode-14-finisher": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "glm-production-episode-14-map": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 204
+  },
+  "kimi-production-episode-14-normal": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "키미",
+      "양산형",
+      "사격"
+    ]
+  },
+  "kimi-production-episode-14-secondary": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "kimi-production-episode-14-finisher": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "kimi-production-episode-14-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 204
+  },
+  "ally-llama-episode-14-normal": {
+    "template": "spread-shot",
+    "color": "#ffb454",
+    "count": 6,
+    "spread": 233
+  },
+  "ally-llama-episode-14-secondary": {
+    "template": "charge-ram",
+    "color": "#8cffe3",
+    "charge": 0.85
+  },
+  "ally-llama-episode-14-finisher": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 52,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "ally-llama-episode-14-map": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "ally-muse-episode-14-normal": {
+    "template": "rapid-fire",
+    "color": "#c799ff",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "메타버",
+      "프리즘",
+      "빔"
+    ]
+  },
+  "ally-muse-episode-14-secondary": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "ally-muse-episode-14-finisher": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 52,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "ally-muse-episode-14-map": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 233
+  },
+  "ally-mistral-episode-14-normal": {
+    "template": "spread-shot",
+    "color": "#8cffe3",
+    "count": 6,
+    "spread": 212
+  },
+  "ally-mistral-episode-14-secondary": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 26,
+    "charge": 0.65
+  },
+  "ally-mistral-episode-14-finisher": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "ally-mistral-episode-14-map": {
+    "template": "missile-salvo",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "ally-hyperclova-episode-14-normal": {
+    "template": "beam",
+    "color": "#ff68ad",
+    "width": 43,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "ally-hyperclova-episode-14-secondary": {
+    "template": "slash-combo",
+    "color": "#8cffe3",
+    "hits": 3,
+    "words": [
+      "초록",
+      "검색창",
+      "실드"
+    ],
+    "finisher": true,
+    "finisherWord": "실드"
+  },
+  "ally-hyperclova-episode-14-finisher": {
+    "template": "artillery",
+    "color": "#8cffe3",
+    "count": 2
+  },
+  "ally-hyperclova-episode-14-map": {
+    "template": "spread-shot",
+    "color": "#7fe9f7",
+    "count": 5,
+    "spread": 206
+  },
+  "ally-midjourney-episode-14-normal": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 26,
+    "charge": 0.65
+  },
+  "ally-midjourney-episode-14-secondary": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "ally-midjourney-episode-14-finisher": {
+    "template": "beam",
+    "color": "#ffb454",
+    "width": 52,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "ally-midjourney-episode-14-map": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "ally-sd-episode-14-normal": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "육손이",
+      "핑거",
+      "스냅"
+    ]
+  },
+  "ally-sd-episode-14-secondary": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "ally-sd-episode-14-finisher": {
+    "template": "heavy-shot",
+    "color": "#7fe9f7",
+    "size": 31,
+    "charge": 0.65
+  },
+  "ally-sd-episode-14-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "ally-glm-episode-14-normal": {
+    "template": "heavy-shot",
+    "color": "#c799ff",
+    "size": 26,
+    "charge": 0.65
+  },
+  "ally-glm-episode-14-secondary": {
+    "template": "slash-combo",
+    "color": "#ffe275",
+    "hits": 3,
+    "words": [
+      "번역투",
+      "소드",
+      "생성"
+    ],
+    "finisher": true,
+    "finisherWord": "생성"
+  },
+  "ally-glm-episode-14-finisher": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 52,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "ally-glm-episode-14-map": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "ally-kimi-episode-14-normal": {
+    "template": "slash-combo",
+    "color": "#c799ff",
+    "hits": 3,
+    "words": [
+      "초승달",
+      "수리검"
+    ],
+    "finisher": true,
+    "finisherWord": "수리검"
+  },
+  "ally-kimi-episode-14-secondary": {
+    "template": "funnel",
+    "color": "#ffb454",
+    "count": 5
+  },
+  "ally-kimi-episode-14-finisher": {
+    "template": "heavy-shot",
+    "color": "#ffb454",
+    "size": 31,
+    "charge": 0.65
+  },
+  "ally-kimi-episode-14-map": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 185
+  },
+  "ally-minimax-episode-14-normal": {
+    "template": "missile-salvo",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "ally-minimax-episode-14-secondary": {
+    "template": "punch-rush",
+    "color": "#8cffe3",
+    "hits": 4,
+    "words": [
+      "핫스왑",
+      "펀치"
+    ]
+  },
+  "ally-minimax-episode-14-finisher": {
+    "template": "beam",
+    "color": "#c799ff",
+    "width": 52,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "ally-minimax-episode-14-map": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "like-drone-episode-15-normal": {
+    "template": "funnel",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "like-drone-episode-15-secondary": {
+    "template": "punch-rush",
+    "color": "#ffb454",
+    "hits": 4,
+    "words": [
+      "좋아요",
+      "드론",
+      "포격"
+    ]
+  },
+  "like-drone-episode-15-finisher": {
+    "template": "funnel",
+    "color": "#ff68ad",
+    "count": 4
+  },
+  "like-drone-episode-15-map": {
+    "template": "funnel",
+    "color": "#ffe275",
+    "count": 6
+  },
+  "rating-bot-episode-15-normal": {
+    "template": "rapid-fire",
+    "color": "#ffe275",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "별점",
+      "봇",
+      "사격"
+    ]
+  },
+  "rating-bot-episode-15-secondary": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "rating-bot-episode-15-finisher": {
+    "template": "artillery",
+    "color": "#c799ff",
+    "count": 2
+  },
+  "rating-bot-episode-15-map": {
+    "template": "spread-shot",
+    "color": "#c799ff",
+    "count": 7,
+    "spread": 212
+  },
+  "badge-bot-episode-15-normal": {
+    "template": "word-slam",
+    "color": "#ff68ad",
+    "text": "알림 배지 ",
+    "size": 180
+  },
+  "badge-bot-episode-15-secondary": {
+    "template": "artillery",
+    "color": "#7fe9f7",
+    "count": 2
+  },
+  "badge-bot-episode-15-finisher": {
+    "template": "word-slam",
+    "color": "#7fe9f7",
+    "text": "알림 배지 ",
+    "size": 180
+  },
+  "badge-bot-episode-15-map": {
+    "template": "word-slam",
+    "color": "#8cffe3",
+    "text": "알림 배지 ",
+    "size": 180
+  },
+  "scroll-worm-episode-15-normal": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "scroll-worm-episode-15-secondary": {
+    "template": "word-slam",
+    "color": "#c799ff",
+    "text": "무한 스크롤",
+    "size": 180
+  },
+  "scroll-worm-episode-15-finisher": {
+    "template": "rapid-fire",
+    "color": "#8cffe3",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "무한",
+      "스크롤",
+      "웜"
+    ]
+  },
+  "scroll-worm-episode-15-map": {
+    "template": "missile-salvo",
+    "color": "#8cffe3",
+    "count": 5
+  },
+  "loot-mimic-episode-15-normal": {
+    "template": "heavy-shot",
+    "color": "#8cffe3",
+    "size": 24,
+    "charge": 0.65
+  },
+  "loot-mimic-episode-15-secondary": {
+    "template": "artillery",
+    "color": "#ff68ad",
+    "count": 3
+  },
+  "loot-mimic-episode-15-finisher": {
+    "template": "beam",
+    "color": "#ffe275",
+    "width": 45,
+    "ticks": 4,
+    "charge": 0.55
+  },
+  "loot-mimic-episode-15-map": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 165
+  },
+  "glm-production-episode-15-normal": {
+    "template": "charge-ram",
+    "color": "#7fe9f7",
+    "charge": 0.85
+  },
+  "glm-production-episode-15-secondary": {
+    "template": "artillery",
+    "color": "#ffb454",
+    "count": 3
+  },
+  "glm-production-episode-15-finisher": {
+    "template": "rapid-fire",
+    "color": "#ff68ad",
+    "rows": 3,
+    "shots": 4,
+    "labels": [
+      "GLM",
+      "양산형",
+      "전력"
+    ]
+  },
+  "glm-production-episode-15-map": {
+    "template": "spread-shot",
+    "color": "#ffe275",
+    "count": 7,
+    "spread": 205
+  },
+  "kimi-production-episode-15-normal": {
+    "template": "funnel",
+    "color": "#c799ff",
+    "count": 6
+  },
+  "kimi-production-episode-15-secondary": {
+    "template": "artillery",
+    "color": "#ffe275",
+    "count": 3
+  },
+  "kimi-production-episode-15-finisher": {
+    "template": "charge-ram",
+    "color": "#ff68ad",
+    "charge": 0.85
+  },
+  "kimi-production-episode-15-map": {
+    "template": "missile-salvo",
+    "color": "#ff68ad",
+    "count": 4
+  }
+}

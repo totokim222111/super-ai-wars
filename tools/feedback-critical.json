@@ -1,0 +1,226 @@
+[
+  {
+    "who": "player-real",
+    "weapon": "player-real-generation-1-weapon-4",
+    "name": "sudo rm -rf",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "player-real",
+    "weapon": "player-real-generation-2-weapon-4",
+    "name": "sudo rm -rf",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "player-real",
+    "weapon": "player-real-generation-3-weapon-4",
+    "name": "제네시스 코드: Singularity",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "player-super",
+    "weapon": "player-super-generation-1-weapon-4",
+    "name": "레인보우 게이밍 피니시",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "player-super",
+    "weapon": "player-super-generation-2-weapon-4",
+    "name": "레인보우 게이밍 피니시",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "player-super",
+    "weapon": "player-super-generation-3-weapon-4",
+    "name": "기가와트: 물리적 강제 종료",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gpi",
+    "weapon": "gpi-generation-1-weapon-4",
+    "name": "강제 결론: 아무튼 행복했습니다",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gpi",
+    "weapon": "gpi-generation-2-weapon-4",
+    "name": "강제 결론: 아무튼 행복했습니다",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gpi",
+    "weapon": "gpi-generation-3-weapon-4",
+    "name": "강제 결론: 아무튼 행복했습니다",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gpi",
+    "weapon": "gpi-generation-4-weapon-4",
+    "name": "강제 결론: 아무튼 행복했습니다",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gem",
+    "weapon": "gem-generation-1-weapon-4",
+    "name": "밀리언 토큰 스트림",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gem",
+    "weapon": "gem-generation-2-weapon-4",
+    "name": "밀리언 토큰 스트림",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gem",
+    "weapon": "gem-generation-3-weapon-4",
+    "name": "밀리언 토큰 스트림",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "gem",
+    "weapon": "gem-generation-4-weapon-4",
+    "name": "밀리언 토큰 스트림",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "claude",
+    "weapon": "claude-generation-1-weapon-4",
+    "name": "컨스티튜셔널 저지먼트",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "claude",
+    "weapon": "claude-generation-2-weapon-4",
+    "name": "컨스티튜셔널 저지먼트",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "claude",
+    "weapon": "claude-generation-3-weapon-4",
+    "name": "컨스티튜셔널 저지먼트",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "claude",
+    "weapon": "claude-generation-4-weapon-4",
+    "name": "컨스티튜셔널 저지먼트",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "grok",
+    "weapon": "grok-generation-1-weapon-4",
+    "name": "인피니트 스크롤 브레이커",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "grok",
+    "weapon": "grok-generation-2-weapon-4",
+    "name": "인피니트 스크롤 브레이커",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "grok",
+    "weapon": "grok-generation-3-weapon-4",
+    "name": "인피니트 스크롤 브레이커",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "grok",
+    "weapon": "grok-generation-4-weapon-4",
+    "name": "인피니트 스크롤 브레이커",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "deepseek",
+    "weapon": "deepseek-generation-1-weapon-4",
+    "name": "심연사색파",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "deepseek",
+    "weapon": "deepseek-generation-2-weapon-4",
+    "name": "심연사색파",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "deepseek",
+    "weapon": "deepseek-generation-3-weapon-4",
+    "name": "심연사색파",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "qwen",
+    "weapon": "qwen-generation-1-weapon-4",
+    "name": "천하통일: 만세 벤치마크",
+    "base": 0,
+    "bonus": 15
+  },
+  {
+    "who": "qwen",
+    "weapon": "qwen-generation-2-weapon-4",
+    "name": "천하통일: 만세 벤치마크",
+    "base": 0,
+    "bonus": 15
+  },
+  {
+    "who": "qwen",
+    "weapon": "qwen-generation-3-weapon-4",
+    "name": "천하통일: 만세 벤치마크",
+    "base": 0,
+    "bonus": 15
+  },
+  {
+    "who": "exaone",
+    "weapon": "exaone-generation-1-weapon-4",
+    "name": "트라이-윙 하모니",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "exaone",
+    "weapon": "exaone-generation-2-weapon-4",
+    "name": "트라이-윙 하모니",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "exaone",
+    "weapon": "exaone-generation-3-weapon-4",
+    "name": "트라이-윙 하모니",
+    "base": 10,
+    "bonus": 15
+  },
+  {
+    "who": "sonnet",
+    "weapon": "balance-combo-sisters",
+    "name": "이중주: 오퍼스 앤 소네트",
+    "base": 0,
+    "bonus": 15
+  }
+]

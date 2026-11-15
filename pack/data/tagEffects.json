@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "aura",
+    "tag": "command-aura",
+    "range": 1,
+    "atoms": [
+      {
+        "type": "hitAdd",
+        "value": 5
+      },
+      {
+        "type": "evadeAdd",
+        "value": 5
+      }
+    ],
+    "en": 0
+  },
+  {
+    "kind": "heal",
+    "tag": "shrimp-heal",
+    "range": 1,
+    "hpPct": 5
+  },
+  {
+    "kind": "summon",
+    "tag": "spam-summoner",
+    "templateTag": "summon-spam",
+    "suffix": "-spam-",
+    "limit": 3
+  },
+  {
+    "kind": "drain",
+    "tag": "ram-drain",
+    "amount": 8
+  },
+  {
+    "kind": "weapon-roll",
+    "stage": "saw-02",
+    "prefixes": [
+      "rival-midjourney-episode-2-",
+      "rival-sd-episode-2-"
+    ],
+    "min": 0.7,
+    "max": 1.5
+  }
+]

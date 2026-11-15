@@ -1,0 +1,17 @@
+import {mockMap} from './fixtures/mock-map';
+import {buildSample} from './pack-fixture';
+import {describe,it,expect} from 'vitest';
+import {apply} from '@engine/src/core';
+import {CoreMap} from '@engine/src/v2/adapter/map';
+import {m6} from './core/m6-helpers';
+import {lookup,HeadlessApp} from './v2-map-fixtures';
+import {MapScreen} from '@engine/src/v2/map/screen';
+import {yes} from './v2-campaign-fixtures';
+import type {MenuList} from '@engine/src/v2/kit';
+const setup=()=>m6(c=>{c.mechs[0].forms=[{id:'normal',name:'일반',overrides:{}},{id:'fast',name:'기동',overrides:{move:8}}];c.combinations=[{id:'link',parts:['mech-a','mech-b'],result:'mech-c'}];});
+describe('forms, combination and split',()=>{
+ it('matches native transform after a tentative move, commits the move and emits a complete display snapshot',()=>{const s=setup(),m=new CoreMap(s,lookup),at={col:2,row:2};const expected=apply(apply(s,{type:'move',unitId:'p1',x:2,y:2}).state,{type:'transform',unitId:'p1',formId:'fast'}).state;const events=m.transform('p1',at,'fast');expect(events.map(e=>e.type)).toEqual(['move','status','change','status']);expect(m.state().units).toEqual(expected.units);expect(m.state().units[0].moveCommitted).toBe(true);expect(m.transformations('p1',at)).toEqual([]);});
+ it('matches native combination and split, without inventing member placement or resource formulas',()=>{const s=setup(),m=new CoreMap(s,lookup),at={col:1,row:2};expect(m.combinations('p1',at)).toEqual([{id:'link',label:s.content.mechs.find(m=>m.id==='mech-c')!.name}]);const expected=apply(s,{type:'combine',unitId:'p1',combinationId:'link'}).state;m.combine('p1',at,'link');expect(m.state().units).toEqual(expected.units);expect(m.units().some(u=>u.id==='p2')).toBe(false);const ready=m.state();ready.units.find(u=>u.id==='p1')!.acted=false;const split=new CoreMap(ready,lookup),result=apply(ready,{type:'split',unitId:'p1'}).state;expect(split.split('p1',at).map(e=>e.type)).toEqual(['change','status']);expect(split.state().units).toEqual(result.units);});
+ it('also combines and splits the gallery mock after the next phase',()=>{const m=mockMap(buildSample({})),at={col:4,row:6};m.wait('gpi',at);m.endTurn();expect(m.combinations!('gpi',at).length).toBe(1);expect(m.combine!('gpi',at,'link')[0].type).toBe('change');expect(m.units().some(u=>u.id==='user')).toBe(false);m.endTurn();m.split!('gpi',at);expect(m.units().some(u=>u.id==='user')).toBe(true);});
+ it('uses the existing list and confirmation flow, and replaces the Board icon',()=>{const s=setup(),old={} as HTMLImageElement,next={} as HTMLImageElement,m=new CoreMap(s,{...lookup,unit:(_m,u)=>({icon:u.formId==='fast'?next:old})}),app=new HeadlessApp(),screen=new MapScreen(m);app.push(screen);app.chooseCell({col:1,row:2});app.action('confirm');app.tick(20);const list=screen.ui.focus as MenuList,index=list.items.findIndex(i=>i.label==='변형');for(let n=0;n<index;n++)app.action('down');app.action('confirm');app.action('cancel');expect((screen as unknown as {mode:{kind:string}}).mode.kind).toBe('command');for(let n=0;n<index;n++)app.action('down');app.action('confirm');app.action('confirm');yes(app);app.tick(100);const board=(screen as unknown as {board:{sprites:Map<string,{sprite:{image:HTMLImageElement}}>}}).board;expect(board.sprites.get('p1')!.sprite.image).toBe(next);});
+});

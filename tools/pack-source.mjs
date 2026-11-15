@@ -1,0 +1,1 @@
+import {pathToFileURL} from 'node:url';import {join} from 'node:path';import {engineDir,packDir} from './paths.mjs';process.env.PACK_DIR??=packDir;const source=await import(pathToFileURL(join(engineDir,'tools/pack-sources.ts')).href);export const {packSources,readSource,mediaFile,mediaUrl,inside,packMedia}=source;

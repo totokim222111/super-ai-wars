@@ -1,0 +1,717 @@
+[
+  {
+    "id": "S1",
+    "source": "kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "name": "interface-sounds",
+    "urls": [
+      "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip"
+    ],
+    "linkEvidence": "공식 팩 페이지 Download → Continue without donating 링크를 웹 조회로 확인",
+    "licenseConfirmed": true,
+    "downloads": [
+      {
+        "file": "audio-src/downloads/kenney/S1/kenney_interface-sounds.zip",
+        "url": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+        "bytes": 834536,
+        "sha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+        "skippedEntries": [
+          "Patreon.url",
+          "Kenney.url"
+        ]
+      }
+    ],
+    "uiSelection": {
+      "date": "2026-11-14",
+      "confirm": "select_001.ogg",
+      "cursor": "click_004.ogg",
+      "important": "confirmation_002.ogg",
+      "changes": "기존 승인 CC0 로컬 원본의 일반·중요 분리, MP3 인코딩·음량 조절"
+    }
+  },
+  {
+    "id": "S2",
+    "source": "kenney",
+    "page": "https://kenney.nl/assets/sci-fi-sounds",
+    "name": "sci-fi-sounds",
+    "urls": [
+      "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip"
+    ],
+    "linkEvidence": "공식 팩 페이지 Download → Continue without donating 링크를 웹 조회로 확인",
+    "licenseConfirmed": true,
+    "downloads": [
+      {
+        "file": "audio-src/downloads/kenney/S2/kenney_sci-fi-sounds.zip",
+        "url": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+        "bytes": 5875104,
+        "sha256": "119340f351a5098ad814f78719438c0da355a9ce8a4c8a3af6a8d48aa3d49e04",
+        "skippedEntries": [
+          "Patreon.url",
+          "Audio/desktop.ini",
+          "Kenney.url"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "source": "kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "name": "impact-sounds",
+    "urls": [
+      "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip"
+    ],
+    "linkEvidence": "공식 팩 페이지 Download → Continue without donating 링크를 웹 조회로 확인",
+    "licenseConfirmed": true,
+    "downloads": [
+      {
+        "file": "audio-src/downloads/kenney/S3/kenney_impact-sounds.zip",
+        "url": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+        "bytes": 800850,
+        "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+        "skippedEntries": [
+          "Kenney.url",
+          "Patreon.url"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "source": "opengameart",
+    "page": "https://opengameart.org/content/512-sound-effects-8-bit-style",
+    "name": "retro",
+    "urls": [
+      "https://opengameart.org/sites/default/files/The%20Essential%20Retro%20Video%20Game%20Sound%20Effects%20Collection%20%5B512%20sounds%5D.zip"
+    ],
+    "pageSha256": "d1846f01c10cfb766d82e0a3408b3e63f89d6b93d415d5a5d9d78ef8080ba994",
+    "licenseConfirmed": true,
+    "downloads": [
+      {
+        "file": "audio-src/downloads/opengameart/S4/The Essential Retro Video Game Sound Effects Collection [512 sounds].zip",
+        "url": "https://opengameart.org/sites/default/files/The%20Essential%20Retro%20Video%20Game%20Sound%20Effects%20Collection%20%5B512%20sounds%5D.zip",
+        "bytes": 20582855,
+        "sha256": "6d4519229c6e2c9e09502cd4967940052f68664140549a467615b56bdfd1d031",
+        "skippedEntries": []
+      }
+    ]
+  },
+  {
+    "id": "M1",
+    "source": "opengameart",
+    "page": "https://opengameart.org/content/jrpg-epic-rock-battle-theme-1",
+    "name": "battle",
+    "urls": [
+      "https://opengameart.org/sites/default/files/jrpg_battle_intro.mp3",
+      "https://opengameart.org/sites/default/files/jrpg_battle_loop.mp3"
+    ],
+    "pageSha256": "0d2e699e15af3e3203746441dbecfe16abe44041204741d00a1648ccf289a4fc",
+    "licenseConfirmed": true,
+    "downloads": [
+      {
+        "file": "audio-src/downloads/opengameart/M1/jrpg_battle_intro.mp3",
+        "url": "https://opengameart.org/sites/default/files/jrpg_battle_intro.mp3",
+        "bytes": 40287,
+        "sha256": "e771313c1dbf0df891e7c6e37d0a164338b0acb8e828e8ff71da7ad9dd7c24f5"
+      },
+      {
+        "file": "audio-src/downloads/opengameart/M1/jrpg_battle_loop.mp3",
+        "url": "https://opengameart.org/sites/default/files/jrpg_battle_loop.mp3",
+        "bytes": 2893343,
+        "sha256": "006be3310cb9a2612384b99d8087035904eaad45f285a4f74170ff7ec6ca7f81"
+      }
+    ]
+  },
+  {
+    "id": "M2",
+    "source": "opengameart",
+    "page": "https://opengameart.org/node/84428",
+    "name": "boss",
+    "urls": [
+      "https://opengameart.org/sites/default/files/boss_battle_%232_metal_pack.zip"
+    ],
+    "pageSha256": "521853ed451300839f58ed8184d8852a79199f38de7d221e063fe92708a743dd",
+    "licenseConfirmed": true,
+    "downloads": [
+      {
+        "file": "audio-src/downloads/opengameart/M2/boss_battle_#2_metal_pack.zip",
+        "url": "https://opengameart.org/sites/default/files/boss_battle_%232_metal_pack.zip",
+        "bytes": 11010042,
+        "sha256": "27845e601593ec3348488b0479111cda656a97127ef69a066256f7c967e125ab",
+        "skippedEntries": []
+      }
+    ]
+  },
+  {
+    "id": "M3",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_neorock82/",
+    "name": "title",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock82.ogg"
+    ],
+    "pageSha256": "336f49b3370a9d6b1d043f11b04b8b408122b57e7d20c16b53f5a70a2a278ae4",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M3/maou_loop_bgm_neorock82.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock82.ogg",
+        "bytes": 2537089,
+        "sha256": "37cc71884386dde020f3c7ce1e9b5ceec7fa555efcb6acd4ec8526fd1010af26"
+      }
+    ]
+  },
+  {
+    "id": "M4",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_cyber43/",
+    "name": "map",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_bgm_cyber43.ogg"
+    ],
+    "pageSha256": "69b2bdf7569ada614a2104edfdcb820fbe999150d1becab36eb25f7bf621d51f",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M4/maou_bgm_cyber43.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_bgm_cyber43.ogg",
+        "bytes": 2658064,
+        "sha256": "5bf72b90f3d040bbf56273bdb512e2968a6e349e5d18cf7f3aa1ab76ba34e6cf"
+      }
+    ]
+  },
+  {
+    "id": "M5",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_neorock75/",
+    "name": "enemy-phase",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock75.ogg"
+    ],
+    "pageSha256": "f1c176ca52bc8bb9244f385a4bb6deae60ece6f9ecfd6ebd83f7e34e21866185",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M5/maou_loop_bgm_neorock75.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock75.ogg",
+        "bytes": 2427205,
+        "sha256": "63f31f43ddf74d980424bc30e6bbed23fc346020be9ada94ef1f58e278d8f5d2"
+      }
+    ]
+  },
+  {
+    "id": "M6",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_neorock80/",
+    "name": "lastboss",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock80.ogg"
+    ],
+    "pageSha256": "561da0c0b3659531f71592ee29fe302350f9ddf023fbe56ae61623be625027f3",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M6/maou_loop_bgm_neorock80.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock80.ogg",
+        "bytes": 1778655,
+        "sha256": "bf8005b0dddb6229e8b3f579dc5262b391f44e85415bd309e59607706327909b"
+      }
+    ]
+  },
+  {
+    "id": "M7",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_cyber36/",
+    "name": "intermission",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_cyber36.ogg"
+    ],
+    "pageSha256": "b7ffd3616bf7267a64a759b4895318441e0b24793e99f7f37195cfa891e5d24f",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M7/maou_loop_bgm_cyber36.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_cyber36.ogg",
+        "bytes": 3268048,
+        "sha256": "dc2a0ed61d1fcc3a8bee7b385c8f86579328ad64deddd5af231b65b7d456ee34"
+      }
+    ]
+  },
+  {
+    "id": "M8",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_cyber41/",
+    "name": "comedy",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_cyber41.ogg"
+    ],
+    "pageSha256": "df24a0e1db38be41d470a7542c4c1920c53ce6346b52a0f43531d71c3838e316",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M8/maou_loop_bgm_cyber41.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_cyber41.ogg",
+        "bytes": 3697389,
+        "sha256": "3053bae3f47e8fd58f2832c08c5235ba3368bb499032cb146a10dad032d749f9"
+      }
+    ]
+  },
+  {
+    "id": "M9",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_neorock83/",
+    "name": "tension",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_bgm_neorock83.ogg"
+    ],
+    "pageSha256": "ac2bfa3750d678e9c327d2e5e1a0824fa2d41afe9189fd4890e472f136abd4a2",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M9/maou_bgm_neorock83.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_bgm_neorock83.ogg",
+        "bytes": 1905880,
+        "sha256": "abc26d4171e335138267a7be01f27a55b85419b8cc2d88422cf3756a77c571cb"
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_piano24/",
+    "name": "sad",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_bgm_piano24.ogg"
+    ],
+    "pageSha256": "aa2a479ec95857459819e81dc3ea169e0f19ff57be6cf26721aaeb141cded3ef",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M10/maou_bgm_piano24.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_bgm_piano24.ogg",
+        "bytes": 1869716,
+        "sha256": "bb2afbe9275a27ed607e55b6f0a07209cfdce5909910313e4354f7d84084ddaf"
+      }
+    ]
+  },
+  {
+    "id": "M11",
+    "source": "maou",
+    "page": "https://maou.audio/bgm_neorock74/",
+    "name": "hope",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock74.ogg"
+    ],
+    "pageSha256": "ce8963878bc859077b06776cc3ba6d45c8f1047b219c875cff82fb39319b77f6",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M11/maou_loop_bgm_neorock74.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock74.ogg",
+        "bytes": 1863913,
+        "sha256": "b6c972d59920a186c0b8a040157599cccef16bef1eb560f313e4ac4572a2290c"
+      }
+    ]
+  },
+  {
+    "id": "M12",
+    "source": "maou",
+    "page": "https://maou.audio/game_jingle03/",
+    "name": "victory",
+    "urls": [
+      "https://maou.audio/sound/game/maou_game_jingle03.ogg"
+    ],
+    "pageSha256": "1c1d1bf6dff174d7e35b50a8f2bcca3538e67237cc124d531962f989cc1ed589",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M12/maou_game_jingle03.ogg",
+        "url": "https://maou.audio/sound/game/maou_game_jingle03.ogg",
+        "bytes": 164979,
+        "sha256": "4772a7c9b0c5fdad1d59edfad4b30b8b8259a188bbff3ec67dc867166f1ce10a"
+      }
+    ]
+  },
+  {
+    "id": "M13",
+    "source": "maou",
+    "page": "https://maou.audio/game_jingle08/",
+    "name": "gameover",
+    "urls": [
+      "https://maou.audio/sound/game/maou_game_jingle08.ogg"
+    ],
+    "pageSha256": "7b2f2eb875c55cd0c484a2f0d5c2fbbfcdc208c34478f077509d11374412eaff",
+    "licenseConfirmed": true,
+    "licensePage": "https://maou.audio/rule/",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/maou/M13/maou_game_jingle08.ogg",
+        "url": "https://maou.audio/sound/game/maou_game_jingle08.ogg",
+        "bytes": 224987,
+        "sha256": "f8dde08840acee19bac801457bb04cfefb81831fc35aeacd0ca0713ee41d526f"
+      }
+    ]
+  },
+  {
+    "id": "T01",
+    "slot": "battle-intro-jingle",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/se_onepoint03/",
+    "name": "ワンポイント03「ジャーン」",
+    "urls": [
+      "https://maou.audio/sound/se/maou_se_onepoint03.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T01/maou_se_onepoint03.ogg",
+        "url": "https://maou.audio/sound/se/maou_se_onepoint03.ogg",
+        "bytes": 38797,
+        "sha256": "2f97ce5093af93d40de93c3f12090bbce34e743100acf17d1e66740d06ade818",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "slot": "theme-player",
+    "source": "user-provided approved original",
+    "page": "https://opengameart.org/content/determination-anime-style-music",
+    "name": "Determination — Anime Style Music",
+    "urls": [
+      "https://opengameart.org/sites/default/files/determination_1.mp3"
+    ],
+    "license": "CC0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T02-determination/determination_1.mp3",
+        "url": "https://opengameart.org/sites/default/files/determination_1.mp3",
+        "bytes": 2745003,
+        "sha256": "409a98ca2923cbe78427ba21f8f5131fb9f3439a255be562bcd840b111586fe7",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "slot": "theme-gpi",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_cyber38/",
+    "name": "サイバー38「airport」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_cyber38.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T03-cyber38/maou_loop_bgm_cyber38.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_cyber38.ogg",
+        "bytes": 2640733,
+        "sha256": "29f0d3333db5d9b73418427c580f9a3f3becc81131102f6565ed5c12b3ed2301",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "slot": "theme-gem",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_neorock33/",
+    "name": "ネオロック33",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock33.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T04-neorock33/maou_loop_bgm_neorock33.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock33.ogg",
+        "bytes": 2147915,
+        "sha256": "a1a6b57af48d800cafeea3d58cf1b597d206180a2f26219768f27a2d997de647",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "slot": "theme-claude",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_fantasy11/",
+    "name": "ファンタジー11「bravery heart」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_fantasy11.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T05-fantasy11/maou_loop_bgm_fantasy11.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_fantasy11.ogg",
+        "bytes": 4428933,
+        "sha256": "b6e0b8e34e4fe399a85be64bd9933c06fcff7d80bf2e26b19d216ab520c091b1",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "slot": "theme-grok",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_neorock76/",
+    "name": "ネオロック76「太陽の覇者」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock76.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T06-neorock76/maou_loop_bgm_neorock76.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock76.ogg",
+        "bytes": 1923374,
+        "sha256": "d0bea17d340bb51c736e9e6744230c3f5fa1f6bd743238116b94bffc6793e5c5",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "slot": "theme-deepseek",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_neorock30/",
+    "name": "ネオロック30",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock30.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T07-neorock30/maou_loop_bgm_neorock30.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock30.ogg",
+        "bytes": 1546467,
+        "sha256": "591fe1b8acee120763bffadc05158f4e570896d914296cfb6ce1cf15ef43670f",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "slot": "theme-sonnet",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_neorock72/",
+    "name": "ネオロック72「shoot」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock72.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T08-neorock72/maou_loop_bgm_neorock72.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock72.ogg",
+        "bytes": 1606510,
+        "sha256": "1b62cb72397050c36efe09b9da2b532098e2683520a1f70723863041a9749c9b",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T09",
+    "slot": "theme-exaone",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_neorock73/",
+    "name": "ネオロック73「夕日の沈む丘へ」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock73.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T09-neorock73/maou_loop_bgm_neorock73.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock73.ogg",
+        "bytes": 3124597,
+        "sha256": "b460956e54fff83db496243e01141e11873166d7477bf819868cad7bc65b10a2",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "slot": "theme-rival",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_neorock62/",
+    "name": "ネオロック62「猛る魔獣」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock62.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T10-neorock62/maou_loop_bgm_neorock62.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock62.ogg",
+        "bytes": 2439350,
+        "sha256": "f73f287bcfde14325b575c387ba61f6ca37c06563efc3f0ad4d3e7e84da7b0ab",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "slot": "screen-upgrade",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_cyber15/",
+    "name": "サイバー15",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_cyber15.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T11-cyber15/maou_loop_bgm_cyber15.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_cyber15.ogg",
+        "bytes": 2766457,
+        "sha256": "88a0c25e003de97d049cfb714781780ef4cbcbdeae7b68548dfaca2b778ee643",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "slot": "story-daily",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_acoustic05/",
+    "name": "アコースティック05「爽やかサンデー魔王モーニング」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_acoustic05.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T12-acoustic05/maou_loop_bgm_acoustic05.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_acoustic05.ogg",
+        "bytes": 521928,
+        "sha256": "7dcb82d2fc9dc4c4970bbfb54950da461406fdf49bdea62f3f26cc7944f072a7",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "slot": "story-mystery",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_cyber19/",
+    "name": "サイバー19",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_cyber19.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T13-cyber19/maou_loop_bgm_cyber19.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_cyber19.ogg",
+        "bytes": 3075178,
+        "sha256": "d0bdd008fa4341cbe2894fdbd9ad043321c94fbe1e4c1b430218c678e97a84c9",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T14",
+    "slot": "story-resolve",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_neorock34/",
+    "name": "ネオロック34",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_loop_bgm_neorock34.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T14-neorock34/maou_loop_bgm_neorock34.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_loop_bgm_neorock34.ogg",
+        "bytes": 3176975,
+        "sha256": "fc40870192de231993a986b0b666d59adc0a8bda5a82d0b8b4ef00e396d052e3",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T15",
+    "slot": "story-memory",
+    "source": "user-provided approved original",
+    "page": "https://maou.audio/bgm_healing16/",
+    "name": "ヒーリング16「いつもここから」",
+    "urls": [
+      "https://maou.audio/sound/bgm/maou_bgm_healing16.ogg"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 승인 출처 기록",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T15-healing16/maou_bgm_healing16.ogg",
+        "url": "https://maou.audio/sound/bgm/maou_bgm_healing16.ogg",
+        "bytes": 4739063,
+        "sha256": "400426ccaf0f98c64aa2156a2e53ac8d2390a5bee122f08a36faf409f1177fc2",
+        "extracted": false
+      }
+    ]
+  },
+  {
+    "id": "T16",
+    "slot": "theme-qwen",
+    "source": "user-provided approved original",
+    "page": "https://opengameart.org/content/samurai-nights",
+    "name": "Samurai Nights",
+    "urls": [
+      "https://opengameart.org/sites/default/files/samurai-nights-by-majadroid.zip"
+    ],
+    "license": "CC BY 4.0",
+    "licenseConfirmed": true,
+    "licenseChoice": "사용자 지정 CC BY 4.0",
+    "downloads": [
+      {
+        "file": "audio-src/downloads/themes-2026-11-13/T16-samurai-nights/extracted/Samurai-Nights-Demo.mp3",
+        "url": "https://opengameart.org/sites/default/files/samurai-nights-by-majadroid.zip",
+        "bytes": 1372601,
+        "sha256": "e917d4bfddb078d40f1c3591292a84a82cbeafbe9433dcd945df4e2e9388b9ff",
+        "extracted": true
+      }
+    ]
+  }
+]

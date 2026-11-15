@@ -1,0 +1,22 @@
+import {MenuList} from '@engine/src/v2/kit';
+import {describe,it,expect} from 'vitest';
+import {readFile} from '../tools/files.mjs';
+import {GameFlow} from '@engine/src/v2/game/flow';
+import {MapScreen} from '@engine/src/v2/map/screen';
+import {ObjectivesScreen} from '@engine/src/v2/map/objectives';
+import {loadPack} from '@engine/src/v2/pack/load';
+import {buildSample} from './pack-fixture';
+import {PackStoryScreen} from '@engine/src/v2/story/play';
+import {CoreMap} from '@engine/src/v2/adapter/map';
+import {restore} from '@engine/src/core';
+import type {App} from '@engine/src/v2/screen';
+import {campaign,MenuApp} from './v2-campaign-fixtures';
+import {lookup} from './v2-map-fixtures';
+for(const type of ['otaku','menhera'] as const)describe(`F-2 game interaction ${type}`,()=>{
+ it('acknowledges objectives after sortie and resumes enemy AI after every manual response',async()=>{const p=await loadPack('content/packs/saw',path=>readFile(path,'utf8')),{model}=await campaign();model.session.campaign.persona=type;model.setSettings({...model.settings(),animation:'off',speed:3});const app=new MenuApp(),flow=new GameFlow(app as unknown as App,model,buildSample({}),undefined,p);let goals=0,responses=0;
+ const drain=(done:()=>boolean)=>{for(let i=0;i<3000&&!done();i++){app.tick(12);const top=app.top;if(top instanceof ObjectivesScreen){goals++;app.action('confirm');app.tick(20);}else if(top instanceof PackStoryScreen){if(top.ui.focus instanceof MenuList)app.action('confirm');else top.playback.taps.press();}else if(top instanceof MapScreen){const mode=(top as unknown as {mode:{kind:string}}).mode.kind;if(top.guiding){app.action('confirm');}else if(mode==='responseForecast'){responses++;app.action('confirm');}else flow.playback?.taps.press();}}expect(done(),JSON.stringify({top:app.top.constructor.name,mode:(app.top as unknown as {mode:unknown}).mode,goals,log:flow.playback?.log?.at(-1),focus:(app.top.ui.focus as unknown as {items?:unknown}).items})).toBe(true);};
+ flow.show();drain(()=>app.top instanceof MapScreen&&(app.top as unknown as {mode:{kind:string}}).mode.kind==='idle');expect(goals).toBe(1);const map=flow.map!,s=map.state(),g=s.units.find(u=>u.id==='gpi')!,e=s.units.find(u=>u.side==='enemy')!;const screen=app.top as MapScreen;screen.present(map.execute({type:'system',unitId:'',action:{kind:'move',ids:[e.id],x:g.x+1,y:g.y}}));drain(()=>(screen as unknown as {mode:{kind:string}}).mode.kind==='idle');screen.present(map.endTurn());drain(()=>map.turn().team==='ally'&&map.turn().number===2&&(screen as unknown as {mode:{kind:string}}).mode.kind==='idle');expect(responses).toBeGreaterThan(0);expect(map.state().pending).toBeNull();expect(model.session.game!.battle.units).toEqual(map.state().units);
+ });
+ if(type==='otaku')it('writes and reloads a live response with the native campaign save format',async()=>{const {model}=await campaign(),s=model.session.game!.battle,g=s.units.find(u=>u.id==='gpi')!,e=s.units.find(u=>u.side==='enemy')!;e.x=g.x+1;e.y=g.y;e.ai='hold';const map=new CoreMap(s,{...lookup,onChange:(state,changes)=>model.acceptBattle(state,changes)},{manualResponse:true});map.endTurn();expect(map.state().pending).not.toBeNull();expect(model.session.game!.mode).toBe('response');await model.save('1');await model.load('1');const loaded=new CoreMap(model.session.game!.battle,lookup,{manualResponse:true});expect(loaded.response()).toEqual(map.response());loaded.respond('defend');map.respond('defend');expect(loaded.state().units).toEqual(map.state().units);expect(loaded.state().rng).toBe(map.state().rng);});
+ it('restores a response pending snapshot and gets the same next result',async()=>{const {model}=await campaign(),s=model.session.game!.battle,g=s.units.find(u=>u.id==='gpi')!,enemy=s.units.find(u=>u.side==='enemy')!;s.stage.scenario=true;s.units=[g,enemy];enemy.x=g.x+2;enemy.y=g.y;enemy.ai='hold';const map=new CoreMap(s,lookup,{manualResponse:true});map.endTurn();expect(map.state().pending).not.toBeNull();const state=map.state(),copy=new CoreMap(restore(state.content,state.stage,map.save()),lookup,{manualResponse:true});expect(copy.response()).toEqual(map.response());expect(copy.respond('defend')).toEqual(map.respond('defend'));expect(copy.save()).toBe(map.save());});
+});

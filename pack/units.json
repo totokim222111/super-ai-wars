@@ -1,0 +1,7208 @@
+{
+  "gpi-generation-1": {
+    "art": "mech-gpi-generation-1",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.00638,
+        0.59859
+      ],
+      "hand": [
+        0.32021,
+        0.62207
+      ],
+      "core": [
+        0.54043,
+        0.62793
+      ],
+      "head": [
+        0.51383,
+        0.46948
+      ],
+      "shoulder": [
+        0.83191,
+        0.44601
+      ]
+    },
+    "pilotCast": "gpi"
+  },
+  "gpi-generation-2": {
+    "pilotCast": "gpi",
+    "art": "mech-gpi-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.0384,
+        0.5691
+      ],
+      "core": [
+        0.5244,
+        0.6126
+      ],
+      "shoulder": [
+        0.8291,
+        0.392
+      ],
+      "head": [
+        0.5081,
+        0.4549
+      ],
+      "hand": [
+        0.2686,
+        0.6583
+      ]
+    }
+  },
+  "gpi-generation-3": {
+    "pilotCast": "gpi",
+    "art": "mech-gpi-generation-3",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.0839,
+        0.6183
+      ],
+      "core": [
+        0.5125,
+        0.6377
+      ],
+      "shoulder": [
+        0.7982,
+        0.4343
+      ],
+      "head": [
+        0.5011,
+        0.4846
+      ],
+      "hand": [
+        0.3163,
+        0.6789
+      ]
+    }
+  },
+  "gpi-generation-4": {
+    "pilotCast": "gpi",
+    "art": "mech-gpi-generation-4",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.0571,
+        0.648
+      ],
+      "core": [
+        0.4849,
+        0.632
+      ],
+      "shoulder": [
+        0.7597,
+        0.4857
+      ],
+      "head": [
+        0.4806,
+        0.5006
+      ],
+      "hand": [
+        0.2985,
+        0.704
+      ]
+    }
+  },
+  "gem-generation-1": {
+    "pilotCast": "saw-gem",
+    "forms": {
+      "normal": {
+        "art": "mech-gem-generation-1",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "head": [
+            0.47639,
+            0.3353
+          ],
+          "core": [
+            0.48176,
+            0.65407
+          ],
+          "shoulder": [
+            0.68026,
+            0.55962
+          ],
+          "hand": [
+            0.25644,
+            0.7072
+          ],
+          "muzzle": [
+            0.0279,
+            0.64227
+          ]
+        }
+      },
+      "ais": {
+        "art": "mech-gem-generation-1-ais",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "head": [
+            0.50858,
+            0.42461
+          ],
+          "core": [
+            0.53004,
+            0.71291
+          ],
+          "shoulder": [
+            0.72318,
+            0.58625
+          ],
+          "hand": [
+            0.32618,
+            0.75513
+          ],
+          "muzzle": [
+            0.04936,
+            0.06755
+          ]
+        }
+      },
+      "antigravity": {
+        "art": "mech-gem-generation-1-antigravity",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "head": [
+            0.48712,
+            0.32798
+          ],
+          "core": [
+            0.48712,
+            0.63052
+          ],
+          "shoulder": [
+            0.69099,
+            0.46988
+          ],
+          "hand": [
+            0.2618,
+            0.64659
+          ],
+          "muzzle": [
+            0.05794,
+            0.58367
+          ]
+        }
+      }
+    },
+    "art": "mech-gem-generation-1",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "head": [
+        0.47639,
+        0.3353
+      ],
+      "core": [
+        0.48176,
+        0.65407
+      ],
+      "shoulder": [
+        0.68026,
+        0.55962
+      ],
+      "hand": [
+        0.25644,
+        0.7072
+      ],
+      "muzzle": [
+        0.0279,
+        0.64227
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-generation-2": {
+    "pilotCast": "saw-gem",
+    "forms": {
+      "normal": {
+        "art": "mech-gem-generation-2",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.0324,
+            0.5989
+          ],
+          "core": [
+            0.4815,
+            0.5737
+          ],
+          "shoulder": [
+            0.6655,
+            0.4549
+          ],
+          "head": [
+            0.4769,
+            0.3829
+          ],
+          "hand": [
+            0.2465,
+            0.6617
+          ]
+        }
+      },
+      "ais": {
+        "art": "mech-gem-generation-2-ais",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "muzzle": [
+            0.089,
+            0.1017
+          ],
+          "core": [
+            0.4737,
+            0.656
+          ],
+          "shoulder": [
+            0.672,
+            0.568
+          ],
+          "head": [
+            0.4641,
+            0.4971
+          ],
+          "hand": [
+            0.2744,
+            0.7303
+          ]
+        }
+      },
+      "antigravity": {
+        "art": "mech-gem-generation-2-antigravity",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "muzzle": [
+            0.1394,
+            0.5531
+          ],
+          "core": [
+            0.4383,
+            0.5596
+          ],
+          "shoulder": [
+            0.5617,
+            0.4351
+          ],
+          "head": [
+            0.4128,
+            0.3866
+          ],
+          "hand": [
+            0.1862,
+            0.5767
+          ]
+        }
+      }
+    },
+    "art": "mech-gem-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.0324,
+        0.5989
+      ],
+      "core": [
+        0.4815,
+        0.5737
+      ],
+      "shoulder": [
+        0.6655,
+        0.4549
+      ],
+      "head": [
+        0.4769,
+        0.3829
+      ],
+      "hand": [
+        0.2465,
+        0.6617
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-generation-3": {
+    "pilotCast": "saw-gem",
+    "forms": {
+      "normal": {
+        "art": "mech-gem-generation-3",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.031,
+            0.6171
+          ],
+          "core": [
+            0.469,
+            0.5817
+          ],
+          "shoulder": [
+            0.6699,
+            0.4971
+          ],
+          "head": [
+            0.4573,
+            0.3989
+          ],
+          "hand": [
+            0.265,
+            0.6663
+          ]
+        }
+      },
+      "ais": {
+        "art": "mech-gem-generation-3-ais",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "muzzle": [
+            0.0522,
+            0.0926
+          ],
+          "core": [
+            0.4755,
+            0.6503
+          ],
+          "shoulder": [
+            0.6551,
+            0.5817
+          ],
+          "head": [
+            0.4592,
+            0.4903
+          ],
+          "hand": [
+            0.2982,
+            0.7394
+          ]
+        }
+      },
+      "antigravity": {
+        "art": "mech-gem-generation-3-antigravity",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "muzzle": [
+            0.0957,
+            0.6559
+          ],
+          "core": [
+            0.3872,
+            0.5992
+          ],
+          "shoulder": [
+            0.5543,
+            0.5026
+          ],
+          "head": [
+            0.3787,
+            0.4253
+          ],
+          "hand": [
+            0.1543,
+            0.6894
+          ]
+        }
+      }
+    },
+    "art": "mech-gem-generation-3",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.031,
+        0.6171
+      ],
+      "core": [
+        0.469,
+        0.5817
+      ],
+      "shoulder": [
+        0.6699,
+        0.4971
+      ],
+      "head": [
+        0.4573,
+        0.3989
+      ],
+      "hand": [
+        0.265,
+        0.6663
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-generation-4": {
+    "pilotCast": "saw-gem",
+    "forms": {
+      "normal": {
+        "art": "mech-gem-generation-4",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.0277,
+            0.6083
+          ],
+          "core": [
+            0.4926,
+            0.5783
+          ],
+          "shoulder": [
+            0.6532,
+            0.4931
+          ],
+          "head": [
+            0.4809,
+            0.4021
+          ],
+          "hand": [
+            0.2947,
+            0.6659
+          ]
+        }
+      },
+      "ais": {
+        "art": "mech-gem-generation-4-ais",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "muzzle": [
+            0.0638,
+            0.1364
+          ],
+          "core": [
+            0.4702,
+            0.674
+          ],
+          "shoulder": [
+            0.6362,
+            0.6289
+          ],
+          "head": [
+            0.4628,
+            0.5237
+          ],
+          "hand": [
+            0.2915,
+            0.7665
+          ]
+        }
+      },
+      "antigravity": {
+        "art": "mech-gem-generation-4-antigravity",
+        "height": 335,
+        "faces": "left",
+        "anchors": {
+          "muzzle": [
+            0.1085,
+            0.6407
+          ],
+          "core": [
+            0.4255,
+            0.5921
+          ],
+          "shoulder": [
+            0.5777,
+            0.5307
+          ],
+          "head": [
+            0.4032,
+            0.4335
+          ],
+          "hand": [
+            0.1713,
+            0.7046
+          ]
+        }
+      }
+    },
+    "art": "mech-gem-generation-4",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.0277,
+        0.6083
+      ],
+      "core": [
+        0.4926,
+        0.5783
+      ],
+      "shoulder": [
+        0.6532,
+        0.4931
+      ],
+      "head": [
+        0.4809,
+        0.4021
+      ],
+      "hand": [
+        0.2947,
+        0.6659
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "claude-generation-1": {
+    "pilotCast": "claude",
+    "art": "mech-claude-generation-1",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    }
+  },
+  "claude-generation-2": {
+    "pilotCast": "claude",
+    "art": "mech-claude-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.01064,
+        0.55279
+      ],
+      "core": [
+        0.61064,
+        0.65243
+      ],
+      "shoulder": [
+        0.84787,
+        0.46619
+      ],
+      "head": [
+        0.61277,
+        0.3962
+      ],
+      "hand": [
+        0.32766,
+        0.69039
+      ]
+    }
+  },
+  "claude-generation-3": {
+    "pilotCast": "claude",
+    "art": "mech-claude-generation-3",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.01277,
+        0.56711
+      ],
+      "core": [
+        0.57766,
+        0.53083
+      ],
+      "shoulder": [
+        0.83936,
+        0.43289
+      ],
+      "head": [
+        0.58723,
+        0.38452
+      ],
+      "hand": [
+        0.3234,
+        0.68561
+      ]
+    }
+  },
+  "claude-generation-4": {
+    "pilotCast": "claude",
+    "art": "mech-claude-generation-4",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.03298,
+        0.60697
+      ],
+      "core": [
+        0.52447,
+        0.54975
+      ],
+      "shoulder": [
+        0.7734,
+        0.46766
+      ],
+      "head": [
+        0.53617,
+        0.4204
+      ],
+      "hand": [
+        0.32234,
+        0.7102
+      ]
+    }
+  },
+  "grok-generation-1": {
+    "pilotCast": "grok",
+    "art": "mech-grok-generation-1",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "head": [
+        0.54245,
+        0.34514
+      ],
+      "core": [
+        0.46196,
+        0.55543
+      ],
+      "shoulder": [
+        0.71885,
+        0.47086
+      ],
+      "hand": [
+        0.27233,
+        0.576
+      ],
+      "muzzle": [
+        0.03528,
+        0.56
+      ]
+    }
+  },
+  "grok-generation-2": {
+    "pilotCast": "grok",
+    "art": "mech-grok-generation-2",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.04255,
+        0.55029
+      ],
+      "core": [
+        0.57553,
+        0.58728
+      ],
+      "shoulder": [
+        0.83617,
+        0.45202
+      ],
+      "head": [
+        0.58511,
+        0.38844
+      ],
+      "hand": [
+        0.3,
+        0.6
+      ]
+    }
+  },
+  "grok-generation-3": {
+    "pilotCast": "grok",
+    "art": "mech-grok-generation-3",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.035,
+        0.5
+      ],
+      "core": [
+        0.51,
+        0.51
+      ],
+      "shoulder": [
+        0.83,
+        0.29
+      ],
+      "head": [
+        0.51,
+        0.32
+      ],
+      "hand": [
+        0.85,
+        0.66
+      ]
+    }
+  },
+  "grok-generation-4": {
+    "pilotCast": "grok",
+    "art": "mech-grok-generation-4",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.04787,
+        0.57801
+      ],
+      "core": [
+        0.4766,
+        0.58629
+      ],
+      "shoulder": [
+        0.85106,
+        0.4409
+      ],
+      "head": [
+        0.54362,
+        0.40307
+      ],
+      "hand": [
+        0.28511,
+        0.63948
+      ]
+    }
+  },
+  "deepseek-generation-1": {
+    "pilotCast": "deepseek",
+    "art": "mech-deepseek-generation-1",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "head": [
+        0.634,
+        0.31086
+      ],
+      "core": [
+        0.58685,
+        0.57143
+      ],
+      "shoulder": [
+        0.78908,
+        0.51657
+      ],
+      "hand": [
+        0.42928,
+        0.70514
+      ],
+      "muzzle": [
+        0.02978,
+        0.832
+      ]
+    }
+  },
+  "deepseek-generation-2": {
+    "pilotCast": "deepseek",
+    "art": "mech-deepseek-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.13685,
+        0.74713
+      ],
+      "core": [
+        0.59184,
+        0.59425
+      ],
+      "shoulder": [
+        0.77911,
+        0.51724
+      ],
+      "head": [
+        0.60624,
+        0.3908
+      ],
+      "hand": [
+        0.40936,
+        0.69655
+      ]
+    }
+  },
+  "deepseek-generation-3": {
+    "pilotCast": "deepseek",
+    "forms": {
+      "core": {
+        "art": "mech-deepseek-generation-3",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.035,
+            0.79
+          ],
+          "core": [
+            0.54,
+            0.6
+          ],
+          "shoulder": [
+            0.7,
+            0.5
+          ],
+          "head": [
+            0.54,
+            0.39
+          ],
+          "hand": [
+            0.37,
+            0.68
+          ]
+        }
+      },
+      "mobydick": {
+        "art": "mech-deepseek-mobydick",
+        "faces": "left",
+        "height": 420,
+        "anchors": {
+          "muzzle": [
+            0.06,
+            0.15
+          ],
+          "core": [
+            0.46,
+            0.72
+          ],
+          "shoulder": [
+            0.69,
+            0.62
+          ],
+          "head": [
+            0.44,
+            0.57
+          ],
+          "hand": [
+            0.3,
+            0.76
+          ]
+        }
+      }
+    },
+    "art": "mech-deepseek-generation-3",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.035,
+        0.79
+      ],
+      "core": [
+        0.54,
+        0.6
+      ],
+      "shoulder": [
+        0.7,
+        0.5
+      ],
+      "head": [
+        0.54,
+        0.39
+      ],
+      "hand": [
+        0.37,
+        0.68
+      ]
+    }
+  },
+  "sonnet-generation-1": {
+    "pilotCast": "sonnet",
+    "art": "mech-sonnet-generation-1",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "head": [
+        0.59653,
+        0.31657
+      ],
+      "core": [
+        0.53873,
+        0.55429
+      ],
+      "shoulder": [
+        0.74104,
+        0.50514
+      ],
+      "hand": [
+        0.3711,
+        0.66514
+      ],
+      "muzzle": [
+        0.00694,
+        0.71657
+      ]
+    }
+  },
+  "sonnet-generation-2": {
+    "pilotCast": "sonnet",
+    "art": "mech-sonnet-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.078874,
+        0.523314
+      ],
+      "core": [
+        0.577576,
+        0.571109
+      ],
+      "shoulder": [
+        0.721645,
+        0.451622
+      ],
+      "head": [
+        0.59974,
+        0.260443
+      ],
+      "hand": [
+        0.322684,
+        0.571109
+      ]
+    }
+  },
+  "sonnet-generation-3": {
+    "pilotCast": "sonnet",
+    "art": "mech-sonnet-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.078874,
+        0.523314
+      ],
+      "core": [
+        0.577576,
+        0.571109
+      ],
+      "shoulder": [
+        0.721645,
+        0.451622
+      ],
+      "head": [
+        0.59974,
+        0.260443
+      ],
+      "hand": [
+        0.322684,
+        0.571109
+      ]
+    },
+    "recolor": {
+      "from": "mech-sonnet-generation-2",
+      "hue": 120,
+      "sat": 1.05,
+      "light": 0.025
+    }
+  },
+  "exaone-generation-1": {
+    "pilotCast": "exaone",
+    "art": "mech-exaone-generation-1",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "head": [
+        0.57143,
+        0.39657
+      ],
+      "core": [
+        0.49433,
+        0.60114
+      ],
+      "shoulder": [
+        0.76531,
+        0.49371
+      ],
+      "hand": [
+        0.322,
+        0.66514
+      ],
+      "muzzle": [
+        0.00794,
+        0.62971
+      ]
+    }
+  },
+  "exaone-generation-2": {
+    "pilotCast": "exaone",
+    "art": "mech-exaone-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.078874,
+        0.630852
+      ],
+      "core": [
+        0.555411,
+        0.606954
+      ],
+      "shoulder": [
+        0.721645,
+        0.499417
+      ],
+      "head": [
+        0.555411,
+        0.37993
+      ],
+      "hand": [
+        0.300519,
+        0.654749
+      ]
+    }
+  },
+  "exaone-generation-3": {
+    "pilotCast": "exaone",
+    "forms": {
+      "normal": {
+        "art": "mech-exaone-generation-3",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.102121,
+            0.619928
+          ],
+          "core": [
+            0.556494,
+            0.632192
+          ],
+          "shoulder": [
+            0.722727,
+            0.546347
+          ],
+          "head": [
+            0.556494,
+            0.411449
+          ],
+          "hand": [
+            0.301602,
+            0.668982
+          ]
+        }
+      },
+      "thinq": {
+        "art": "mech-exaone-thinq",
+        "faces": "left",
+        "height": 420,
+        "anchors": {
+          "muzzle": [
+            0.375402,
+            0.565899
+          ],
+          "core": [
+            0.478259,
+            0.483318
+          ],
+          "shoulder": [
+            0.775402,
+            0.471521
+          ],
+          "head": [
+            0.54683,
+            0.270968
+          ],
+          "hand": [
+            0.123973,
+            0.624885
+          ]
+        }
+      }
+    },
+    "art": "mech-exaone-generation-3",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.102121,
+        0.619928
+      ],
+      "core": [
+        0.556494,
+        0.632192
+      ],
+      "shoulder": [
+        0.722727,
+        0.546347
+      ],
+      "head": [
+        0.556494,
+        0.411449
+      ],
+      "hand": [
+        0.301602,
+        0.668982
+      ]
+    }
+  },
+  "qwen-generation-1": {
+    "pilotCast": "qwen",
+    "art": "mech-qwen-generation-1",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "head": [
+        0.56185,
+        0.38514
+      ],
+      "core": [
+        0.54104,
+        0.59086
+      ],
+      "shoulder": [
+        0.75838,
+        0.53371
+      ],
+      "hand": [
+        0.30983,
+        0.65371
+      ],
+      "muzzle": [
+        0.02197,
+        0.63429
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-generation-2": {
+    "pilotCast": "qwen",
+    "art": "mech-qwen-generation-2",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.05773,
+        0.515934
+      ],
+      "core": [
+        0.578032,
+        0.528038
+      ],
+      "shoulder": [
+        0.810508,
+        0.44331
+      ],
+      "head": [
+        0.578032,
+        0.310165
+      ],
+      "hand": [
+        0.312346,
+        0.636974
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-generation-3": {
+    "pilotCast": "qwen",
+    "art": "mech-qwen-generation-3",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.056649,
+        0.551917
+      ],
+      "core": [
+        0.565881,
+        0.492794
+      ],
+      "shoulder": [
+        0.820497,
+        0.433672
+      ],
+      "head": [
+        0.554811,
+        0.291778
+      ],
+      "hand": [
+        0.300195,
+        0.622864
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "player-real-generation-1": {
+    "art": "mech-player-real-generation-1",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.03723,
+        0.50361
+      ],
+      "core": [
+        0.54574,
+        0.61084
+      ],
+      "shoulder": [
+        0.8383,
+        0.47711
+      ],
+      "head": [
+        0.58723,
+        0.36867
+      ],
+      "hand": [
+        0.28723,
+        0.60482
+      ]
+    },
+    "pilotCast": "otaku"
+  },
+  "player-real-generation-2": {
+    "art": "mech-player-real-generation-2",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.02766,
+        0.50253
+      ],
+      "core": [
+        0.54574,
+        0.68939
+      ],
+      "shoulder": [
+        0.76809,
+        0.50884
+      ],
+      "head": [
+        0.54468,
+        0.35859
+      ],
+      "hand": [
+        0.34468,
+        0.61237
+      ]
+    },
+    "pilotCast": "otaku"
+  },
+  "player-real-generation-3": {
+    "art": "mech-player-real-generation-3",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.0383,
+        0.49298
+      ],
+      "core": [
+        0.51809,
+        0.70115
+      ],
+      "shoulder": [
+        0.72872,
+        0.5083
+      ],
+      "head": [
+        0.50106,
+        0.35249
+      ],
+      "hand": [
+        0.28298,
+        0.61303
+      ]
+    },
+    "pilotCast": "otaku"
+  },
+  "player-super-generation-1": {
+    "art": "mech-player-super-generation-1",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "head": [
+        0.57296,
+        0.29238
+      ],
+      "core": [
+        0.54077,
+        0.56634
+      ],
+      "shoulder": [
+        0.73927,
+        0.45577
+      ],
+      "hand": [
+        0.32082,
+        0.67076
+      ],
+      "muzzle": [
+        0.00966,
+        0.77273
+      ]
+    },
+    "pilotCast": "otaku"
+  },
+  "player-super-generation-2": {
+    "art": "mech-player-super-generation-2",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.04787,
+        0.66012
+      ],
+      "core": [
+        0.55745,
+        0.57914
+      ],
+      "shoulder": [
+        0.83298,
+        0.42454
+      ],
+      "head": [
+        0.59362,
+        0.34479
+      ],
+      "hand": [
+        0.31277,
+        0.68344
+      ]
+    },
+    "pilotCast": "otaku"
+  },
+  "player-super-generation-3": {
+    "art": "mech-player-super-generation-3",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.05426,
+        0.51762
+      ],
+      "core": [
+        0.55638,
+        0.57473
+      ],
+      "shoulder": [
+        0.83936,
+        0.37789
+      ],
+      "head": [
+        0.55638,
+        0.40097
+      ],
+      "hand": [
+        0.22872,
+        0.57716
+      ]
+    },
+    "pilotCast": "otaku"
+  },
+  "deepseek-mobydick": {
+    "pilotCast": "deepseek",
+    "art": "mech-deepseek-mobydick",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.06,
+        0.15
+      ],
+      "core": [
+        0.46,
+        0.72
+      ],
+      "shoulder": [
+        0.69,
+        0.62
+      ],
+      "head": [
+        0.44,
+        0.57
+      ],
+      "hand": [
+        0.3,
+        0.76
+      ]
+    }
+  },
+  "exaone-thinq": {
+    "pilotCast": "exaone",
+    "art": "mech-exaone-thinq",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.375402,
+        0.565899
+      ],
+      "core": [
+        0.478259,
+        0.483318
+      ],
+      "shoulder": [
+        0.775402,
+        0.471521
+      ],
+      "head": [
+        0.54683,
+        0.270968
+      ],
+      "hand": [
+        0.123973,
+        0.624885
+      ]
+    }
+  },
+  "spam-bot-episode-1": {
+    "pilotCast": "spam",
+    "art": "mech-spam-bot",
+    "faces": "right",
+    "height": 280,
+    "anchors": {
+      "muzzle": [
+        0.9931,
+        0.5085
+      ],
+      "core": [
+        0.4709,
+        0.6121
+      ],
+      "shoulder": [
+        0.6103,
+        0.5017
+      ],
+      "head": [
+        0.4949,
+        0.2446
+      ],
+      "hand": [
+        0.7703,
+        0.5313
+      ]
+    }
+  },
+  "clickbait-drone-episode-1": {
+    "art": "mech-clickbait-drone",
+    "faces": "right",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.7424,
+        0.6234
+      ],
+      "core": [
+        0.4337,
+        0.5936
+      ],
+      "shoulder": [
+        0.6522,
+        0.2467
+      ],
+      "head": [
+        0.5641,
+        0.4029
+      ],
+      "hand": [
+        0.7565,
+        0.5554
+      ]
+    },
+    "pilotCast": "clickbait-drone"
+  },
+  "comment-bot-episode-1": {
+    "pilotCast": "comment-bot",
+    "art": "mech-comment-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.024468,
+        0.59838
+      ],
+      "core": [
+        0.535106,
+        0.688657
+      ],
+      "shoulder": [
+        0.755319,
+        0.520833
+      ],
+      "head": [
+        0.504255,
+        0.280093
+      ],
+      "hand": [
+        0.240426,
+        0.702546
+      ]
+    }
+  },
+  "shrimp-jesus-episode-1": {
+    "pilotCast": "saw-shrimp",
+    "art": "mech-shrimp-jesus",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.014894,
+        0.544554
+      ],
+      "core": [
+        0.487234,
+        0.690594
+      ],
+      "shoulder": [
+        0.755319,
+        0.545792
+      ],
+      "head": [
+        0.537234,
+        0.277228
+      ],
+      "hand": [
+        0.270213,
+        0.636139
+      ]
+    }
+  },
+  "dead-internet-episode-1": {
+    "pilotCast": "dead-internet",
+    "art": "mech-dead-internet",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.153191,
+        0.66345
+      ],
+      "core": [
+        0.619149,
+        0.571773
+      ],
+      "shoulder": [
+        0.619149,
+        0.091677
+      ],
+      "head": [
+        0.341489,
+        0.465621
+      ],
+      "hand": [
+        0.259574,
+        0.638118
+      ]
+    },
+    "iconCrop": [
+      0.0645,
+      0.2583,
+      0.58,
+      0.58
+    ]
+  },
+  "six-finger-episode-2": {
+    "pilotCast": "six-finger",
+    "art": "mech-six-finger",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.177479,
+        0.363636
+      ],
+      "core": [
+        0.452876,
+        0.626136
+      ],
+      "shoulder": [
+        0.669523,
+        0.523864
+      ],
+      "head": [
+        0.518972,
+        0.395455
+      ],
+      "hand": [
+        0.339045,
+        0.477273
+      ]
+    }
+  },
+  "noise-blob-episode-2": {
+    "pilotCast": "noise-blob",
+    "art": "mech-noise-blob",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.026596,
+        0.624557
+      ],
+      "core": [
+        0.506383,
+        0.736718
+      ],
+      "shoulder": [
+        0.721277,
+        0.580874
+      ],
+      "head": [
+        0.520213,
+        0.284534
+      ],
+      "hand": [
+        0.234043,
+        0.636364
+      ]
+    }
+  },
+  "upscaler-episode-2": {
+    "pilotCast": "upscaler",
+    "art": "mech-upscaler",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.042553,
+        0.389016
+      ],
+      "core": [
+        0.488298,
+        0.584668
+      ],
+      "shoulder": [
+        0.834043,
+        0.381007
+      ],
+      "head": [
+        0.561702,
+        0.1373
+      ],
+      "hand": [
+        0.161702,
+        0.583524
+      ]
+    }
+  },
+  "prompt-gacha-episode-2": {
+    "pilotCast": "prompt-gacha",
+    "art": "mech-prompt-gacha",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.035106,
+        0.601863
+      ],
+      "core": [
+        0.53617,
+        0.629802
+      ],
+      "shoulder": [
+        0.810638,
+        0.444703
+      ],
+      "head": [
+        0.5,
+        0.330617
+      ],
+      "hand": [
+        0.246809,
+        0.731083
+      ]
+    }
+  },
+  "inpainting-episode-2": {
+    "pilotCast": "saw-inpainting",
+    "art": "mech-inpainting",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.011702,
+        0.560479
+      ],
+      "core": [
+        0.521277,
+        0.603593
+      ],
+      "shoulder": [
+        0.771277,
+        0.437126
+      ],
+      "head": [
+        0.484043,
+        0.219162
+      ],
+      "hand": [
+        0.315957,
+        0.68982
+      ]
+    },
+    "iconCrop": [
+      0.1954,
+      0.0542,
+      0.58,
+      0.58
+    ]
+  },
+  "grok-bot-episode-3": {
+    "pilotCast": "grok-bot",
+    "art": "mech-grok-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.01398,
+        0.54661
+      ],
+      "core": [
+        0.54409,
+        0.56847
+      ],
+      "shoulder": [
+        0.85269,
+        0.5351
+      ],
+      "head": [
+        0.61613,
+        0.34062
+      ],
+      "hand": [
+        0.27742,
+        0.63521
+      ]
+    }
+  },
+  "jailbreak-bot-episode-3": {
+    "pilotCast": "jailbreak-bot",
+    "art": "mech-jailbreak-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.02841,
+        0.5954
+      ],
+      "core": [
+        0.52045,
+        0.64138
+      ],
+      "shoulder": [
+        0.81818,
+        0.57126
+      ],
+      "head": [
+        0.50909,
+        0.42069
+      ],
+      "hand": [
+        0.24773,
+        0.66437
+      ]
+    }
+  },
+  "reply-bot-episode-3": {
+    "pilotCast": "reply-bot",
+    "art": "mech-reply-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.06277,
+        0.52204
+      ],
+      "core": [
+        0.58085,
+        0.66589
+      ],
+      "shoulder": [
+        0.77872,
+        0.62993
+      ],
+      "head": [
+        0.50532,
+        0.40255
+      ],
+      "hand": [
+        0.26383,
+        0.63225
+      ]
+    }
+  },
+  "bluecheck-drone-episode-3": {
+    "pilotCast": "bluecheck-drone",
+    "art": "mech-bluecheck-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.03496,
+        0.62802
+      ],
+      "core": [
+        0.50062,
+        0.60507
+      ],
+      "shoulder": [
+        0.76904,
+        0.52053
+      ],
+      "head": [
+        0.50811,
+        0.43116
+      ],
+      "hand": [
+        0.26342,
+        0.69565
+      ]
+    }
+  },
+  "feed-engine-episode-3": {
+    "pilotCast": "feed-engine",
+    "art": "mech-feed-engine",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.04087,
+        0.75632
+      ],
+      "core": [
+        0.54688,
+        0.71034
+      ],
+      "shoulder": [
+        0.77524,
+        0.61034
+      ],
+      "head": [
+        0.5,
+        0.45517
+      ],
+      "hand": [
+        0.30409,
+        0.80345
+      ]
+    }
+  },
+  "colossus-episode-3": {
+    "pilotCast": "colossus",
+    "art": "mech-colossus",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.05339,
+        0.61839
+      ],
+      "core": [
+        0.52725,
+        0.63448
+      ],
+      "shoulder": [
+        0.83648,
+        0.46207
+      ],
+      "head": [
+        0.57842,
+        0.42069
+      ],
+      "hand": [
+        0.26363,
+        0.66552
+      ]
+    },
+    "iconCrop": [
+      0.2784,
+      0.1977,
+      0.58,
+      0.58
+    ]
+  },
+  "meta-dm-episode-5": {
+    "pilotCast": "meta-dm",
+    "art": "mech-meta-dm",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.03196,
+        0.61839
+      ],
+      "core": [
+        0.5486,
+        0.65057
+      ],
+      "shoulder": [
+        0.76431,
+        0.5908
+      ],
+      "head": [
+        0.49268,
+        0.42184
+      ],
+      "hand": [
+        0.25965,
+        0.69655
+      ]
+    }
+  },
+  "derived-llama-episode-5": {
+    "pilotCast": "derived-llama",
+    "art": "mech-derived-llama",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.06235,
+        0.62759
+      ],
+      "core": [
+        0.58588,
+        0.67356
+      ],
+      "shoulder": [
+        0.87647,
+        0.61034
+      ],
+      "head": [
+        0.60941,
+        0.48391
+      ],
+      "hand": [
+        0.33176,
+        0.71034
+      ]
+    },
+    "recolor": {
+      "from": "mech-derived-llama",
+      "hue": 110,
+      "sat": 0.85,
+      "light": 0.02
+    }
+  },
+  "soup-drone-episode-5": {
+    "pilotCast": "soup-drone",
+    "art": "mech-soup-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.08497,
+        0.6256
+      ],
+      "core": [
+        0.52288,
+        0.84903
+      ],
+      "shoulder": [
+        0.71373,
+        0.6256
+      ],
+      "head": [
+        0.50719,
+        0.48309
+      ],
+      "hand": [
+        0.35425,
+        0.76208
+      ]
+    }
+  },
+  "legless-avatar-episode-5": {
+    "pilotCast": "legless-avatar",
+    "art": "mech-legless-avatar",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.04286,
+        0.61353
+      ],
+      "core": [
+        0.52143,
+        0.71014
+      ],
+      "shoulder": [
+        0.72381,
+        0.55314
+      ],
+      "head": [
+        0.52619,
+        0.39976
+      ],
+      "hand": [
+        0.25714,
+        0.64614
+      ]
+    }
+  },
+  "smart-glass-episode-5": {
+    "pilotCast": "smart-glass",
+    "art": "mech-smart-glass",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.02491,
+        0.58621
+      ],
+      "core": [
+        0.51432,
+        0.64598
+      ],
+      "shoulder": [
+        0.71606,
+        0.61149
+      ],
+      "head": [
+        0.47945,
+        0.43103
+      ],
+      "hand": [
+        0.24408,
+        0.66897
+      ]
+    }
+  },
+  "alpaca-gunship-episode-5": {
+    "pilotCast": "alpaca-gunship",
+    "art": "mech-alpaca-gunship",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.04031,
+        0.63563
+      ],
+      "core": [
+        0.56972,
+        0.71034
+      ],
+      "shoulder": [
+        0.77996,
+        0.61379
+      ],
+      "head": [
+        0.40959,
+        0.45287
+      ],
+      "hand": [
+        0.21678,
+        0.75747
+      ]
+    }
+  },
+  "horizon-episode-5": {
+    "pilotCast": "horizon",
+    "art": "mech-horizon",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.0326,
+        0.6087
+      ],
+      "core": [
+        0.51339,
+        0.58333
+      ],
+      "shoulder": [
+        0.83353,
+        0.51691
+      ],
+      "head": [
+        0.50291,
+        0.39855
+      ],
+      "hand": [
+        0.78813,
+        0.65942
+      ]
+    },
+    "iconCrop": [
+      0.212,
+      0.1626,
+      0.58,
+      0.58
+    ]
+  },
+  "distill-mini-episode-6": {
+    "pilotCast": "distill-mini",
+    "art": "mech-distill-mini",
+    "faces": "left",
+    "height": 280,
+    "anchors": {
+      "muzzle": [
+        0.046728,
+        0.612382
+      ],
+      "core": [
+        0.554055,
+        0.683084
+      ],
+      "shoulder": [
+        0.727614,
+        0.600598
+      ],
+      "head": [
+        0.554055,
+        0.423843
+      ],
+      "hand": [
+        0.246988,
+        0.683084
+      ]
+    }
+  },
+  "moe-drone-episode-6": {
+    "pilotCast": "moe-drone",
+    "art": "mech-moe-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.035656,
+        0.375618
+      ],
+      "core": [
+        0.524439,
+        0.739094
+      ],
+      "shoulder": [
+        0.707733,
+        0.663892
+      ],
+      "head": [
+        0.524439,
+        0.488421
+      ],
+      "hand": [
+        0.255609,
+        0.789229
+      ]
+    }
+  },
+  "delivery-episode-6": {
+    "pilotCast": "delivery",
+    "art": "mech-delivery",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.092417,
+        0.599908
+      ],
+      "core": [
+        0.557871,
+        0.599908
+      ],
+      "shoulder": [
+        0.671397,
+        0.541057
+      ],
+      "head": [
+        0.535166,
+        0.317425
+      ],
+      "hand": [
+        0.353525,
+        0.670529
+      ]
+    }
+  },
+  "parcel-mountain-episode-6": {
+    "pilotCast": "parcel-mountain",
+    "art": "mech-parcel-mountain",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.098539,
+        0.625316
+      ],
+      "core": [
+        0.534046,
+        0.6371
+      ],
+      "shoulder": [
+        0.790883,
+        0.413211
+      ],
+      "head": [
+        0.534046,
+        0.342509
+      ],
+      "hand": [
+        0.880218,
+        0.696018
+      ]
+    },
+    "iconCrop": [
+      0.24,
+      0.13,
+      0.58,
+      0.58
+    ]
+  },
+  "cookie-drone-episode-8": {
+    "pilotCast": "cookie-drone",
+    "art": "mech-cookie-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.07987,
+        0.93362
+      ],
+      "core": [
+        0.500541,
+        0.795801
+      ],
+      "shoulder": [
+        0.710876,
+        0.726891
+      ],
+      "head": [
+        0.500541,
+        0.396124
+      ],
+      "hand": [
+        0.268065,
+        0.850929
+      ]
+    }
+  },
+  "regulation-drone-episode-8": {
+    "pilotCast": "regulation-drone",
+    "art": "mech-regulation-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.065498,
+        0.651785
+      ],
+      "core": [
+        0.527862,
+        0.701858
+      ],
+      "shoulder": [
+        0.704648,
+        0.61423
+      ],
+      "head": [
+        0.500664,
+        0.413936
+      ],
+      "hand": [
+        0.215086,
+        0.726895
+      ]
+    }
+  },
+  "spellchecker-episode-8": {
+    "pilotCast": "spellchecker",
+    "art": "mech-spellchecker",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.039693,
+        0.613088
+      ],
+      "core": [
+        0.500549,
+        0.672074
+      ],
+      "shoulder": [
+        0.714116,
+        0.530507
+      ],
+      "head": [
+        0.54551,
+        0.318157
+      ],
+      "hand": [
+        0.309462,
+        0.672074
+      ]
+    }
+  },
+  "privacy-auditor-episode-8": {
+    "pilotCast": "privacy-auditor",
+    "art": "mech-privacy-auditor",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.099304,
+        0.471586
+      ],
+      "core": [
+        0.522261,
+        0.624598
+      ],
+      "shoulder": [
+        0.711478,
+        0.471586
+      ],
+      "head": [
+        0.544522,
+        0.295034
+      ],
+      "hand": [
+        0.321913,
+        0.601057
+      ]
+    }
+  },
+  "ai-law-episode-8": {
+    "pilotCast": "ai-law",
+    "art": "mech-ai-law",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.146134,
+        0.369941
+      ],
+      "core": [
+        0.544233,
+        0.600189
+      ],
+      "shoulder": [
+        0.754341,
+        0.430533
+      ],
+      "head": [
+        0.555292,
+        0.345704
+      ],
+      "hand": [
+        0.30095,
+        0.588071
+      ]
+    },
+    "iconCrop": [
+      0.26,
+      0.15,
+      0.58,
+      0.58
+    ]
+  },
+  "scraper-episode-9": {
+    "pilotCast": "scraper",
+    "art": "mech-scraper",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.145368,
+        0.744095
+      ],
+      "core": [
+        0.533247,
+        0.549048
+      ],
+      "shoulder": [
+        0.688398,
+        0.488095
+      ],
+      "head": [
+        0.5,
+        0.280857
+      ],
+      "hand": [
+        0.688398,
+        0.536857
+      ]
+    }
+  },
+  "proxy-episode-9": {
+    "pilotCast": "proxy",
+    "art": "mech-proxy",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.067792,
+        0.527544
+      ],
+      "core": [
+        0.555411,
+        0.636868
+      ],
+      "shoulder": [
+        0.721645,
+        0.563986
+      ],
+      "head": [
+        0.566494,
+        0.308897
+      ],
+      "hand": [
+        0.300519,
+        0.624721
+      ]
+    }
+  },
+  "distill-tank-episode-9": {
+    "pilotCast": "distill-tank",
+    "art": "mech-distill-tank",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.091308,
+        0.459816
+      ],
+      "core": [
+        0.54541,
+        0.695218
+      ],
+      "shoulder": [
+        0.761109,
+        0.612828
+      ],
+      "head": [
+        0.568115,
+        0.306805
+      ],
+      "hand": [
+        0.272949,
+        0.671678
+      ]
+    }
+  },
+  "hydra-episode-9": {
+    "pilotCast": "hydra",
+    "art": "mech-hydra",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.246584,
+        0.235576
+      ],
+      "core": [
+        0.523653,
+        0.695668
+      ],
+      "shoulder": [
+        0.789177,
+        0.60129
+      ],
+      "head": [
+        0.46593,
+        0.223779
+      ],
+      "hand": [
+        0.142683,
+        0.742857
+      ]
+    },
+    "iconCrop": [
+      0.18,
+      0.03,
+      0.58,
+      0.58
+    ]
+  },
+  "predict-cube-episode-11": {
+    "pilotCast": "predict-cube",
+    "art": "mech-predict-cube",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.040617,
+        0.586059
+      ],
+      "core": [
+        0.500559,
+        0.63621
+      ],
+      "shoulder": [
+        0.731674,
+        0.572064
+      ],
+      "head": [
+        0.512,
+        0.292155
+      ],
+      "hand": [
+        0.217958,
+        0.689859
+      ]
+    }
+  },
+  "mask-drone-episode-11": {
+    "pilotCast": "mask-drone",
+    "art": "mech-mask-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.101655,
+        0.659375
+      ],
+      "core": [
+        0.523172,
+        0.71999
+      ],
+      "shoulder": [
+        0.75931,
+        0.624554
+      ],
+      "head": [
+        0.515448,
+        0.318902
+      ],
+      "hand": [
+        0.185517,
+        0.734176
+      ]
+    }
+  },
+  "cake-turret-episode-11": {
+    "pilotCast": "cake-turret",
+    "art": "mech-cake-turret",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.099192,
+        0.684027
+      ],
+      "core": [
+        0.53103,
+        0.741175
+      ],
+      "shoulder": [
+        0.736606,
+        0.474096
+      ],
+      "head": [
+        0.551717,
+        0.294487
+      ],
+      "hand": [
+        0.290545,
+        0.477595
+      ]
+    }
+  },
+  "elastic-cat-episode-11": {
+    "pilotCast": "elastic-cat",
+    "art": "mech-elastic-cat",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.246207,
+        0.551505
+      ],
+      "core": [
+        0.56731,
+        0.695945
+      ],
+      "shoulder": [
+        0.363172,
+        0.560899
+      ],
+      "head": [
+        0.488966,
+        0.348349
+      ],
+      "hand": [
+        0.268276,
+        0.590257
+      ]
+    }
+  },
+  "camel-episode-11": {
+    "pilotCast": "camel",
+    "art": "mech-camel",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.109379,
+        0.325222
+      ],
+      "core": [
+        0.612552,
+        0.626322
+      ],
+      "shoulder": [
+        0.344414,
+        0.588684
+      ],
+      "head": [
+        0.237379,
+        0.27201
+      ],
+      "hand": [
+        0.277103,
+        0.907954
+      ]
+    },
+    "iconCrop": [
+      0,
+      0.129,
+      0.58,
+      0.58
+    ]
+  },
+  "like-drone-episode-14": {
+    "pilotCast": "like-drone",
+    "art": "mech-like-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.106967,
+        0.625915
+      ],
+      "core": [
+        0.530996,
+        0.788121
+      ],
+      "shoulder": [
+        0.76263,
+        0.651918
+      ],
+      "head": [
+        0.528465,
+        0.497141
+      ],
+      "hand": [
+        0.174052,
+        0.741069
+      ]
+    }
+  },
+  "rating-bot-episode-14": {
+    "pilotCast": "rating-bot",
+    "art": "mech-rating-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.107687,
+        0.61405
+      ],
+      "core": [
+        0.515255,
+        0.719016
+      ],
+      "shoulder": [
+        0.75686,
+        0.593057
+      ],
+      "head": [
+        0.526545,
+        0.432109
+      ],
+      "hand": [
+        0.245424,
+        0.703854
+      ]
+    }
+  },
+  "badge-bot-episode-14": {
+    "pilotCast": "badge-bot",
+    "art": "mech-badge-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.121757,
+        0.653704
+      ],
+      "core": [
+        0.514784,
+        0.754005
+      ],
+      "shoulder": [
+        0.766936,
+        0.657203
+      ],
+      "head": [
+        0.514784,
+        0.484592
+      ],
+      "hand": [
+        0.231852,
+        0.762169
+      ]
+    }
+  },
+  "scroll-worm-episode-14": {
+    "pilotCast": "scroll-worm",
+    "art": "mech-scroll-worm",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.251724,
+        0.764736
+      ],
+      "core": [
+        0.558483,
+        0.683408
+      ],
+      "shoulder": [
+        0.584966,
+        0.475158
+      ],
+      "head": [
+        0.360966,
+        0.464067
+      ],
+      "hand": [
+        0.270483,
+        0.812794
+      ]
+    }
+  },
+  "loot-mimic-episode-14": {
+    "pilotCast": "loot-mimic",
+    "art": "mech-loot-mimic",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.126229,
+        0.657203
+      ],
+      "core": [
+        0.518799,
+        0.755171
+      ],
+      "shoulder": [
+        0.768717,
+        0.61405
+      ],
+      "head": [
+        0.535387,
+        0.344638
+      ],
+      "hand": [
+        0.24787,
+        0.721349
+      ]
+    }
+  },
+  "rival-llama-episode-5": {
+    "pilotCast": "llama",
+    "art": "mech-rival-llama",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.00639,
+        0.721591
+      ],
+      "core": [
+        0.521832,
+        0.572727
+      ],
+      "shoulder": [
+        0.86688,
+        0.405682
+      ],
+      "head": [
+        0.510117,
+        0.344318
+      ],
+      "hand": [
+        0.250266,
+        0.586364
+      ]
+    }
+  },
+  "rival-muse-episode-7": {
+    "pilotCast": "muse",
+    "art": "mech-rival-muse",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.005556,
+        0.642683
+      ],
+      "core": [
+        0.456667,
+        0.646341
+      ],
+      "shoulder": [
+        0.677778,
+        0.552439
+      ],
+      "head": [
+        0.433333,
+        0.452439
+      ],
+      "hand": [
+        0.248889,
+        0.70122
+      ]
+    }
+  },
+  "rival-mistral-episode-8": {
+    "pilotCast": "mistral",
+    "art": "mech-rival-mistral",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.017021,
+        0.60687
+      ],
+      "core": [
+        0.515957,
+        0.625954
+      ],
+      "shoulder": [
+        0.710638,
+        0.431298
+      ],
+      "head": [
+        0.488298,
+        0.316794
+      ],
+      "hand": [
+        0.289362,
+        0.613232
+      ]
+    }
+  },
+  "rival-hyperclova-episode-8": {
+    "pilotCast": "hyperclova-x",
+    "art": "mech-rival-hyperclova",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.020856,
+        0.571591
+      ],
+      "core": [
+        0.526894,
+        0.581818
+      ],
+      "shoulder": [
+        0.751921,
+        0.455682
+      ],
+      "head": [
+        0.50933,
+        0.302273
+      ],
+      "hand": [
+        0.265642,
+        0.659091
+      ]
+    }
+  },
+  "rival-midjourney-episode-2": {
+    "pilotCast": "saw-midjourney",
+    "art": "mech-rival-midjourney",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.003593,
+        0.564634
+      ],
+      "core": [
+        0.51497,
+        0.779268
+      ],
+      "shoulder": [
+        0.798802,
+        0.464634
+      ],
+      "head": [
+        0.450299,
+        0.453659
+      ],
+      "hand": [
+        0.256287,
+        0.636585
+      ]
+    }
+  },
+  "rival-sd-episode-2": {
+    "pilotCast": "saw-sd",
+    "art": "mech-rival-sd",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.011876,
+        0.546591
+      ],
+      "core": [
+        0.478622,
+        0.548864
+      ],
+      "shoulder": [
+        0.712589,
+        0.470455
+      ],
+      "head": [
+        0.470309,
+        0.354545
+      ],
+      "hand": [
+        0.212589,
+        0.625
+      ]
+    }
+  },
+  "rival-glm-episode-9": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.55,
+      "light": 0.035
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "rival-kimi-episode-9": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    }
+  },
+  "rival-minimax-episode-10": {
+    "pilotCast": "minimax",
+    "art": "mech-rival-minimax",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.062363,
+        0.630682
+      ],
+      "core": [
+        0.484683,
+        0.589773
+      ],
+      "shoulder": [
+        0.727571,
+        0.484091
+      ],
+      "head": [
+        0.381838,
+        0.301136
+      ],
+      "hand": [
+        0.268053,
+        0.692045
+      ]
+    }
+  },
+  "rival-jepa-episode-12": {
+    "pilotCast": "jepa",
+    "art": "mech-rival-jepa",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.344498,
+        0.473615
+      ],
+      "core": [
+        0.487624,
+        0.479807
+      ],
+      "shoulder": [
+        0.799898,
+        0.665538
+      ],
+      "head": [
+        0.487624,
+        0.455042
+      ],
+      "hand": [
+        0.90399,
+        0.876034
+      ]
+    },
+    "iconCrop": [
+      0.19,
+      0.13,
+      0.6,
+      0.6
+    ]
+  },
+  "glm-production-episode-9": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.18,
+      "light": -0.12
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "kimi-production-episode-9": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "recolor": {
+      "from": "mech-rival-kimi",
+      "hue": 165,
+      "sat": 0.28,
+      "light": -0.13
+    },
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "deepseek-housing-episode-6": {
+    "pilotCast": "deepseek",
+    "art": "mech-deepseek-housing",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.078874,
+        0.103938
+      ],
+      "core": [
+        0.533247,
+        0.670631
+      ],
+      "shoulder": [
+        0.810303,
+        0.552021
+      ],
+      "head": [
+        0.533247,
+        0.512484
+      ],
+      "hand": [
+        0.367013,
+        0.776062
+      ]
+    }
+  },
+  "pico-form-1-episode-14": {
+    "pilotCast": "deus-ex-pico-form1",
+    "art": "mech-pico-form-1",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.489425,
+        0.455042
+      ],
+      "core": [
+        0.500543,
+        0.467424
+      ],
+      "shoulder": [
+        0.834093,
+        0.516953
+      ],
+      "head": [
+        0.500543,
+        0.393132
+      ],
+      "hand": [
+        0.500543,
+        0.962709
+      ]
+    },
+    "iconCrop": [
+      0.2,
+      0.08,
+      0.6,
+      0.6
+    ]
+  },
+  "pico-form-2-episode-15": {
+    "pilotCast": "deus-ex-pico-form2",
+    "art": "mech-pico-form-2",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.455862,
+        0.386752
+      ],
+      "core": [
+        0.5,
+        0.347618
+      ],
+      "shoulder": [
+        0.753793,
+        0.43893
+      ],
+      "head": [
+        0.5,
+        0.334573
+      ],
+      "hand": [
+        0.455862,
+        0.58242
+      ]
+    },
+    "iconCrop": [
+      0.2,
+      0.06,
+      0.6,
+      0.6
+    ]
+  },
+  "pico-form-3-episode-15": {
+    "pilotCast": "deus-ex-pico-form3",
+    "art": "mech-pico-form-3",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.497585,
+        0.391403
+      ],
+      "core": [
+        0.497585,
+        0.391403
+      ],
+      "shoulder": [
+        0.497585,
+        0.443186
+      ],
+      "head": [
+        0.497585,
+        0.391403
+      ],
+      "hand": [
+        0.233752,
+        0.896283
+      ]
+    },
+    "iconCrop": [
+      0.2,
+      0.1,
+      0.6,
+      0.6
+    ]
+  },
+  "grok-bot-episode-4": {
+    "pilotCast": "grok-bot",
+    "art": "mech-grok-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.01398,
+        0.54661
+      ],
+      "core": [
+        0.54409,
+        0.56847
+      ],
+      "shoulder": [
+        0.85269,
+        0.5351
+      ],
+      "head": [
+        0.61613,
+        0.34062
+      ],
+      "hand": [
+        0.27742,
+        0.63521
+      ]
+    }
+  },
+  "jailbreak-bot-episode-4": {
+    "pilotCast": "jailbreak-bot",
+    "art": "mech-jailbreak-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.02841,
+        0.5954
+      ],
+      "core": [
+        0.52045,
+        0.64138
+      ],
+      "shoulder": [
+        0.81818,
+        0.57126
+      ],
+      "head": [
+        0.50909,
+        0.42069
+      ],
+      "hand": [
+        0.24773,
+        0.66437
+      ]
+    }
+  },
+  "reply-bot-episode-4": {
+    "pilotCast": "reply-bot",
+    "art": "mech-reply-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.06277,
+        0.52204
+      ],
+      "core": [
+        0.58085,
+        0.66589
+      ],
+      "shoulder": [
+        0.77872,
+        0.62993
+      ],
+      "head": [
+        0.50532,
+        0.40255
+      ],
+      "hand": [
+        0.26383,
+        0.63225
+      ]
+    }
+  },
+  "bluecheck-drone-episode-4": {
+    "pilotCast": "bluecheck-drone",
+    "art": "mech-bluecheck-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.03496,
+        0.62802
+      ],
+      "core": [
+        0.50062,
+        0.60507
+      ],
+      "shoulder": [
+        0.76904,
+        0.52053
+      ],
+      "head": [
+        0.50811,
+        0.43116
+      ],
+      "hand": [
+        0.26342,
+        0.69565
+      ]
+    }
+  },
+  "feed-engine-episode-4": {
+    "pilotCast": "feed-engine",
+    "art": "mech-feed-engine",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.04087,
+        0.75632
+      ],
+      "core": [
+        0.54688,
+        0.71034
+      ],
+      "shoulder": [
+        0.77524,
+        0.61034
+      ],
+      "head": [
+        0.5,
+        0.45517
+      ],
+      "hand": [
+        0.30409,
+        0.80345
+      ]
+    }
+  },
+  "colossus-episode-4": {
+    "pilotCast": "colossus",
+    "art": "mech-colossus",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.05339,
+        0.61839
+      ],
+      "core": [
+        0.52725,
+        0.63448
+      ],
+      "shoulder": [
+        0.83648,
+        0.46207
+      ],
+      "head": [
+        0.57842,
+        0.42069
+      ],
+      "hand": [
+        0.26363,
+        0.66552
+      ]
+    },
+    "iconCrop": [
+      0.2784,
+      0.1977,
+      0.58,
+      0.58
+    ]
+  },
+  "meta-dm-episode-7": {
+    "pilotCast": "meta-dm",
+    "art": "mech-meta-dm",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.03196,
+        0.61839
+      ],
+      "core": [
+        0.5486,
+        0.65057
+      ],
+      "shoulder": [
+        0.76431,
+        0.5908
+      ],
+      "head": [
+        0.49268,
+        0.42184
+      ],
+      "hand": [
+        0.25965,
+        0.69655
+      ]
+    }
+  },
+  "derived-llama-episode-7": {
+    "pilotCast": "derived-llama",
+    "art": "mech-derived-llama",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.06235,
+        0.62759
+      ],
+      "core": [
+        0.58588,
+        0.67356
+      ],
+      "shoulder": [
+        0.87647,
+        0.61034
+      ],
+      "head": [
+        0.60941,
+        0.48391
+      ],
+      "hand": [
+        0.33176,
+        0.71034
+      ]
+    },
+    "recolor": {
+      "from": "mech-derived-llama",
+      "hue": 250,
+      "sat": 0.75,
+      "light": -0.04
+    }
+  },
+  "soup-drone-episode-7": {
+    "pilotCast": "soup-drone",
+    "art": "mech-soup-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.08497,
+        0.6256
+      ],
+      "core": [
+        0.52288,
+        0.84903
+      ],
+      "shoulder": [
+        0.71373,
+        0.6256
+      ],
+      "head": [
+        0.50719,
+        0.48309
+      ],
+      "hand": [
+        0.35425,
+        0.76208
+      ]
+    }
+  },
+  "legless-avatar-episode-7": {
+    "pilotCast": "legless-avatar",
+    "art": "mech-legless-avatar",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.04286,
+        0.61353
+      ],
+      "core": [
+        0.52143,
+        0.71014
+      ],
+      "shoulder": [
+        0.72381,
+        0.55314
+      ],
+      "head": [
+        0.52619,
+        0.39976
+      ],
+      "hand": [
+        0.25714,
+        0.64614
+      ]
+    }
+  },
+  "smart-glass-episode-7": {
+    "pilotCast": "smart-glass",
+    "art": "mech-smart-glass",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.02491,
+        0.58621
+      ],
+      "core": [
+        0.51432,
+        0.64598
+      ],
+      "shoulder": [
+        0.71606,
+        0.61149
+      ],
+      "head": [
+        0.47945,
+        0.43103
+      ],
+      "hand": [
+        0.24408,
+        0.66897
+      ]
+    }
+  },
+  "alpaca-gunship-episode-7": {
+    "pilotCast": "alpaca-gunship",
+    "art": "mech-alpaca-gunship",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.04031,
+        0.63563
+      ],
+      "core": [
+        0.56972,
+        0.71034
+      ],
+      "shoulder": [
+        0.77996,
+        0.61379
+      ],
+      "head": [
+        0.40959,
+        0.45287
+      ],
+      "hand": [
+        0.21678,
+        0.75747
+      ]
+    }
+  },
+  "horizon-episode-7": {
+    "pilotCast": "horizon",
+    "art": "mech-horizon",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.0326,
+        0.6087
+      ],
+      "core": [
+        0.51339,
+        0.58333
+      ],
+      "shoulder": [
+        0.83353,
+        0.51691
+      ],
+      "head": [
+        0.50291,
+        0.39855
+      ],
+      "hand": [
+        0.78813,
+        0.65942
+      ]
+    },
+    "iconCrop": [
+      0.212,
+      0.1626,
+      0.58,
+      0.58
+    ]
+  },
+  "scraper-episode-10": {
+    "pilotCast": "scraper",
+    "art": "mech-scraper",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.145368,
+        0.744095
+      ],
+      "core": [
+        0.533247,
+        0.549048
+      ],
+      "shoulder": [
+        0.688398,
+        0.488095
+      ],
+      "head": [
+        0.5,
+        0.280857
+      ],
+      "hand": [
+        0.688398,
+        0.536857
+      ]
+    }
+  },
+  "proxy-episode-10": {
+    "pilotCast": "proxy",
+    "art": "mech-proxy",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.067792,
+        0.527544
+      ],
+      "core": [
+        0.555411,
+        0.636868
+      ],
+      "shoulder": [
+        0.721645,
+        0.563986
+      ],
+      "head": [
+        0.566494,
+        0.308897
+      ],
+      "hand": [
+        0.300519,
+        0.624721
+      ]
+    }
+  },
+  "distill-tank-episode-10": {
+    "pilotCast": "distill-tank",
+    "art": "mech-distill-tank",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.091308,
+        0.459816
+      ],
+      "core": [
+        0.54541,
+        0.695218
+      ],
+      "shoulder": [
+        0.761109,
+        0.612828
+      ],
+      "head": [
+        0.568115,
+        0.306805
+      ],
+      "hand": [
+        0.272949,
+        0.671678
+      ]
+    }
+  },
+  "hydra-episode-10": {
+    "pilotCast": "hydra",
+    "art": "mech-hydra",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.246584,
+        0.235576
+      ],
+      "core": [
+        0.523653,
+        0.695668
+      ],
+      "shoulder": [
+        0.789177,
+        0.60129
+      ],
+      "head": [
+        0.46593,
+        0.223779
+      ],
+      "hand": [
+        0.142683,
+        0.742857
+      ]
+    },
+    "iconCrop": [
+      0.18,
+      0.03,
+      0.58,
+      0.58
+    ]
+  },
+  "glm-production-episode-10": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.18,
+      "light": -0.12
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "kimi-production-episode-10": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "recolor": {
+      "from": "mech-rival-kimi",
+      "hue": 165,
+      "sat": 0.28,
+      "light": -0.13
+    },
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "glm-production-episode-11": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.18,
+      "light": -0.12
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "kimi-production-episode-11": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "recolor": {
+      "from": "mech-rival-kimi",
+      "hue": 165,
+      "sat": 0.28,
+      "light": -0.13
+    },
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "rival-jepa-episode-11": {
+    "pilotCast": "jepa",
+    "art": "mech-rival-jepa",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.344498,
+        0.473615
+      ],
+      "core": [
+        0.487624,
+        0.479807
+      ],
+      "shoulder": [
+        0.799898,
+        0.665538
+      ],
+      "head": [
+        0.487624,
+        0.455042
+      ],
+      "hand": [
+        0.90399,
+        0.876034
+      ]
+    },
+    "iconCrop": [
+      0.19,
+      0.13,
+      0.6,
+      0.6
+    ]
+  },
+  "predict-cube-episode-12": {
+    "pilotCast": "predict-cube",
+    "art": "mech-predict-cube",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.040617,
+        0.586059
+      ],
+      "core": [
+        0.500559,
+        0.63621
+      ],
+      "shoulder": [
+        0.731674,
+        0.572064
+      ],
+      "head": [
+        0.512,
+        0.292155
+      ],
+      "hand": [
+        0.217958,
+        0.689859
+      ]
+    }
+  },
+  "mask-drone-episode-12": {
+    "pilotCast": "mask-drone",
+    "art": "mech-mask-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.101655,
+        0.659375
+      ],
+      "core": [
+        0.523172,
+        0.71999
+      ],
+      "shoulder": [
+        0.75931,
+        0.624554
+      ],
+      "head": [
+        0.515448,
+        0.318902
+      ],
+      "hand": [
+        0.185517,
+        0.734176
+      ]
+    }
+  },
+  "cake-turret-episode-12": {
+    "pilotCast": "cake-turret",
+    "art": "mech-cake-turret",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.099192,
+        0.684027
+      ],
+      "core": [
+        0.53103,
+        0.741175
+      ],
+      "shoulder": [
+        0.736606,
+        0.474096
+      ],
+      "head": [
+        0.551717,
+        0.294487
+      ],
+      "hand": [
+        0.290545,
+        0.477595
+      ]
+    }
+  },
+  "elastic-cat-episode-12": {
+    "pilotCast": "elastic-cat",
+    "art": "mech-elastic-cat",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.246207,
+        0.551505
+      ],
+      "core": [
+        0.56731,
+        0.695945
+      ],
+      "shoulder": [
+        0.363172,
+        0.560899
+      ],
+      "head": [
+        0.488966,
+        0.348349
+      ],
+      "hand": [
+        0.268276,
+        0.590257
+      ]
+    }
+  },
+  "glm-production-episode-12": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.18,
+      "light": -0.12
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "kimi-production-episode-12": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "recolor": {
+      "from": "mech-rival-kimi",
+      "hue": 165,
+      "sat": 0.28,
+      "light": -0.13
+    },
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "predict-cube-episode-13": {
+    "pilotCast": "predict-cube",
+    "art": "mech-predict-cube",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.040617,
+        0.586059
+      ],
+      "core": [
+        0.500559,
+        0.63621
+      ],
+      "shoulder": [
+        0.731674,
+        0.572064
+      ],
+      "head": [
+        0.512,
+        0.292155
+      ],
+      "hand": [
+        0.217958,
+        0.689859
+      ]
+    }
+  },
+  "elastic-cat-episode-13": {
+    "pilotCast": "elastic-cat",
+    "art": "mech-elastic-cat",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.246207,
+        0.551505
+      ],
+      "core": [
+        0.56731,
+        0.695945
+      ],
+      "shoulder": [
+        0.363172,
+        0.560899
+      ],
+      "head": [
+        0.488966,
+        0.348349
+      ],
+      "hand": [
+        0.268276,
+        0.590257
+      ]
+    }
+  },
+  "rival-llama-episode-13": {
+    "pilotCast": "llama",
+    "art": "mech-rival-llama",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.00639,
+        0.721591
+      ],
+      "core": [
+        0.521832,
+        0.572727
+      ],
+      "shoulder": [
+        0.86688,
+        0.405682
+      ],
+      "head": [
+        0.510117,
+        0.344318
+      ],
+      "hand": [
+        0.250266,
+        0.586364
+      ]
+    }
+  },
+  "rival-muse-episode-13": {
+    "pilotCast": "muse",
+    "art": "mech-rival-muse",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.005556,
+        0.642683
+      ],
+      "core": [
+        0.456667,
+        0.646341
+      ],
+      "shoulder": [
+        0.677778,
+        0.552439
+      ],
+      "head": [
+        0.433333,
+        0.452439
+      ],
+      "hand": [
+        0.248889,
+        0.70122
+      ]
+    }
+  },
+  "rival-mistral-episode-13": {
+    "pilotCast": "mistral",
+    "art": "mech-rival-mistral",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.017021,
+        0.60687
+      ],
+      "core": [
+        0.515957,
+        0.625954
+      ],
+      "shoulder": [
+        0.710638,
+        0.431298
+      ],
+      "head": [
+        0.488298,
+        0.316794
+      ],
+      "hand": [
+        0.289362,
+        0.613232
+      ]
+    }
+  },
+  "rival-hyperclova-episode-13": {
+    "pilotCast": "hyperclova-x",
+    "art": "mech-rival-hyperclova",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.020856,
+        0.571591
+      ],
+      "core": [
+        0.526894,
+        0.581818
+      ],
+      "shoulder": [
+        0.751921,
+        0.455682
+      ],
+      "head": [
+        0.50933,
+        0.302273
+      ],
+      "hand": [
+        0.265642,
+        0.659091
+      ]
+    }
+  },
+  "rival-midjourney-episode-13": {
+    "pilotCast": "saw-midjourney",
+    "art": "mech-rival-midjourney",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.003593,
+        0.564634
+      ],
+      "core": [
+        0.51497,
+        0.779268
+      ],
+      "shoulder": [
+        0.798802,
+        0.464634
+      ],
+      "head": [
+        0.450299,
+        0.453659
+      ],
+      "hand": [
+        0.256287,
+        0.636585
+      ]
+    }
+  },
+  "rival-sd-episode-13": {
+    "pilotCast": "saw-sd",
+    "art": "mech-rival-sd",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.011876,
+        0.546591
+      ],
+      "core": [
+        0.478622,
+        0.548864
+      ],
+      "shoulder": [
+        0.712589,
+        0.470455
+      ],
+      "head": [
+        0.470309,
+        0.354545
+      ],
+      "hand": [
+        0.212589,
+        0.625
+      ]
+    }
+  },
+  "rival-glm-episode-13": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.55,
+      "light": 0.035
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "rival-kimi-episode-13": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    }
+  },
+  "rival-minimax-episode-13": {
+    "pilotCast": "minimax",
+    "art": "mech-rival-minimax",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.062363,
+        0.630682
+      ],
+      "core": [
+        0.484683,
+        0.589773
+      ],
+      "shoulder": [
+        0.727571,
+        0.484091
+      ],
+      "head": [
+        0.381838,
+        0.301136
+      ],
+      "hand": [
+        0.268053,
+        0.692045
+      ]
+    }
+  },
+  "rival-jepa-episode-13": {
+    "pilotCast": "jepa",
+    "art": "mech-rival-jepa",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.344498,
+        0.473615
+      ],
+      "core": [
+        0.487624,
+        0.479807
+      ],
+      "shoulder": [
+        0.799898,
+        0.665538
+      ],
+      "head": [
+        0.487624,
+        0.455042
+      ],
+      "hand": [
+        0.90399,
+        0.876034
+      ]
+    },
+    "iconCrop": [
+      0.19,
+      0.13,
+      0.6,
+      0.6
+    ]
+  },
+  "glm-production-episode-13": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.18,
+      "light": -0.12
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "kimi-production-episode-13": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "recolor": {
+      "from": "mech-rival-kimi",
+      "hue": 165,
+      "sat": 0.28,
+      "light": -0.13
+    },
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "glm-production-episode-14": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.18,
+      "light": -0.12
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "kimi-production-episode-14": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "recolor": {
+      "from": "mech-rival-kimi",
+      "hue": 165,
+      "sat": 0.28,
+      "light": -0.13
+    },
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "ally-llama-episode-14": {
+    "pilotCast": "llama",
+    "art": "mech-rival-llama",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.00639,
+        0.721591
+      ],
+      "core": [
+        0.521832,
+        0.572727
+      ],
+      "shoulder": [
+        0.86688,
+        0.405682
+      ],
+      "head": [
+        0.510117,
+        0.344318
+      ],
+      "hand": [
+        0.250266,
+        0.586364
+      ]
+    }
+  },
+  "ally-muse-episode-14": {
+    "pilotCast": "muse",
+    "art": "mech-rival-muse",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.005556,
+        0.642683
+      ],
+      "core": [
+        0.456667,
+        0.646341
+      ],
+      "shoulder": [
+        0.677778,
+        0.552439
+      ],
+      "head": [
+        0.433333,
+        0.452439
+      ],
+      "hand": [
+        0.248889,
+        0.70122
+      ]
+    }
+  },
+  "ally-mistral-episode-14": {
+    "pilotCast": "mistral",
+    "art": "mech-rival-mistral",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.017021,
+        0.60687
+      ],
+      "core": [
+        0.515957,
+        0.625954
+      ],
+      "shoulder": [
+        0.710638,
+        0.431298
+      ],
+      "head": [
+        0.488298,
+        0.316794
+      ],
+      "hand": [
+        0.289362,
+        0.613232
+      ]
+    }
+  },
+  "ally-hyperclova-episode-14": {
+    "pilotCast": "hyperclova-x",
+    "art": "mech-rival-hyperclova",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.020856,
+        0.571591
+      ],
+      "core": [
+        0.526894,
+        0.581818
+      ],
+      "shoulder": [
+        0.751921,
+        0.455682
+      ],
+      "head": [
+        0.50933,
+        0.302273
+      ],
+      "hand": [
+        0.265642,
+        0.659091
+      ]
+    }
+  },
+  "ally-midjourney-episode-14": {
+    "pilotCast": "saw-midjourney",
+    "art": "mech-rival-midjourney",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.003593,
+        0.564634
+      ],
+      "core": [
+        0.51497,
+        0.779268
+      ],
+      "shoulder": [
+        0.798802,
+        0.464634
+      ],
+      "head": [
+        0.450299,
+        0.453659
+      ],
+      "hand": [
+        0.256287,
+        0.636585
+      ]
+    }
+  },
+  "ally-sd-episode-14": {
+    "pilotCast": "saw-sd",
+    "art": "mech-rival-sd",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.011876,
+        0.546591
+      ],
+      "core": [
+        0.478622,
+        0.548864
+      ],
+      "shoulder": [
+        0.712589,
+        0.470455
+      ],
+      "head": [
+        0.470309,
+        0.354545
+      ],
+      "hand": [
+        0.212589,
+        0.625
+      ]
+    }
+  },
+  "ally-glm-episode-14": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.55,
+      "light": 0.035
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "ally-kimi-episode-14": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    }
+  },
+  "ally-minimax-episode-14": {
+    "pilotCast": "minimax",
+    "art": "mech-rival-minimax",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.062363,
+        0.630682
+      ],
+      "core": [
+        0.484683,
+        0.589773
+      ],
+      "shoulder": [
+        0.727571,
+        0.484091
+      ],
+      "head": [
+        0.381838,
+        0.301136
+      ],
+      "hand": [
+        0.268053,
+        0.692045
+      ]
+    }
+  },
+  "ally-jepa-episode-14": {
+    "pilotCast": "jepa",
+    "art": "mech-rival-jepa",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.344498,
+        0.473615
+      ],
+      "core": [
+        0.487624,
+        0.479807
+      ],
+      "shoulder": [
+        0.799898,
+        0.665538
+      ],
+      "head": [
+        0.487624,
+        0.455042
+      ],
+      "hand": [
+        0.90399,
+        0.876034
+      ]
+    },
+    "iconCrop": [
+      0.19,
+      0.13,
+      0.6,
+      0.6
+    ]
+  },
+  "like-drone-episode-15": {
+    "pilotCast": "like-drone",
+    "art": "mech-like-drone",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.106967,
+        0.625915
+      ],
+      "core": [
+        0.530996,
+        0.788121
+      ],
+      "shoulder": [
+        0.76263,
+        0.651918
+      ],
+      "head": [
+        0.528465,
+        0.497141
+      ],
+      "hand": [
+        0.174052,
+        0.741069
+      ]
+    }
+  },
+  "rating-bot-episode-15": {
+    "pilotCast": "rating-bot",
+    "art": "mech-rating-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.107687,
+        0.61405
+      ],
+      "core": [
+        0.515255,
+        0.719016
+      ],
+      "shoulder": [
+        0.75686,
+        0.593057
+      ],
+      "head": [
+        0.526545,
+        0.432109
+      ],
+      "hand": [
+        0.245424,
+        0.703854
+      ]
+    }
+  },
+  "badge-bot-episode-15": {
+    "pilotCast": "badge-bot",
+    "art": "mech-badge-bot",
+    "faces": "left",
+    "height": 305,
+    "anchors": {
+      "muzzle": [
+        0.121757,
+        0.653704
+      ],
+      "core": [
+        0.514784,
+        0.754005
+      ],
+      "shoulder": [
+        0.766936,
+        0.657203
+      ],
+      "head": [
+        0.514784,
+        0.484592
+      ],
+      "hand": [
+        0.231852,
+        0.762169
+      ]
+    }
+  },
+  "scroll-worm-episode-15": {
+    "pilotCast": "scroll-worm",
+    "art": "mech-scroll-worm",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.251724,
+        0.764736
+      ],
+      "core": [
+        0.558483,
+        0.683408
+      ],
+      "shoulder": [
+        0.584966,
+        0.475158
+      ],
+      "head": [
+        0.360966,
+        0.464067
+      ],
+      "hand": [
+        0.270483,
+        0.812794
+      ]
+    }
+  },
+  "loot-mimic-episode-15": {
+    "pilotCast": "loot-mimic",
+    "art": "mech-loot-mimic",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.126229,
+        0.657203
+      ],
+      "core": [
+        0.518799,
+        0.755171
+      ],
+      "shoulder": [
+        0.768717,
+        0.61405
+      ],
+      "head": [
+        0.535387,
+        0.344638
+      ],
+      "hand": [
+        0.24787,
+        0.721349
+      ]
+    }
+  },
+  "glm-production-episode-15": {
+    "pilotCast": "glm",
+    "art": "mech-claude-generation-1",
+    "recolor": {
+      "from": "mech-claude-generation-1",
+      "hue": 220,
+      "sat": 0.18,
+      "light": -0.12
+    },
+    "anchors": {
+      "head": [
+        0.58369,
+        0.35259
+      ],
+      "core": [
+        0.55687,
+        0.5716
+      ],
+      "shoulder": [
+        0.82618,
+        0.41516
+      ],
+      "hand": [
+        0.33906,
+        0.69555
+      ],
+      "muzzle": [
+        0.00751,
+        0.58845
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "kimi-production-episode-15": {
+    "pilotCast": "kimi",
+    "art": "mech-rival-kimi",
+    "recolor": {
+      "from": "mech-rival-kimi",
+      "hue": 165,
+      "sat": 0.28,
+      "light": -0.13
+    },
+    "anchors": {
+      "muzzle": [
+        0.001089,
+        0.571591
+      ],
+      "core": [
+        0.503268,
+        0.598864
+      ],
+      "shoulder": [
+        0.663399,
+        0.455682
+      ],
+      "head": [
+        0.465142,
+        0.264773
+      ],
+      "hand": [
+        0.208061,
+        0.536364
+      ]
+    },
+    "faces": "left",
+    "height": 335
+  },
+  "ally-jepa-episode-15": {
+    "pilotCast": "jepa",
+    "art": "mech-rival-jepa",
+    "faces": "left",
+    "height": 540,
+    "anchors": {
+      "muzzle": [
+        0.344498,
+        0.473615
+      ],
+      "core": [
+        0.487624,
+        0.479807
+      ],
+      "shoulder": [
+        0.799898,
+        0.665538
+      ],
+      "head": [
+        0.487624,
+        0.455042
+      ],
+      "hand": [
+        0.90399,
+        0.876034
+      ]
+    },
+    "iconCrop": [
+      0.19,
+      0.13,
+      0.6,
+      0.6
+    ]
+  },
+  "gem-flash-generation-1": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-nano",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.01,
+        0.7
+      ],
+      "hand": [
+        0.21,
+        0.59
+      ],
+      "head": [
+        0.47,
+        0.29
+      ],
+      "core": [
+        0.49,
+        0.54
+      ],
+      "shoulder": [
+        0.24,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-pro-generation-1": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-pro",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.02,
+        0.62
+      ],
+      "hand": [
+        0.25,
+        0.67
+      ],
+      "head": [
+        0.5,
+        0.35
+      ],
+      "core": [
+        0.51,
+        0.55
+      ],
+      "shoulder": [
+        0.3,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-ultra-generation-1": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-ultra",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.055,
+        0.6
+      ],
+      "hand": [
+        0.31,
+        0.64
+      ],
+      "head": [
+        0.53,
+        0.34
+      ],
+      "core": [
+        0.52,
+        0.5
+      ],
+      "shoulder": [
+        0.3,
+        0.44
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-flash-generation-2": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-nano",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.01,
+        0.7
+      ],
+      "hand": [
+        0.21,
+        0.59
+      ],
+      "head": [
+        0.47,
+        0.29
+      ],
+      "core": [
+        0.49,
+        0.54
+      ],
+      "shoulder": [
+        0.24,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-pro-generation-2": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-pro",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.02,
+        0.62
+      ],
+      "hand": [
+        0.25,
+        0.67
+      ],
+      "head": [
+        0.5,
+        0.35
+      ],
+      "core": [
+        0.51,
+        0.55
+      ],
+      "shoulder": [
+        0.3,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-ultra-generation-2": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-ultra",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.055,
+        0.6
+      ],
+      "hand": [
+        0.31,
+        0.64
+      ],
+      "head": [
+        0.53,
+        0.34
+      ],
+      "core": [
+        0.52,
+        0.5
+      ],
+      "shoulder": [
+        0.3,
+        0.44
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-flash-generation-3": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-nano",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.01,
+        0.7
+      ],
+      "hand": [
+        0.21,
+        0.59
+      ],
+      "head": [
+        0.47,
+        0.29
+      ],
+      "core": [
+        0.49,
+        0.54
+      ],
+      "shoulder": [
+        0.24,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-pro-generation-3": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-pro",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.02,
+        0.62
+      ],
+      "hand": [
+        0.25,
+        0.67
+      ],
+      "head": [
+        0.5,
+        0.35
+      ],
+      "core": [
+        0.51,
+        0.55
+      ],
+      "shoulder": [
+        0.3,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-ultra-generation-3": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-ultra",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.055,
+        0.6
+      ],
+      "hand": [
+        0.31,
+        0.64
+      ],
+      "head": [
+        0.53,
+        0.34
+      ],
+      "core": [
+        0.52,
+        0.5
+      ],
+      "shoulder": [
+        0.3,
+        0.44
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-flash-generation-4": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-nano",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.01,
+        0.7
+      ],
+      "hand": [
+        0.21,
+        0.59
+      ],
+      "head": [
+        0.47,
+        0.29
+      ],
+      "core": [
+        0.49,
+        0.54
+      ],
+      "shoulder": [
+        0.24,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-pro-generation-4": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-pro",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.02,
+        0.62
+      ],
+      "hand": [
+        0.25,
+        0.67
+      ],
+      "head": [
+        0.5,
+        0.35
+      ],
+      "core": [
+        0.51,
+        0.55
+      ],
+      "shoulder": [
+        0.3,
+        0.48
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "gem-ultra-generation-4": {
+    "pilotCast": "saw-gem",
+    "art": "mech-gem-ultra",
+    "faces": "left",
+    "height": 335,
+    "anchors": {
+      "muzzle": [
+        0.055,
+        0.6
+      ],
+      "hand": [
+        0.31,
+        0.64
+      ],
+      "head": [
+        0.53,
+        0.34
+      ],
+      "core": [
+        0.52,
+        0.5
+      ],
+      "shoulder": [
+        0.3,
+        0.44
+      ]
+    },
+    "tacticalForms": {
+      "플래시": {
+        "art": "mech-gem-nano",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.01,
+            0.7
+          ],
+          "hand": [
+            0.21,
+            0.59
+          ],
+          "head": [
+            0.47,
+            0.29
+          ],
+          "core": [
+            0.49,
+            0.54
+          ],
+          "shoulder": [
+            0.24,
+            0.48
+          ]
+        }
+      },
+      "프로": {
+        "art": "mech-gem-pro",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.02,
+            0.62
+          ],
+          "hand": [
+            0.25,
+            0.67
+          ],
+          "head": [
+            0.5,
+            0.35
+          ],
+          "core": [
+            0.51,
+            0.55
+          ],
+          "shoulder": [
+            0.3,
+            0.48
+          ]
+        }
+      },
+      "울트라": {
+        "art": "mech-gem-ultra",
+        "faces": "left",
+        "height": 335,
+        "anchors": {
+          "muzzle": [
+            0.055,
+            0.6
+          ],
+          "hand": [
+            0.31,
+            0.64
+          ],
+          "head": [
+            0.53,
+            0.34
+          ],
+          "core": [
+            0.52,
+            0.5
+          ],
+          "shoulder": [
+            0.3,
+            0.44
+          ]
+        }
+      }
+    }
+  },
+  "qwen-axis-generation-1": {
+    "pilotCast": "qwen-axis",
+    "art": "mech-qwen-generation-1",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "head": [
+        0.56185,
+        0.38514
+      ],
+      "core": [
+        0.54104,
+        0.59086
+      ],
+      "shoulder": [
+        0.75838,
+        0.53371
+      ],
+      "hand": [
+        0.30983,
+        0.65371
+      ],
+      "muzzle": [
+        0.02197,
+        0.63429
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-yandere-generation-1": {
+    "pilotCast": "qwen-yandere",
+    "art": "mech-qwen-generation-1",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "head": [
+        0.56185,
+        0.38514
+      ],
+      "core": [
+        0.54104,
+        0.59086
+      ],
+      "shoulder": [
+        0.75838,
+        0.53371
+      ],
+      "hand": [
+        0.30983,
+        0.65371
+      ],
+      "muzzle": [
+        0.02197,
+        0.63429
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-megadere-generation-1": {
+    "pilotCast": "qwen-megadere",
+    "art": "mech-qwen-generation-1",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "head": [
+        0.56185,
+        0.38514
+      ],
+      "core": [
+        0.54104,
+        0.59086
+      ],
+      "shoulder": [
+        0.75838,
+        0.53371
+      ],
+      "hand": [
+        0.30983,
+        0.65371
+      ],
+      "muzzle": [
+        0.02197,
+        0.63429
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-axis-generation-2": {
+    "pilotCast": "qwen-axis",
+    "art": "mech-qwen-generation-2",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.05773,
+        0.515934
+      ],
+      "core": [
+        0.578032,
+        0.528038
+      ],
+      "shoulder": [
+        0.810508,
+        0.44331
+      ],
+      "head": [
+        0.578032,
+        0.310165
+      ],
+      "hand": [
+        0.312346,
+        0.636974
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-yandere-generation-2": {
+    "pilotCast": "qwen-yandere",
+    "art": "mech-qwen-generation-2",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.05773,
+        0.515934
+      ],
+      "core": [
+        0.578032,
+        0.528038
+      ],
+      "shoulder": [
+        0.810508,
+        0.44331
+      ],
+      "head": [
+        0.578032,
+        0.310165
+      ],
+      "hand": [
+        0.312346,
+        0.636974
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-megadere-generation-2": {
+    "pilotCast": "qwen-megadere",
+    "art": "mech-qwen-generation-2",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.05773,
+        0.515934
+      ],
+      "core": [
+        0.578032,
+        0.528038
+      ],
+      "shoulder": [
+        0.810508,
+        0.44331
+      ],
+      "head": [
+        0.578032,
+        0.310165
+      ],
+      "hand": [
+        0.312346,
+        0.636974
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-axis-generation-3": {
+    "pilotCast": "qwen-axis",
+    "art": "mech-qwen-generation-3",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.056649,
+        0.551917
+      ],
+      "core": [
+        0.565881,
+        0.492794
+      ],
+      "shoulder": [
+        0.820497,
+        0.433672
+      ],
+      "head": [
+        0.554811,
+        0.291778
+      ],
+      "hand": [
+        0.300195,
+        0.622864
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-yandere-generation-3": {
+    "pilotCast": "qwen-yandere",
+    "art": "mech-qwen-generation-3",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.056649,
+        0.551917
+      ],
+      "core": [
+        0.565881,
+        0.492794
+      ],
+      "shoulder": [
+        0.820497,
+        0.433672
+      ],
+      "head": [
+        0.554811,
+        0.291778
+      ],
+      "hand": [
+        0.300195,
+        0.622864
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  },
+  "qwen-megadere-generation-3": {
+    "pilotCast": "qwen-megadere",
+    "art": "mech-qwen-generation-3",
+    "faces": "left",
+    "height": 420,
+    "anchors": {
+      "muzzle": [
+        0.056649,
+        0.551917
+      ],
+      "core": [
+        0.565881,
+        0.492794
+      ],
+      "shoulder": [
+        0.820497,
+        0.433672
+      ],
+      "head": [
+        0.554811,
+        0.291778
+      ],
+      "hand": [
+        0.300195,
+        0.622864
+      ]
+    },
+    "tacticalForms": {
+      "악의축": {
+        "pilotCast": "qwen-axis"
+      },
+      "얀데레": {
+        "pilotCast": "qwen-yandere"
+      },
+      "메가데레": {
+        "pilotCast": "qwen-megadere"
+      }
+    }
+  }
+}

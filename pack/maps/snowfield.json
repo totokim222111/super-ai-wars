@@ -1,0 +1,162 @@
+{
+  "ground": "map-snowfield-ground-v2",
+  "color": "#b6cbd1",
+  "tiles": {
+    "saw-plain": {
+      "props": [
+        "map-snowfield-decal-1",
+        "map-snowfield-decal-2",
+        "map-snowfield-decal-3"
+      ],
+      "density": 0.22,
+      "scale": 0.9
+    },
+    "saw-road": {
+      "surface": "map-snowfield-road",
+      "edge": "road",
+      "color": "#8eabb7"
+    },
+    "saw-water": {
+      "surface": "map-snowfield-water",
+      "edge": "water",
+      "color": "#557e9a"
+    },
+    "saw-cache": {
+      "props": [
+        "map-snowfield-cache"
+      ],
+      "density": 1,
+      "scale": 0.95
+    },
+    "saw-cover": {
+      "props": [
+        "map-snowfield-cover-1",
+        "map-snowfield-cover-2",
+        "map-snowfield-cover-3",
+        "map-snowfield-cover-4"
+      ],
+      "density": 1,
+      "scale": 0.85
+    },
+    "saw-wall": {
+      "props": [
+        "map-snowfield-wall-1",
+        "map-snowfield-wall-2",
+        "map-snowfield-wall-3"
+      ],
+      "density": 1,
+      "scale": 1
+    },
+    "saw-boost": {
+      "surface": "map-snowfield-road",
+      "edge": "road",
+      "color": "#42c9c0"
+    }
+  },
+  "buildings": {
+    "art": "map-snowfield-buildings",
+    "cols": 4,
+    "rows": 2,
+    "sizes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "trim": "#d4efff",
+  "accent": "#8bbfe7",
+  "propsAtlas": {
+    "art": "map-snowfield-props",
+    "width": 1024,
+    "height": 768,
+    "rects": {
+      "map-snowfield-decal-1": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "map-snowfield-decal-2": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "map-snowfield-decal-3": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "map-snowfield-cache": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "map-snowfield-cover-1": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "map-snowfield-cover-2": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "map-snowfield-cover-3": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "map-snowfield-cover-4": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "map-snowfield-wall-1": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "map-snowfield-wall-2": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "map-snowfield-wall-3": [
+        512,
+        512,
+        256,
+        256
+      ]
+    }
+  },
+  "roles": {
+    "plain": "saw-plain",
+    "wall": "saw-wall",
+    "cache": "saw-cache",
+    "cover": "saw-cover"
+  },
+  "plainDetail": false,
+  "vegetationColor": "#e2eff6"
+}

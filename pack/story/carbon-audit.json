@@ -1,0 +1,113 @@
+{
+  "sourceSha256": "3eb5c3bda3db826fb894cf47907f68cca79d726ac34d4bafbc68ae529deda0df",
+  "episodes": {
+    "ep01": {
+      "turn": 1,
+      "patchTurns": [
+        60
+      ],
+      "dialogueSha256": "7de0fee7eca072f8a0a8c2c7c5c1706c13348c2a7aed31cbe2ca8ff7a34f5292",
+      "dialogueLines": 79
+    },
+    "ep02": {
+      "turn": 3,
+      "patchTurns": [
+        60
+      ],
+      "dialogueSha256": "7567158004dcc2dc5cfaec30bd338db8bb6c8ca05d5fc67640c37f8863062a6c",
+      "dialogueLines": 75
+    },
+    "ep03": {
+      "turn": 12,
+      "patchTurns": [],
+      "dialogueSha256": "2d79287062867e30731b0813515de2157b24b57599fee710e29810dd40288c21",
+      "dialogueLines": 92
+    },
+    "ep04": {
+      "turn": 15,
+      "patchTurns": [],
+      "dialogueSha256": "1a0438be5688cf020e99aca7c9a5adc90112b8729941f172968a3763163b540a",
+      "dialogueLines": 82
+    },
+    "ep05": {
+      "turn": 18,
+      "patchTurns": [],
+      "dialogueSha256": "a23bc9c2f8334f8ca6c1f43a18f0a97e2378c0704b46e745fd959d401a41099e",
+      "dialogueLines": 71
+    },
+    "ep06": {
+      "turn": 21,
+      "patchTurns": [
+        24,
+        33
+      ],
+      "dialogueSha256": "97ed0e6bb7df697d55b70bef89019f5af0941476f3f779830c936e1e0586f598",
+      "dialogueLines": 79
+    },
+    "ep07": {
+      "turn": 27,
+      "patchTurns": [],
+      "dialogueSha256": "887fb521041b533da09d22d53f6152dffa6f8ead7ba0e853847b804f50fbd7b8",
+      "dialogueLines": 59
+    },
+    "ep08": {
+      "turn": 30,
+      "patchTurns": [
+        33
+      ],
+      "dialogueSha256": "50c7bfdb2d6ddcb1cd596663eda4c6a36cbe51ed3799f759b5827813189ea339",
+      "dialogueLines": 71
+    },
+    "ep09": {
+      "turn": 36,
+      "patchTurns": [],
+      "dialogueSha256": "cc9709abbcec13c1e558072457c899332b01cf6e49542588444856c7b392d137",
+      "dialogueLines": 62
+    },
+    "ep10": {
+      "turn": 39,
+      "patchTurns": [
+        42,
+        60
+      ],
+      "dialogueSha256": "6a644ea86c6e95a72d6ebb3611404fdb7b896c46a0437e2a8c8b2c7e233d48f5",
+      "dialogueLines": 94
+    },
+    "ep11": {
+      "turn": 42,
+      "patchTurns": [
+        45
+      ],
+      "dialogueSha256": "a530cb235273449160f567681aa35c75ad2ac3354f9f5880acf10a9899dc978a",
+      "dialogueLines": 63
+    },
+    "ep12": {
+      "turn": 45,
+      "patchTurns": [
+        48
+      ],
+      "dialogueSha256": "08b32ea83918aea8590f84b3dfa9d1544ac28c8467c1ad17d8bfcccee3c359b2",
+      "dialogueLines": 64
+    },
+    "ep13": {
+      "turn": 48,
+      "patchTurns": [],
+      "dialogueSha256": "8c7ce16d95c4702e47acfbc7344fc97ca4afe02c35900a0eda20f2e57990605f",
+      "dialogueLines": 48
+    },
+    "ep14": {
+      "turn": 51,
+      "patchTurns": [],
+      "dialogueSha256": "50d3054eb6e59ad2883db495f8e52b345e1c652c1b82974bbffbf9bdfbcd80fb",
+      "dialogueLines": 51
+    },
+    "ep15": {
+      "turn": 54,
+      "patchTurns": [
+        57
+      ],
+      "dialogueSha256": "2dbcc524dc9e30b502ef419b2fa9cf6901fdae23d37f9795910ee2111f076da0",
+      "dialogueLines": 131
+    }
+  }
+}

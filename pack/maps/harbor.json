@@ -1,0 +1,162 @@
+{
+  "ground": "map-harbor-ground-v2",
+  "color": "#3d494d",
+  "tiles": {
+    "saw-plain": {
+      "props": [
+        "map-harbor-decal-1",
+        "map-harbor-decal-2",
+        "map-harbor-decal-3"
+      ],
+      "density": 0.22,
+      "scale": 0.9
+    },
+    "saw-road": {
+      "surface": "map-harbor-road",
+      "edge": "road",
+      "color": "#6d7372"
+    },
+    "saw-water": {
+      "surface": "map-harbor-water",
+      "edge": "water",
+      "color": "#235f78"
+    },
+    "saw-cache": {
+      "props": [
+        "map-harbor-cache"
+      ],
+      "density": 1,
+      "scale": 0.95
+    },
+    "saw-cover": {
+      "props": [
+        "map-harbor-cover-1",
+        "map-harbor-cover-2",
+        "map-harbor-cover-3",
+        "map-harbor-cover-4"
+      ],
+      "density": 1,
+      "scale": 0.85
+    },
+    "saw-wall": {
+      "props": [
+        "map-harbor-wall-1",
+        "map-harbor-wall-2",
+        "map-harbor-wall-3"
+      ],
+      "density": 1,
+      "scale": 1
+    },
+    "saw-boost": {
+      "surface": "map-harbor-road",
+      "edge": "road",
+      "color": "#42c9c0"
+    }
+  },
+  "buildings": {
+    "art": "map-harbor-buildings",
+    "cols": 4,
+    "rows": 2,
+    "sizes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "trim": "#b7a077",
+  "accent": "#eed599",
+  "propsAtlas": {
+    "art": "map-harbor-props",
+    "width": 1024,
+    "height": 768,
+    "rects": {
+      "map-harbor-decal-1": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "map-harbor-decal-2": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "map-harbor-decal-3": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "map-harbor-cache": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "map-harbor-cover-1": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "map-harbor-cover-2": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "map-harbor-cover-3": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "map-harbor-cover-4": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "map-harbor-wall-1": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "map-harbor-wall-2": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "map-harbor-wall-3": [
+        512,
+        512,
+        256,
+        256
+      ]
+    }
+  },
+  "roles": {
+    "plain": "saw-plain",
+    "wall": "saw-wall",
+    "cache": "saw-cache",
+    "cover": "saw-cover"
+  },
+  "plainDetail": false,
+  "vegetationColor": "#737d66"
+}

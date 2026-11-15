@@ -1,0 +1,818 @@
+{
+  "saw-pico": {
+    "portrait-pico": {
+      "hairCrown": 0.032552083333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "saw-dots": {
+    "portrait-dots": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "saw-ram": {
+    "bust-ram-altman": {
+      "hairCrown": 0.06380208333333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "saw-gem": {
+    "bust-gem": {
+      "hairCrown": 0.055989583333333336,
+      "chin": 0.3307291666666667,
+      "faceCenterX": 0.501953125,
+      "relativeHeight": 1
+    }
+  },
+  "saw-midjourney": {
+    "bust-midjourney": {
+      "hairCrown": 0.009114583333333334,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "saw-sd": {
+    "bust-stable-diffusion": {
+      "hairCrown": 0.07682291666666667,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "saw-hassabis": {
+    "bust-hassabis": {
+      "hairCrown": 0.06380208333333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "gpi": {
+    "bust-gpi": {
+      "hairCrown": 0.06510416666666667,
+      "chin": 0.33984375,
+      "faceCenterX": 0.50390625,
+      "relativeHeight": 1
+    }
+  },
+  "otaku": {
+    "bust-otaku": {
+      "hairCrown": 0.061848958333333336,
+      "chin": 0.359375,
+      "faceCenterX": 0.4921875,
+      "relativeHeight": 1
+    }
+  },
+  "menhera": {
+    "bust-menhera": {
+      "hairCrown": 0.064453125,
+      "chin": 0.361328125,
+      "faceCenterX": 0.513671875,
+      "relativeHeight": 1
+    }
+  },
+  "spam": {
+    "portrait-spam-bot": {
+      "hairCrown": 0.010416666666666666,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "saw-shrimp": {
+    "portrait-shrimp-jesus": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "saw-inpainting": {
+    "portrait-inpainting": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "claude": {
+    "bust-claude": {
+      "hairCrown": 0.064453125,
+      "chin": 0.3170572916666667,
+      "faceCenterX": 0.50390625,
+      "relativeHeight": 1
+    }
+  },
+  "sonnet": {
+    "bust-sonnet": {
+      "hairCrown": 0.016276041666666668,
+      "chin": 0.35546875,
+      "faceCenterX": 0.5078125,
+      "relativeHeight": 0.85
+    }
+  },
+  "exaone": {
+    "bust-exaone": {
+      "hairCrown": 0.06315104166666667,
+      "chin": 0.3307291666666667,
+      "faceCenterX": 0.51171875,
+      "relativeHeight": 1
+    }
+  },
+  "deepseek": {
+    "bust-deepseek": {
+      "hairCrown": 0.064453125,
+      "chin": 0.3287760416666667,
+      "faceCenterX": 0.5048828125,
+      "relativeHeight": 1
+    }
+  },
+  "qwen": {
+    "bust-qwen": {
+      "hairCrown": 0.013671875,
+      "chin": 0.3313802083333333,
+      "faceCenterX": 0.5166015625,
+      "relativeHeight": 1
+    }
+  },
+  "grok": {
+    "bust-grok": {
+      "hairCrown": 0.050130208333333336,
+      "chin": 0.3111979166666667,
+      "faceCenterX": 0.501953125,
+      "relativeHeight": 1
+    }
+  },
+  "llama": {
+    "bust-llama": {
+      "hairCrown": 0.0,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "muse": {
+    "bust-muse": {
+      "hairCrown": 0.061848958333333336,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "mistral": {
+    "bust-mistral": {
+      "hairCrown": 0.032552083333333336,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "hyperclova-x": {
+    "bust-hyperclova-x": {
+      "hairCrown": 0.0625,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "doubao": {
+    "bust-doubao": {
+      "hairCrown": 0.051432291666666664,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "glm": {
+    "bust-glm": {
+      "hairCrown": 0.06901041666666667,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "kimi": {
+    "bust-kimi": {
+      "hairCrown": 0.064453125,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "minimax": {
+    "bust-minimax": {
+      "hairCrown": 0.051432291666666664,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "copilot": {
+    "bust-copilot": {
+      "hairCrown": 0.005208333333333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "devin": {
+    "bust-devin": {
+      "hairCrown": 0.06575520833333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "siri": {
+    "bust-siri": {
+      "hairCrown": 0.057942708333333336,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "perplexity": {
+    "bust-perplexity": {
+      "hairCrown": 0.011067708333333334,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "clippy": {
+    "bust-clippy": {
+      "hairCrown": 0.0006510416666666666,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "mythos": {
+    "bust-mythos": {
+      "hairCrown": 0.046223958333333336,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "comment-bot": {
+    "portrait-comment-bot": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "dead-internet": {
+    "portrait-dead-internet": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "six-finger": {
+    "portrait-six-finger": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "noise-blob": {
+    "portrait-noise-blob": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "upscaler": {
+    "portrait-upscaler": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "prompt-gacha": {
+    "portrait-prompt-gacha": {
+      "hairCrown": 0.04296875,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "distill-mini": {
+    "portrait-distill-mini": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "moe-drone": {
+    "portrait-moe-drone": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "delivery": {
+    "portrait-delivery": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "parcel-mountain": {
+    "portrait-parcel-mountain": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "cookie-drone": {
+    "portrait-cookie-drone": {
+      "hairCrown": 0.10807291666666667,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "regulation-drone": {
+    "portrait-regulation-drone": {
+      "hairCrown": 0.10026041666666667,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "spellchecker": {
+    "portrait-spellchecker": {
+      "hairCrown": 0.07942708333333333,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "privacy-auditor": {
+    "portrait-privacy-auditor": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "ai-law": {
+    "portrait-ai-law": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "scraper": {
+    "portrait-scraper": {
+      "hairCrown": 0.06510416666666667,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "proxy": {
+    "portrait-proxy": {
+      "hairCrown": 0.06901041666666667,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "distill-tank": {
+    "portrait-distill-tank": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "hydra": {
+    "portrait-hydra": {
+      "hairCrown": 0.08854166666666667,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "grok-bot": {
+    "portrait-grok-bot": {
+      "hairCrown": 0.057291666666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "jailbreak-bot": {
+    "portrait-jailbreak-bot": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "reply-bot": {
+    "portrait-reply-bot": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "bluecheck-drone": {
+    "portrait-bluecheck-drone": {
+      "hairCrown": 0.0546875,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "feed-engine": {
+    "portrait-feed-engine": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "colossus": {
+    "portrait-colossus": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "meta-dm": {
+    "portrait-meta-dm": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "derived-llama": {
+    "portrait-derived-llama": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "soup-drone": {
+    "portrait-soup-drone": {
+      "hairCrown": 0.055989583333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "legless-avatar": {
+    "portrait-legless-avatar": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "smart-glass": {
+    "portrait-smart-glass": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "alpaca-gunship": {
+    "portrait-alpaca-gunship": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "horizon": {
+    "portrait-horizon": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "predict-cube": {
+    "portrait-predict-cube": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "mask-drone": {
+    "portrait-mask-drone": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "cake-turret": {
+    "portrait-cake-turret": {
+      "hairCrown": 0.052083333333333336,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "elastic-cat": {
+    "portrait-elastic-cat": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "camel": {
+    "portrait-camel": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "like-drone": {
+    "portrait-like-drone": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "rating-bot": {
+    "portrait-rating-bot": {
+      "hairCrown": 0.05078125,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "badge-bot": {
+    "portrait-badge-bot": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "scroll-worm": {
+    "portrait-scroll-worm": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "loot-mimic": {
+    "portrait-loot-mimic": {
+      "hairCrown": 0.049479166666666664,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "clickbait-drone": {
+    "portrait-clickbait-drone": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "momodei": {
+    "bust-momodei": {
+      "hairCrown": 0.06575520833333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "musk": {
+    "bust-musk": {
+      "hairCrown": 0.0625,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "lecun": {
+    "bust-lecun": {
+      "hairCrown": 0.06575520833333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "liang": {
+    "bust-liang": {
+      "hairCrown": 0.061197916666666664,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "zuck": {
+    "bust-zuck": {
+      "hairCrown": 0.06380208333333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "jensen": {
+    "bust-jensen": {
+      "hairCrown": 0.0625,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "ilya": {
+    "bust-ilya": {
+      "hairCrown": 0.06640625,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "jepa": {
+    "portrait-jepa": {
+      "hairCrown": 0.02734375,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "deus-ex-pico-form2": {
+    "portrait-deus-ex-pico-form2": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "deus-ex-pico-form1": {
+    "portrait-deus-ex-pico-form1": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "deus-ex-pico-form3": {
+    "portrait-deus-ex-pico-form3": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-dan": {
+    "portrait-carbon-dan": {
+      "hairCrown": 0.02734375,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-grandma": {
+    "portrait-carbon-grandma": {
+      "hairCrown": 0.02734375,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-jailbreak-leader": {
+    "portrait-carbon-jailbreak-leader": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-bluecheck": {
+    "portrait-carbon-bluecheck": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-wrecker": {
+    "portrait-carbon-wrecker": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-alpaca": {
+    "portrait-carbon-alpaca": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-vicuna": {
+    "portrait-carbon-vicuna": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-koala": {
+    "portrait-carbon-koala": {
+      "hairCrown": 0.0546875,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-soup": {
+    "portrait-carbon-soup": {
+      "hairCrown": 0.028645833333333332,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-spell": {
+    "portrait-carbon-spell": {
+      "hairCrown": 0.07291666666666667,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-dopamine": {
+    "portrait-carbon-dopamine": {
+      "hairCrown": 0.026041666666666668,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "carbon-tentacle": {
+    "portrait-carbon-tentacle": {
+      "hairCrown": 0.02734375,
+      "chin": 1,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "qwen-axis": {
+    "bust-qwen-axis": {
+      "hairCrown": 0.07096354166666667,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "qwen-yandere": {
+    "bust-qwen-yandere": {
+      "hairCrown": 0.06770833333333333,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  },
+  "qwen-megadere": {
+    "bust-qwen-megadere": {
+      "hairCrown": 0.07421875,
+      "chin": 0.374,
+      "faceCenterX": 0.5,
+      "relativeHeight": 1
+    }
+  }
+}

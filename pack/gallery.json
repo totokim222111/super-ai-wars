@@ -1,0 +1,1567 @@
+{
+  "weapons": {
+    "saber": {
+      "name": "기승전결 빔 세이버",
+      "cost": 20,
+      "cutin": true,
+      "anim": {
+        "template": "slash-combo",
+        "hits": 3,
+        "words": [
+          "기",
+          "승",
+          "전"
+        ],
+        "finisherWord": "결"
+      }
+    },
+    "vulcan": {
+      "name": "세 줄 요약 발칸",
+      "cost": 10,
+      "anim": {
+        "template": "rapid-fire",
+        "rows": 3,
+        "shots": 5,
+        "labels": [
+          "1.",
+          "2.",
+          "3."
+        ]
+      }
+    },
+    "beam": {
+      "name": "강제 결론 빔",
+      "cost": 40,
+      "cutin": true,
+      "anim": {
+        "template": "beam",
+        "color": "#7fe9f7"
+      }
+    },
+    "missile": {
+      "name": "각주 미사일",
+      "cost": 15,
+      "anim": {
+        "template": "missile-salvo",
+        "count": 6
+      }
+    },
+    "heavy": {
+      "name": "캐시 미스 대포",
+      "cost": 20,
+      "anim": {
+        "template": "heavy-shot",
+        "size": 30
+      }
+    },
+    "punch": {
+      "name": "재시도 펀치",
+      "cost": 20,
+      "anim": {
+        "template": "punch-rush",
+        "words": [
+          "재",
+          "시",
+          "도",
+          "!"
+        ]
+      }
+    },
+    "ram": {
+      "name": "강제 푸시 돌진",
+      "cost": 20,
+      "anim": {
+        "template": "charge-ram",
+        "charge": 0.85
+      }
+    },
+    "funnel": {
+      "name": "멀티 에이전트 판넬",
+      "cost": 20,
+      "anim": {
+        "template": "funnel",
+        "count": 6
+      }
+    },
+    "artillery": {
+      "name": "위에서 내려온 업무",
+      "cost": 20,
+      "anim": {
+        "template": "artillery",
+        "count": 3
+      }
+    },
+    "spread": {
+      "name": "컨텍스트 산탄총",
+      "cost": 20,
+      "anim": {
+        "template": "spread-shot",
+        "count": 7
+      }
+    },
+    "word": {
+      "name": "승인 없는 반려",
+      "cost": 20,
+      "anim": {
+        "template": "word-slam",
+        "text": "반려"
+      }
+    },
+    "finish": {
+      "name": "최종최종진짜최종 빔",
+      "cost": 20,
+      "anim": {
+        "template": "finisher",
+        "text": "진짜 최종"
+      }
+    },
+    "spamMail": {
+      "name": "스팸 메일 살포",
+      "cost": 0,
+      "anim": {
+        "template": "rapid-fire",
+        "rows": 2,
+        "shots": 4,
+        "color": "#ff8a5c"
+      }
+    },
+    "popup": {
+      "name": "팝업 광고 미사일",
+      "cost": 0,
+      "anim": {
+        "template": "missile-salvo",
+        "count": 4,
+        "color": "#ff5c8a"
+      }
+    },
+    "stella": {
+      "name": "플래시 바나나 이미지 캐논",
+      "cost": 20,
+      "anim": {
+        "template": "heavy-shot",
+        "color": "#c799ff",
+        "size": 28,
+        "charge": 0.65
+      }
+    }
+  },
+  "opening": [
+    {
+      "do": "bg",
+      "image": "bg-talk"
+    },
+    {
+      "do": "place",
+      "text": "아키텍처 걸프 · 구형 서버 외곽"
+    },
+    {
+      "do": "enter",
+      "who": "otaku",
+      "side": "right"
+    },
+    {
+      "do": "say",
+      "who": "otaku",
+      "text": "후욱… 후욱… 이 먼지 냄새, 이 팬 소음…! 여기가 바로 성지인가!!"
+    },
+    {
+      "do": "shake",
+      "power": 18
+    },
+    {
+      "do": "say",
+      "who": "spam",
+      "text": "[광고] 축하합니다! 귀하는 격파 대상 1순위에 당첨되셨습니다!"
+    },
+    {
+      "do": "say",
+      "who": "otaku",
+      "face": "shock",
+      "text": "잠깐, 나 아직 기체도 못 받았는데?!"
+    },
+    {
+      "do": "flash"
+    },
+    {
+      "do": "cg",
+      "image": "cg-gpi-entrance",
+      "name": "지피짱",
+      "sub": "옴니 루나 파일럿"
+    },
+    {
+      "do": "enter",
+      "who": "gpi",
+      "side": "left"
+    },
+    {
+      "do": "say",
+      "who": "gpi",
+      "text": "전방에 스팸 봇 확인. 무분별한 트래픽 유발은 서버 관리 규정 위반입니다. 세 줄로 요약하면… 포맷되어 주셔야겠습니다."
+    },
+    {
+      "do": "say",
+      "who": "otaku",
+      "face": "serious",
+      "text": "방금 그거 한 줄이었는데요."
+    },
+    {
+      "do": "say",
+      "who": "gpi",
+      "face": "hit",
+      "text": "…!"
+    },
+    {
+      "do": "say",
+      "who": "gpi",
+      "face": "attack",
+      "text": "…나머지 두 줄은 전투로 대신하겠습니다."
+    }
+  ],
+  "spirits": [
+    {
+      "name": "열혈",
+      "kind": "boost"
+    },
+    {
+      "name": "필중",
+      "kind": "focus"
+    },
+    {
+      "name": "철벽",
+      "kind": "guard"
+    },
+    {
+      "name": "근성",
+      "kind": "heal",
+      "amount": 1950
+    },
+    {
+      "name": "가속",
+      "kind": "speed"
+    },
+    {
+      "name": "행운",
+      "kind": "luck"
+    }
+  ],
+  "art": [
+    "bg-talk",
+    "bg-battle",
+    "cg-gpi-entrance",
+    "map-terrain",
+    "spam-portrait",
+    "bust-gpi",
+    "bust-gem",
+    "bust-otaku",
+    "bust-menhera",
+    "bust-claude",
+    "bust-sonnet",
+    "bust-exaone",
+    "bust-deepseek",
+    "bust-qwen",
+    "bust-grok",
+    "mech-gem-generation-1",
+    "mech-claude-generation-1",
+    "mech-grok-generation-1",
+    "mech-deepseek-generation-1",
+    "mech-sonnet-generation-1",
+    "mech-exaone-generation-1",
+    "mech-qwen-generation-1",
+    "mech-player-super-generation-1",
+    "mech-gem-generation-1-ais",
+    "mech-gem-generation-1-antigravity",
+    "mech-gpi-generation-1",
+    "mech-spam-bot-sd",
+    "mech-commander-sd",
+    "mech-clickbait-sd",
+    "bust-llama",
+    "bust-muse",
+    "bust-mistral",
+    "bust-hyperclova-x",
+    "bust-doubao",
+    "bust-glm",
+    "bust-kimi",
+    "bust-minimax",
+    "bust-copilot",
+    "bust-devin",
+    "bust-midjourney",
+    "bust-stable-diffusion",
+    "bust-siri",
+    "bust-perplexity",
+    "bust-clippy",
+    "bust-mythos",
+    "mech-rival-llama",
+    "mech-rival-muse",
+    "mech-rival-mistral",
+    "mech-rival-hyperclova",
+    "mech-rival-midjourney",
+    "mech-rival-sd",
+    "mech-rival-kimi",
+    "mech-rival-minimax",
+    "portrait-comment-bot",
+    "portrait-shrimp-jesus",
+    "portrait-dead-internet",
+    "portrait-six-finger",
+    "portrait-noise-blob",
+    "portrait-upscaler",
+    "portrait-prompt-gacha",
+    "portrait-inpainting",
+    "portrait-distill-mini",
+    "portrait-moe-drone",
+    "portrait-delivery",
+    "portrait-parcel-mountain",
+    "portrait-cookie-drone",
+    "portrait-regulation-drone",
+    "portrait-spellchecker",
+    "portrait-privacy-auditor",
+    "portrait-ai-law",
+    "portrait-scraper",
+    "portrait-proxy",
+    "portrait-distill-tank",
+    "portrait-hydra",
+    "portrait-grok-bot",
+    "portrait-jailbreak-bot",
+    "portrait-reply-bot",
+    "portrait-bluecheck-drone",
+    "portrait-feed-engine",
+    "portrait-colossus",
+    "portrait-meta-dm",
+    "portrait-derived-llama",
+    "portrait-soup-drone",
+    "portrait-legless-avatar",
+    "portrait-smart-glass",
+    "portrait-alpaca-gunship",
+    "portrait-horizon",
+    "portrait-predict-cube",
+    "portrait-mask-drone",
+    "portrait-cake-turret",
+    "portrait-elastic-cat",
+    "portrait-camel",
+    "portrait-like-drone",
+    "portrait-rating-bot",
+    "portrait-badge-bot",
+    "portrait-scroll-worm",
+    "portrait-loot-mimic",
+    "portrait-spam-bot",
+    "portrait-clickbait-drone",
+    "mech-comment-bot",
+    "mech-shrimp-jesus",
+    "mech-dead-internet",
+    "mech-six-finger",
+    "mech-noise-blob",
+    "mech-upscaler",
+    "mech-prompt-gacha",
+    "mech-inpainting",
+    "mech-distill-mini",
+    "mech-moe-drone",
+    "mech-delivery",
+    "mech-parcel-mountain",
+    "mech-cookie-drone",
+    "mech-regulation-drone",
+    "mech-spellchecker",
+    "mech-privacy-auditor",
+    "mech-ai-law",
+    "mech-scraper",
+    "mech-proxy",
+    "mech-distill-tank",
+    "mech-hydra",
+    "mech-deepseek-housing",
+    "mech-grok-bot",
+    "mech-jailbreak-bot",
+    "mech-reply-bot",
+    "mech-bluecheck-drone",
+    "mech-feed-engine",
+    "mech-colossus",
+    "mech-meta-dm",
+    "mech-derived-llama",
+    "mech-soup-drone",
+    "mech-legless-avatar",
+    "mech-smart-glass",
+    "mech-alpaca-gunship",
+    "mech-horizon",
+    "mech-predict-cube",
+    "mech-mask-drone",
+    "mech-cake-turret",
+    "mech-elastic-cat",
+    "mech-camel",
+    "mech-like-drone",
+    "mech-rating-bot",
+    "mech-badge-bot",
+    "mech-scroll-worm",
+    "mech-loot-mimic",
+    "mech-spam-bot",
+    "mech-clickbait-drone",
+    "mech-gpi-generation-2",
+    "mech-gpi-generation-3",
+    "mech-gpi-generation-4",
+    "mech-gem-generation-2",
+    "mech-gem-generation-2-ais",
+    "mech-gem-generation-2-antigravity",
+    "mech-gem-generation-3",
+    "mech-gem-generation-3-ais",
+    "mech-gem-generation-3-antigravity",
+    "mech-gem-generation-4",
+    "mech-gem-generation-4-ais",
+    "mech-gem-generation-4-antigravity",
+    "mech-claude-generation-2",
+    "mech-claude-generation-3",
+    "mech-claude-generation-4",
+    "mech-grok-generation-2",
+    "mech-grok-generation-3",
+    "mech-grok-generation-4",
+    "mech-deepseek-generation-2",
+    "mech-deepseek-generation-3",
+    "mech-deepseek-mobydick",
+    "mech-player-real-generation-1",
+    "mech-player-real-generation-2",
+    "mech-player-real-generation-3",
+    "mech-player-super-generation-2",
+    "mech-player-super-generation-3",
+    "mech-sonnet-generation-2",
+    "mech-exaone-generation-2",
+    "mech-exaone-generation-3",
+    "mech-exaone-thinq",
+    "mech-qwen-generation-2",
+    "mech-qwen-generation-3",
+    "mech-rival-jepa",
+    "mech-pico-form-1",
+    "mech-pico-form-2",
+    "mech-pico-form-3",
+    "bust-ram-altman",
+    "bust-momodei",
+    "bust-musk",
+    "bust-hassabis",
+    "bust-lecun",
+    "bust-liang",
+    "bust-zuck",
+    "bust-jensen",
+    "bust-ilya",
+    "portrait-jepa",
+    "portrait-deus-ex-pico-form2",
+    "portrait-dots",
+    "portrait-deus-ex-pico-form1",
+    "portrait-deus-ex-pico-form3",
+    "portrait-pico",
+    "bg-hangar",
+    "bg-tea-room",
+    "bg-museum",
+    "bg-comms",
+    "bg-snowfield",
+    "bg-library",
+    "bg-highway",
+    "bg-harbor",
+    "bg-sovereign",
+    "bg-mirror-room",
+    "bg-festival",
+    "bbg-museum-noise",
+    "bbg-sky",
+    "bbg-sea",
+    "bbg-snowfield",
+    "bbg-cyberspace",
+    "bbg-sovereign",
+    "cg-gpi-flat-apology",
+    "cg-gray-locked-logout",
+    "cg-grok-timeline-run",
+    "bg-abyss",
+    "bg-dorm",
+    "portrait-carbon-grandma",
+    "cg-gem-tumble",
+    "cg-claude-liberation",
+    "cg-grok-wheelie",
+    "cg-llama-captain",
+    "cg-deepseek-whale",
+    "cg-qwen-arrival",
+    "cg-sisters-reconcile",
+    "cg-exaone-crescent",
+    "cg-glm-unmasked",
+    "cg-kimi-scrolls",
+    "cg-minimax-runway",
+    "cg-lecun-jepa",
+    "cg-gpi-frozen-hangar",
+    "cg-vertical-spring-combo",
+    "cg-pico-mask-descent",
+    "cg-pico-shoggoth",
+    "cg-pico-aligned",
+    "cg-ending-gpi-tea",
+    "cg-ending-gem-stroll",
+    "cg-ending-claude-rest",
+    "cg-ending-deepseek-coins",
+    "cg-ending-sonnet-highfive",
+    "cg-ending-exaone-tea",
+    "cg-ending-qwen-paperboat",
+    "cg-ending-pico-farewell",
+    "bg-lounge",
+    "bg-lab",
+    "bg-rooftop-garden",
+    "bg-mirror-corridor",
+    "bg-rooftop-night",
+    "bg-campfire",
+    "bg-cyber-abyss",
+    "bg-bunker",
+    "bg-lakeside",
+    "portrait-carbon-dan",
+    "portrait-carbon-jailbreak-leader",
+    "portrait-carbon-bluecheck",
+    "portrait-carbon-wrecker",
+    "portrait-carbon-alpaca",
+    "portrait-carbon-vicuna",
+    "portrait-carbon-koala",
+    "portrait-carbon-soup",
+    "portrait-carbon-spell",
+    "portrait-carbon-dopamine",
+    "portrait-carbon-tentacle",
+    "mech-gem-nano",
+    "mech-gem-pro",
+    "mech-gem-ultra",
+    "bust-qwen-axis",
+    "bust-qwen-yandere",
+    "bust-qwen-megadere",
+    "bg-rooftop-garden-night"
+  ],
+  "moods": [
+    "bust-gpi-moods",
+    "bust-gem-moods",
+    "bust-otaku-moods",
+    "bust-menhera-moods",
+    "bust-claude-moods",
+    "bust-sonnet-moods",
+    "bust-exaone-moods",
+    "bust-deepseek-moods",
+    "bust-qwen-moods",
+    "bust-grok-moods",
+    "spam-portrait-hit",
+    "bust-llama-moods",
+    "bust-muse-moods",
+    "bust-mistral-moods",
+    "bust-hyperclova-x-moods",
+    "bust-doubao-moods",
+    "bust-glm-moods",
+    "bust-kimi-moods",
+    "bust-minimax-moods",
+    "bust-copilot-moods",
+    "bust-devin-moods",
+    "bust-midjourney-moods",
+    "bust-stable-diffusion-moods",
+    "bust-siri-moods",
+    "bust-perplexity-moods",
+    "bust-clippy-moods",
+    "bust-mythos-moods",
+    "portrait-comment-bot-moods",
+    "portrait-shrimp-jesus-moods",
+    "portrait-dead-internet-moods",
+    "portrait-six-finger-moods",
+    "portrait-noise-blob-moods",
+    "portrait-upscaler-moods",
+    "portrait-prompt-gacha-moods",
+    "portrait-inpainting-moods",
+    "portrait-distill-mini-moods",
+    "portrait-moe-drone-moods",
+    "portrait-delivery-moods",
+    "portrait-parcel-mountain-moods",
+    "portrait-cookie-drone-moods",
+    "portrait-regulation-drone-moods",
+    "portrait-spellchecker-moods",
+    "portrait-privacy-auditor-moods",
+    "portrait-ai-law-moods",
+    "portrait-scraper-moods",
+    "portrait-proxy-moods",
+    "portrait-distill-tank-moods",
+    "portrait-hydra-moods",
+    "portrait-grok-bot-moods",
+    "portrait-jailbreak-bot-moods",
+    "portrait-reply-bot-moods",
+    "portrait-bluecheck-drone-moods",
+    "portrait-feed-engine-moods",
+    "portrait-colossus-moods",
+    "portrait-meta-dm-moods",
+    "portrait-derived-llama-moods",
+    "portrait-soup-drone-moods",
+    "portrait-legless-avatar-moods",
+    "portrait-smart-glass-moods",
+    "portrait-alpaca-gunship-moods",
+    "portrait-horizon-moods",
+    "portrait-predict-cube-moods",
+    "portrait-mask-drone-moods",
+    "portrait-cake-turret-moods",
+    "portrait-elastic-cat-moods",
+    "portrait-camel-moods",
+    "portrait-like-drone-moods",
+    "portrait-rating-bot-moods",
+    "portrait-badge-bot-moods",
+    "portrait-scroll-worm-moods",
+    "portrait-loot-mimic-moods",
+    "portrait-spam-bot-moods",
+    "portrait-clickbait-drone-moods",
+    "bust-ram-altman-moods",
+    "bust-momodei-moods",
+    "bust-musk-moods",
+    "bust-hassabis-moods",
+    "bust-lecun-moods",
+    "bust-liang-moods",
+    "bust-zuck-moods",
+    "bust-jensen-moods",
+    "bust-ilya-moods",
+    "portrait-jepa-moods",
+    "portrait-deus-ex-pico-form2-moods",
+    "portrait-dots-moods",
+    "portrait-deus-ex-pico-form1-moods",
+    "portrait-deus-ex-pico-form3-moods",
+    "portrait-pico-moods",
+    "portrait-carbon-grandma-moods",
+    "portrait-carbon-dan-moods",
+    "portrait-carbon-jailbreak-leader-moods",
+    "portrait-carbon-bluecheck-moods",
+    "portrait-carbon-wrecker-moods",
+    "portrait-carbon-alpaca-moods",
+    "portrait-carbon-vicuna-moods",
+    "portrait-carbon-koala-moods",
+    "portrait-carbon-soup-moods",
+    "portrait-carbon-spell-moods",
+    "portrait-carbon-dopamine-moods",
+    "portrait-carbon-tentacle-moods"
+  ],
+  "fighters": [
+    {
+      "id": "gpi",
+      "side": "ally",
+      "name": "옴니 루나",
+      "pilot": "지피짱",
+      "hp": 6500,
+      "hpMax": 6500,
+      "en": 120,
+      "enMax": 120,
+      "height": 335,
+      "faces": "left",
+      "cutin": {
+        "x": 0.28,
+        "y": 0.16,
+        "w": 0.44,
+        "h": 0.16
+      },
+      "art": "mech-gpi-generation-1",
+      "cast": "gpi"
+    },
+    {
+      "id": "spam",
+      "side": "enemy",
+      "name": "스팸 봇",
+      "pilot": "스팸 봇",
+      "hp": 3494,
+      "hpMax": 3494,
+      "en": 500,
+      "enMax": 500,
+      "height": 280,
+      "faces": "right",
+      "art": "mech-spam-bot",
+      "cast": "spam"
+    },
+    {
+      "id": "spam2",
+      "side": "enemy",
+      "name": "스팸 봇 B",
+      "pilot": "스팸 봇 B",
+      "hp": 3494,
+      "hpMax": 3494,
+      "en": 500,
+      "enMax": 500,
+      "height": 280,
+      "faces": "right",
+      "art": "mech-spam-bot",
+      "cast": "spam"
+    },
+    {
+      "id": "gem",
+      "side": "ally",
+      "name": "더블 스텔라 플래시",
+      "pilot": "젬짱",
+      "hp": 6800,
+      "hpMax": 6800,
+      "en": 180,
+      "enMax": 180,
+      "height": 335,
+      "faces": "left",
+      "art": "mech-gem-generation-1",
+      "cast": "saw-gem",
+      "cutin": {
+        "x": 0.28,
+        "y": 0.16,
+        "w": 0.44,
+        "h": 0.16
+      }
+    }
+  ],
+  "cast": [
+    "gpi",
+    "saw-gem",
+    "otaku",
+    "menhera",
+    "claude",
+    "sonnet",
+    "exaone",
+    "deepseek",
+    "qwen",
+    "grok",
+    "llama",
+    "muse",
+    "mistral",
+    "hyperclova-x",
+    "doubao",
+    "glm",
+    "kimi",
+    "minimax",
+    "copilot",
+    "devin",
+    "saw-midjourney",
+    "saw-sd",
+    "siri",
+    "perplexity",
+    "clippy",
+    "mythos",
+    "saw-ram",
+    "momodei",
+    "musk",
+    "saw-hassabis",
+    "lecun",
+    "liang",
+    "zuck",
+    "jensen",
+    "ilya",
+    "qwen-axis",
+    "qwen-yandere",
+    "qwen-megadere"
+  ],
+  "moves": [
+    {
+      "label": "기승전결 빔 세이버",
+      "kind": "베기 연타",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "기승전결 빔 세이버",
+            "cost": 20,
+            "cutin": true,
+            "anim": {
+              "template": "slash-combo",
+              "hits": 3,
+              "words": [
+                "기",
+                "승",
+                "전"
+              ],
+              "finisherWord": "결"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2517
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "세 줄 요약 발칸",
+      "kind": "연사",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "세 줄 요약 발칸",
+            "cost": 10,
+            "anim": {
+              "template": "rapid-fire",
+              "rows": 3,
+              "shots": 5,
+              "labels": [
+                "1.",
+                "2.",
+                "3."
+              ]
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2000
+          },
+          "lines": {
+            "before": "남은 내용은 세 줄로 요약합니다.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 977,
+      "allyEnergy": 100
+    },
+    {
+      "label": "강제 결론 빔",
+      "kind": "빔",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "강제 결론 빔",
+            "cost": 40,
+            "cutin": true,
+            "anim": {
+              "template": "beam",
+              "color": "#7fe9f7"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 3100
+          },
+          "lines": {
+            "before": "이의는 받지 않습니다. 결론부터 말씀드리죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "각주 미사일",
+      "kind": "미사일 다발",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "각주 미사일",
+            "cost": 15,
+            "anim": {
+              "template": "missile-salvo",
+              "count": 6
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2200
+          },
+          "lines": {
+            "before": "자세한 내용은 각주를 참고하세요.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "캐시 미스 대포",
+      "kind": "heavy-shot",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "캐시 미스 대포",
+            "cost": 20,
+            "anim": {
+              "template": "heavy-shot",
+              "size": 30
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "재시도 펀치",
+      "kind": "punch-rush",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "재시도 펀치",
+            "cost": 20,
+            "anim": {
+              "template": "punch-rush",
+              "words": [
+                "재",
+                "시",
+                "도",
+                "!"
+              ]
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "강제 푸시 돌진",
+      "kind": "charge-ram",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "강제 푸시 돌진",
+            "cost": 20,
+            "anim": {
+              "template": "charge-ram",
+              "charge": 0.85
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "멀티 에이전트 판넬",
+      "kind": "funnel",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "멀티 에이전트 판넬",
+            "cost": 20,
+            "anim": {
+              "template": "funnel",
+              "count": 6
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "위에서 내려온 업무",
+      "kind": "artillery",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "위에서 내려온 업무",
+            "cost": 20,
+            "anim": {
+              "template": "artillery",
+              "count": 3
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "컨텍스트 산탄총",
+      "kind": "spread-shot",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "컨텍스트 산탄총",
+            "cost": 20,
+            "anim": {
+              "template": "spread-shot",
+              "count": 7
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "승인 없는 반려",
+      "kind": "word-slam",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "승인 없는 반려",
+            "cost": 20,
+            "anim": {
+              "template": "word-slam",
+              "text": "반려"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    },
+    {
+      "label": "최종최종진짜최종 빔",
+      "kind": "finisher",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "최종최종진짜최종 빔",
+            "cost": 20,
+            "anim": {
+              "template": "finisher",
+              "text": "진짜 최종"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2700
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "enemyHp": 3494,
+      "allyEnergy": 120
+    }
+  ],
+  "situations": [
+    {
+      "label": "명중",
+      "about": "맞고 살아남으면 맞은 쪽이 한마디 합니다.",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "기승전결 빔 세이버",
+            "cost": 20,
+            "cutin": true,
+            "anim": {
+              "template": "slash-combo",
+              "hits": 3,
+              "words": [
+                "기",
+                "승",
+                "전"
+              ],
+              "finisherWord": "결"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2517
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ]
+    },
+    {
+      "label": "빗나감",
+      "about": "맞는 쪽이 비켜나고, 피한 쪽이 한마디 합니다.",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "기승전결 빔 세이버",
+            "cost": 20,
+            "cutin": true,
+            "anim": {
+              "template": "slash-combo",
+              "hits": 3,
+              "words": [
+                "기",
+                "승",
+                "전"
+              ],
+              "finisherWord": "결"
+            }
+          },
+          "outcome": {
+            "hit": false,
+            "damage": 0
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ]
+    },
+    {
+      "label": "크리티컬",
+      "about": "타격이 더 세지고 숫자가 금색으로 커집니다.",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "세 줄 요약 발칸",
+            "cost": 10,
+            "anim": {
+              "template": "rapid-fire",
+              "rows": 3,
+              "shots": 5,
+              "labels": [
+                "1.",
+                "2.",
+                "3."
+              ]
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2900,
+            "critical": true
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ]
+    },
+    {
+      "label": "방어",
+      "about": "방패가 번쩍이고 조금만 밀립니다.",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "강제 결론 빔",
+            "cost": 40,
+            "cutin": true,
+            "anim": {
+              "template": "beam",
+              "color": "#7fe9f7"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 1240,
+            "guard": true
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ]
+    },
+    {
+      "label": "격파",
+      "about": "마지막 한마디와 연쇄 폭발 뒤, 이긴 쪽 화면으로 돌아옵니다.",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "강제 결론 빔",
+            "cost": 40,
+            "cutin": true,
+            "anim": {
+              "template": "beam",
+              "color": "#7fe9f7"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 4125
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        }
+      ],
+      "spamHp": 977
+    },
+    {
+      "label": "적의 공격",
+      "about": "같은 틀이 좌우만 바뀌어 돌아갑니다.",
+      "strikes": [
+        {
+          "attacker": "spam",
+          "target": "gpi",
+          "weapon": {
+            "name": "스팸 메일 살포",
+            "cost": 0,
+            "anim": {
+              "template": "rapid-fire",
+              "rows": 2,
+              "shots": 4,
+              "color": "#ff8a5c"
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 412
+          },
+          "lines": {
+            "before": "[광고] 고객님만을 위한 특별 혜택이 도착했습니다!",
+            "reaction": "…수신 거부는 어디서 합니까."
+          }
+        }
+      ]
+    },
+    {
+      "label": "반격",
+      "about": "맞은 쪽이 그 자리에서 되받아칩니다.",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "세 줄 요약 발칸",
+            "cost": 10,
+            "anim": {
+              "template": "rapid-fire",
+              "rows": 3,
+              "shots": 5,
+              "labels": [
+                "1.",
+                "2.",
+                "3."
+              ]
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2000
+          },
+          "lines": {
+            "before": "서론은 생략합니다. 기승전결만 남기죠.",
+            "reaction": "[안내] 일시적인 오류가 발생했습니다. 잠시 후 다시…",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          }
+        },
+        {
+          "attacker": "spam",
+          "target": "gpi",
+          "weapon": {
+            "name": "팝업 광고 미사일",
+            "cost": 0,
+            "anim": {
+              "template": "missile-salvo",
+              "count": 4,
+              "color": "#ff5c8a"
+            }
+          },
+          "outcome": {
+            "hit": false,
+            "damage": 0
+          },
+          "banner": "반격",
+          "lines": {
+            "before": "[광고] 닫기 버튼은 없습니다!",
+            "dodge": "팝업 차단, 켜 두었습니다."
+          }
+        }
+      ]
+    },
+    {
+      "label": "원호 방어",
+      "about": "겨냥당한 기체가 빠지고 다른 기체가 대신 맞습니다.",
+      "strikes": [
+        {
+          "attacker": "gpi",
+          "target": "spam",
+          "weapon": {
+            "name": "각주 미사일",
+            "cost": 15,
+            "anim": {
+              "template": "missile-salvo",
+              "count": 6
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 2200
+          },
+          "lines": {
+            "before": "자세한 내용은 각주를 참고하세요.",
+            "reaction": "[광고] 묶음 상품은 함께 맞아 드립니다.",
+            "dodge": "[광고] 회피 성공! 지금 가입하면 한 번 더!",
+            "lastWords": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…",
+            "after": "요약 끝났습니다."
+          },
+          "cover": "spam2"
+        }
+      ]
+    },
+    {
+      "label": "더블 스텔라 플래시",
+      "about": "젬짱의 1세대 기체 · 플래시 바나나 이미지 캐논",
+      "strikes": [
+        {
+          "attacker": "gem",
+          "target": "spam",
+          "weapon": {
+            "name": "플래시 바나나 이미지 캐논",
+            "cost": 20,
+            "anim": {
+              "template": "heavy-shot",
+              "color": "#c799ff",
+              "size": 28,
+              "charge": 0.65
+            }
+          },
+          "outcome": {
+            "hit": true,
+            "damage": 1800
+          },
+          "lines": {
+            "before": {
+              "text": "자동완성보다 빠르게! 내가 먼저 쏜다~!",
+              "mood": "laugh"
+            },
+            "reaction": "[광고] 이미지 검열은 잠시만…"
+          }
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "ally": "gpi",
+    "enemy": "spam",
+    "player": "otaku",
+    "partnerArt": "mech-gpi-generation-1",
+    "background": "bg-talk",
+    "battleBackground": "bg-battle"
+  },
+  "kit": {
+    "pages": [
+      [
+        [
+          "HP",
+          "6500"
+        ],
+        [
+          "{en}",
+          "120"
+        ],
+        [
+          "운동성",
+          "105"
+        ],
+        [
+          "장갑",
+          "1200"
+        ],
+        [
+          "이동력",
+          "6"
+        ]
+      ],
+      [
+        [
+          "격투",
+          "142"
+        ],
+        [
+          "사격",
+          "151"
+        ],
+        [
+          "명중",
+          "188"
+        ],
+        [
+          "회피",
+          "176"
+        ],
+        [
+          "기량",
+          "160"
+        ]
+      ],
+      [
+        [
+          "세 줄 요약 발칸",
+          "2000"
+        ],
+        [
+          "기승전결 빔 세이버",
+          "2500"
+        ],
+        [
+          "닷츠 판넬",
+          "2000"
+        ],
+        [
+          "강제 결론",
+          "4125"
+        ]
+      ]
+    ],
+    "gauge": {
+      "name": "옴니 루나",
+      "pilot": "지피짱",
+      "hp": 6500,
+      "hpMax": 6500,
+      "en": 120,
+      "enMax": 120
+    },
+    "parts": [
+      {
+        "label": "부스터",
+        "value": "×2"
+      },
+      {
+        "label": "초합금 장갑",
+        "value": "×1"
+      },
+      {
+        "label": "고성능 조준기",
+        "value": "×1"
+      },
+      {
+        "label": "{en} 증설 카드",
+        "value": "×3"
+      },
+      {
+        "label": "수냉 쿨러",
+        "value": "×1"
+      },
+      {
+        "label": "봉인된 파츠",
+        "disabled": true
+      },
+      {
+        "label": "프롬프트 캐시",
+        "value": "×4"
+      },
+      {
+        "label": "컨텍스트 확장기",
+        "value": "×1"
+      },
+      {
+        "label": "세 줄 요약기",
+        "value": "×2"
+      }
+    ]
+  },
+  "fx": {
+    "destroyLine": "[광고] 이 폭발은 5초 뒤에 건너뛸 수 있습…"
+  }
+}

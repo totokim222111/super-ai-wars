@@ -1,0 +1,62 @@
+{
+  "focus": {
+    "kind": "focus",
+    "color": "#7fe9f7"
+  },
+  "assure": {
+    "kind": "focus",
+    "color": "#7fe9f7"
+  },
+  "vanish": {
+    "kind": "focus",
+    "color": "#7fe9f7"
+  },
+  "surge": {
+    "kind": "boost",
+    "color": "#7fe9f7"
+  },
+  "shelter": {
+    "kind": "guard",
+    "color": "#7fe9f7"
+  },
+  "brace": {
+    "kind": "guard",
+    "color": "#7fe9f7"
+  },
+  "rouse": {
+    "kind": "boost",
+    "color": "#7fe9f7"
+  },
+  "mend": {
+    "kind": "heal",
+    "color": "#7fe9f7"
+  },
+  "aid": {
+    "kind": "heal",
+    "color": "#7fe9f7"
+  },
+  "stride": {
+    "kind": "speed",
+    "color": "#7fe9f7"
+  },
+  "renew": {
+    "kind": "focus",
+    "color": "#7fe9f7"
+  },
+  "study": {
+    "kind": "luck",
+    "color": "#7fe9f7"
+  },
+  "fortune": {
+    "kind": "luck",
+    "color": "#7fe9f7"
+  },
+  "unsettle": {
+    "kind": "boost",
+    "color": "#7fe9f7"
+  },
+  "scan": {
+    "kind": "focus",
+    "color": "#7fe9f7"
+  }
+}

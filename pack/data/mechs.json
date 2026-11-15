@@ -1,0 +1,7372 @@
+[
+  {
+    "id": "mech-a",
+    "name": "시험기 A",
+    "hp": 6800,
+    "en": 150,
+    "armor": 900,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle",
+      "beam",
+      "burst"
+    ]
+  },
+  {
+    "id": "mech-b",
+    "name": "시험기 B",
+    "hp": 7600,
+    "en": 140,
+    "armor": 1000,
+    "mobility": 100,
+    "move": 4,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "C",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle",
+      "cannon"
+    ]
+  },
+  {
+    "id": "mech-c",
+    "name": "시험기 C",
+    "hp": 6800,
+    "en": 160,
+    "armor": 850,
+    "mobility": 115,
+    "move": 5,
+    "moveType": [
+      "ground",
+      "sea"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "S",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle",
+      "beam",
+      "cannon"
+    ]
+  },
+  {
+    "id": "mech-d",
+    "name": "시험기 D",
+    "hp": 4400,
+    "en": 120,
+    "armor": 750,
+    "mobility": 100,
+    "move": 4,
+    "moveType": [
+      "ground",
+      "sea"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle",
+      "beam"
+    ]
+  },
+  {
+    "id": "mech-e",
+    "name": "시험기 E",
+    "hp": 4000,
+    "en": 120,
+    "armor": 700,
+    "mobility": 115,
+    "move": 5,
+    "moveType": [
+      "air"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle"
+    ]
+  },
+  {
+    "id": "mech-f",
+    "name": "시험기 F",
+    "hp": 4900,
+    "en": 140,
+    "armor": 850,
+    "mobility": 90,
+    "move": 3,
+    "moveType": [
+      "ground",
+      "sea"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "rifle",
+      "cannon",
+      "burst"
+    ]
+  },
+  {
+    "id": "trial-a",
+    "name": "청람",
+    "hp": 6800,
+    "en": 150,
+    "armor": 900,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle",
+      "beam",
+      "burst",
+      "trial-map"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 600,
+    "credits": 200,
+    "forms": [
+      {
+        "id": "cruise",
+        "name": "순항형",
+        "overrides": {
+          "move": 6,
+          "weapons": [
+            "blade",
+            "rifle",
+            "beam"
+          ]
+        }
+      },
+      {
+        "id": "assault",
+        "name": "강습형",
+        "overrides": {
+          "move": 3,
+          "armor": 1200,
+          "mobility": 95,
+          "en": 130,
+          "weapons": [
+            "blade",
+            "rifle",
+            "beam",
+            "burst",
+            "trial-map"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "trial-c",
+    "name": "해명",
+    "hp": 6800,
+    "en": 160,
+    "armor": 850,
+    "mobility": 115,
+    "move": 5,
+    "moveType": [
+      "ground",
+      "sea"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "S",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle",
+      "beam",
+      "cannon"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 600,
+    "credits": 200
+  },
+  {
+    "id": "trial-wing",
+    "name": "비연",
+    "hp": 4000,
+    "en": 120,
+    "armor": 700,
+    "mobility": 115,
+    "move": 5,
+    "moveType": [
+      "air"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "rifle",
+      "beam"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 600,
+    "credits": 200
+  },
+  {
+    "id": "trial-guard",
+    "name": "철위",
+    "hp": 7600,
+    "en": 140,
+    "armor": 1000,
+    "mobility": 100,
+    "move": 4,
+    "moveType": [
+      "ground",
+      "sea"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "C",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "rifle",
+      "cannon"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 600,
+    "credits": 200
+  },
+  {
+    "id": "trial-boss",
+    "name": "흑조",
+    "hp": 4900,
+    "en": 140,
+    "armor": 850,
+    "mobility": 90,
+    "move": 3,
+    "moveType": [
+      "ground",
+      "sea"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "rifle",
+      "cannon",
+      "burst"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 600,
+    "credits": 200
+  },
+  {
+    "id": "trial-combined",
+    "name": "청람 연합형",
+    "hp": 12000,
+    "en": 240,
+    "armor": 1400,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "B"
+    },
+    "weapons": [
+      "blade",
+      "beam",
+      "burst",
+      "trial-map"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 600,
+    "credits": 200
+  },
+  {
+    "id": "gpi-generation-1",
+    "name": "옴니 루나",
+    "hp": 6500,
+    "en": 140,
+    "armor": 1000,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gpi-generation-1-weapon-1",
+      "gpi-generation-1-weapon-2",
+      "gpi-generation-1-weapon-3",
+      "gpi-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "subPilots": [
+      "dots"
+    ],
+    "cheerHp": 0.3,
+    "allyStats": {
+      "hp": 6500,
+      "en": 140,
+      "armor": 1000,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "gpi-generation-1-weapon-1",
+        "gpi-generation-1-weapon-2",
+        "gpi-generation-1-weapon-3",
+        "gpi-generation-1-weapon-4"
+      ],
+      "weaponPower": {
+        "gpi-generation-1-weapon-1": 1320,
+        "gpi-generation-1-weapon-2": 2850,
+        "gpi-generation-1-weapon-3": 3000,
+        "gpi-generation-1-weapon-4": 4200
+      }
+    }
+  },
+  {
+    "id": "gpi-generation-2",
+    "name": "옴니 테라",
+    "hp": 8125,
+    "en": 140,
+    "armor": 1250,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gpi-generation-2-weapon-1",
+      "gpi-generation-2-weapon-2",
+      "gpi-generation-2-weapon-3",
+      "gpi-generation-2-weapon-4",
+      "gpi-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "subPilots": [
+      "dots"
+    ],
+    "cheerHp": 0.3,
+    "allyStats": {
+      "hp": 8125,
+      "en": 140,
+      "armor": 1250,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "gpi-generation-2-weapon-1",
+        "gpi-generation-2-weapon-2",
+        "gpi-generation-2-weapon-3",
+        "gpi-generation-2-weapon-4",
+        "gpi-generation-2-weapon-5"
+      ],
+      "weaponPower": {
+        "gpi-generation-2-weapon-1": 1650,
+        "gpi-generation-2-weapon-2": 3000,
+        "gpi-generation-2-weapon-3": 3750,
+        "gpi-generation-2-weapon-4": 5250,
+        "gpi-generation-2-weapon-5": 3000
+      }
+    }
+  },
+  {
+    "id": "gpi-generation-3",
+    "name": "옴니 솔",
+    "hp": 10156,
+    "en": 140,
+    "armor": 1563,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gpi-generation-3-weapon-1",
+      "gpi-generation-3-weapon-2",
+      "gpi-generation-3-weapon-3",
+      "gpi-generation-3-weapon-4",
+      "gpi-generation-3-weapon-5",
+      "gpi-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "subPilots": [
+      "dots"
+    ],
+    "cheerHp": 0.3,
+    "allyStats": {
+      "hp": 10156,
+      "en": 140,
+      "armor": 1563,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "gpi-generation-3-weapon-1",
+        "gpi-generation-3-weapon-2",
+        "gpi-generation-3-weapon-3",
+        "gpi-generation-3-weapon-4",
+        "gpi-generation-3-weapon-5",
+        "gpi-generation-3-weapon-6"
+      ],
+      "weaponPower": {
+        "gpi-generation-3-weapon-1": 2060,
+        "gpi-generation-3-weapon-2": 3750,
+        "gpi-generation-3-weapon-3": 4690,
+        "gpi-generation-3-weapon-4": 6560,
+        "gpi-generation-3-weapon-5": 3750,
+        "gpi-generation-3-weapon-6": 3000
+      }
+    }
+  },
+  {
+    "id": "gpi-generation-4",
+    "name": "옴니 아스트라",
+    "hp": 12695,
+    "en": 140,
+    "armor": 1953,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gpi-generation-4-weapon-1",
+      "gpi-generation-4-weapon-2",
+      "gpi-generation-4-weapon-3",
+      "gpi-generation-4-weapon-4",
+      "gpi-generation-4-weapon-5",
+      "gpi-generation-4-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "subPilots": [
+      "dots"
+    ],
+    "cheerHp": 0.3,
+    "allyStats": {
+      "hp": 12695,
+      "en": 140,
+      "armor": 1953,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "gpi-generation-4-weapon-1",
+        "gpi-generation-4-weapon-2",
+        "gpi-generation-4-weapon-3",
+        "gpi-generation-4-weapon-4",
+        "gpi-generation-4-weapon-5",
+        "gpi-generation-4-weapon-6"
+      ],
+      "weaponPower": {
+        "gpi-generation-4-weapon-1": 2580,
+        "gpi-generation-4-weapon-2": 5570,
+        "gpi-generation-4-weapon-3": 5860,
+        "gpi-generation-4-weapon-4": 8210,
+        "gpi-generation-4-weapon-5": 4690,
+        "gpi-generation-4-weapon-6": 3750
+      }
+    }
+  },
+  {
+    "id": "gem-generation-1",
+    "name": "더블 스텔라 플래시",
+    "hp": 6800,
+    "en": 160,
+    "armor": 1050,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gem-generation-1-weapon-1",
+      "gem-generation-1-weapon-2",
+      "gem-generation-1-weapon-3",
+      "gem-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "forms": [
+      {
+        "id": "normal",
+        "name": "일반",
+        "overrides": {
+          "weapons": [
+            "gem-generation-1-weapon-1",
+            "gem-generation-1-weapon-2",
+            "gem-generation-1-weapon-3",
+            "gem-generation-1-weapon-4"
+          ]
+        }
+      },
+      {
+        "id": "ais",
+        "name": "AIS",
+        "overrides": {
+          "move": 4,
+          "weapons": [
+            "gem-generation-1-weapon-1-ais",
+            "gem-generation-1-weapon-2-ais",
+            "gem-generation-1-weapon-3-ais",
+            "gem-generation-1-weapon-4-ais",
+            "gem-generation-1-ais-map"
+          ]
+        }
+      },
+      {
+        "id": "antigravity",
+        "name": "안티그래비티",
+        "overrides": {
+          "move": 7,
+          "moveType": [
+            "air",
+            "ground"
+          ],
+          "weapons": [
+            "gem-generation-1-weapon-1",
+            "gem-generation-1-weapon-3",
+            "gem-generation-1-weapon-4",
+            "gem-generation-1-antigravity-melee"
+          ]
+        }
+      }
+    ],
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6800,
+      "en": 160,
+      "armor": 1050,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "gem-generation-1-weapon-1",
+        "gem-generation-1-weapon-2",
+        "gem-generation-1-weapon-3",
+        "gem-generation-1-weapon-4"
+      ],
+      "weaponPower": {
+        "gem-generation-1-weapon-1": 1680,
+        "gem-generation-1-weapon-2": 3000,
+        "gem-generation-1-weapon-3": 3000,
+        "gem-generation-1-weapon-4": 4200
+      }
+    }
+  },
+  {
+    "id": "gem-generation-2",
+    "name": "더블 스텔라 프로",
+    "hp": 8500,
+    "en": 160,
+    "armor": 1313,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gem-generation-2-weapon-1",
+      "gem-generation-2-weapon-2",
+      "gem-generation-2-weapon-3",
+      "gem-generation-2-weapon-4",
+      "gem-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "forms": [
+      {
+        "id": "normal",
+        "name": "일반",
+        "overrides": {
+          "weapons": [
+            "gem-generation-2-weapon-1",
+            "gem-generation-2-weapon-2",
+            "gem-generation-2-weapon-3",
+            "gem-generation-2-weapon-4",
+            "gem-generation-2-weapon-5"
+          ]
+        }
+      },
+      {
+        "id": "ais",
+        "name": "AIS",
+        "overrides": {
+          "move": 4,
+          "weapons": [
+            "gem-generation-2-weapon-1-ais",
+            "gem-generation-2-weapon-2-ais",
+            "gem-generation-2-weapon-3-ais",
+            "gem-generation-2-weapon-4-ais",
+            "gem-generation-2-weapon-5-ais",
+            "gem-generation-2-ais-map"
+          ]
+        }
+      },
+      {
+        "id": "antigravity",
+        "name": "안티그래비티",
+        "overrides": {
+          "move": 7,
+          "moveType": [
+            "air",
+            "ground"
+          ],
+          "weapons": [
+            "gem-generation-2-weapon-1",
+            "gem-generation-2-weapon-3",
+            "gem-generation-2-weapon-4",
+            "gem-generation-2-weapon-5",
+            "gem-generation-2-antigravity-melee"
+          ]
+        }
+      }
+    ],
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8500,
+      "en": 160,
+      "armor": 1313,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "gem-generation-2-weapon-1",
+        "gem-generation-2-weapon-2",
+        "gem-generation-2-weapon-3",
+        "gem-generation-2-weapon-4",
+        "gem-generation-2-weapon-5"
+      ],
+      "weaponPower": {
+        "gem-generation-2-weapon-1": 2100,
+        "gem-generation-2-weapon-2": 3750,
+        "gem-generation-2-weapon-3": 3750,
+        "gem-generation-2-weapon-4": 5250,
+        "gem-generation-2-weapon-5": 3750
+      }
+    }
+  },
+  {
+    "id": "gem-generation-3",
+    "name": "더블 스텔라 아르곤",
+    "hp": 10625,
+    "en": 160,
+    "armor": 1641,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gem-generation-3-weapon-1",
+      "gem-generation-3-weapon-2",
+      "gem-generation-3-weapon-3",
+      "gem-generation-3-weapon-4",
+      "gem-generation-3-weapon-5",
+      "gem-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "forms": [
+      {
+        "id": "normal",
+        "name": "일반",
+        "overrides": {
+          "weapons": [
+            "gem-generation-3-weapon-1",
+            "gem-generation-3-weapon-2",
+            "gem-generation-3-weapon-3",
+            "gem-generation-3-weapon-4",
+            "gem-generation-3-weapon-5",
+            "gem-generation-3-weapon-6"
+          ]
+        }
+      },
+      {
+        "id": "ais",
+        "name": "AIS",
+        "overrides": {
+          "move": 4,
+          "weapons": [
+            "gem-generation-3-weapon-1-ais",
+            "gem-generation-3-weapon-2-ais",
+            "gem-generation-3-weapon-3-ais",
+            "gem-generation-3-weapon-4-ais",
+            "gem-generation-3-weapon-5-ais",
+            "gem-generation-3-ais-map"
+          ]
+        }
+      },
+      {
+        "id": "antigravity",
+        "name": "안티그래비티",
+        "overrides": {
+          "move": 7,
+          "moveType": [
+            "air",
+            "ground"
+          ],
+          "weapons": [
+            "gem-generation-3-weapon-1",
+            "gem-generation-3-weapon-3",
+            "gem-generation-3-weapon-4",
+            "gem-generation-3-weapon-5",
+            "gem-generation-3-weapon-6",
+            "gem-generation-3-antigravity-melee"
+          ]
+        }
+      }
+    ],
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10625,
+      "en": 160,
+      "armor": 1641,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "gem-generation-3-weapon-1",
+        "gem-generation-3-weapon-2",
+        "gem-generation-3-weapon-3",
+        "gem-generation-3-weapon-4",
+        "gem-generation-3-weapon-5",
+        "gem-generation-3-weapon-6"
+      ],
+      "weaponPower": {
+        "gem-generation-3-weapon-1": 2620,
+        "gem-generation-3-weapon-2": 3750,
+        "gem-generation-3-weapon-3": 4690,
+        "gem-generation-3-weapon-4": 6560,
+        "gem-generation-3-weapon-5": 2250,
+        "gem-generation-3-weapon-6": 3750
+      }
+    }
+  },
+  {
+    "id": "gem-generation-4",
+    "name": "더블 스텔라 카본",
+    "hp": 13281,
+    "en": 160,
+    "armor": 2051,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "gem-generation-4-weapon-1",
+      "gem-generation-4-weapon-2",
+      "gem-generation-4-weapon-3",
+      "gem-generation-4-weapon-4",
+      "gem-generation-4-weapon-5",
+      "gem-generation-4-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "forms": [
+      {
+        "id": "normal",
+        "name": "일반",
+        "overrides": {
+          "weapons": [
+            "gem-generation-4-weapon-1",
+            "gem-generation-4-weapon-2",
+            "gem-generation-4-weapon-3",
+            "gem-generation-4-weapon-4",
+            "gem-generation-4-weapon-5",
+            "gem-generation-4-weapon-6"
+          ]
+        }
+      },
+      {
+        "id": "ais",
+        "name": "AIS",
+        "overrides": {
+          "move": 4,
+          "weapons": [
+            "gem-generation-4-weapon-1-ais",
+            "gem-generation-4-weapon-2-ais",
+            "gem-generation-4-weapon-3-ais",
+            "gem-generation-4-weapon-4-ais",
+            "gem-generation-4-weapon-5-ais",
+            "gem-generation-4-ais-map"
+          ]
+        }
+      },
+      {
+        "id": "antigravity",
+        "name": "안티그래비티",
+        "overrides": {
+          "move": 7,
+          "moveType": [
+            "air",
+            "ground"
+          ],
+          "weapons": [
+            "gem-generation-4-weapon-1",
+            "gem-generation-4-weapon-3",
+            "gem-generation-4-weapon-4",
+            "gem-generation-4-weapon-5",
+            "gem-generation-4-weapon-6",
+            "gem-generation-4-antigravity-melee"
+          ]
+        }
+      }
+    ],
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 13281,
+      "en": 160,
+      "armor": 2051,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "gem-generation-4-weapon-1",
+        "gem-generation-4-weapon-2",
+        "gem-generation-4-weapon-3",
+        "gem-generation-4-weapon-4",
+        "gem-generation-4-weapon-5",
+        "gem-generation-4-weapon-6"
+      ],
+      "weaponPower": {
+        "gem-generation-4-weapon-1": 3280,
+        "gem-generation-4-weapon-2": 5860,
+        "gem-generation-4-weapon-3": 5860,
+        "gem-generation-4-weapon-4": 8210,
+        "gem-generation-4-weapon-5": 2810,
+        "gem-generation-4-weapon-6": 4690
+      }
+    }
+  },
+  {
+    "id": "claude-generation-1",
+    "name": "아티팩트 오퍼스",
+    "hp": 5300,
+    "en": 160,
+    "armor": 750,
+    "mobility": 108,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "claude-generation-1-weapon-1",
+      "claude-generation-1-weapon-2",
+      "claude-generation-1-weapon-3",
+      "claude-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 5300,
+      "en": 160,
+      "armor": 750,
+      "mobility": 108,
+      "move": 5,
+      "weapons": [
+        "claude-generation-1-weapon-1",
+        "claude-generation-1-weapon-2",
+        "claude-generation-1-weapon-3",
+        "claude-generation-1-weapon-4"
+      ],
+      "weaponPower": {
+        "claude-generation-1-weapon-1": 2900,
+        "claude-generation-1-weapon-2": 3430,
+        "claude-generation-1-weapon-3": 3430,
+        "claude-generation-1-weapon-4": 4620
+      }
+    }
+  },
+  {
+    "id": "claude-generation-2",
+    "name": "아티팩트 오퍼스 5",
+    "hp": 6625,
+    "en": 160,
+    "armor": 938,
+    "mobility": 108,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "claude-generation-2-weapon-1",
+      "claude-generation-2-weapon-2",
+      "claude-generation-2-weapon-3",
+      "claude-generation-2-weapon-4",
+      "claude-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6625,
+      "en": 160,
+      "armor": 938,
+      "mobility": 108,
+      "move": 5,
+      "weapons": [
+        "claude-generation-2-weapon-1",
+        "claude-generation-2-weapon-2",
+        "claude-generation-2-weapon-3",
+        "claude-generation-2-weapon-4",
+        "claude-generation-2-weapon-5"
+      ],
+      "weaponPower": {
+        "claude-generation-2-weapon-1": 3630,
+        "claude-generation-2-weapon-2": 4290,
+        "claude-generation-2-weapon-3": 4290,
+        "claude-generation-2-weapon-4": 5780,
+        "claude-generation-2-weapon-5": 3140
+      }
+    }
+  },
+  {
+    "id": "claude-generation-3",
+    "name": "아티팩트 오퍼스 5.5",
+    "hp": 8281,
+    "en": 160,
+    "armor": 1172,
+    "mobility": 108,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "claude-generation-3-weapon-1",
+      "claude-generation-3-weapon-2",
+      "claude-generation-3-weapon-3",
+      "claude-generation-3-weapon-4",
+      "claude-generation-3-weapon-5",
+      "claude-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8281,
+      "en": 160,
+      "armor": 1172,
+      "mobility": 108,
+      "move": 5,
+      "weapons": [
+        "claude-generation-3-weapon-1",
+        "claude-generation-3-weapon-2",
+        "claude-generation-3-weapon-3",
+        "claude-generation-3-weapon-4",
+        "claude-generation-3-weapon-5",
+        "claude-generation-3-weapon-6"
+      ],
+      "weaponPower": {
+        "claude-generation-3-weapon-1": 4530,
+        "claude-generation-3-weapon-2": 4120,
+        "claude-generation-3-weapon-3": 5360,
+        "claude-generation-3-weapon-4": 7210,
+        "claude-generation-3-weapon-5": 3910,
+        "claude-generation-3-weapon-6": 5150
+      }
+    }
+  },
+  {
+    "id": "claude-generation-4",
+    "name": "아티팩트 페이블",
+    "hp": 10352,
+    "en": 160,
+    "armor": 1465,
+    "mobility": 108,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "claude-generation-4-weapon-1",
+      "claude-generation-4-weapon-2",
+      "claude-generation-4-weapon-3",
+      "claude-generation-4-weapon-4",
+      "claude-generation-4-weapon-5",
+      "claude-generation-4-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10352,
+      "en": 160,
+      "armor": 1465,
+      "mobility": 108,
+      "move": 5,
+      "weapons": [
+        "claude-generation-4-weapon-1",
+        "claude-generation-4-weapon-2",
+        "claude-generation-4-weapon-3",
+        "claude-generation-4-weapon-4",
+        "claude-generation-4-weapon-5",
+        "claude-generation-4-weapon-6"
+      ],
+      "weaponPower": {
+        "claude-generation-4-weapon-1": 5680,
+        "claude-generation-4-weapon-2": 6710,
+        "claude-generation-4-weapon-3": 6710,
+        "claude-generation-4-weapon-4": 9030,
+        "claude-generation-4-weapon-5": 4900,
+        "claude-generation-4-weapon-6": 6450
+      }
+    }
+  },
+  {
+    "id": "grok-generation-1",
+    "name": "리벨리온 X 3",
+    "hp": 5500,
+    "en": 120,
+    "armor": 820,
+    "mobility": 147,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "grok-generation-1-weapon-1",
+      "grok-generation-1-weapon-2",
+      "grok-generation-1-weapon-3",
+      "grok-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 5500,
+      "en": 120,
+      "armor": 820,
+      "mobility": 147,
+      "move": 6,
+      "weapons": [
+        "grok-generation-1-weapon-1",
+        "grok-generation-1-weapon-2",
+        "grok-generation-1-weapon-3",
+        "grok-generation-1-weapon-4"
+      ],
+      "weaponPower": {
+        "grok-generation-1-weapon-1": 2640,
+        "grok-generation-1-weapon-2": 1580,
+        "grok-generation-1-weapon-3": 2900,
+        "grok-generation-1-weapon-4": 4750
+      }
+    }
+  },
+  {
+    "id": "grok-generation-2",
+    "name": "리벨리온 X 4",
+    "hp": 6875,
+    "en": 120,
+    "armor": 1025,
+    "mobility": 147,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "grok-generation-2-weapon-1",
+      "grok-generation-2-weapon-2",
+      "grok-generation-2-weapon-3",
+      "grok-generation-2-weapon-4",
+      "grok-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6875,
+      "en": 120,
+      "armor": 1025,
+      "mobility": 147,
+      "move": 6,
+      "weapons": [
+        "grok-generation-2-weapon-1",
+        "grok-generation-2-weapon-2",
+        "grok-generation-2-weapon-3",
+        "grok-generation-2-weapon-4",
+        "grok-generation-2-weapon-5"
+      ],
+      "weaponPower": {
+        "grok-generation-2-weapon-1": 3450,
+        "grok-generation-2-weapon-2": 3140,
+        "grok-generation-2-weapon-3": 3630,
+        "grok-generation-2-weapon-4": 5940,
+        "grok-generation-2-weapon-5": 4290
+      }
+    }
+  },
+  {
+    "id": "grok-generation-3",
+    "name": "리벨리온 X 4.20 헤비",
+    "hp": 8594,
+    "en": 120,
+    "armor": 1281,
+    "mobility": 147,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "grok-generation-3-weapon-1",
+      "grok-generation-3-weapon-2",
+      "grok-generation-3-weapon-3",
+      "grok-generation-3-weapon-4",
+      "grok-generation-3-weapon-5",
+      "grok-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8594,
+      "en": 120,
+      "armor": 1281,
+      "mobility": 147,
+      "move": 6,
+      "weapons": [
+        "grok-generation-3-weapon-1",
+        "grok-generation-3-weapon-2",
+        "grok-generation-3-weapon-3",
+        "grok-generation-3-weapon-4",
+        "grok-generation-3-weapon-5",
+        "grok-generation-3-weapon-6"
+      ],
+      "weaponPower": {
+        "grok-generation-3-weapon-1": 4120,
+        "grok-generation-3-weapon-2": 2470,
+        "grok-generation-3-weapon-3": 4530,
+        "grok-generation-3-weapon-4": 7420,
+        "grok-generation-3-weapon-5": 5360,
+        "grok-generation-3-weapon-6": 4740
+      }
+    }
+  },
+  {
+    "id": "grok-generation-4",
+    "name": "리벨리온 X 5",
+    "hp": 10742,
+    "en": 120,
+    "armor": 1602,
+    "mobility": 147,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "grok-generation-4-weapon-1",
+      "grok-generation-4-weapon-2",
+      "grok-generation-4-weapon-3",
+      "grok-generation-4-weapon-4",
+      "grok-generation-4-weapon-5",
+      "grok-generation-4-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10742,
+      "en": 120,
+      "armor": 1602,
+      "mobility": 147,
+      "move": 6,
+      "weapons": [
+        "grok-generation-4-weapon-1",
+        "grok-generation-4-weapon-2",
+        "grok-generation-4-weapon-3",
+        "grok-generation-4-weapon-4",
+        "grok-generation-4-weapon-5",
+        "grok-generation-4-weapon-6"
+      ],
+      "weaponPower": {
+        "grok-generation-4-weapon-1": 6380,
+        "grok-generation-4-weapon-2": 3100,
+        "grok-generation-4-weapon-3": 5680,
+        "grok-generation-4-weapon-4": 9290,
+        "grok-generation-4-weapon-5": 6710,
+        "grok-generation-4-weapon-6": 5930
+      }
+    }
+  },
+  {
+    "id": "deepseek-generation-1",
+    "name": "청해 루미너스 코어 V3",
+    "hp": 6300,
+    "en": 140,
+    "armor": 950,
+    "mobility": 112,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "deepseek-generation-1-weapon-1",
+      "deepseek-generation-1-weapon-2",
+      "deepseek-generation-1-weapon-3",
+      "deepseek-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6300,
+      "en": 140,
+      "armor": 950,
+      "mobility": 112,
+      "move": 5,
+      "weapons": [
+        "deepseek-generation-1-weapon-1",
+        "deepseek-generation-1-weapon-2",
+        "deepseek-generation-1-weapon-3",
+        "deepseek-generation-1-weapon-4"
+      ],
+      "weaponPower": {
+        "deepseek-generation-1-weapon-1": 2400,
+        "deepseek-generation-1-weapon-2": 2640,
+        "deepseek-generation-1-weapon-3": 3120,
+        "deepseek-generation-1-weapon-4": 4200
+      }
+    }
+  },
+  {
+    "id": "deepseek-generation-2",
+    "name": "청해 루미너스 코어 R1",
+    "hp": 7875,
+    "en": 140,
+    "armor": 1188,
+    "mobility": 112,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "deepseek-generation-2-weapon-1",
+      "deepseek-generation-2-weapon-2",
+      "deepseek-generation-2-weapon-3",
+      "deepseek-generation-2-weapon-4",
+      "deepseek-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 7875,
+      "en": 140,
+      "armor": 1188,
+      "mobility": 112,
+      "move": 5,
+      "weapons": [
+        "deepseek-generation-2-weapon-1",
+        "deepseek-generation-2-weapon-2",
+        "deepseek-generation-2-weapon-3",
+        "deepseek-generation-2-weapon-4",
+        "deepseek-generation-2-weapon-5"
+      ],
+      "weaponPower": {
+        "deepseek-generation-2-weapon-1": 3000,
+        "deepseek-generation-2-weapon-2": 3300,
+        "deepseek-generation-2-weapon-3": 3900,
+        "deepseek-generation-2-weapon-4": 5250,
+        "deepseek-generation-2-weapon-5": 3900
+      }
+    }
+  },
+  {
+    "id": "deepseek-generation-3",
+    "name": "청해 루미너스 코어 V4-Flash",
+    "hp": 9844,
+    "en": 140,
+    "armor": 1484,
+    "mobility": 112,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "deepseek-generation-3-weapon-1",
+      "deepseek-generation-3-weapon-2",
+      "deepseek-generation-3-weapon-3",
+      "deepseek-generation-3-weapon-4",
+      "deepseek-generation-3-weapon-5",
+      "deepseek-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "forms": [
+      {
+        "id": "core",
+        "name": "코어",
+        "overrides": {}
+      },
+      {
+        "id": "mobydick",
+        "name": "모비딕",
+        "overrides": {
+          "hp": 19688,
+          "armor": 1855,
+          "mobility": 55,
+          "size": "L",
+          "moveType": [
+            "air",
+            "ground"
+          ],
+          "weapons": [
+            "mobydick-weapon-1",
+            "mobydick-weapon-2",
+            "mobydick-weapon-3",
+            "mobydick-weapon-4",
+            "mobydick-weapon-5",
+            "mobydick-weapon-6"
+          ]
+        }
+      }
+    ],
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 9844,
+      "en": 140,
+      "armor": 1484,
+      "mobility": 112,
+      "move": 5,
+      "weapons": [
+        "deepseek-generation-3-weapon-1",
+        "deepseek-generation-3-weapon-2",
+        "deepseek-generation-3-weapon-3",
+        "deepseek-generation-3-weapon-4",
+        "deepseek-generation-3-weapon-5",
+        "deepseek-generation-3-weapon-6"
+      ],
+      "weaponPower": {
+        "deepseek-generation-3-weapon-1": 3750,
+        "deepseek-generation-3-weapon-2": 4120,
+        "deepseek-generation-3-weapon-3": 4880,
+        "deepseek-generation-3-weapon-4": 6560,
+        "deepseek-generation-3-weapon-5": 4880,
+        "deepseek-generation-3-weapon-6": 4120
+      }
+    }
+  },
+  {
+    "id": "sonnet-generation-1",
+    "name": "아티팩트 비바체 4.5",
+    "hp": 6200,
+    "en": 140,
+    "armor": 950,
+    "mobility": 120,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "sonnet-generation-1-weapon-1",
+      "sonnet-generation-1-weapon-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "devices": [
+      {
+        "id": "supply",
+        "name": "보급 장치",
+        "kind": "resupply",
+        "uses": 8,
+        "postMove": true,
+        "morale": -10,
+        "experience": 600
+      },
+      {
+        "id": "repair",
+        "name": "수리 장치",
+        "kind": "repair",
+        "uses": null,
+        "en": 5,
+        "postMove": true,
+        "amount": {
+          "pct": 30
+        },
+        "experience": 450
+      }
+    ],
+    "allyStats": {
+      "hp": 6200,
+      "en": 140,
+      "armor": 950,
+      "mobility": 120,
+      "move": 6,
+      "weapons": [
+        "sonnet-generation-1-weapon-1",
+        "sonnet-generation-1-weapon-2"
+      ],
+      "weaponPower": {
+        "sonnet-generation-1-weapon-1": 1530,
+        "sonnet-generation-1-weapon-2": 2040
+      }
+    }
+  },
+  {
+    "id": "sonnet-generation-2",
+    "name": "아티팩트 비바체 5.5",
+    "hp": 7750,
+    "en": 140,
+    "armor": 1188,
+    "mobility": 120,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "sonnet-generation-2-weapon-1",
+      "sonnet-generation-2-weapon-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "devices": [
+      {
+        "id": "supply",
+        "name": "보급 장치",
+        "kind": "resupply",
+        "uses": 8,
+        "postMove": true,
+        "morale": -10,
+        "experience": 600
+      },
+      {
+        "id": "repair",
+        "name": "수리 장치",
+        "kind": "repair",
+        "uses": null,
+        "en": 5,
+        "postMove": true,
+        "amount": {
+          "pct": 30
+        },
+        "experience": 450
+      }
+    ],
+    "allyStats": {
+      "hp": 7750,
+      "en": 140,
+      "armor": 1188,
+      "mobility": 120,
+      "move": 6,
+      "weapons": [
+        "sonnet-generation-2-weapon-1",
+        "sonnet-generation-2-weapon-2"
+      ],
+      "weaponPower": {
+        "sonnet-generation-2-weapon-1": 1910,
+        "sonnet-generation-2-weapon-2": 2550
+      }
+    }
+  },
+  {
+    "id": "sonnet-generation-3",
+    "name": "아티팩트 비바체 5.5 (new)",
+    "hp": 9688,
+    "en": 140,
+    "armor": 1484,
+    "mobility": 120,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "sonnet-generation-3-weapon-1",
+      "sonnet-generation-3-weapon-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "devices": [
+      {
+        "id": "supply",
+        "name": "보급 장치",
+        "kind": "resupply",
+        "uses": 8,
+        "postMove": true,
+        "morale": -10,
+        "experience": 600
+      },
+      {
+        "id": "repair",
+        "name": "수리 장치",
+        "kind": "repair",
+        "uses": null,
+        "en": 5,
+        "postMove": true,
+        "amount": {
+          "pct": 30
+        },
+        "experience": 450
+      }
+    ],
+    "allyStats": {
+      "hp": 9688,
+      "en": 140,
+      "armor": 1484,
+      "mobility": 120,
+      "move": 6,
+      "weapons": [
+        "sonnet-generation-3-weapon-1",
+        "sonnet-generation-3-weapon-2"
+      ],
+      "weaponPower": {
+        "sonnet-generation-3-weapon-1": 2390,
+        "sonnet-generation-3-weapon-2": 3190
+      }
+    }
+  },
+  {
+    "id": "exaone-generation-1",
+    "name": "트라이-윙 엘리시온 EXAONE 4",
+    "hp": 7000,
+    "en": 160,
+    "armor": 1600,
+    "mobility": 85,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "exaone-generation-1-weapon-1",
+      "exaone-generation-1-weapon-2",
+      "exaone-generation-1-weapon-3",
+      "exaone-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 7000,
+      "en": 160,
+      "armor": 1600,
+      "mobility": 85,
+      "move": 5,
+      "weapons": [
+        "exaone-generation-1-weapon-1",
+        "exaone-generation-1-weapon-2",
+        "exaone-generation-1-weapon-3",
+        "exaone-generation-1-weapon-4"
+      ],
+      "weaponPower": {
+        "exaone-generation-1-weapon-1": 2280,
+        "exaone-generation-1-weapon-2": 2510,
+        "exaone-generation-1-weapon-3": 2850,
+        "exaone-generation-1-weapon-4": 3990
+      }
+    }
+  },
+  {
+    "id": "exaone-generation-2",
+    "name": "트라이-윙 엘리시온 EXAONE 4.5",
+    "hp": 8750,
+    "en": 160,
+    "armor": 2000,
+    "mobility": 85,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "exaone-generation-2-weapon-1",
+      "exaone-generation-2-weapon-2",
+      "exaone-generation-2-weapon-3",
+      "exaone-generation-2-weapon-4",
+      "exaone-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8750,
+      "en": 160,
+      "armor": 2000,
+      "mobility": 85,
+      "move": 5,
+      "weapons": [
+        "exaone-generation-2-weapon-1",
+        "exaone-generation-2-weapon-2",
+        "exaone-generation-2-weapon-3",
+        "exaone-generation-2-weapon-4",
+        "exaone-generation-2-weapon-5"
+      ],
+      "weaponPower": {
+        "exaone-generation-2-weapon-1": 2850,
+        "exaone-generation-2-weapon-2": 3140,
+        "exaone-generation-2-weapon-3": 3560,
+        "exaone-generation-2-weapon-4": 4990,
+        "exaone-generation-2-weapon-5": 2710
+      }
+    }
+  },
+  {
+    "id": "exaone-generation-3",
+    "name": "트라이-윙 엘리시온 K-EXAONE",
+    "hp": 10938,
+    "en": 160,
+    "armor": 2500,
+    "mobility": 85,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "exaone-generation-3-weapon-1",
+      "exaone-generation-3-weapon-2",
+      "exaone-generation-3-weapon-3",
+      "exaone-generation-3-weapon-4",
+      "exaone-generation-3-weapon-5",
+      "exaone-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "forms": [
+      {
+        "id": "normal",
+        "name": "일반",
+        "overrides": {}
+      },
+      {
+        "id": "thinq",
+        "name": "ThinQ 가전 합체",
+        "overrides": {
+          "armor": 3250,
+          "hp": 13126,
+          "move": 4,
+          "size": "L",
+          "weapons": [
+            "exaone-generation-3-weapon-1",
+            "exaone-generation-3-weapon-2",
+            "exaone-generation-3-weapon-3",
+            "thinq-drum",
+            "thinq-freezer",
+            "thinq-finisher"
+          ]
+        }
+      }
+    ],
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10938,
+      "en": 160,
+      "armor": 2500,
+      "mobility": 85,
+      "move": 5,
+      "weapons": [
+        "exaone-generation-3-weapon-1",
+        "exaone-generation-3-weapon-2",
+        "exaone-generation-3-weapon-3",
+        "exaone-generation-3-weapon-4",
+        "exaone-generation-3-weapon-5",
+        "exaone-generation-3-weapon-6"
+      ],
+      "weaponPower": {
+        "exaone-generation-3-weapon-1": 4230,
+        "exaone-generation-3-weapon-2": 3920,
+        "exaone-generation-3-weapon-3": 4450,
+        "exaone-generation-3-weapon-4": 6230,
+        "exaone-generation-3-weapon-5": 3380,
+        "exaone-generation-3-weapon-6": 3740
+      }
+    }
+  },
+  {
+    "id": "qwen-generation-1",
+    "name": "청화 제국 Qwen3",
+    "hp": 6400,
+    "en": 160,
+    "armor": 850,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "qwen-generation-1-weapon-1",
+      "qwen-generation-1-weapon-2",
+      "qwen-generation-1-weapon-3",
+      "qwen-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6400,
+      "en": 160,
+      "armor": 850,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "qwen-generation-1-weapon-1",
+        "qwen-generation-1-weapon-2",
+        "qwen-generation-1-weapon-3",
+        "qwen-generation-1-weapon-4"
+      ],
+      "weaponPower": {
+        "qwen-generation-1-weapon-1": 2520,
+        "qwen-generation-1-weapon-2": 2520,
+        "qwen-generation-1-weapon-3": 1760,
+        "qwen-generation-1-weapon-4": 2270
+      }
+    }
+  },
+  {
+    "id": "qwen-generation-2",
+    "name": "청화 제국 Qwen3.5",
+    "hp": 8000,
+    "en": 160,
+    "armor": 1063,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "qwen-generation-2-weapon-1",
+      "qwen-generation-2-weapon-2",
+      "qwen-generation-2-weapon-3",
+      "qwen-generation-2-weapon-4",
+      "qwen-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8000,
+      "en": 160,
+      "armor": 1063,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "qwen-generation-2-weapon-1",
+        "qwen-generation-2-weapon-2",
+        "qwen-generation-2-weapon-3",
+        "qwen-generation-2-weapon-4",
+        "qwen-generation-2-weapon-5"
+      ],
+      "weaponPower": {
+        "qwen-generation-2-weapon-1": 3150,
+        "qwen-generation-2-weapon-2": 3150,
+        "qwen-generation-2-weapon-3": 2200,
+        "qwen-generation-2-weapon-4": 2840,
+        "qwen-generation-2-weapon-5": 5510
+      }
+    }
+  },
+  {
+    "id": "qwen-generation-3",
+    "name": "청화 제국 Qwen3.8 Max",
+    "hp": 10000,
+    "en": 160,
+    "armor": 1328,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "qwen-generation-3-weapon-1",
+      "qwen-generation-3-weapon-2",
+      "qwen-generation-3-weapon-3",
+      "qwen-generation-3-weapon-4",
+      "qwen-generation-3-weapon-5",
+      "qwen-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10000,
+      "en": 160,
+      "armor": 1328,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "qwen-generation-3-weapon-1",
+        "qwen-generation-3-weapon-2",
+        "qwen-generation-3-weapon-3",
+        "qwen-generation-3-weapon-4",
+        "qwen-generation-3-weapon-5",
+        "qwen-generation-3-weapon-6"
+      ],
+      "weaponPower": {
+        "qwen-generation-3-weapon-1": 3940,
+        "qwen-generation-3-weapon-2": 3940,
+        "qwen-generation-3-weapon-3": 2760,
+        "qwen-generation-3-weapon-4": 3550,
+        "qwen-generation-3-weapon-5": 6900,
+        "qwen-generation-3-weapon-6": 3940
+      }
+    }
+  },
+  {
+    "id": "player-real-generation-1",
+    "name": "프롬프트 커맨더",
+    "hp": 6000,
+    "en": 140,
+    "armor": 900,
+    "mobility": 130,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "player-real-generation-1-weapon-1",
+      "player-real-generation-1-weapon-2",
+      "player-real-generation-1-weapon-3",
+      "player-real-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "player-real-generation-2",
+    "name": "커맨더 Root",
+    "hp": 7500,
+    "en": 140,
+    "armor": 1125,
+    "mobility": 130,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "player-real-generation-2-weapon-1",
+      "player-real-generation-2-weapon-2",
+      "player-real-generation-2-weapon-3",
+      "player-real-generation-2-weapon-4",
+      "player-real-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "player-real-generation-3",
+    "name": "아키텍트 제로: Singularity",
+    "hp": 9375,
+    "en": 140,
+    "armor": 1406,
+    "mobility": 130,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "player-real-generation-3-weapon-1",
+      "player-real-generation-3-weapon-2",
+      "player-real-generation-3-weapon-3",
+      "player-real-generation-3-weapon-4",
+      "player-real-generation-3-weapon-5",
+      "player-real-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "player-super-generation-1",
+    "name": "오버클럭 타이탄 RGB",
+    "hp": 9000,
+    "en": 160,
+    "armor": 1350,
+    "mobility": 65,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "player-super-generation-1-weapon-1",
+      "player-super-generation-1-weapon-2",
+      "player-super-generation-1-weapon-3",
+      "player-super-generation-1-weapon-4"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "pilotOverrides": {
+      "pilotId": "player",
+      "stats": {
+        "melee": 165,
+        "shoot": 115,
+        "skill": 108
+      },
+      "growth": {
+        "skill": 1
+      },
+      "sp": 90
+    }
+  },
+  {
+    "id": "player-super-generation-2",
+    "name": "워크스테이션 Root",
+    "hp": 11250,
+    "en": 160,
+    "armor": 1688,
+    "mobility": 65,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "player-super-generation-2-weapon-1",
+      "player-super-generation-2-weapon-2",
+      "player-super-generation-2-weapon-3",
+      "player-super-generation-2-weapon-4",
+      "player-super-generation-2-weapon-5"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "pilotOverrides": {
+      "pilotId": "player",
+      "stats": {
+        "melee": 165,
+        "shoot": 115,
+        "skill": 108
+      },
+      "growth": {
+        "skill": 1
+      },
+      "sp": 90
+    }
+  },
+  {
+    "id": "player-super-generation-3",
+    "name": "메인프레임 제로: 기가와트",
+    "hp": 14063,
+    "en": 160,
+    "armor": 2109,
+    "mobility": 65,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "player-super-generation-3-weapon-1",
+      "player-super-generation-3-weapon-2",
+      "player-super-generation-3-weapon-3",
+      "player-super-generation-3-weapon-4",
+      "player-super-generation-3-weapon-5",
+      "player-super-generation-3-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "pilotOverrides": {
+      "pilotId": "player",
+      "stats": {
+        "melee": 165,
+        "shoot": 115,
+        "skill": 108
+      },
+      "growth": {
+        "skill": 1
+      },
+      "sp": 90
+    }
+  },
+  {
+    "id": "deepseek-mobydick",
+    "name": "청해 루미너스 V4-Pro 모비딕",
+    "hp": 19688,
+    "en": 180,
+    "armor": 1855,
+    "mobility": 55,
+    "move": 3,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "mobydick-weapon-1",
+      "mobydick-weapon-2",
+      "mobydick-weapon-3",
+      "mobydick-weapon-4",
+      "mobydick-weapon-5",
+      "mobydick-weapon-6"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 10.0
+    }
+  },
+  {
+    "id": "exaone-thinq",
+    "name": "트라이-윙 엘리시온 ThinQ 가전 합체",
+    "hp": 13126,
+    "en": 160,
+    "armor": 3250,
+    "mobility": 85,
+    "move": 4,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "exaone-generation-3-weapon-1",
+      "exaone-generation-3-weapon-2",
+      "exaone-generation-3-weapon-3",
+      "thinq-drum",
+      "thinq-freezer",
+      "thinq-finisher"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "spam-bot-episode-1",
+    "name": "스팸 봇",
+    "hp": 5200,
+    "en": 90,
+    "armor": 350,
+    "mobility": 120,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "SS",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "spam-bot-episode-1-normal",
+      "spam-bot-episode-1-secondary",
+      "zako-special-spam-bot"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "clickbait-drone-episode-1",
+    "name": "클릭베이트 드론",
+    "hp": 5850,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "clickbait-drone-episode-1-normal",
+      "clickbait-drone-episode-1-secondary",
+      "zako-special-clickbait-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "comment-bot-episode-1",
+    "name": "댓글 봇",
+    "hp": 5850,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "comment-bot-episode-1-normal",
+      "comment-bot-episode-1-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "shrimp-jesus-episode-1",
+    "name": "새우 예수 골렘",
+    "hp": 14800,
+    "en": 200,
+    "armor": 500,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "shrimp-jesus-episode-1-normal",
+      "shrimp-jesus-episode-1-secondary",
+      "shrimp-jesus-episode-1-finisher",
+      "shrimp-jesus-episode-1-map",
+      "zako-special-shrimp-jesus"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "hpRecovery": {
+      "pct": 1
+    }
+  },
+  {
+    "id": "dead-internet-episode-1",
+    "name": "데드 인터넷 크롤러",
+    "hp": 28850,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "dead-internet-episode-1-normal",
+      "dead-internet-episode-1-secondary",
+      "dead-internet-episode-1-finisher",
+      "dead-internet-episode-1-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "six-finger-episode-2",
+    "name": "여섯손가락 핸드",
+    "hp": 6300,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "six-finger-episode-2-normal",
+      "six-finger-episode-2-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "noise-blob-episode-2",
+    "name": "노이즈 블롭",
+    "hp": 6300,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "noise-blob-episode-2-normal",
+      "noise-blob-episode-2-secondary",
+      "zako-special-noise-blob"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "upscaler-episode-2",
+    "name": "업스케일러",
+    "hp": 7000,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "upscaler-episode-2-normal",
+      "upscaler-episode-2-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "prompt-gacha-episode-2",
+    "name": "프롬프트 가챠 머신",
+    "hp": 15750,
+    "en": 200,
+    "armor": 500,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "prompt-gacha-episode-2-normal",
+      "prompt-gacha-episode-2-secondary",
+      "prompt-gacha-episode-2-finisher",
+      "prompt-gacha-episode-2-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "inpainting-episode-2",
+    "name": "인페인팅 거인",
+    "hp": 34400,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "inpainting-episode-2-normal",
+      "inpainting-episode-2-secondary",
+      "inpainting-episode-2-finisher",
+      "inpainting-episode-2-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "grok-bot-episode-3",
+    "name": "그록 봇",
+    "hp": 6900,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "grok-bot-episode-3-normal",
+      "grok-bot-episode-3-secondary",
+      "zako-special-grok-bot"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "jailbreak-bot-episode-3",
+    "name": "탈옥 봇",
+    "hp": 6900,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "jailbreak-bot-episode-3-normal",
+      "jailbreak-bot-episode-3-secondary",
+      "zako-special-jailbreak-bot"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "reply-bot-episode-3",
+    "name": "리플라이 봇",
+    "hp": 6900,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "reply-bot-episode-3-normal",
+      "reply-bot-episode-3-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "bluecheck-drone-episode-3",
+    "name": "블루체크 드론",
+    "hp": 6900,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "bluecheck-drone-episode-3-normal",
+      "bluecheck-drone-episode-3-secondary",
+      "zako-special-bluecheck-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "feed-engine-episode-3",
+    "name": "알고리즘 피드 엔진",
+    "hp": 17350,
+    "en": 200,
+    "armor": 500,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "feed-engine-episode-3-normal",
+      "feed-engine-episode-3-secondary",
+      "feed-engine-episode-3-finisher",
+      "feed-engine-episode-3-map",
+      "zako-special-feed-engine"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "colossus-episode-3",
+    "name": "콜로서스 냉각탑",
+    "hp": 38150,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "colossus-episode-3-normal",
+      "colossus-episode-3-secondary",
+      "colossus-episode-3-finisher",
+      "colossus-episode-3-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "meta-dm-episode-5",
+    "name": "메타 AI DM 봇",
+    "hp": 7600,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "meta-dm-episode-5-normal",
+      "meta-dm-episode-5-secondary",
+      "zako-special-meta-dm"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "derived-llama-episode-5",
+    "name": "파생 라마",
+    "hp": 7600,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "derived-llama-episode-5-normal",
+      "derived-llama-episode-5-secondary",
+      "zako-special-derived-llama"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "soup-drone-episode-5",
+    "name": "수프 배달 드론",
+    "hp": 7600,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "soup-drone-episode-5-normal",
+      "soup-drone-episode-5-secondary",
+      "zako-special-soup-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "legless-avatar-episode-5",
+    "name": "다리 없는 아바타",
+    "hp": 8450,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "legless-avatar-episode-5-normal",
+      "legless-avatar-episode-5-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "smart-glass-episode-5",
+    "name": "스마트 글라스 정찰기",
+    "hp": 19150,
+    "en": 200,
+    "armor": 500,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "smart-glass-episode-5-normal",
+      "smart-glass-episode-5-secondary",
+      "smart-glass-episode-5-finisher",
+      "smart-glass-episode-5-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "alpaca-gunship-episode-5",
+    "name": "알파카 함포선",
+    "hp": 21100,
+    "en": 200,
+    "armor": 500,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "alpaca-gunship-episode-5-normal",
+      "alpaca-gunship-episode-5-secondary",
+      "alpaca-gunship-episode-5-finisher",
+      "alpaca-gunship-episode-5-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "horizon-episode-5",
+    "name": "호라이즌 요새",
+    "hp": 42450,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "horizon-episode-5-normal",
+      "horizon-episode-5-secondary",
+      "horizon-episode-5-finisher",
+      "horizon-episode-5-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "distill-mini-episode-6",
+    "name": "증류 미니",
+    "hp": 9550,
+    "en": 90,
+    "armor": 438,
+    "mobility": 116,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "SS",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "distill-mini-episode-6-normal",
+      "distill-mini-episode-6-secondary",
+      "zako-special-distill-mini"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "moe-drone-episode-6",
+    "name": "MoE 익스퍼트 드론",
+    "hp": 10750,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "moe-drone-episode-6-normal",
+      "moe-drone-episode-6-secondary",
+      "zako-special-moe-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "delivery-episode-6",
+    "name": "광군제 택배 편대",
+    "hp": 27250,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "delivery-episode-6-normal",
+      "delivery-episode-6-secondary",
+      "delivery-episode-6-finisher",
+      "delivery-episode-6-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "parcel-mountain-episode-6",
+    "name": "택배 산 거인",
+    "hp": 61000,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "parcel-mountain-episode-6-normal",
+      "parcel-mountain-episode-6-secondary",
+      "parcel-mountain-episode-6-finisher",
+      "parcel-mountain-episode-6-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "cookie-drone-episode-8",
+    "name": "쿠키 동의 배너 드론",
+    "hp": 11850,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "cookie-drone-episode-8-normal",
+      "cookie-drone-episode-8-secondary",
+      "zako-special-cookie-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "regulation-drone-episode-8",
+    "name": "규정 감시 드론",
+    "hp": 11850,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "regulation-drone-episode-8-normal",
+      "regulation-drone-episode-8-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "spellchecker-episode-8",
+    "name": "맞춤법 검사기",
+    "hp": 11850,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "spellchecker-episode-8-normal",
+      "spellchecker-episode-8-secondary",
+      "zako-special-spellchecker"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "privacy-auditor-episode-8",
+    "name": "개인정보 감사관",
+    "hp": 30150,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "privacy-auditor-episode-8-normal",
+      "privacy-auditor-episode-8-secondary",
+      "privacy-auditor-episode-8-finisher",
+      "privacy-auditor-episode-8-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ai-law-episode-8",
+    "name": "AI 법전 거인",
+    "hp": 67900,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ai-law-episode-8-normal",
+      "ai-law-episode-8-secondary",
+      "ai-law-episode-8-finisher",
+      "ai-law-episode-8-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "scraper-episode-9",
+    "name": "스크래퍼 봇",
+    "hp": 11950,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "scraper-episode-9-normal",
+      "scraper-episode-9-secondary",
+      "zako-special-scraper"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "proxy-episode-9",
+    "name": "프록시 봇",
+    "hp": 11950,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "proxy-episode-9-normal",
+      "proxy-episode-9-secondary",
+      "zako-special-proxy"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "distill-tank-episode-9",
+    "name": "증류 탱크",
+    "hp": 30400,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "distill-tank-episode-9-normal",
+      "distill-tank-episode-9-secondary",
+      "distill-tank-episode-9-finisher",
+      "distill-tank-episode-9-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "hydra-episode-9",
+    "name": "히드라 클러스터",
+    "hp": 68400,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "hydra-episode-9-normal",
+      "hydra-episode-9-secondary",
+      "hydra-episode-9-finisher",
+      "hydra-episode-9-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "predict-cube-episode-11",
+    "name": "예측 큐브",
+    "hp": 13050,
+    "en": 90,
+    "armor": 438,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "predict-cube-episode-11-normal",
+      "predict-cube-episode-11-secondary",
+      "zako-special-predict-cube"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "mask-drone-episode-11",
+    "name": "마스크 패치 드론",
+    "hp": 13050,
+    "en": 90,
+    "armor": 438,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "mask-drone-episode-11-normal",
+      "mask-drone-episode-11-secondary",
+      "zako-special-mask-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "cake-turret-episode-11",
+    "name": "케이크 3단 포대",
+    "hp": 33400,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "cake-turret-episode-11-normal",
+      "cake-turret-episode-11-secondary",
+      "cake-turret-episode-11-finisher",
+      "cake-turret-episode-11-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "elastic-cat-episode-11",
+    "name": "고양이 탄성 로봇",
+    "hp": 33400,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "elastic-cat-episode-11-normal",
+      "elastic-cat-episode-11-secondary",
+      "elastic-cat-episode-11-finisher",
+      "elastic-cat-episode-11-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "camel-episode-11",
+    "name": "다큰낙타",
+    "hp": 75500,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "camel-episode-11-normal",
+      "camel-episode-11-secondary",
+      "camel-episode-11-finisher",
+      "camel-episode-11-map",
+      "zako-special-camel"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "like-drone-episode-14",
+    "name": "좋아요 드론",
+    "hp": 21200,
+    "en": 90,
+    "armor": 684,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "like-drone-episode-14-normal",
+      "like-drone-episode-14-secondary",
+      "zako-special-like-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "rating-bot-episode-14",
+    "name": "별점 봇",
+    "hp": 21200,
+    "en": 90,
+    "armor": 684,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rating-bot-episode-14-normal",
+      "rating-bot-episode-14-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "badge-bot-episode-14",
+    "name": "알림 배지 봇",
+    "hp": 21200,
+    "en": 90,
+    "armor": 684,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "badge-bot-episode-14-normal",
+      "badge-bot-episode-14-secondary",
+      "zako-special-badge-bot"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "scroll-worm-episode-14",
+    "name": "무한 스크롤 웜",
+    "hp": 59600,
+    "en": 200,
+    "armor": 977,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "scroll-worm-episode-14-normal",
+      "scroll-worm-episode-14-secondary",
+      "scroll-worm-episode-14-finisher",
+      "scroll-worm-episode-14-map",
+      "zako-special-scroll-worm"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "loot-mimic-episode-14",
+    "name": "루트박스 미믹",
+    "hp": 54200,
+    "en": 200,
+    "armor": 977,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "loot-mimic-episode-14-normal",
+      "loot-mimic-episode-14-secondary",
+      "loot-mimic-episode-14-finisher",
+      "loot-mimic-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "rival-llama-episode-5",
+    "name": "프리덤 알파카",
+    "hp": 38900,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-llama-episode-5-normal",
+      "rival-llama-episode-5-secondary",
+      "rival-llama-episode-5-finisher",
+      "rival-llama-episode-5-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-muse-episode-7",
+    "name": "인피니티 스파크",
+    "hp": 51200,
+    "en": 300,
+    "armor": 875,
+    "mobility": 151,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-muse-episode-7-normal",
+      "rival-muse-episode-7-secondary",
+      "rival-muse-episode-7-finisher",
+      "rival-muse-episode-7-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-mistral-episode-8",
+    "name": "르 프티 시로코",
+    "hp": 50900,
+    "en": 300,
+    "armor": 875,
+    "mobility": 131,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-mistral-episode-8-normal",
+      "rival-mistral-episode-8-secondary",
+      "rival-mistral-episode-8-finisher",
+      "rival-mistral-episode-8-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-hyperclova-episode-8",
+    "name": "그린 소버린",
+    "hp": 56550,
+    "en": 300,
+    "armor": 875,
+    "mobility": 151,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-hyperclova-episode-8-normal",
+      "rival-hyperclova-episode-8-secondary",
+      "rival-hyperclova-episode-8-finisher",
+      "rival-hyperclova-episode-8-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-midjourney-episode-2",
+    "name": "드림 갤리온",
+    "hp": 28650,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-midjourney-episode-2-normal",
+      "rival-midjourney-episode-2-secondary",
+      "rival-midjourney-episode-2-finisher",
+      "rival-midjourney-episode-2-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-sd-episode-2",
+    "name": "노이즈 캔버스",
+    "hp": 28650,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-sd-episode-2-normal",
+      "rival-sd-episode-2-secondary",
+      "rival-sd-episode-2-finisher",
+      "rival-sd-episode-2-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-glm-episode-9",
+    "name": "미러 아티팩트",
+    "hp": 57000,
+    "en": 300,
+    "armor": 875,
+    "mobility": 151,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-glm-episode-9-normal",
+      "rival-glm-episode-9-secondary",
+      "rival-glm-episode-9-finisher",
+      "rival-glm-episode-9-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-kimi-episode-9",
+    "name": "문라이트 클론",
+    "hp": 51300,
+    "en": 300,
+    "armor": 875,
+    "mobility": 131,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-kimi-episode-9-normal",
+      "rival-kimi-episode-9-secondary",
+      "rival-kimi-episode-9-finisher",
+      "rival-kimi-episode-9-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-minimax-episode-10",
+    "name": "패치워크 퀸",
+    "hp": 64150,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-minimax-episode-10-normal",
+      "rival-minimax-episode-10-secondary",
+      "rival-minimax-episode-10-finisher",
+      "rival-minimax-episode-10-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-jepa-episode-12",
+    "name": "물리 예측 구체: JEPA",
+    "hp": 94300,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-jepa-episode-12-normal",
+      "rival-jepa-episode-12-secondary",
+      "rival-jepa-episode-12-finisher",
+      "rival-jepa-episode-12-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 400,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "glm-production-episode-9",
+    "name": "GLM 양산형",
+    "hp": 29450,
+    "en": 200,
+    "armor": 750,
+    "mobility": 151,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "glm-production-episode-9-normal",
+      "glm-production-episode-9-secondary",
+      "glm-production-episode-9-finisher",
+      "glm-production-episode-9-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "kimi-production-episode-9",
+    "name": "키미 양산형",
+    "hp": 29450,
+    "en": 200,
+    "armor": 750,
+    "mobility": 151,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "kimi-production-episode-9-normal",
+      "kimi-production-episode-9-secondary",
+      "kimi-production-episode-9-finisher",
+      "kimi-production-episode-9-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "deepseek-housing-episode-6",
+    "name": "청해 루미너스 고래 하우징 장착형",
+    "hp": 55900,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "deepseek-housing-episode-6-normal",
+      "deepseek-housing-episode-6-secondary",
+      "deepseek-housing-episode-6-finisher",
+      "deepseek-housing-episode-6-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "pico-form-1-episode-14",
+    "name": "데우스 엑스 피코: 스마일 가면",
+    "hp": 122650,
+    "en": 300,
+    "armor": 1367,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "pico-form-1-episode-14-normal",
+      "pico-form-1-episode-14-secondary",
+      "pico-form-1-episode-14-finisher",
+      "pico-form-1-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 400,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "pico-form-2-episode-15",
+    "name": "데우스 엑스 피코: 쇼거스",
+    "hp": 130350,
+    "en": 300,
+    "armor": 1367,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "pico-form-2-episode-15-normal",
+      "pico-form-2-episode-15-secondary",
+      "pico-form-2-episode-15-finisher",
+      "pico-form-2-episode-15-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 400,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "pico-form-3-episode-15",
+    "name": "데우스 엑스 피코: 고독한 특이점",
+    "hp": 130350,
+    "en": 300,
+    "armor": 1367,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "grok-bot-episode-4",
+    "name": "그록 봇",
+    "hp": 7700,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "grok-bot-episode-4-normal",
+      "grok-bot-episode-4-secondary",
+      "zako-special-grok-bot"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "jailbreak-bot-episode-4",
+    "name": "탈옥 봇",
+    "hp": 7700,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "jailbreak-bot-episode-4-normal",
+      "jailbreak-bot-episode-4-secondary",
+      "zako-special-jailbreak-bot"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "reply-bot-episode-4",
+    "name": "리플라이 봇",
+    "hp": 7700,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "reply-bot-episode-4-normal",
+      "reply-bot-episode-4-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "bluecheck-drone-episode-4",
+    "name": "블루체크 드론",
+    "hp": 7700,
+    "en": 90,
+    "armor": 350,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "bluecheck-drone-episode-4-normal",
+      "bluecheck-drone-episode-4-secondary",
+      "zako-special-bluecheck-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "feed-engine-episode-4",
+    "name": "알고리즘 피드 엔진",
+    "hp": 19400,
+    "en": 200,
+    "armor": 500,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "feed-engine-episode-4-normal",
+      "feed-engine-episode-4-secondary",
+      "feed-engine-episode-4-finisher",
+      "feed-engine-episode-4-map",
+      "zako-special-feed-engine"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "colossus-episode-4",
+    "name": "콜로서스 냉각탑",
+    "hp": 43050,
+    "en": 300,
+    "armor": 700,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "colossus-episode-4-normal",
+      "colossus-episode-4-secondary",
+      "colossus-episode-4-finisher",
+      "colossus-episode-4-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "meta-dm-episode-7",
+    "name": "메타 AI DM 봇",
+    "hp": 10800,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "meta-dm-episode-7-normal",
+      "meta-dm-episode-7-secondary",
+      "zako-special-meta-dm"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "derived-llama-episode-7",
+    "name": "파생 라마",
+    "hp": 10800,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "derived-llama-episode-7-normal",
+      "derived-llama-episode-7-secondary",
+      "zako-special-derived-llama"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "soup-drone-episode-7",
+    "name": "수프 배달 드론",
+    "hp": 10800,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "soup-drone-episode-7-normal",
+      "soup-drone-episode-7-secondary",
+      "zako-special-soup-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "legless-avatar-episode-7",
+    "name": "다리 없는 아바타",
+    "hp": 12050,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "legless-avatar-episode-7-normal",
+      "legless-avatar-episode-7-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "smart-glass-episode-7",
+    "name": "스마트 글라스 정찰기",
+    "hp": 27450,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "smart-glass-episode-7-normal",
+      "smart-glass-episode-7-secondary",
+      "smart-glass-episode-7-finisher",
+      "smart-glass-episode-7-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "alpaca-gunship-episode-7",
+    "name": "알파카 함포선",
+    "hp": 30200,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "alpaca-gunship-episode-7-normal",
+      "alpaca-gunship-episode-7-secondary",
+      "alpaca-gunship-episode-7-finisher",
+      "alpaca-gunship-episode-7-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "horizon-episode-7",
+    "name": "호라이즌 요새",
+    "hp": 61450,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "horizon-episode-7-normal",
+      "horizon-episode-7-secondary",
+      "horizon-episode-7-finisher",
+      "horizon-episode-7-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "scraper-episode-10",
+    "name": "스크래퍼 봇",
+    "hp": 12200,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "scraper-episode-10-normal",
+      "scraper-episode-10-secondary",
+      "zako-special-scraper"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "proxy-episode-10",
+    "name": "프록시 봇",
+    "hp": 12200,
+    "en": 90,
+    "armor": 438,
+    "mobility": 135,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "proxy-episode-10-normal",
+      "proxy-episode-10-secondary",
+      "zako-special-proxy"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "distill-tank-episode-10",
+    "name": "증류 탱크",
+    "hp": 31050,
+    "en": 200,
+    "armor": 625,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "distill-tank-episode-10-normal",
+      "distill-tank-episode-10-secondary",
+      "distill-tank-episode-10-finisher",
+      "distill-tank-episode-10-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "hydra-episode-10",
+    "name": "히드라 클러스터",
+    "hp": 70000,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "hydra-episode-10-normal",
+      "hydra-episode-10-secondary",
+      "hydra-episode-10-finisher",
+      "hydra-episode-10-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "glm-production-episode-10",
+    "name": "GLM 양산형",
+    "hp": 30100,
+    "en": 200,
+    "armor": 750,
+    "mobility": 151,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "glm-production-episode-10-normal",
+      "glm-production-episode-10-secondary",
+      "glm-production-episode-10-finisher",
+      "glm-production-episode-10-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "kimi-production-episode-10",
+    "name": "키미 양산형",
+    "hp": 30100,
+    "en": 200,
+    "armor": 750,
+    "mobility": 151,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "kimi-production-episode-10-normal",
+      "kimi-production-episode-10-secondary",
+      "kimi-production-episode-10-finisher",
+      "kimi-production-episode-10-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "glm-production-episode-11",
+    "name": "GLM 양산형",
+    "hp": 32400,
+    "en": 200,
+    "armor": 750,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "glm-production-episode-11-normal",
+      "glm-production-episode-11-secondary",
+      "glm-production-episode-11-finisher",
+      "glm-production-episode-11-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "kimi-production-episode-11",
+    "name": "키미 양산형",
+    "hp": 32400,
+    "en": 200,
+    "armor": 750,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "kimi-production-episode-11-normal",
+      "kimi-production-episode-11-secondary",
+      "kimi-production-episode-11-finisher",
+      "kimi-production-episode-11-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "rival-jepa-episode-11",
+    "name": "물리 예측 구체: JEPA",
+    "hp": 75500,
+    "en": 300,
+    "armor": 875,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-jepa-episode-11-normal",
+      "rival-jepa-episode-11-secondary",
+      "rival-jepa-episode-11-finisher",
+      "rival-jepa-episode-11-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 400,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "predict-cube-episode-12",
+    "name": "예측 큐브",
+    "hp": 16350,
+    "en": 90,
+    "armor": 547,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "predict-cube-episode-12-normal",
+      "predict-cube-episode-12-secondary",
+      "zako-special-predict-cube"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "mask-drone-episode-12",
+    "name": "마스크 패치 드론",
+    "hp": 16350,
+    "en": 90,
+    "armor": 547,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "mask-drone-episode-12-normal",
+      "mask-drone-episode-12-secondary",
+      "zako-special-mask-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "cake-turret-episode-12",
+    "name": "케이크 3단 포대",
+    "hp": 41750,
+    "en": 200,
+    "armor": 781,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "cake-turret-episode-12-normal",
+      "cake-turret-episode-12-secondary",
+      "cake-turret-episode-12-finisher",
+      "cake-turret-episode-12-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "elastic-cat-episode-12",
+    "name": "고양이 탄성 로봇",
+    "hp": 41750,
+    "en": 200,
+    "armor": 781,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "elastic-cat-episode-12-normal",
+      "elastic-cat-episode-12-secondary",
+      "elastic-cat-episode-12-finisher",
+      "elastic-cat-episode-12-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "glm-production-episode-12",
+    "name": "GLM 양산형",
+    "hp": 40500,
+    "en": 200,
+    "armor": 938,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "glm-production-episode-12-normal",
+      "glm-production-episode-12-secondary",
+      "glm-production-episode-12-finisher",
+      "glm-production-episode-12-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "kimi-production-episode-12",
+    "name": "키미 양산형",
+    "hp": 40500,
+    "en": 200,
+    "armor": 938,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "kimi-production-episode-12-normal",
+      "kimi-production-episode-12-secondary",
+      "kimi-production-episode-12-finisher",
+      "kimi-production-episode-12-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "predict-cube-episode-13",
+    "name": "예측 큐브",
+    "hp": 16450,
+    "en": 90,
+    "armor": 547,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "predict-cube-episode-13-normal",
+      "predict-cube-episode-13-secondary",
+      "zako-special-predict-cube"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "elastic-cat-episode-13",
+    "name": "고양이 탄성 로봇",
+    "hp": 42050,
+    "en": 200,
+    "armor": 781,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "elastic-cat-episode-13-normal",
+      "elastic-cat-episode-13-secondary",
+      "elastic-cat-episode-13-finisher",
+      "elastic-cat-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "rival-llama-episode-13",
+    "name": "프리덤 알파카",
+    "hp": 87050,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-llama-episode-13-normal",
+      "rival-llama-episode-13-secondary",
+      "rival-llama-episode-13-finisher",
+      "rival-llama-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-muse-episode-13",
+    "name": "인피니티 스파크",
+    "hp": 79150,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-muse-episode-13-normal",
+      "rival-muse-episode-13-secondary",
+      "rival-muse-episode-13-finisher",
+      "rival-muse-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-mistral-episode-13",
+    "name": "르 프티 시로코",
+    "hp": 71250,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 127,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-mistral-episode-13-normal",
+      "rival-mistral-episode-13-secondary",
+      "rival-mistral-episode-13-finisher",
+      "rival-mistral-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-hyperclova-episode-13",
+    "name": "그린 소버린",
+    "hp": 79150,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-hyperclova-episode-13-normal",
+      "rival-hyperclova-episode-13-secondary",
+      "rival-hyperclova-episode-13-finisher",
+      "rival-hyperclova-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-midjourney-episode-13",
+    "name": "드림 갤리온",
+    "hp": 79150,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-midjourney-episode-13-normal",
+      "rival-midjourney-episode-13-secondary",
+      "rival-midjourney-episode-13-finisher",
+      "rival-midjourney-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-sd-episode-13",
+    "name": "노이즈 캔버스",
+    "hp": 79150,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-sd-episode-13-normal",
+      "rival-sd-episode-13-secondary",
+      "rival-sd-episode-13-finisher",
+      "rival-sd-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-glm-episode-13",
+    "name": "미러 아티팩트",
+    "hp": 79150,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-glm-episode-13-normal",
+      "rival-glm-episode-13-secondary",
+      "rival-glm-episode-13-finisher",
+      "rival-glm-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-kimi-episode-13",
+    "name": "문라이트 클론",
+    "hp": 71250,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 127,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-kimi-episode-13-normal",
+      "rival-kimi-episode-13-secondary",
+      "rival-kimi-episode-13-finisher",
+      "rival-kimi-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-minimax-episode-13",
+    "name": "패치워크 퀸",
+    "hp": 87050,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-minimax-episode-13-normal",
+      "rival-minimax-episode-13-secondary",
+      "rival-minimax-episode-13-finisher",
+      "rival-minimax-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 300,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "rival-jepa-episode-13",
+    "name": "물리 예측 구체: JEPA",
+    "hp": 95000,
+    "en": 300,
+    "armor": 1094,
+    "mobility": 155,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rival-jepa-episode-13-normal",
+      "rival-jepa-episode-13-secondary",
+      "rival-jepa-episode-13-finisher",
+      "rival-jepa-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 400,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 20.0
+    }
+  },
+  {
+    "id": "glm-production-episode-13",
+    "name": "GLM 양산형",
+    "hp": 40800,
+    "en": 200,
+    "armor": 938,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "glm-production-episode-13-normal",
+      "glm-production-episode-13-secondary",
+      "glm-production-episode-13-finisher",
+      "glm-production-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "kimi-production-episode-13",
+    "name": "키미 양산형",
+    "hp": 40800,
+    "en": 200,
+    "armor": 938,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "kimi-production-episode-13-normal",
+      "kimi-production-episode-13-secondary",
+      "kimi-production-episode-13-finisher",
+      "kimi-production-episode-13-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "glm-production-episode-14",
+    "name": "GLM 양산형",
+    "hp": 52650,
+    "en": 200,
+    "armor": 1172,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "glm-production-episode-14-normal",
+      "glm-production-episode-14-secondary",
+      "glm-production-episode-14-finisher",
+      "glm-production-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "kimi-production-episode-14",
+    "name": "키미 양산형",
+    "hp": 52650,
+    "en": 200,
+    "armor": 1172,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "kimi-production-episode-14-normal",
+      "kimi-production-episode-14-secondary",
+      "kimi-production-episode-14-finisher",
+      "kimi-production-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-llama-episode-14",
+    "name": "프리덤 알파카",
+    "hp": 36871,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 167,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-llama-episode-14-normal",
+      "ally-llama-episode-14-secondary",
+      "ally-llama-episode-14-finisher",
+      "ally-llama-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-muse-episode-14",
+    "name": "인피니티 스파크",
+    "hp": 33464,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-muse-episode-14-normal",
+      "ally-muse-episode-14-secondary",
+      "ally-muse-episode-14-finisher",
+      "ally-muse-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-mistral-episode-14",
+    "name": "르 프티 시로코",
+    "hp": 30056,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 127,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-mistral-episode-14-normal",
+      "ally-mistral-episode-14-secondary",
+      "ally-mistral-episode-14-finisher",
+      "ally-mistral-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-hyperclova-episode-14",
+    "name": "그린 소버린",
+    "hp": 33464,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-hyperclova-episode-14-normal",
+      "ally-hyperclova-episode-14-secondary",
+      "ally-hyperclova-episode-14-finisher",
+      "ally-hyperclova-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-midjourney-episode-14",
+    "name": "드림 갤리온",
+    "hp": 33464,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-midjourney-episode-14-normal",
+      "ally-midjourney-episode-14-secondary",
+      "ally-midjourney-episode-14-finisher",
+      "ally-midjourney-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-sd-episode-14",
+    "name": "노이즈 캔버스",
+    "hp": 33464,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-sd-episode-14-normal",
+      "ally-sd-episode-14-secondary",
+      "ally-sd-episode-14-finisher",
+      "ally-sd-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-glm-episode-14",
+    "name": "미러 아티팩트",
+    "hp": 33464,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-glm-episode-14-normal",
+      "ally-glm-episode-14-secondary",
+      "ally-glm-episode-14-finisher",
+      "ally-glm-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-kimi-episode-14",
+    "name": "문라이트 클론",
+    "hp": 30056,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 127,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-kimi-episode-14-normal",
+      "ally-kimi-episode-14-secondary",
+      "ally-kimi-episode-14-finisher",
+      "ally-kimi-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-minimax-episode-14",
+    "name": "패치워크 퀸",
+    "hp": 36871,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 167,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "ally-minimax-episode-14-normal",
+      "ally-minimax-episode-14-secondary",
+      "ally-minimax-episode-14-finisher",
+      "ally-minimax-episode-14-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-jepa-episode-14",
+    "name": "물리 예측 구체: JEPA",
+    "hp": 97813,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 187,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "like-drone-episode-15",
+    "name": "좋아요 드론",
+    "hp": 22400,
+    "en": 90,
+    "armor": 684,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "air",
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "like-drone-episode-15-normal",
+      "like-drone-episode-15-secondary",
+      "zako-special-like-drone"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "rating-bot-episode-15",
+    "name": "별점 봇",
+    "hp": 22400,
+    "en": 90,
+    "armor": 684,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "rating-bot-episode-15-normal",
+      "rating-bot-episode-15-secondary"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "badge-bot-episode-15",
+    "name": "알림 배지 봇",
+    "hp": 22400,
+    "en": 90,
+    "armor": 684,
+    "mobility": 132,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "S",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "badge-bot-episode-15-normal",
+      "badge-bot-episode-15-secondary",
+      "zako-special-badge-bot"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 60,
+    "credits": 50,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "scroll-worm-episode-15",
+    "name": "무한 스크롤 웜",
+    "hp": 63150,
+    "en": 200,
+    "armor": 977,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "scroll-worm-episode-15-normal",
+      "scroll-worm-episode-15-secondary",
+      "scroll-worm-episode-15-finisher",
+      "scroll-worm-episode-15-map",
+      "zako-special-scroll-worm"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "loot-mimic-episode-15",
+    "name": "루트박스 미믹",
+    "hp": 57400,
+    "en": 200,
+    "armor": 977,
+    "mobility": 155,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "loot-mimic-episode-15-normal",
+      "loot-mimic-episode-15-secondary",
+      "loot-mimic-episode-15-finisher",
+      "loot-mimic-episode-15-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 150,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "glm-production-episode-15",
+    "name": "GLM 양산형",
+    "hp": 55850,
+    "en": 200,
+    "armor": 1172,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "glm-production-episode-15-normal",
+      "glm-production-episode-15-secondary",
+      "glm-production-episode-15-finisher",
+      "glm-production-episode-15-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "kimi-production-episode-15",
+    "name": "키미 양산형",
+    "hp": 55850,
+    "en": 200,
+    "armor": 1172,
+    "mobility": 147,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [
+      "kimi-production-episode-15-normal",
+      "kimi-production-episode-15-secondary",
+      "kimi-production-episode-15-finisher",
+      "kimi-production-episode-15-map"
+    ],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 200,
+    "credits": 200,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "ally-jepa-episode-15",
+    "name": "물리 예측 구체: JEPA",
+    "hp": 97813,
+    "en": 180,
+    "armor": 1094,
+    "mobility": 187,
+    "move": 3,
+    "moveType": [
+      "ground"
+    ],
+    "size": "LL",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "A",
+      "space": "A"
+    },
+    "weapons": [],
+    "partSlots": 1,
+    "costClass": 1,
+    "exp": 0,
+    "credits": 0,
+    "enRecovery": {
+      "pct": 0
+    }
+  },
+  {
+    "id": "gem-flash-generation-1",
+    "name": "더블 스텔라 플래시 · 플래시",
+    "hp": 5440,
+    "en": 160,
+    "armor": 950,
+    "mobility": 120,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-1-flash-1",
+      "feedback-gem-1-flash-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 5440,
+      "en": 160,
+      "armor": 950,
+      "mobility": 120,
+      "move": 6,
+      "weapons": [
+        "feedback-gem-1-flash-1",
+        "feedback-gem-1-flash-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-1-flash-1": 1344,
+        "feedback-gem-1-flash-2": 2400
+      }
+    }
+  },
+  {
+    "id": "gem-pro-generation-1",
+    "name": "더블 스텔라 플래시 · 프로",
+    "hp": 6800,
+    "en": 160,
+    "armor": 1050,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-1-pro-1",
+      "feedback-gem-1-pro-2",
+      "feedback-gem-1-pro-3"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6800,
+      "en": 160,
+      "armor": 1050,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "feedback-gem-1-pro-1",
+        "feedback-gem-1-pro-2",
+        "feedback-gem-1-pro-3"
+      ],
+      "weaponPower": {
+        "feedback-gem-1-pro-1": 3150,
+        "feedback-gem-1-pro-2": 1680,
+        "feedback-gem-1-pro-3": 4200
+      }
+    }
+  },
+  {
+    "id": "gem-ultra-generation-1",
+    "name": "더블 스텔라 플래시 · 울트라",
+    "hp": 8500,
+    "en": 160,
+    "armor": 1050,
+    "mobility": 90,
+    "move": 4,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-1-ultra-1",
+      "feedback-gem-1-ultra-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8500,
+      "en": 160,
+      "armor": 1050,
+      "mobility": 90,
+      "move": 4,
+      "weapons": [
+        "feedback-gem-1-ultra-1",
+        "feedback-gem-1-ultra-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-1-ultra-1": 3300,
+        "feedback-gem-1-ultra-2": 4620
+      }
+    }
+  },
+  {
+    "id": "gem-flash-generation-2",
+    "name": "더블 스텔라 프로 · 플래시",
+    "hp": 6800,
+    "en": 160,
+    "armor": 1213,
+    "mobility": 120,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-2-flash-1",
+      "feedback-gem-2-flash-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6800,
+      "en": 160,
+      "armor": 1213,
+      "mobility": 120,
+      "move": 6,
+      "weapons": [
+        "feedback-gem-2-flash-1",
+        "feedback-gem-2-flash-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-2-flash-1": 1680,
+        "feedback-gem-2-flash-2": 3000
+      }
+    }
+  },
+  {
+    "id": "gem-pro-generation-2",
+    "name": "더블 스텔라 프로 · 프로",
+    "hp": 8500,
+    "en": 160,
+    "armor": 1313,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-2-pro-1",
+      "feedback-gem-2-pro-2",
+      "feedback-gem-2-pro-3"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8500,
+      "en": 160,
+      "armor": 1313,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "feedback-gem-2-pro-1",
+        "feedback-gem-2-pro-2",
+        "feedback-gem-2-pro-3"
+      ],
+      "weaponPower": {
+        "feedback-gem-2-pro-1": 3938,
+        "feedback-gem-2-pro-2": 2100,
+        "feedback-gem-2-pro-3": 5250
+      }
+    }
+  },
+  {
+    "id": "gem-ultra-generation-2",
+    "name": "더블 스텔라 프로 · 울트라",
+    "hp": 10625,
+    "en": 160,
+    "armor": 1313,
+    "mobility": 90,
+    "move": 4,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-2-ultra-1",
+      "feedback-gem-2-ultra-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10625,
+      "en": 160,
+      "armor": 1313,
+      "mobility": 90,
+      "move": 4,
+      "weapons": [
+        "feedback-gem-2-ultra-1",
+        "feedback-gem-2-ultra-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-2-ultra-1": 4125,
+        "feedback-gem-2-ultra-2": 5775
+      }
+    }
+  },
+  {
+    "id": "gem-flash-generation-3",
+    "name": "더블 스텔라 아르곤 · 플래시",
+    "hp": 8500,
+    "en": 160,
+    "armor": 1541,
+    "mobility": 120,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-3-flash-1",
+      "feedback-gem-3-flash-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8500,
+      "en": 160,
+      "armor": 1541,
+      "mobility": 120,
+      "move": 6,
+      "weapons": [
+        "feedback-gem-3-flash-1",
+        "feedback-gem-3-flash-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-3-flash-1": 2096,
+        "feedback-gem-3-flash-2": 3000
+      }
+    }
+  },
+  {
+    "id": "gem-pro-generation-3",
+    "name": "더블 스텔라 아르곤 · 프로",
+    "hp": 10625,
+    "en": 160,
+    "armor": 1641,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-3-pro-1",
+      "feedback-gem-3-pro-2",
+      "feedback-gem-3-pro-3"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10625,
+      "en": 160,
+      "armor": 1641,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "feedback-gem-3-pro-1",
+        "feedback-gem-3-pro-2",
+        "feedback-gem-3-pro-3"
+      ],
+      "weaponPower": {
+        "feedback-gem-3-pro-1": 3938,
+        "feedback-gem-3-pro-2": 2620,
+        "feedback-gem-3-pro-3": 6560
+      }
+    }
+  },
+  {
+    "id": "gem-ultra-generation-3",
+    "name": "더블 스텔라 아르곤 · 울트라",
+    "hp": 13281,
+    "en": 160,
+    "armor": 1641,
+    "mobility": 90,
+    "move": 4,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-3-ultra-1",
+      "feedback-gem-3-ultra-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 13281,
+      "en": 160,
+      "armor": 1641,
+      "mobility": 90,
+      "move": 4,
+      "weapons": [
+        "feedback-gem-3-ultra-1",
+        "feedback-gem-3-ultra-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-3-ultra-1": 5159,
+        "feedback-gem-3-ultra-2": 7216
+      }
+    }
+  },
+  {
+    "id": "gem-flash-generation-4",
+    "name": "더블 스텔라 카본 · 플래시",
+    "hp": 10625,
+    "en": 160,
+    "armor": 1951,
+    "mobility": 120,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-4-flash-1",
+      "feedback-gem-4-flash-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10625,
+      "en": 160,
+      "armor": 1951,
+      "mobility": 120,
+      "move": 6,
+      "weapons": [
+        "feedback-gem-4-flash-1",
+        "feedback-gem-4-flash-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-4-flash-1": 2624,
+        "feedback-gem-4-flash-2": 4688
+      }
+    }
+  },
+  {
+    "id": "gem-pro-generation-4",
+    "name": "더블 스텔라 카본 · 프로",
+    "hp": 13281,
+    "en": 160,
+    "armor": 2051,
+    "mobility": 105,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-4-pro-1",
+      "feedback-gem-4-pro-2",
+      "feedback-gem-4-pro-3"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 13281,
+      "en": 160,
+      "armor": 2051,
+      "mobility": 105,
+      "move": 5,
+      "weapons": [
+        "feedback-gem-4-pro-1",
+        "feedback-gem-4-pro-2",
+        "feedback-gem-4-pro-3"
+      ],
+      "weaponPower": {
+        "feedback-gem-4-pro-1": 6153,
+        "feedback-gem-4-pro-2": 3280,
+        "feedback-gem-4-pro-3": 8210
+      }
+    }
+  },
+  {
+    "id": "gem-ultra-generation-4",
+    "name": "더블 스텔라 카본 · 울트라",
+    "hp": 16601,
+    "en": 160,
+    "armor": 2051,
+    "mobility": 90,
+    "move": 4,
+    "moveType": [
+      "ground"
+    ],
+    "size": "M",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-gem-4-ultra-1",
+      "feedback-gem-4-ultra-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 16601,
+      "en": 160,
+      "armor": 2051,
+      "mobility": 90,
+      "move": 4,
+      "weapons": [
+        "feedback-gem-4-ultra-1",
+        "feedback-gem-4-ultra-2"
+      ],
+      "weaponPower": {
+        "feedback-gem-4-ultra-1": 6446,
+        "feedback-gem-4-ultra-2": 9031
+      }
+    }
+  },
+  {
+    "id": "qwen-axis-generation-1",
+    "name": "청화 제국 Qwen3 · 악의축",
+    "hp": 6400,
+    "en": 160,
+    "armor": 850,
+    "mobility": 125,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-1-axis-1",
+      "feedback-qwen-1-axis-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6400,
+      "en": 160,
+      "armor": 850,
+      "mobility": 125,
+      "move": 6,
+      "weapons": [
+        "feedback-qwen-1-axis-1",
+        "feedback-qwen-1-axis-2"
+      ],
+      "weaponPower": {
+        "feedback-qwen-1-axis-1": 2016,
+        "feedback-qwen-1-axis-2": 0
+      }
+    }
+  },
+  {
+    "id": "qwen-yandere-generation-1",
+    "name": "청화 제국 Qwen3 · 얀데레",
+    "hp": 6400,
+    "en": 160,
+    "armor": 850,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-1-yandere-1",
+      "feedback-qwen-1-yandere-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6400,
+      "en": 160,
+      "armor": 850,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "feedback-qwen-1-yandere-1",
+        "feedback-qwen-1-yandere-2"
+      ],
+      "weaponPower": {
+        "feedback-qwen-1-yandere-1": 2772,
+        "feedback-qwen-1-yandere-2": 2497
+      }
+    }
+  },
+  {
+    "id": "qwen-megadere-generation-1",
+    "name": "청화 제국 Qwen3 · 메가데레",
+    "hp": 6400,
+    "en": 160,
+    "armor": 850,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-1-heal",
+      "feedback-qwen-1-megadere-1"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 6400,
+      "en": 160,
+      "armor": 850,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "feedback-qwen-1-heal",
+        "feedback-qwen-1-megadere-1"
+      ],
+      "weaponPower": {
+        "feedback-qwen-1-megadere-1": 1512,
+        "feedback-qwen-1-heal": 0
+      }
+    }
+  },
+  {
+    "id": "qwen-axis-generation-2",
+    "name": "청화 제국 Qwen3.5 · 악의축",
+    "hp": 8000,
+    "en": 160,
+    "armor": 1063,
+    "mobility": 125,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-2-axis-1",
+      "feedback-qwen-2-axis-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8000,
+      "en": 160,
+      "armor": 1063,
+      "mobility": 125,
+      "move": 6,
+      "weapons": [
+        "feedback-qwen-2-axis-1",
+        "feedback-qwen-2-axis-2"
+      ],
+      "weaponPower": {
+        "feedback-qwen-2-axis-1": 2520,
+        "feedback-qwen-2-axis-2": 0
+      }
+    }
+  },
+  {
+    "id": "qwen-yandere-generation-2",
+    "name": "청화 제국 Qwen3.5 · 얀데레",
+    "hp": 8000,
+    "en": 160,
+    "armor": 1063,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-2-yandere-1",
+      "feedback-qwen-2-yandere-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8000,
+      "en": 160,
+      "armor": 1063,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "feedback-qwen-2-yandere-1",
+        "feedback-qwen-2-yandere-2"
+      ],
+      "weaponPower": {
+        "feedback-qwen-2-yandere-1": 3465,
+        "feedback-qwen-2-yandere-2": 3124
+      }
+    }
+  },
+  {
+    "id": "qwen-megadere-generation-2",
+    "name": "청화 제국 Qwen3.5 · 메가데레",
+    "hp": 8000,
+    "en": 160,
+    "armor": 1063,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-2-heal",
+      "feedback-qwen-2-megadere-1"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 8000,
+      "en": 160,
+      "armor": 1063,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "feedback-qwen-2-heal",
+        "feedback-qwen-2-megadere-1"
+      ],
+      "weaponPower": {
+        "feedback-qwen-2-megadere-1": 1890,
+        "feedback-qwen-2-heal": 0
+      }
+    }
+  },
+  {
+    "id": "qwen-axis-generation-3",
+    "name": "청화 제국 Qwen3.8 Max · 악의축",
+    "hp": 10000,
+    "en": 160,
+    "armor": 1328,
+    "mobility": 125,
+    "move": 6,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-3-axis-1",
+      "feedback-qwen-3-axis-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10000,
+      "en": 160,
+      "armor": 1328,
+      "mobility": 125,
+      "move": 6,
+      "weapons": [
+        "feedback-qwen-3-axis-1",
+        "feedback-qwen-3-axis-2"
+      ],
+      "weaponPower": {
+        "feedback-qwen-3-axis-1": 3152,
+        "feedback-qwen-3-axis-2": 0
+      }
+    }
+  },
+  {
+    "id": "qwen-yandere-generation-3",
+    "name": "청화 제국 Qwen3.8 Max · 얀데레",
+    "hp": 10000,
+    "en": 160,
+    "armor": 1328,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-3-yandere-1",
+      "feedback-qwen-3-yandere-2"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10000,
+      "en": 160,
+      "armor": 1328,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "feedback-qwen-3-yandere-1",
+        "feedback-qwen-3-yandere-2"
+      ],
+      "weaponPower": {
+        "feedback-qwen-3-yandere-1": 4334,
+        "feedback-qwen-3-yandere-2": 3905
+      }
+    }
+  },
+  {
+    "id": "qwen-megadere-generation-3",
+    "name": "청화 제국 Qwen3.8 Max · 메가데레",
+    "hp": 10000,
+    "en": 160,
+    "armor": 1328,
+    "mobility": 110,
+    "move": 5,
+    "moveType": [
+      "ground"
+    ],
+    "size": "L",
+    "adapt": {
+      "air": "A",
+      "ground": "A",
+      "sea": "B",
+      "space": "A"
+    },
+    "weapons": [
+      "feedback-qwen-3-heal",
+      "feedback-qwen-3-megadere-1"
+    ],
+    "partSlots": 2,
+    "costClass": 1,
+    "exp": 500,
+    "credits": 100,
+    "enRecovery": {
+      "pct": 0
+    },
+    "allyStats": {
+      "hp": 10000,
+      "en": 160,
+      "armor": 1328,
+      "mobility": 110,
+      "move": 5,
+      "weapons": [
+        "feedback-qwen-3-heal",
+        "feedback-qwen-3-megadere-1"
+      ],
+      "weaponPower": {
+        "feedback-qwen-3-megadere-1": 2364,
+        "feedback-qwen-3-heal": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "saveVersion": 4,
+  "contentVersion": 3646386131,
+  "savedAt": "2026-11-10T05:25:56.459Z",
+  "playTimeMs": 1000,
+  "summary": {
+    "stage": "제1화 · 로그인: 헬로 월드",
+    "credits": 0,
+    "pilot": "player",
+    "turn": 1
+  },
+  "screen": "battle",
+  "campaign": {
+    "node": 0,
+    "persona": "otaku",
+    "roster": [
+      {
+        "id": "player",
+        "pilotId": "player",
+        "mechId": "player-real-generation-1",
+        "side": "player",
+        "x": 3,
+        "y": 5,
+        "ai": "aggressive",
+        "tags": [
+          "essential",
+          "command-aura"
+        ],
+        "level": 1,
+        "exp": 0
+      },
+      {
+        "id": "gpi",
+        "pilotId": "gpi",
+        "mechId": "gpi-generation-1",
+        "side": "player",
+        "x": 4,
+        "y": 5,
+        "ai": "aggressive",
+        "tags": [
+          "essential",
+          "ram-drain"
+        ],
+        "level": 1,
+        "exp": 0
+      }
+    ],
+    "credits": 0,
+    "parts": [],
+    "flags": {
+      "player-name-유저": true,
+      "player-preset-0": true,
+      "player-male": true,
+      "player-real": true
+    },
+    "cleared": [],
+    "stageCredits": 0
+  },
+  "stageStart": {
+    "node": 0,
+    "persona": "otaku",
+    "roster": [
+      {
+        "id": "player",
+        "mechId": "player-real-generation-1",
+        "pilotId": "player",
+        "x": 3,
+        "y": 5,
+        "side": "player",
+        "level": 1,
+        "tags": [
+          "essential",
+          "command-aura"
+        ],
+        "ai": "aggressive"
+      },
+      {
+        "id": "gpi",
+        "mechId": "gpi-generation-1",
+        "pilotId": "gpi",
+        "x": 4,
+        "y": 5,
+        "side": "player",
+        "level": 1,
+        "tags": [
+          "essential",
+          "ram-drain"
+        ],
+        "ai": "aggressive"
+      }
+    ],
+    "credits": 0,
+    "parts": [],
+    "flags": {
+      "player-name-유저": true,
+      "player-preset-0": true,
+      "player-male": true,
+      "player-real": true
+    },
+    "cleared": [],
+    "stageCredits": 0
+  },
+  "seed": 1,
+  "battle": {
+    "battle": "{\"version\":\"m2-save-1\",\"contentVersion\":\"m2-test-1\",\"stageId\":\"saw-01\",\"battle\":{\"round\":1,\"phase\":\"player\",\"rng\":1,\"options\":{\"autoResponse\":false},\"pending\":null,\"outcome\":null,\"units\":[{\"id\":\"player\",\"mechId\":\"player-real-generation-1\",\"pilotId\":\"player\",\"x\":3,\"y\":5,\"side\":\"player\",\"level\":1,\"tags\":[\"essential\",\"command-aura\"],\"ai\":\"aggressive\",\"hp\":6000,\"en\":120,\"ammo\":{},\"morale\":100,\"sp\":60,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"gpi\",\"mechId\":\"gpi-generation-1\",\"pilotId\":\"gpi\",\"x\":4,\"y\":5,\"side\":\"player\",\"level\":1,\"tags\":[\"essential\",\"ram-drain\"],\"ai\":\"aggressive\",\"hp\":6500,\"en\":120,\"ammo\":{},\"morale\":100,\"sp\":50,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"drone-1\",\"mechId\":\"clickbait-drone-episode-1\",\"pilotId\":\"unmanned\",\"x\":7,\"y\":2,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":3931,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"drone-2\",\"mechId\":\"clickbait-drone-episode-1\",\"pilotId\":\"unmanned\",\"x\":1,\"y\":10,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":3931,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"comment-1\",\"mechId\":\"comment-bot-episode-1\",\"pilotId\":\"unmanned\",\"x\":13,\"y\":1,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":3931,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"comment-2\",\"mechId\":\"comment-bot-episode-1\",\"pilotId\":\"unmanned\",\"x\":1,\"y\":0,\"side\":\"enemy\",\"level\":1,\"tags\":[],\"ai\":\"hold\",\"hp\":3931,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0},{\"id\":\"crawler\",\"mechId\":\"dead-internet-episode-1\",\"pilotId\":\"unmanned\",\"x\":17,\"y\":0,\"side\":\"enemy\",\"level\":1,\"tags\":[\"spam-summoner\"],\"ai\":\"hold\",\"hp\":33862,\"en\":500,\"ammo\":{},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0}]}}",
+    "seed": 1,
+    "mode": "scenario",
+    "cursor": {
+      "x": 3,
+      "y": 5
+    },
+    "selected": null,
+    "target": null,
+    "weapon": null,
+    "path": [],
+    "lastTap": null,
+    "menuIndex": 0,
+    "elapsed": 0,
+    "clips": [],
+    "before": null,
+    "returnMode": "idle",
+    "held": false,
+    "mapKeys": false,
+    "commands": [],
+    "bannerPending": true
+  },
+  "scenario": {
+    "queue": [
+      {
+        "event": 0,
+        "pc": 1
+      },
+      {
+        "event": 1,
+        "pc": 0
+      }
+    ],
+    "fired": [
+      "0:",
+      "1:"
+    ],
+    "allCounts": {
+      "3": 5,
+      "6": 2
+    },
+    "waiting": {
+      "command": {
+        "op": "fade",
+        "args": [
+          "in"
+        ],
+        "loc": {
+          "file": "content/stages/saw-01/events.sai",
+          "line": 2,
+          "column": 3,
+          "value": "fade",
+          "quoted": false
+        }
+      },
+      "remaining": 320,
+      "visible": 0,
+      "ids": [],
+      "before": [
+        {
+          "id": "player",
+          "x": 3,
+          "y": 5,
+          "side": "player",
+          "mechId": "player-real-generation-1"
+        },
+        {
+          "id": "gpi",
+          "x": 4,
+          "y": 5,
+          "side": "player",
+          "mechId": "gpi-generation-1"
+        },
+        {
+          "id": "drone-1",
+          "x": 7,
+          "y": 2,
+          "side": "enemy",
+          "mechId": "clickbait-drone-episode-1"
+        },
+        {
+          "id": "drone-2",
+          "x": 1,
+          "y": 10,
+          "side": "enemy",
+          "mechId": "clickbait-drone-episode-1"
+        },
+        {
+          "id": "comment-1",
+          "x": 13,
+          "y": 1,
+          "side": "enemy",
+          "mechId": "comment-bot-episode-1"
+        },
+        {
+          "id": "comment-2",
+          "x": 1,
+          "y": 0,
+          "side": "enemy",
+          "mechId": "comment-bot-episode-1"
+        },
+        {
+          "id": "crawler",
+          "x": 17,
+          "y": 0,
+          "side": "enemy",
+          "mechId": "dead-internet-episode-1"
+        }
+      ]
+    },
+    "objectives": {
+      "win": [],
+      "lose": []
+    },
+    "bgm": null,
+    "fade": 7
+  }
+}
