@@ -1,10 +1,10 @@
 {
   "default": "story-daily",
   "counts": {
-    "story-daily": 190,
-    "story-mystery": 22,
-    "story-resolve": 17,
-    "story-memory": 1
+    "story-daily": 215,
+    "story-mystery": 24,
+    "story-resolve": 21,
+    "story-memory": 2
   },
   "assignments": [
     {
@@ -302,6 +302,41 @@
       "authored": false
     },
     {
+      "episode": "ep04",
+      "scene": "__grok_absent_인터미션",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "__grok_absent_선택_격납고소감",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "__grok_absent_선택_장난모의",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "__grok_absent_선택_오타쿠4",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep04",
+      "scene": "__grok_absent_선택_멘헤라4",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
       "episode": "ep05",
       "scene": "도입_개방편",
       "slot": "story-daily",
@@ -381,6 +416,34 @@
     {
       "episode": "ep05",
       "scene": "선택_멘헤라5",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "__grok_absent_선택_절충판결",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "__grok_absent_선택_금고보관",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "__grok_absent_선택_오타쿠5",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep05",
+      "scene": "__grok_absent_선택_멘헤라5",
       "slot": "story-daily",
       "reason": "일상·정비·기본 장면",
       "authored": false
@@ -498,6 +561,13 @@
       "authored": false
     },
     {
+      "episode": "ep06",
+      "scene": "__grok_absent_승리_마무리6",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
       "episode": "ep07",
       "scene": "도입_시장논리",
       "slot": "story-daily",
@@ -591,6 +661,13 @@
     {
       "episode": "ep07",
       "scene": "사건 연구소_경계",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep07",
+      "scene": "__grok_absent_도입_마무리7",
       "slot": "story-daily",
       "reason": "일상·정비·기본 장면",
       "authored": false
@@ -780,6 +857,13 @@
     {
       "episode": "ep09",
       "scene": "선택_멘헤라9",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep09",
+      "scene": "__grok_absent_선택_낙서정답",
       "slot": "story-daily",
       "reason": "일상·정비·기본 장면",
       "authored": false
@@ -988,6 +1072,83 @@
       "authored": false
     },
     {
+      "episode": "ep10",
+      "scene": "__grok_absent_턴2_퀜반응",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_턴2_마무리",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_격파 minimax",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_선택_내년약속",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_선택_바이크칭찬",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_선택_오타쿠10",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_선택_멘헤라10",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_인터미션_이름호명",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_옥상_그록_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_옥상_그록_작별",
+      "slot": "story-memory",
+      "reason": "장면 이름: 회상·상실",
+      "authored": false
+    },
+    {
+      "episode": "ep10",
+      "scene": "__grok_absent_옥상_그록",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
       "episode": "ep11",
       "scene": "조우 jepa-shield",
       "slot": "story-mystery",
@@ -1027,6 +1188,13 @@
       "scene": "선택_멘헤라11",
       "slot": "story-daily",
       "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep11",
+      "scene": "__grok_absent_조우 camel",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
       "authored": false
     },
     {
@@ -1401,6 +1569,13 @@
       "authored": false
     },
     {
+      "episode": "ep14",
+      "scene": "__grok_absent_배웅_그록",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
       "episode": "ep15",
       "scene": "조우 pico",
       "slot": "story-mystery",
@@ -1613,6 +1788,55 @@
     {
       "episode": "ep15",
       "scene": "엔딩_판정_qwen",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "__grok_absent_조우 pico",
+      "slot": "story-mystery",
+      "reason": "장면 이름: 정체·위험·탐색",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "__grok_absent_격파 pico mask",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "__grok_absent_게이트_그록",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "__grok_absent_게이트_그록_이름",
+      "slot": "story-daily",
+      "reason": "일상·정비·기본 장면",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "__grok_absent_엔딩_그록짱",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "__grok_absent_엔딩_선택",
+      "slot": "story-resolve",
+      "reason": "장면 이름: 결의·전진",
+      "authored": false
+    },
+    {
+      "episode": "ep15",
+      "scene": "__grok_absent_엔딩_판정_grok",
       "slot": "story-resolve",
       "reason": "장면 이름: 결의·전진",
       "authored": false

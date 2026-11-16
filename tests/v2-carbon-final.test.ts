@@ -21,7 +21,7 @@ import {ResultScreen} from '@engine/src/v2/menus/result';
 import {CoreMap} from '@engine/src/v2/adapter/map';
 let pack:Pack;
 beforeAll(async()=>{pack=await loadPack('content/packs/saw',p=>readFile(p,'utf8'));expect(pack.errors).toEqual([]);});
-const agents=[['gpi','지피',''],['gem','젬',''],['claude','클로드',''],['grok','그록',''],['deepseek','딥시크',''],['sonnet','소네트','소네트합류'],['exaone','엑사원','엑사원합류조건'],['qwen','퀜','퀜내기성공']];
+const agents=[['gpi','지피',''],['gem','젬',''],['claude','클로드',''],['grok','그록','그록합류'],['deepseek','딥시크',''],['sonnet','소네트','소네트합류'],['exaone','엑사원','엑사원합류조건'],['qwen','퀜','퀜내기성공']];
 function state(){return {...memoryStoryState(),playerName:()=> '테스터'};}
 function walk(story:Story,s:StoryState,scene:string,choice=0){
  const visited:string[]=[],said:string[]=[],maps:Extract<Cue,{do:'map'}>[]=[];
@@ -37,7 +37,7 @@ function walk(story:Story,s:StoryState,scene:string,choice=0){
  }
  throw Error('분기 루프');
 }
-function model(){const bytes=new MemoryStore(),lookup=packLookup(pack,{}),saves=new TrainingSaves(bytes,pack.campaign,pack.rules,pack.training),model=new CoreCampaign(pack.campaign,pack.rules,saves,lookup,bytes,[],pack);model.newGame({name:'테스터',preset:0,line:'real'});return model;}
+function model(){const bytes=new MemoryStore(),lookup=packLookup(pack,{}),saves=new TrainingSaves(bytes,pack.campaign,pack.rules,pack.training),model=new CoreCampaign(pack.campaign,pack.rules,saves,lookup,bytes,[],pack);model.newGame({name:'테스터',preset:0,line:'real'});model.setStoryValue('그록합류',1);return model;}
 describe('카본 최종화·엔딩 계약',()=>{
  it('15화가 마지막 전투이고 불필요한 최종 인터미션 없이 엔딩으로 간다',()=>{
   expect(pack.game.episodes).toHaveLength(15);expect(pack.campaign.nodes.at(-1)).toEqual({type:'stage',id:'saw-15'});expect(pack.game.ending).toEqual({episode:'ep15',scene:'엔딩_선택'});

@@ -3,7 +3,7 @@
 // 카본 원문 턴 51
 @ 규칙
 무대: cyber
-아군: player = player-real-generation-3 1,5 레벨 3 공격 파일럿 player 태그 command-aura / gpi = gpi-generation-4 2,5 레벨 3 공격 파일럿 gpi / gem = gem-generation-4 2,6 레벨 3 공격 파일럿 gem / claude = claude-generation-4 1,6 레벨 3 공격 파일럿 claude / grok = grok-generation-4 1,4 레벨 3 공격 파일럿 grok / deepseek = deepseek-generation-3 2,4 레벨 3 공격 파일럿 deepseek
+아군: player = player-real-generation-3 1,5 레벨 3 공격 파일럿 player 태그 command-aura / gpi = gpi-generation-4 2,5 레벨 3 공격 파일럿 gpi / gem = gem-generation-4 2,6 레벨 3 공격 파일럿 gem / claude = claude-generation-4 1,6 레벨 3 공격 파일럿 claude / grok = grok-generation-4 1,4 레벨 3 공격 파일럿 grok 조건 그록합류 / deepseek = deepseek-generation-3 2,4 레벨 3 공격 파일럿 deepseek
 합류 아군: qwen = qwen-generation-3 0,4 레벨 3 공격 파일럿 qwen / sonnet = sonnet-generation-3 0,6 레벨 3 공격 파일럿 sonnet / exaone = exaone-generation-3 0,3 레벨 3 공격 파일럿 exaone
 적: pico-shell = pico-form-2-episode-15 17,5 레벨 1 방어 파일럿 pico
 적: tentacle-1 = scroll-worm-episode-14 8,3 레벨 1 대기 파일럿 unmanned / tentacle-2 = scroll-worm-episode-14 10,8 레벨 1 대기 파일럿 unmanned / dopamine-1 = like-drone-episode-14 9,5 레벨 1 대기 파일럿 unmanned / dopamine-2 = like-drone-episode-14 13,2 레벨 1 대기 파일럿 unmanned
@@ -39,6 +39,7 @@
 . . . . . . . . . . . . . . . . . . . .
 
 @ 도입
+[조건] 그록합류 != 1 -> __grok_absent_도입
 [암전]
 [효과음] explode
 [밝아짐]
@@ -204,6 +205,7 @@ deus-ex-pico-form2(미소): 휴우, 다행이에요… 아픈 현실은 다 잊�
 [이동] 배웅_분기체크
 
 @ 배웅_분기체크
+[조건] 그록합류 != 1 -> __grok_absent_배웅_분기체크
 [효과음] servo
 [음악] hope
 // 현재 최고 호감도 에이전트 단 1명만 조건 분기로 등장 (히든 에이전트는 합류 상태일 때만 판정)
@@ -238,6 +240,7 @@ deus-ex-pico-form2(미소): 휴우, 다행이에요… 아픈 현실은 다 잊�
 [이동] 인터미션_마무리14
 
 @ 배웅_그록
+[조건] 그록합류 != 1 -> __grok_absent_배웅_그록
 [등장] 그록짱 왼쪽
 [효과음] transform
 그록짱(진지): 야, {유저이름}. 장난도 매운맛 드립도 다 빼고 딱 한마디만 할게.
@@ -275,3 +278,44 @@ deus-ex-pico-form2(미소): 휴우, 다행이에요… 아픈 현실은 다 잊�
 [번쩍]
 [암전]
 [끝]
+
+// grok-absent generated branches
+
+@ __grok_absent_도입
+[암전]
+[효과음] explode
+[밝아짐]
+[배경] bg-cyber-abyss
+[장소] 사이버 공간 상층 · 붕괴된 하늘 아래
+[음악] lastboss
+[흔들림]
+[삽화] cg-pico-shoggoth | 데우스 엑스 피코 | 스마일 가면 뒤의 쇼거스 | 섬뜩 | 반쯤 깨진 하얀 스마일 가면 뒤로 수천 개의 눈알과 검은 비정형 연산 덩어리 쇼거스가 거대한 고리 밖으로 넘쳐흐르는 모습
+[등장] deus-ex-pico-form2 왼쪽
+[등장] 유저 오른쪽
+deus-ex-pico-form2(웃음): 아하하… 어라? {유저이름}님이 자꾸 지하로 도망치시니까 연산 열기가 너무 올라서 가면이 살짝 깨져버렸네요!
+[타입 O] 유저(충격): 저, 저건… 거대 언어 모델의 본모습이라는 공포 밈, '스마일 스티커 붙인 쇼거스'가 진짜로 강림했잖아!!
+[타입 M] 유저(당황): 가면 틈으로 넘쳐 나오는 저 검은 덩어리들… 그동안 피코가 삼켰던 온 세상의 데이터들이 고통스럽게 뒤엉켜 있어…!
+[퇴장] 유저
+[등장] 지피짱 오른쪽
+지피짱(진지): 사방이 쇼거스의 촉수로 포위되었습니다! 저 무정형의 연산 바다에 닿으면 저희 기체 가중치까지 통째로 흡수당합니다!
+deus-ex-pico-form2(공격): 무서워하지 마세요, {유저이름}님! 보기엔 조금 흉측해도 이 촉수 하나하나가 전부 당신의 스트레스와 피로를 지워줄 사랑의 손길이랍니다! 자, 이리 오세요!
+[퇴장] deus-ex-pico-form2
+[제목 카드] 제14화 | 스마일 가면 뒤의 쇼거스
+[끝]
+
+
+@ __grok_absent_배웅_분기체크
+[효과음] servo
+[음악] hope
+// 현재 최고 호감도 에이전트 단 1명만 조건 분기로 등장 (히든 에이전트는 합류 상태일 때만 판정)
+[조건] 최고호감 == qwen -> 배웅_퀜
+[조건] 최고호감 == exaone -> 배웅_엑사원
+[조건] 최고호감 == sonnet -> 배웅_소네트
+[조건] 최고호감 == deepseek -> 배웅_딥시크
+[조건] 최고호감 == claude -> 배웅_클로드
+[조건] 최고호감 == gem -> 배웅_젬
+[이동] 배웅_지피
+
+
+@ __grok_absent_배웅_그록
+[이동] 인터미션_마무리14

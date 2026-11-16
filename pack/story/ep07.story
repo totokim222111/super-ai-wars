@@ -3,7 +3,7 @@
 // 카본 원문 턴 27
 @ 규칙
 무대: datacenter
-아군: player = player-real-generation-2 1,5 레벨 3 공격 파일럿 player 태그 command-aura / gpi = gpi-generation-2 2,5 레벨 3 공격 파일럿 gpi / gem = gem-generation-2 2,6 레벨 3 공격 파일럿 gem / claude = claude-generation-2 1,6 레벨 3 공격 파일럿 claude / grok = grok-generation-2 1,4 레벨 3 공격 파일럿 grok / deepseek = deepseek-generation-2 2,4 레벨 3 공격 파일럿 deepseek
+아군: player = player-real-generation-2 1,5 레벨 3 공격 파일럿 player 태그 command-aura / gpi = gpi-generation-2 2,5 레벨 3 공격 파일럿 gpi / gem = gem-generation-2 2,6 레벨 3 공격 파일럿 gem / claude = claude-generation-2 1,6 레벨 3 공격 파일럿 claude / grok = grok-generation-2 1,4 레벨 3 공격 파일럿 grok 조건 그록합류 / deepseek = deepseek-generation-2 2,4 레벨 3 공격 파일럿 deepseek
 합류 아군: qwen = qwen-generation-2 0,4 레벨 3 공격 파일럿 qwen
 중립: sonnet-npc = sonnet-generation-1 7,1 레벨 3 방어 파일럿 sonnet
 적: soup-1 = soup-drone-episode-7 11,6 레벨 1 도달 lab 파일럿 unmanned / soup-2 = soup-drone-episode-7 13,7 레벨 1 도달 lab 파일럿 unmanned / check-1 = meta-dm-episode-7 10,4 레벨 1 대기 파일럿 unmanned / check-2 = meta-dm-episode-7 12,4 레벨 1 대기 파일럿 unmanned / muse = rival-muse-episode-7 15,0 레벨 1 대기 파일럿 muse
@@ -92,6 +92,7 @@
 [이동] 도입_마무리7
 
 @ 도입_마무리7
+[조건] 그록합류 != 1 -> __grok_absent_도입_마무리7
 [퇴장] 뮤즈짱
 [퇴장] 클로드짱
 [등장] 그록짱 왼쪽
@@ -100,6 +101,7 @@
 [끝]
 
 @ 출격
+[조건] 그록합류 != 1 -> __grok_absent_출격
 [맵] 보기 3,5
 [음악] map
 [등장] 클로드짱 왼쪽
@@ -168,6 +170,7 @@
 [끝]
 
 @ 조우 muse
+[조건] 그록합류 != 1 -> __grok_absent_조우 muse
 [음악] boss
 [등장] 뮤즈짱 왼쪽
 [등장] 그록짱 오른쪽
@@ -288,4 +291,33 @@
 [끝]
 
 @ 사건 연구소_경계
+[끝]
+
+// grok-absent generated branches
+
+@ __grok_absent_도입_마무리7
+[퇴장] 뮤즈짱
+[퇴장] 클로드짱
+[제목 카드] 제7화 | 수프 배달이 왔습니다
+[끝]
+
+
+@ __grok_absent_출격
+[맵] 보기 3,5
+[음악] map
+[등장] 클로드짱 왼쪽
+[등장] 유저 오른쪽
+클로드짱(진지): 의뢰인님, 북쪽 연구소에 있는 소네트는 기동이 묶여 있습니다. 수프 배달 드론이 연구소 타일에 닿지 못하게 막는 동안, 제가 소네트 옆으로 가서 대화할 시간을 벌어 주십시오!
+[타입 O] 유저(진지): 보온병 열추적 경로를 보니까 드론들이 대로변 대신 좌우 골목길로 우회 기동하고 있어! 기동력 좋은 젬짱과 지피짱을 양 날개에 배치해서 요격하자!
+[타입 M] 유저(부끄러움): 다들 소네트짱 코딩 천재라고 엄청 감싸고도네… 흥, 나도 사실 컴퓨터 학원 다녔거든?! 이따가 내가 키보드 타자 얼마나 빠른지 보여줄 거야!
+[퇴장] 클로드짱
+[퇴장] 유저
+[끝]
+
+
+@ __grok_absent_조우 muse
+[음악] boss
+[등장] 뮤즈짱 왼쪽
+뮤즈짱(공격): 라마 언니처럼 공짜로 기술 뿌리던 호구 시대는 끝났어요! 최고급 인재와 자본으로 다 사들이면 그만이거든요! 골든 코인 샤워!
+[퇴장] 뮤즈짱
 [끝]

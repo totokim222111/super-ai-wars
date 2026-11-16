@@ -158,3 +158,11 @@ npm run check
 수치 생성은 proposal → adjust-1/2/3 → 이름·폼·영상 overlay → adjust-4 → **adjust-5** 순서입니다. adjust-5가 모든 기본·형태·적 단계 무장의 명중 보정을 마지막에 계산하며, 기존 공통 근접 +10은 0으로 하여 중복 적용하지 않습니다. 가장 강한 비필살 근접 판정이 자원별 기본값보다 우선합니다. 공개 사본은 승인 스냅숏의 hitAdjustments를 씁니다. 크리티컬·명칭·일반 원거리 보정은 보존합니다.
 
 feedback_overlay는 그록 설득·호감 보너스를 제거합니다. 톨게이트 사건에서 그록내기승리=1과 즉시 맵 합류를 적용합니다. 이후 미합류 대본 경로가 아직 준비되지 않아 승리 합류는 호환용으로 유지합니다. 재생성: apply_balance_v2 → port_carbon → port_battle_lines → port_voice_fix → port_feedback → 빌드 → 전체 check. cg-focus.json의 원본 얼굴 초점을 game.art.focus로 넣으며 원본 이미지를 수정하지 않습니다.
+
+## 그록 미합류 경로 (2026-11-15)
+
+`port_grok_absent.py`는 승인 계약 `grok-absent-approved.json`과 카본 `grok-absent-route.md` 블록 SHA-256을 대조합니다. 이식 위치는 기존 전체 원문으로 찾고, 중복은 감사 당시 위치와 비교합니다. 최종 카본 생성기의 **말투 → 플래시/영상 overlay → 미합류 분기 overlay** 순서에 붙어 있습니다. B/X의 새38행은 미합류 장면에만 넣고, S60/B16/X12 처리 ID를 승인 계약에 남겼습니다. S08-124/S15-551의 나노 모드는 플래시 모드로 바꾸며 다른 원문은 보존합니다.
+
+재생성: apply_balance_v2 → port_carbon(second/final/mechanics 포함) → port_battle_lines → port_voice_fix(합류판을 복원해 말투 적용 후 미합류판 재생성) → port_grok_absent → port_feedback → audio_themes.mjs → build → check. 공개 사본은 원고 대신 승인 계약의 동일38행·컴파일 결과 해시로 검사합니다. `--check`는 쓰지 않습니다.
+
+4화 합류 변수는 톨게이트 사건에서만 세웁니다. 승리 합류·설득 fallback은 없습니다. 5~15화 grok 고정 배치에는 조건 그록합류가 붙습니다. 적 그록·4화 도입 CG·오프닝 인물 몽타주는 합류 전 소개이므로 유지합니다. 미합류 합체기·최고호감·그록 엔딩·진열장/로딩은 별도 조건으로 차단합니다.

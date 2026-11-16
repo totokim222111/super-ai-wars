@@ -3614,14 +3614,14 @@
     "themePriority": 60,
     "framingByArt": {
       "bust-llama": {
-        "hairCrown": 0.0,
+        "hairCrown": 0,
         "chin": 0.374,
         "faceCenterX": 0.5,
         "relativeHeight": 1
       }
     },
     "framing": {
-      "hairCrown": 0.0,
+      "hairCrown": 0,
       "chin": 0.374,
       "faceCenterX": 0.5,
       "relativeHeight": 1

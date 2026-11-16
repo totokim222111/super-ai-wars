@@ -1,0 +1,271 @@
+{
+  "packId": "saw",
+  "saveVersion": 6,
+  "contentVersion": 2181514167,
+  "savedAt": "2026-11-15T00:00:00.000Z",
+  "playTimeMs": 12345,
+  "summary": {
+    "stage": "제8화 · 우리 땅의 규칙: 국경 검문소",
+    "credits": 12000,
+    "pilot": "player",
+    "turn": 1
+  },
+  "screen": "battle",
+  "campaign": {
+    "node": 14,
+    "roster": [
+      {
+        "id": "player",
+        "mechId": "player-super-generation-2",
+        "pilotId": "player",
+        "x": 1,
+        "y": 5,
+        "side": "player",
+        "level": 1,
+        "tags": [
+          "command-aura",
+          "v2-rules:%7B%22version%22%3A1%2C%22units%22%3A%7B%7D%2C%22combos%22%3A%5B%7B%22id%22%3A%22user-gpi%22%2C%22name%22%3A%22%EC%98%B4%EB%8B%88%20%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22gpi%22%2C%22participants%22%3A%5B%22player%22%2C%22gpi%22%5D%2C%22weapon%22%3A%22balance-combo-user-gpi%22%2C%22virtual%22%3A%22v2-combo-saw-01-user-gpi%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Agpi%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22gpi%22%2C%22min%22%3A30%7D%7D%5D%2C%22gachas%22%3A%5B%5D%2C%22haste%22%3A%7B%7D%2C%22transitions%22%3A%5B%5D%7D"
+        ],
+        "ai": "aggressive"
+      },
+      {
+        "id": "gpi",
+        "mechId": "gpi-generation-2",
+        "pilotId": "gpi",
+        "x": 2,
+        "y": 5,
+        "side": "player",
+        "level": 1,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "gem",
+        "mechId": "v2-forms-saw-08-gem",
+        "pilotId": "gem",
+        "x": 2,
+        "y": 6,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "claude",
+        "mechId": "claude-generation-2",
+        "pilotId": "claude",
+        "x": 1,
+        "y": 6,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "grok",
+        "mechId": "grok-generation-2",
+        "pilotId": "grok",
+        "x": 1,
+        "y": 4,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "deepseek",
+        "mechId": "deepseek-generation-2",
+        "pilotId": "deepseek",
+        "x": 2,
+        "y": 4,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      }
+    ],
+    "credits": 12000,
+    "parts": [],
+    "flags": {
+      "player-male": true,
+      "player-super": true,
+      "v2:value:%EA%B7%B8%EB%A1%9D%ED%95%A9%EB%A5%98:1": true,
+      "v2:value:v2%3Atraining:%22%7B%5C%22pilots%5C%22%3A%7B%7D%2C%5C%22stage%5C%22%3A%7B%5C%22id%5C%22%3A%5C%22saw-08%5C%22%2C%5C%22earned%5C%22%3A%7B%7D%2C%5C%22seen%5C%22%3A%5B%5D%7D%7D%22": true
+    },
+    "cleared": [
+      "saw-01",
+      "saw-02",
+      "saw-03",
+      "saw-04",
+      "saw-05",
+      "saw-06",
+      "saw-07"
+    ],
+    "stageCredits": 12000,
+    "persona": "otaku",
+    "player": {
+      "name": "검증",
+      "preset": "otaku",
+      "type": "O",
+      "line": "super",
+      "cast": "otaku",
+      "actor": "otaku",
+      "unitId": "player",
+      "pilotId": "player",
+      "unitName": "오버클럭 타이탄 RGB",
+      "alternative": 0,
+      "placeholders": {
+        "이름": "name",
+        "플레이어": "name",
+        "플레이어기": "unitName",
+        "유저이름": "name"
+      }
+    }
+  },
+  "stageStart": {
+    "node": 14,
+    "roster": [
+      {
+        "id": "player",
+        "mechId": "player-super-generation-2",
+        "pilotId": "player",
+        "x": 1,
+        "y": 5,
+        "side": "player",
+        "level": 1,
+        "tags": [
+          "command-aura",
+          "v2-rules:%7B%22version%22%3A1%2C%22units%22%3A%7B%7D%2C%22combos%22%3A%5B%7B%22id%22%3A%22user-gpi%22%2C%22name%22%3A%22%EC%98%B4%EB%8B%88%20%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22gpi%22%2C%22participants%22%3A%5B%22player%22%2C%22gpi%22%5D%2C%22weapon%22%3A%22balance-combo-user-gpi%22%2C%22virtual%22%3A%22v2-combo-saw-01-user-gpi%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Agpi%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22gpi%22%2C%22min%22%3A30%7D%7D%5D%2C%22gachas%22%3A%5B%5D%2C%22haste%22%3A%7B%7D%2C%22transitions%22%3A%5B%5D%7D"
+        ],
+        "ai": "aggressive"
+      },
+      {
+        "id": "gpi",
+        "mechId": "gpi-generation-2",
+        "pilotId": "gpi",
+        "x": 2,
+        "y": 5,
+        "side": "player",
+        "level": 1,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "gem",
+        "mechId": "v2-forms-saw-08-gem",
+        "pilotId": "gem",
+        "x": 2,
+        "y": 6,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "claude",
+        "mechId": "claude-generation-2",
+        "pilotId": "claude",
+        "x": 1,
+        "y": 6,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "grok",
+        "mechId": "grok-generation-2",
+        "pilotId": "grok",
+        "x": 1,
+        "y": 4,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      },
+      {
+        "id": "deepseek",
+        "mechId": "deepseek-generation-2",
+        "pilotId": "deepseek",
+        "x": 2,
+        "y": 4,
+        "side": "player",
+        "level": 15,
+        "tags": [],
+        "ai": "aggressive"
+      }
+    ],
+    "credits": 12000,
+    "parts": [],
+    "flags": {
+      "player-male": true,
+      "player-super": true,
+      "v2:value:%EA%B7%B8%EB%A1%9D%ED%95%A9%EB%A5%98:1": true,
+      "v2:value:v2%3Atraining:%22%7B%5C%22pilots%5C%22%3A%7B%7D%2C%5C%22stage%5C%22%3A%7B%5C%22id%5C%22%3A%5C%22saw-08%5C%22%2C%5C%22earned%5C%22%3A%7B%7D%2C%5C%22seen%5C%22%3A%5B%5D%7D%7D%22": true
+    },
+    "cleared": [
+      "saw-01",
+      "saw-02",
+      "saw-03",
+      "saw-04",
+      "saw-05",
+      "saw-06",
+      "saw-07"
+    ],
+    "stageCredits": 12000,
+    "persona": "otaku",
+    "player": {
+      "name": "검증",
+      "preset": "otaku",
+      "type": "O",
+      "line": "super",
+      "cast": "otaku",
+      "actor": "otaku",
+      "unitId": "player",
+      "pilotId": "player",
+      "unitName": "오버클럭 타이탄 RGB",
+      "alternative": 0,
+      "placeholders": {
+        "이름": "name",
+        "플레이어": "name",
+        "플레이어기": "unitName",
+        "유저이름": "name"
+      }
+    }
+  },
+  "seed": 1,
+  "battle": {
+    "battle": "{\"version\":\"m2-save-2\",\"contentVersion\":\"saw-balance-v2-final-1\",\"stageId\":\"saw-08\",\"battle\":{\"round\":1,\"phase\":\"player\",\"rng\":1,\"options\":{\"autoResponse\":false},\"pending\":null,\"outcome\":null,\"units\":[{\"id\":\"player\",\"mechId\":\"player-super-generation-2\",\"pilotId\":\"player\",\"x\":1,\"y\":5,\"side\":\"player\",\"level\":15,\"tags\":[\"command-aura\",\"v2-rules:%7B%22version%22%3A1%2C%22units%22%3A%7B%22gem%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%ED%94%8C%EB%9E%98%EC%8B%9C%22%2C%22mech%22%3A%22gem-flash-generation-2%22%2C%22evade%22%3A20%2C%22attack%22%3A-300%7D%2C%7B%22id%22%3A%22%ED%94%84%EB%A1%9C%22%2C%22mech%22%3A%22gem-pro-generation-2%22%2C%22armor%22%3A150%7D%2C%7B%22id%22%3A%22%EC%9A%B8%ED%8A%B8%EB%9D%BC%22%2C%22mech%22%3A%22gem-ultra-generation-2%22%2C%22attack%22%3A450%2C%22armor%22%3A-100%7D%5D%2C%22transformBeforeMove%22%3Atrue%7D%2C%22qwen%22%3A%7B%22forms%22%3A%5B%7B%22id%22%3A%22%EC%95%85%EC%9D%98%EC%B6%95%22%2C%22mech%22%3A%22qwen-axis-generation-2%22%2C%22attack%22%3A600%2C%22armor%22%3A-150%7D%2C%7B%22id%22%3A%22%EC%96%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-yandere-generation-2%22%2C%22counter%22%3A140%2C%22evade%22%3A10%7D%2C%7B%22id%22%3A%22%EB%A9%94%EA%B0%80%EB%8D%B0%EB%A0%88%22%2C%22mech%22%3A%22qwen-megadere-generation-2%22%2C%22support%22%3A1%2C%22restore%22%3A16%2C%22armor%22%3A200%7D%5D%7D%7D%2C%22combos%22%3A%5B%7B%22id%22%3A%22user-gpi%22%2C%22name%22%3A%22%EC%98%B4%EB%8B%88%20%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22gpi%22%2C%22participants%22%3A%5B%22player%22%2C%22gpi%22%5D%2C%22weapon%22%3A%22balance-combo-user-gpi%22%2C%22virtual%22%3A%22v2-combo-saw-08-user-gpi%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Agpi%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22gpi%22%2C%22min%22%3A30%7D%7D%2C%7B%22id%22%3A%22user-gem%22%2C%22name%22%3A%22%ED%8A%B8%EB%9D%BC%EC%9D%B4%EA%B3%A4%20%EC%8A%A4%ED%85%94%EB%9D%BC%20%ED%94%BC%EB%82%A0%EB%A0%88%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22gem%22%2C%22participants%22%3A%5B%22player%22%2C%22gem%22%5D%2C%22weapon%22%3A%22balance-combo-user-gem%22%2C%22virtual%22%3A%22v2-combo-saw-08-user-gem%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Agem%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22gem%22%2C%22min%22%3A30%7D%7D%2C%7B%22id%22%3A%22user-claude%22%2C%22name%22%3A%22%EC%A0%9C101%EC%A1%B0%3A%20%EC%95%84%ED%85%8C%EB%84%A4%20%EC%98%A4%EB%B2%84%EC%BD%94%EB%93%9C%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22claude%22%2C%22participants%22%3A%5B%22player%22%2C%22claude%22%5D%2C%22weapon%22%3A%22balance-combo-user-claude%22%2C%22virtual%22%3A%22v2-combo-saw-08-user-claude%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Aclaude%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22claude%22%2C%22min%22%3A30%7D%7D%2C%7B%22id%22%3A%22user-grok%22%2C%22name%22%3A%22%EB%A6%AC%EB%B2%A8%EB%A6%AC%EC%98%A8%20%ED%8A%B8%EC%9C%88%20%EC%8A%A4%EB%A1%9C%ED%8B%80%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22grok%22%2C%22participants%22%3A%5B%22player%22%2C%22grok%22%5D%2C%22weapon%22%3A%22balance-combo-user-grok%22%2C%22virtual%22%3A%22v2-combo-saw-08-user-grok%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Agrok%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22grok%22%2C%22min%22%3A30%7D%7D%2C%7B%22id%22%3A%22user-deepseek%22%2C%22name%22%3A%22%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%96%B4%EB%8D%98%20%EB%AC%B4%ED%95%9C%20%EC%A0%95%EC%82%B0%ED%8F%AC%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22deepseek%22%2C%22participants%22%3A%5B%22player%22%2C%22deepseek%22%5D%2C%22weapon%22%3A%22balance-combo-user-deepseek%22%2C%22virtual%22%3A%22v2-combo-saw-08-user-deepseek%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Adeepseek%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22deepseek%22%2C%22min%22%3A30%7D%7D%2C%7B%22id%22%3A%22user-qwen%22%2C%22name%22%3A%22%EC%B2%AD%ED%99%94%EC%8C%8D%EB%AC%B4%3A%20%EC%9C%A0%EC%9D%BC%ED%95%9C%20%EC%99%95%EA%B4%80%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22qwen%22%2C%22participants%22%3A%5B%22player%22%2C%22qwen%22%5D%2C%22weapon%22%3A%22balance-combo-user-qwen%22%2C%22virtual%22%3A%22v2-combo-saw-08-user-qwen%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Aqwen%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22qwen%22%2C%22min%22%3A30%7D%7D%2C%7B%22id%22%3A%22user-sonnet%22%2C%22name%22%3A%22%EB%93%80%EC%96%BC%20%EC%BB%A4%EC%84%9C%20%EB%A6%B4%EB%A6%AC%EC%A6%88%201.0%22%2C%22lead%22%3A%22player%22%2C%22partner%22%3A%22sonnet%22%2C%22participants%22%3A%5B%22player%22%2C%22sonnet%22%5D%2C%22weapon%22%3A%22balance-combo-user-sonnet%22%2C%22virtual%22%3A%22v2-combo-saw-08-user-sonnet%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22affection%3Asonnet%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.25%2C%22affection%22%3A%7B%22id%22%3A%22sonnet%22%2C%22min%22%3A30%7D%7D%2C%7B%22id%22%3A%22sisters%22%2C%22name%22%3A%22%EC%9D%B4%EC%A4%91%EC%A3%BC%3A%20%EC%98%A4%ED%8D%BC%EC%8A%A4%20%EC%95%A4%20%EC%86%8C%EB%84%A4%ED%8A%B8%22%2C%22lead%22%3A%22claude%22%2C%22partner%22%3A%22sonnet%22%2C%22participants%22%3A%5B%22claude%22%2C%22sonnet%22%5D%2C%22weapon%22%3A%22balance-combo-sisters%22%2C%22virtual%22%3A%22v2-combo-saw-08-sisters%22%2C%22line%22%3A%22%22%2C%22flag%22%3A%22balance%3Ajoined%3Asonnet%22%2C%22costs%22%3A%5B40%2C40%5D%2C%22morale%22%3A130%2C%22postMove%22%3Atrue%2C%22powerMultiplier%22%3A1.4%2C%22joined%22%3A%22sonnet%22%7D%5D%2C%22gachas%22%3A%5B%5D%2C%22haste%22%3A%7B%7D%2C%22transitions%22%3A%5B%5D%7D\"],\"ai\":\"aggressive\",\"hp\":11250,\"en\":160,\"ammo\":{\"player-super-generation-2-weapon-2\":40},\"morale\":100,\"sp\":118,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[{\"id\":\"v2-rules-state\",\"source\":\"{\\\"stage\\\":\\\"saw-08\\\",\\\"phase\\\":\\\"player\\\",\\\"barriers\\\":{},\\\"vars\\\":{},\\\"battles\\\":{},\\\"fired\\\":[],\\\"drawn\\\":[],\\\"blocked\\\":[],\\\"copies\\\":{},\\\"defeated\\\":{}}\",\"lifetime\":\"passive\",\"duration\":{\"unit\":\"round\",\"remaining\":1000000000},\"atoms\":[],\"hooks\":{}}],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"gpi\",\"mechId\":\"gpi-generation-2\",\"pilotId\":\"gpi\",\"x\":2,\"y\":5,\"side\":\"player\",\"level\":15,\"tags\":[],\"ai\":\"aggressive\",\"hp\":8125,\"en\":140,\"ammo\":{\"gpi-generation-2-weapon-1\":25},\"morale\":100,\"sp\":108,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"subPilots\":[{\"pilotId\":\"dots\",\"level\":15,\"exp\":0,\"sp\":108}],\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"gem\",\"mechId\":\"v2-forms-saw-08-gem\",\"pilotId\":\"gem\",\"x\":2,\"y\":6,\"side\":\"player\",\"level\":15,\"tags\":[],\"ai\":\"aggressive\",\"hp\":6800,\"en\":160,\"ammo\":{\"gem-generation-2-weapon-1\":16,\"gem-generation-2-weapon-5\":25,\"feedback-gem-2-flash-1\":16,\"feedback-gem-2-pro-2\":16},\"morale\":100,\"sp\":88,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[{\"id\":\"v2-form-perk\",\"source\":\"v2-form\",\"lifetime\":\"passive\",\"duration\":{\"unit\":\"round\",\"remaining\":1000000000},\"atoms\":[{\"type\":\"statAdd\",\"value\":{\"weapons\":-300,\"armor\":0}},{\"type\":\"evadeAdd\",\"value\":20},{\"type\":\"supportAttack\",\"value\":0}],\"hooks\":{}}],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"claude\",\"mechId\":\"claude-generation-2\",\"pilotId\":\"claude\",\"x\":1,\"y\":6,\"side\":\"player\",\"level\":15,\"tags\":[],\"ai\":\"aggressive\",\"hp\":6625,\"en\":160,\"ammo\":{},\"morale\":100,\"sp\":93,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"grok\",\"mechId\":\"grok-generation-2\",\"pilotId\":\"grok\",\"x\":1,\"y\":4,\"side\":\"player\",\"level\":15,\"tags\":[],\"ai\":\"aggressive\",\"hp\":6875,\"en\":120,\"ammo\":{\"grok-generation-2-weapon-2\":20},\"morale\":100,\"sp\":88,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"deepseek\",\"mechId\":\"deepseek-generation-2\",\"pilotId\":\"deepseek\",\"x\":2,\"y\":4,\"side\":\"player\",\"level\":15,\"tags\":[],\"ai\":\"aggressive\",\"hp\":7875,\"en\":140,\"ammo\":{},\"morale\":100,\"sp\":88,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"exaone-npc\",\"mechId\":\"exaone-generation-1\",\"pilotId\":\"exaone\",\"x\":5,\"y\":5,\"side\":\"neutral\",\"level\":15,\"tags\":[],\"ai\":\"hold\",\"hp\":7000,\"en\":160,\"ammo\":{},\"morale\":100,\"sp\":98,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"cookie-1\",\"mechId\":\"cookie-drone-episode-8\",\"pilotId\":\"unmanned\",\"x\":7,\"y\":5,\"side\":\"enemy\",\"level\":12,\"tags\":[],\"ai\":\"hold\",\"upgrades\":{\"hp\":8,\"en\":8,\"armor\":4,\"mobility\":4,\"weapons\":4},\"pilotOverrides\":{\"stats\":{\"melee\":127,\"shoot\":127,\"hit\":132,\"evade\":117,\"defense\":108,\"skill\":98},\"growth\":{\"melee\":0,\"shoot\":0,\"hit\":0,\"evade\":0,\"defense\":0,\"skill\":0}},\"hp\":12200,\"en\":122,\"ammo\":{\"cookie-drone-episode-8-normal\":12,\"zako-special-cookie-drone\":2},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"cookie-2\",\"mechId\":\"cookie-drone-episode-8\",\"pilotId\":\"unmanned\",\"x\":8,\"y\":7,\"side\":\"enemy\",\"level\":12,\"tags\":[],\"ai\":\"hold\",\"upgrades\":{\"hp\":8,\"en\":8,\"armor\":4,\"mobility\":4,\"weapons\":4},\"pilotOverrides\":{\"stats\":{\"melee\":127,\"shoot\":127,\"hit\":132,\"evade\":117,\"defense\":108,\"skill\":98},\"growth\":{\"melee\":0,\"shoot\":0,\"hit\":0,\"evade\":0,\"defense\":0,\"skill\":0}},\"hp\":12200,\"en\":122,\"ammo\":{\"cookie-drone-episode-8-normal\":12,\"zako-special-cookie-drone\":2},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"spell-1\",\"mechId\":\"spellchecker-episode-8\",\"pilotId\":\"unmanned\",\"x\":10,\"y\":3,\"side\":\"enemy\",\"level\":12,\"tags\":[],\"ai\":\"hold\",\"upgrades\":{\"hp\":8,\"en\":8,\"armor\":4,\"mobility\":4,\"weapons\":4},\"pilotOverrides\":{\"stats\":{\"melee\":127,\"shoot\":127,\"hit\":132,\"evade\":117,\"defense\":108,\"skill\":98},\"growth\":{\"melee\":0,\"shoot\":0,\"hit\":0,\"evade\":0,\"defense\":0,\"skill\":0}},\"hp\":14250,\"en\":122,\"ammo\":{\"spellchecker-episode-8-normal\":12,\"zako-special-spellchecker\":2},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"spell-2\",\"mechId\":\"spellchecker-episode-8\",\"pilotId\":\"unmanned\",\"x\":15,\"y\":10,\"side\":\"enemy\",\"level\":12,\"tags\":[],\"ai\":\"hold\",\"upgrades\":{\"hp\":8,\"en\":8,\"armor\":4,\"mobility\":4,\"weapons\":4},\"pilotOverrides\":{\"stats\":{\"melee\":127,\"shoot\":127,\"hit\":132,\"evade\":117,\"defense\":108,\"skill\":98},\"growth\":{\"melee\":0,\"shoot\":0,\"hit\":0,\"evade\":0,\"defense\":0,\"skill\":0}},\"hp\":14250,\"en\":122,\"ammo\":{\"spellchecker-episode-8-normal\":12,\"zako-special-spellchecker\":2},\"morale\":100,\"sp\":0,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"mistral\",\"mechId\":\"rival-mistral-episode-8\",\"pilotId\":\"mistral\",\"x\":13,\"y\":1,\"side\":\"enemy\",\"level\":14,\"tags\":[],\"ai\":\"hold\",\"upgrades\":{\"hp\":8,\"en\":8,\"armor\":4,\"mobility\":4,\"weapons\":4},\"pilotOverrides\":{\"stats\":{\"melee\":151,\"shoot\":151,\"hit\":157,\"evade\":139,\"defense\":128,\"skill\":116},\"growth\":{\"melee\":0,\"shoot\":0,\"hit\":0,\"evade\":0,\"defense\":0,\"skill\":0}},\"hp\":71100,\"en\":332,\"ammo\":{},\"morale\":100,\"sp\":63,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0},{\"id\":\"hyperclova\",\"mechId\":\"rival-hyperclova-episode-8\",\"pilotId\":\"hyperclova\",\"x\":13,\"y\":9,\"side\":\"enemy\",\"level\":14,\"tags\":[],\"ai\":\"hold\",\"upgrades\":{\"hp\":8,\"en\":8,\"armor\":4,\"mobility\":4,\"weapons\":4},\"pilotOverrides\":{\"stats\":{\"melee\":151,\"shoot\":151,\"hit\":157,\"evade\":139,\"defense\":128,\"skill\":116},\"growth\":{\"melee\":0,\"shoot\":0,\"hit\":0,\"evade\":0,\"defense\":0,\"skill\":0}},\"hp\":94900,\"en\":332,\"ammo\":{},\"morale\":100,\"sp\":63,\"moved\":false,\"acted\":false,\"alive\":true,\"moveOrigin\":null,\"effects\":[],\"exp\":0,\"actionsRemaining\":1,\"actionsSpent\":0,\"extraActionsUsed\":0}]}}",
+    "seed": 1,
+    "mode": "idle",
+    "cursor": {
+      "x": 1,
+      "y": 5
+    },
+    "selected": null,
+    "target": null,
+    "weapon": null,
+    "path": [],
+    "lastTap": null,
+    "menuIndex": 0,
+    "elapsed": 0,
+    "clips": [],
+    "before": null,
+    "returnMode": "idle",
+    "held": false,
+    "mapKeys": false,
+    "commands": []
+  },
+  "scenario": {
+    "queue": [],
+    "fired": [],
+    "allCounts": {},
+    "waiting": null,
+    "objectives": {
+      "win": [],
+      "lose": []
+    },
+    "bgm": null,
+    "fade": 7
+  }
+}

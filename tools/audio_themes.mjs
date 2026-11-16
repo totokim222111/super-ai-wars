@@ -38,8 +38,8 @@ try{
   const key=ep.id+':'+name,[tag,reason]=mood(name,cues,oldTags[key]),slot='story-'+tag;sceneTags[key]=[tag];const row={episode:ep.id,scene:name,slot,reason,authored:cues.some(hasMusic)};assignments.push(row);if(!row.authored)missing.push(row);
  }
  rules.story={...rules.story,default:'story-daily',tags:{...rules.story.tags,calm:'story-daily',comic:'story-daily',briefing:'story-daily',tense:'story-mystery',sad:'story-memory',hope:'story-resolve',daily:'story-daily',mystery:'story-mystery',resolve:'story-resolve',memory:'story-memory'},sceneTags};
- const counts=Object.fromEntries(['daily','mystery','resolve','memory'].map(tag=>['story-'+tag,missing.filter(r=>r.slot==='story-'+tag).length]));assert(Object.values(counts).every(n=>n>0));assert.equal(missing.length,230);
- if(process.argv.includes('--check')){assert.deepEqual(game.musicRules,expected.musicRules,'musicRules assignments');assert.deepEqual(game.music,expected.music,'screen music');for(const id of Object.keys(actors))for(const key of ['theme','themePriority','enemyTheme','enemyThemePriority'])assert.equal(cast[id][key],actors[id][key],id+'/'+key);console.log('음악 자리·주인공/에이전트/라이벌·무지시 230장면 배정 대조 완료 '+JSON.stringify(counts));}
+ const counts=Object.fromEntries(['daily','mystery','resolve','memory'].map(tag=>['story-'+tag,missing.filter(r=>r.slot==='story-'+tag).length]));assert(Object.values(counts).every(n=>n>0));assert.equal(missing.filter(r=>!r.scene.startsWith('__grok_absent_')).length,230);
+ if(process.argv.includes('--check')){assert.deepEqual(game.musicRules,expected.musicRules,'musicRules assignments');assert.deepEqual(game.music,expected.music,'screen music');for(const id of Object.keys(actors))for(const key of ['theme','themePriority','enemyTheme','enemyThemePriority'])assert.equal(cast[id][key],actors[id][key],id+'/'+key);console.log(`음악 자리·주인공/에이전트/라이벌·무지시 ${missing.length}장면 배정 대조 완료 `+JSON.stringify(counts));}
  else{
   await save(join(packDir,'game.json'),expected);await save(join(packDir,'cast.json'),actors);
   await save(join(sampleDir,'docs/audio/theme-scenes.json'),{default:'story-daily',counts,assignments:missing});
@@ -48,7 +48,7 @@ try{
   for(const [id,row]of Object.entries(selection.bgm).filter(([,r])=>r.approved.startsWith('T'))){const e=audio.bgm[id],file=conversion.find(c=>c.id===id),mode=id==='battle-intro-jingle'?'반복 없음':row.processing.loopSource?'제공 루프판 전체 유지':'전체 곡, 끝 0.75초 페이드';lines.push(`| ${id} | ${e.title} | ${(e.frames/e.sampleRate).toFixed(3)} | ${(file.bytes/1024).toFixed(1)} | ${mode} |`);}
   lines.push('','## 인물·화면 규칙','','주인공 O·M은 theme-player, 닷츠는 지피 기체의 theme-gpi, 퀜의 세 비녀 모드는 theme-qwen이다. 라이벌 9명과 적대 에이전트는 theme-rival(우선순위 60), 그 밖의 보스는 기존 boss(50), 피코 계열은 기존 lastboss(100)를 유지한다. 개조는 screen-upgrade, 전투 시작은 battle-intro-jingle 전체 1.9795초 후 선택 테마로 잇는다. 징글은 연출 끄기·건너뛰기에서 새로 재생하지 않는다.','','## 나머지 자리','','| 자리/별칭 | 현재 곡 |','|---|---|');
   for(const[k,v]of Object.entries(slots))lines.push(`| ${k} | ${v} |`);
-  lines.push('','## 음악 지시 없는 장면 230개','','기본은 story-daily다. 장면 이름과 첫 대화의 분위기 키워드로 mystery/resolve/memory를 고른다. 직접 음악 지시가 있는 138장면의 곡은 유지한다. 배정은 game.musicRules.story.sceneTags에 있고 재생 규칙은 공통 엔진을 쓴다.','',...Object.entries(counts).map(([id,n])=>`- ${id}: ${n}장면`),'','| 화 | 장면 | 배정 | 근거 |','|---|---|---|---|',...missing.map(r=>`| ${r.episode} | ${r.scene.replaceAll('|','\\|')} | ${r.slot} | ${r.reason} |`));
+  lines.push('',`## 음악 지시 없는 장면 ${missing.length}개 (원래230 + 미합류 분기)`,'','기본은 story-daily다. 장면 이름과 첫 대화의 분위기 키워드로 mystery/resolve/memory를 고른다. 직접 음악 지시가 있는 138장면의 곡은 유지한다. 배정은 game.musicRules.story.sceneTags에 있고 재생 규칙은 공통 엔진을 쓴다.','',...Object.entries(counts).map(([id,n])=>`- ${id}: ${n}장면`),'','| 화 | 장면 | 배정 | 근거 |','|---|---|---|---|',...missing.map(r=>`| ${r.episode} | ${r.scene.replaceAll('|','\\|')} | ${r.slot} | ${r.reason} |`));
   await writeFile(join(studioDir,'docs/studio/audio-slots.md'),lines.join('\n')+'\n');
   console.log('음악 배정 완료 '+JSON.stringify(counts));
  }

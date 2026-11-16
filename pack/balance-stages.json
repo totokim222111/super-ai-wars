@@ -6227,7 +6227,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         }
       ],
       "units": {},
@@ -7825,7 +7826,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         }
       ],
       "units": {},
@@ -9450,7 +9452,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         }
       ],
       "units": {},
@@ -11108,7 +11111,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -12827,7 +12831,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -14588,7 +14593,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -16338,7 +16344,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -18150,7 +18157,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -19894,7 +19902,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -21949,7 +21958,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -23709,7 +23719,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",
@@ -25535,7 +25546,8 @@
           "affection": {
             "id": "grok",
             "min": 30
-          }
+          },
+          "requiresFlag": "그록합류"
         },
         {
           "id": "user-deepseek",

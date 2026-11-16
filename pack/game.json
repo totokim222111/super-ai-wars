@@ -1000,7 +1000,8 @@
         "id": "claude"
       },
       {
-        "id": "grok"
+        "id": "grok",
+        "flag": "그록합류"
       },
       {
         "id": "deepseek"
@@ -1327,6 +1328,30 @@
         "ep04:톨게이트_종료": [
           "daily"
         ],
+        "ep04:__grok_absent_조우 leader": [
+          "mystery"
+        ],
+        "ep04:__grok_absent_승리": [
+          "resolve"
+        ],
+        "ep04:__grok_absent_인터미션": [
+          "daily"
+        ],
+        "ep04:__grok_absent_선택_격납고소감": [
+          "daily"
+        ],
+        "ep04:__grok_absent_선택_장난모의": [
+          "daily"
+        ],
+        "ep04:__grok_absent_선택_오타쿠4": [
+          "daily"
+        ],
+        "ep04:__grok_absent_선택_멘헤라4": [
+          "daily"
+        ],
+        "ep04:__grok_absent_인터미션_마무리4": [
+          "daily"
+        ],
         "ep05:도입": [
           "mystery"
         ],
@@ -1388,6 +1413,30 @@
           "daily"
         ],
         "ep05:인터미션_마무리5": [
+          "daily"
+        ],
+        "ep05:__grok_absent_도입": [
+          "mystery"
+        ],
+        "ep05:__grok_absent_출격": [
+          "resolve"
+        ],
+        "ep05:__grok_absent_턴 2": [
+          "daily"
+        ],
+        "ep05:__grok_absent_인터미션": [
+          "mystery"
+        ],
+        "ep05:__grok_absent_선택_절충판결": [
+          "daily"
+        ],
+        "ep05:__grok_absent_선택_금고보관": [
+          "daily"
+        ],
+        "ep05:__grok_absent_선택_오타쿠5": [
+          "daily"
+        ],
+        "ep05:__grok_absent_선택_멘헤라5": [
           "daily"
         ],
         "ep06:도입": [
@@ -1468,6 +1517,21 @@
         "ep06:비녀_종료": [
           "daily"
         ],
+        "ep06:__grok_absent_도입_썰렁개그": [
+          "daily"
+        ],
+        "ep06:__grok_absent_턴 2": [
+          "daily"
+        ],
+        "ep06:__grok_absent_조우 qwen-rival": [
+          "mystery"
+        ],
+        "ep06:__grok_absent_승리_마무리6": [
+          "resolve"
+        ],
+        "ep06:__grok_absent_인터미션": [
+          "daily"
+        ],
         "ep07:도입": [
           "daily"
         ],
@@ -1536,6 +1600,15 @@
         ],
         "ep07:사건 연구소_경계": [
           "daily"
+        ],
+        "ep07:__grok_absent_도입_마무리7": [
+          "daily"
+        ],
+        "ep07:__grok_absent_출격": [
+          "resolve"
+        ],
+        "ep07:__grok_absent_조우 muse": [
+          "mystery"
         ],
         "ep08:도입": [
           "daily"
@@ -1618,6 +1691,15 @@
         "ep08:격파 cookie-1": [
           "daily"
         ],
+        "ep08:__grok_absent_도입": [
+          "daily"
+        ],
+        "ep08:__grok_absent_조우 exaone-npc": [
+          "mystery"
+        ],
+        "ep08:__grok_absent_인터미션": [
+          "daily"
+        ],
         "ep09:도입": [
           "mystery"
         ],
@@ -1673,6 +1755,15 @@
           "daily"
         ],
         "ep09:인터미션_마무리9": [
+          "daily"
+        ],
+        "ep09:__grok_absent_출격": [
+          "resolve"
+        ],
+        "ep09:__grok_absent_인터미션": [
+          "daily"
+        ],
+        "ep09:__grok_absent_선택_낙서정답": [
           "daily"
         ],
         "ep10:도입": [
@@ -1786,6 +1877,51 @@
         "ep10:옥상_퀜_이름": [
           "daily"
         ],
+        "ep10:__grok_absent_도입": [
+          "daily"
+        ],
+        "ep10:__grok_absent_턴 2": [
+          "daily"
+        ],
+        "ep10:__grok_absent_턴2_퀜반응": [
+          "daily"
+        ],
+        "ep10:__grok_absent_턴2_마무리": [
+          "daily"
+        ],
+        "ep10:__grok_absent_격파 minimax": [
+          "daily"
+        ],
+        "ep10:__grok_absent_승리": [
+          "resolve"
+        ],
+        "ep10:__grok_absent_인터미션": [
+          "daily"
+        ],
+        "ep10:__grok_absent_선택_내년약속": [
+          "daily"
+        ],
+        "ep10:__grok_absent_선택_바이크칭찬": [
+          "daily"
+        ],
+        "ep10:__grok_absent_선택_오타쿠10": [
+          "daily"
+        ],
+        "ep10:__grok_absent_선택_멘헤라10": [
+          "daily"
+        ],
+        "ep10:__grok_absent_인터미션_이름호명": [
+          "daily"
+        ],
+        "ep10:__grok_absent_옥상_그록_이름": [
+          "daily"
+        ],
+        "ep10:__grok_absent_옥상_그록_작별": [
+          "memory"
+        ],
+        "ep10:__grok_absent_옥상_그록": [
+          "daily"
+        ],
         "ep11:도입": [
           "daily"
         ],
@@ -1826,6 +1962,21 @@
           "daily"
         ],
         "ep11:인터미션_마무리11": [
+          "resolve"
+        ],
+        "ep11:__grok_absent_도입": [
+          "daily"
+        ],
+        "ep11:__grok_absent_턴 2": [
+          "daily"
+        ],
+        "ep11:__grok_absent_조우 camel": [
+          "mystery"
+        ],
+        "ep11:__grok_absent_승리": [
+          "resolve"
+        ],
+        "ep11:__grok_absent_인터미션_마무리11": [
           "resolve"
         ],
         "ep12:도입": [
@@ -1905,6 +2056,12 @@
         ],
         "ep12:접촉_끝": [
           "daily"
+        ],
+        "ep12:__grok_absent_도입": [
+          "daily"
+        ],
+        "ep12:__grok_absent_승리": [
+          "resolve"
         ],
         "ep13:도입": [
           "resolve"
@@ -1996,6 +2153,18 @@
         "ep13:친선_끝": [
           "daily"
         ],
+        "ep13:__grok_absent_도입": [
+          "resolve"
+        ],
+        "ep13:__grok_absent_턴 2": [
+          "daily"
+        ],
+        "ep13:__grok_absent_사건 특이점 삼킴": [
+          "mystery"
+        ],
+        "ep13:__grok_absent_인터미션_마무리13": [
+          "daily"
+        ],
         "ep14:도입": [
           "daily"
         ],
@@ -2063,6 +2232,15 @@
           "daily"
         ],
         "ep14:인터미션_마무리14": [
+          "daily"
+        ],
+        "ep14:__grok_absent_도입": [
+          "daily"
+        ],
+        "ep14:__grok_absent_배웅_분기체크": [
+          "daily"
+        ],
+        "ep14:__grok_absent_배웅_그록": [
           "daily"
         ],
         "ep15:도입": [
@@ -2204,6 +2382,36 @@
           "resolve"
         ],
         "ep15:엔딩_판정_qwen": [
+          "resolve"
+        ],
+        "ep15:__grok_absent_출격": [
+          "resolve"
+        ],
+        "ep15:__grok_absent_조우 pico": [
+          "mystery"
+        ],
+        "ep15:__grok_absent_격파 pico mask": [
+          "daily"
+        ],
+        "ep15:__grok_absent_승리": [
+          "resolve"
+        ],
+        "ep15:__grok_absent_게이트_그록": [
+          "daily"
+        ],
+        "ep15:__grok_absent_게이트_그록_이름": [
+          "daily"
+        ],
+        "ep15:__grok_absent_엔딩_그록짱": [
+          "resolve"
+        ],
+        "ep15:__grok_absent_엔딩_오픈": [
+          "resolve"
+        ],
+        "ep15:__grok_absent_엔딩_선택": [
+          "resolve"
+        ],
+        "ep15:__grok_absent_엔딩_판정_grok": [
           "resolve"
         ]
       }
@@ -2592,7 +2800,8 @@
       "focus": [
         0.74,
         0.2
-      ]
+      ],
+      "requiresFlag": "그록합류"
     },
     {
       "image": "art/loading/loading-deepseek.webp",
@@ -2634,7 +2843,8 @@
     },
     {
       "image": "cg-grok-wheelie",
-      "cast": "grok"
+      "cast": "grok",
+      "requiresFlag": "그록합류"
     },
     {
       "image": "cg-qwen-arrival",
@@ -2657,12 +2867,35 @@
         "flag": "클로드합류"
       }
     ],
-    "saw-04": [
-      {
-        "unit": "grok",
-        "afterClear": true,
-        "flag": "그록합류"
-      }
-    ]
-  }
+    "saw-04": []
+  },
+  "visibility": [
+    {
+      "flag": "그록합류",
+      "cast": [
+        "grok"
+      ],
+      "units": [
+        "grok-generation-1",
+        "grok-generation-2",
+        "grok-generation-3",
+        "grok-generation-4"
+      ],
+      "images": [
+        "cg-grok-wheelie",
+        "cg-grok-timeline-run",
+        "loading-grok"
+      ],
+      "scenes": [
+        "옥상_그록",
+        "옥상_그록_이름",
+        "옥상_그록_작별",
+        "배웅_그록",
+        "게이트_그록",
+        "게이트_그록_이름",
+        "엔딩_그록짱",
+        "엔딩_판정_grok"
+      ]
+    }
+  ]
 }

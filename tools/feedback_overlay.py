@@ -40,9 +40,18 @@ def patch_cast(cast):
 
 
 def feedback_rules(output,pack):
-    game=output[pack/'game.json'];game['recruitment']={'saw-03':[{'unit':'claude','afterClear':True,'flag':'클로드합류'}],'saw-04':[{'unit':'grok','afterClear':True,'flag':'그록합류'}]}
+    game=output[pack/'game.json'];game['recruitment']={'saw-03':[{'unit':'claude','afterClear':True,'flag':'클로드합류'}],'saw-04':[]}
     import json
     from pathlib import Path
+    for c in game.get('story',{}).get('affection',[]):
+        if c['id']=='grok':c['flag']='그록합류'
+    for key in ['loadingScreens','loadingScreenFallbacks']:
+        for row in game.get(key,[]):
+            if row.get('cast')=='grok':row['requiresFlag']='그록합류'
+    game['visibility']=[{'flag':'그록합류','cast':['grok'],'units':[id for id in json.loads((pack/'units.json').read_text(encoding='utf-8')) if id.startswith('grok-generation-')],'images':['cg-grok-wheelie','cg-grok-timeline-run','loading-grok'],'scenes':['옥상_그록','옥상_그록_이름','옥상_그록_작별','배웅_그록','게이트_그록','게이트_그록_이름','엔딩_그록짱','엔딩_판정_grok']}]
+    for stage in output[pack/'balance-stages.json'].values():
+        for combo in stage.get('rules',{}).get('combos',[]):
+            if 'grok'in combo.get('participants',[]):combo['requiresFlag']='그록합류'
     game['art']['focus']=json.loads(Path(__file__).with_name('cg-focus.json').read_text(encoding='utf-8'))
     for row,point in zip(game.get('loadingScreens',[]),[[.70,.23],[.65,.23],[.68,.24],[.74,.20],[.70,.28],[.70,.27],[.70,.28],[.73,.28]]):row['focus']=point
     output[pack/'training.json']['clearReward']=100

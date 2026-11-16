@@ -22,7 +22,7 @@ function drawn(stage:Stage){
 describe('삽화의 제목·톤 계약',()=>{
  it('실제 29곳 모두 위시리스트 제목만 카드에 쓰고 설명문은 그리지 않는다',async()=>{
   const wishlist=await readFile('docs/v2-cg-wishlist.md','utf8');const titles=[...wishlist.matchAll(/\*\*(.+?)\*\*/g)].map(m=>m[1]);
-  const cues=Object.values(pack.stories).flatMap(s=>Object.values(s.scenes).flat()).filter((c):c is Extract<Cue,{do:'cg'}>=>c.do==='cg');expect(cues).toHaveLength(29);
+  const cues=[...new Map(Object.values(pack.stories).flatMap(s=>Object.entries(s.scenes).filter(([name])=>!name.startsWith('__grok_absent_')).flatMap(([,cues])=>cues)).filter((c):c is Extract<Cue,{do:'cg'}>=>c.do==='cg').map(c=>[c.image,c])).values()];expect(cues).toHaveLength(29);
   const counts:Record<string,number>={};
   for(const c of cues){
    expect(c.description).toBeTruthy();expect(c.sub).toBe(c.image==='cg-gpi-entrance'?'지피짱 등장':titles.find(t=>t===c.sub));expect(c.sub).not.toBe(c.description);

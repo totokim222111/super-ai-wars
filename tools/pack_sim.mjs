@@ -13,9 +13,11 @@ try{
  ].map(p=>server.ssrLoadModule(p)));
  const {nextRulesAI,ruleCommand,phase,rulesForecast,faction,runtime}=await server.ssrLoadModule('/src/v2/rules/runtime.ts');
  const pack=await loadPack(source.root,p=>readSource(sources,p),undefined,{examples:false,gallery:false});if(pack.errors.length)throw Error(JSON.stringify(pack.errors));
+ if(arg('story-baseline')){const{parseStory}=await server.ssrLoadModule('/src/v2/story/parse.ts');for(const ep of pack.game.episodes)pack.stories[ep.id]=parseStory(await readFile(arg('story-baseline')+'/'+ep.id+'.story','utf8'),pack.stories[ep.id].file,{cast:pack.cast,images:Object.keys(pack.game.art.files),affectionAliases:pack.game.story?.affectionAliases});}
  const variant=arg('ai-variant','all');if(variant!=='all'){const policy=pack.rules.rules.ai.resources;for(const [name,key]of [['response','enemyResponse'],['mix','nearOptimal'],['burst','burst'],['position','positionPlan']])if(variant!==name)delete policy[key];}
  const [{GameFlow},{CreditsScreen},{TitleScreen}]=await Promise.all(['/src/v2/game/flow.ts','/src/v2/menus/credits.ts','/src/v2/menus/screens.ts'].map(p=>server.ssrLoadModule(p)));
  const profile=arg('profile','basic');if(!['basic','steady','minimum','optimized'].includes(profile))throw Error('Unknown profile');
+ const route=arg('grok-route'),dialogueTrace=[];
  const rows=[],completions=[],out=arg('out','tools/out/carbon');await mkdir(out,{recursive:true});const approved=JSON.parse(await readFile('tools/balance-v2-approved.json','utf8')).proposal;
  const persist=async()=>{await writeFile(out+'/simulation.json',JSON.stringify(rows,null,2)+'\n');await writeFile(out+'/simulation-endings.json',JSON.stringify(completions,null,2)+'\n');};
  class EndingApp{stack=[];sound={sfxVolume:.8,musicVolume:.6,play(){},music(){},credits:()=>[]};get top(){return this.stack.at(-1);}push(s){s.app=this;this.stack.push(s);s.enter();}pop(){this.stack.pop();this.top?.resume();}}
@@ -25,7 +27,7 @@ try{
   const values=new Map(),bytes={read:async k=>values.get(k)??null,replace:async(k,v)=>{values.set(k,v);}};
   const saves=new TrainingSaves(bytes,pack.campaign,pack.rules,pack.training),lookup=packLookup(pack,{});
   const model=new CoreCampaign(pack.campaign,pack.rules,saves,lookup,undefined,[],pack);model.newGame({name:'검사',preset:type==='O'?0:1,line});model.session.seed=seed;model.advance(false);
-  const audit=args.includes('--audit-saves')?createSaveAudit(model,pack,{TrainingSaves,...await server.ssrLoadModule('/src/campaign/saves.ts')},out):undefined;
+  const audit=(args.includes('--audit-saves')||args.includes('--audit-stage-saves'))?createSaveAudit(model,pack,{TrainingSaves,...await server.ssrLoadModule('/src/campaign/saves.ts')},out,{checkpointsOnly:args.includes('--audit-stage-saves')}):undefined;
   audit?.capture('start');
   if(args.includes('--resume')||arg('resume-file'))model.session=JSON.parse(await readFile(arg('resume-file',`tools/out/mechanics/checkpoint-${mode}-${seed}-${line}-${type}.json`),'utf8'));
   if(arg('resume-save')){await bytes.replace('1',await readFile(arg('resume-save'),'utf8'));await model.load('1');}
@@ -47,6 +49,7 @@ try{
    const story=pack.stories[episode];if(!story.scenes[scene])return;
    events.activateScene(scene);let current=scene,budget=10000;
    const effect=c=>{
+    if(route&&(c.do==='say'||c.do==='enter'||c.do==='choice'))dialogueTrace.push({episode,scene:current,cue:c});
     if(c.do==='variable')events.state.set(c.name,c.value);
     if(c.do==='recruit')events.state.recruit?.(c.unit);
     if(c.do==='affection')events.state.affection(c.who,c.amount);
@@ -68,7 +71,7 @@ try{
      if(c.do==='jump')jump=c.scene;
      if(c.do==='condition'&&testCondition(c.test,events.state))jump=c.scene;
      if(c.do==='choice'){const options=storyChoices(c.choices,events.state);const choice=options[episode==='ep08'&&current==='조우 exaone-npc'&&mode==='none'?1:0];if(!choice)throw Error('empty choice');choice.effects.forEach(effect);jump=choice.target;}
-     effect(c);audit?.capture('story:'+c.do);if(jump)break;
+     effect(c);if(!args.includes('--audit-stage-saves'))audit?.capture('story:'+c.do);if(jump)break;
     }
     if(ended||!jump)break;current=jump;
    }
@@ -87,6 +90,8 @@ try{
    const deployed=map.state().units.filter(u=>u.side==='player').map(u=>u.id);
    for(const [unit,join]of [['qwen',7],['sonnet',8],['exaone',9]]){const registered=model.session.campaign.roster.some(u=>u.id===unit);if(deployed.includes(unit)!==(registered&&Number(ep.id.slice(2))>=join))throw Error(ep.id+' 조건부 편성 오류 '+unit);}
    play(ep.id,'도입');play(ep.id,'출격');pending(ep.id);
+   if(route&&ep.id==='ep04'){if(route==='joined'){map.execute({type:'system',unitId:'',action:{kind:'move',ids:['player'],x:14,y:5}});pending(ep.id);}else{map.execute({type:'system',unitId:'',action:{kind:'retreat',ids:['grok']}});play(ep.id,'격파 grok');pending(ep.id);}}
+   audit?.capture('stage-start');
    const seen=new Set(),recovering=new Set();let commands=0,lastTrace;
    for(;commands<4000&&!map.state().outcome;commands++){
     await audit?.flush();
@@ -141,7 +146,7 @@ try{
     map.execute(command);pending(ep.id);
    }
    const state=map.state(),row={profile,aiVariant:variant,episode:ep.id,seed,line,type,hidden:mode,mechanics,measurements,outcome:state.outcome,turn:state.round,commands,deployed,finalUnits:state.units.map(u=>({id:u.id,side:faction(u),alive:u.alive,level:u.level,exp:u.exp,hp:u.hp,en:u.en,inference:core.effectivePilot(state,u).stats.skill,supportExperience:u.supportExperience,deviceUses:u.deviceUses})),allies:state.units.filter(u=>u.side==='player'&&u.alive).map(u=>u.id),joined:{claude:model.storyValue('클로드합류'),grok:model.storyValue('그록합류'),qwen:model.storyValue('퀜내기성공'),sonnet:model.storyValue('소네트합류'),exaone:model.storyValue('엑사원합류조건')},rng:state.rng};rows.push(row);await persist();console.log(JSON.stringify(row));
-   if(audit){await audit.finish();}
+   if(audit){audit.capture('stage-end');await audit.finish();}
    if(state.outcome==='defeat'&&model.canRetry()){
     model.finish();await model.retry();const attempt=(retries.get(ep.id)??0)+1;retries.set(ep.id,attempt);
     if(attempt>Number(arg('max-retries',10)))throw Error('재도전 한도 '+ep.id);
@@ -177,6 +182,7 @@ try{
   if(Number(arg('through',pack.game.episodes.length))>=pack.game.episodes.length&&(pack.game.ending?model.session.campaign.cycle!==2:model.session.screen!=='end'))throw Error('마지막 화 뒤 종료되지 않음');
   if(audit){const report=await audit.finish();if(report.failures.length)throw Error('저장 왕복 검사 실패 '+report.failures.length);}
  }
+ if(route)await writeFile(out+'/dialogue-trace.json',JSON.stringify(dialogueTrace,null,2));
  await mkdir(out,{recursive:true});await writeFile(out+'/simulation-endings.json',JSON.stringify(completions,null,2)+'\n');await writeFile(out+'/simulation.json',JSON.stringify(rows,null,2)+'\n');
  const summary=Object.fromEntries(pack.game.episodes.map(e=>{const xs=rows.filter(r=>r.episode===e.id);return [e.id,{count:xs.length,mean:xs.reduce((n,r)=>n+r.turn,0)/Math.max(1,xs.length),min:Math.min(...xs.map(r=>r.turn)),max:Math.max(...xs.map(r=>r.turn))}];}));await writeFile(out+'/simulation-summary.json',JSON.stringify(summary,null,2)+'\n');console.log(JSON.stringify(summary));
  const slow=modes.flatMap(mode=>pack.game.episodes.flatMap(e=>{const xs=rows.filter(r=>r.hidden===mode&&r.episode===e.id);if(!xs.length)return [];const mean=xs.reduce((n,r)=>n+r.turn,0)/xs.length,max=Math.max(...xs.map(r=>r.turn));return max>15||args.includes('--batch')&&(mean<5||mean>12)?[`${mode}/${e.id} ${mean.toFixed(2)} (최대 ${max})`]:[];}));if(slow.length)console.warn('목표 턴 범위 이탈: '+slow.join(', '));

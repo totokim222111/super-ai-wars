@@ -88,7 +88,7 @@ describe('카본 2차의 합류·분기 계약',()=>{
   const map=new CoreMap(model.session.game!.battle,{...lookup,afterCommand:c=>ep.process(c),onChange:(s,c)=>model.acceptBattle(s,c)});map.execute({type:'endPhase'});const cmd=stageAI(pack.stageScripts!['saw-07'],map.state(),chooseAICommand(aiProjection(map.state()),'soup-1'));expect(cmd.type).toBe('move');
   map.execute({type:'system',unitId:'',action:{kind:'move',ids:['soup-1'],x:8,y:2}});expect(map.state().outcome).toBe('defeat');
  });
- for(const [id,flag]of [['gpi',''],['gem',''],['claude',''],['grok',''],['deepseek',''],['sonnet','소네트합류'],['exaone','엑사원합류조건'],['qwen','퀜내기성공']])for(const high of [false,true])for(const type of ['O','M'] as const){
+ for(const [id,flag]of [['gpi',''],['gem',''],['claude',''],['grok','그록합류'],['deepseek',''],['sonnet','소네트합류'],['exaone','엑사원합류조건'],['qwen','퀜내기성공']])for(const high of [false,true])for(const type of ['O','M'] as const){
   it(`10화 옥상 ${id} ${high?'이름':'애칭'} ${type} 분기는 정확히 한 명 뒤 공통 숙소로 간다`,()=>{
    const s=memory();s.type=()=>type;s.affection(id,high?30:1);if(flag)s.set(flag,1);const out=walk(pack.stories.ep10,s,'인터미션');
    const rooftops=out.visited.filter(n=>/^옥상_(지피|젬|클로드|그록|딥시크|소네트|엑사원|퀜)$/.test(n));expect(rooftops).toHaveLength(1);expect(out.visited.filter(n=>n==='숙소_로그아웃발각')).toHaveLength(1);

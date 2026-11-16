@@ -2245,7 +2245,7 @@
     },
     {
       "path": "pack/balance-stages.json",
-      "sha256": "64ffb7d4196407210a35052e4a408c42ae22148d93ffeae807940932bd3b47a9"
+      "sha256": "d6e297509fda1885e1b7b3bbec19d7af160a5410fca9f1574d8e67e0f55f7b77"
     },
     {
       "path": "pack/battle-lines/combos.json",
@@ -2257,7 +2257,7 @@
     },
     {
       "path": "pack/cast.json",
-      "sha256": "0ea96ee6819ad87bfb7bd5717628db7eb88fef4228b33d23e4efc5942ad0a04a"
+      "sha256": "df16cd306996d3cc2e3f4a9007aa6489a62e1030c7dcc7d4d3d4f502c3e09dc8"
     },
     {
       "path": "pack/data/combinations.json",
@@ -2313,7 +2313,7 @@
     },
     {
       "path": "pack/game.json",
-      "sha256": "d5932bbdbb5359f601760d682a8bd3a8a10a5bccf78023f90191f6564346d3a8"
+      "sha256": "3b6c625f316e5f97940e5164626f03e7d02595564dd58cc603a82c5dfb24a98e"
     },
     {
       "path": "pack/maps/cyber.json",
@@ -2365,7 +2365,7 @@
     },
     {
       "path": "pack/story/carbon-audit.json",
-      "sha256": "628767015335afdd7600d65b679956cc37af551b0eeb2fecd32580e3ea8ee8cf"
+      "sha256": "427a9806a0af05c93b7ed1b32caf43b27ed7a09da018f936457520ac758c7d5c"
     },
     {
       "path": "pack/story/ep01.story",
@@ -2381,55 +2381,55 @@
     },
     {
       "path": "pack/story/ep04.story",
-      "sha256": "925df3fa7f0edc4ca30d5b8faf18293c746bc956df5000f75b323097e934fe2c"
+      "sha256": "7b5662a05578df5965f0565817579482728539e6acf3cf13f010f28bd6273ef3"
     },
     {
       "path": "pack/story/ep05.story",
-      "sha256": "07f7184bb296a86477df0e95002dd1876624fbe9d7e2ab4145a5cde1b1b7b21b"
+      "sha256": "b125c092ae852fa844999b90a1af7f12c35bd871abc08f77fa79a938dc146578"
     },
     {
       "path": "pack/story/ep06.story",
-      "sha256": "0c5a2d68111d756986dff04897aa0a559e76da164ff20ceadb696ff612d46c6c"
+      "sha256": "2d32428e633a614ededd698a548c9174a06265f5756ea3d80aa1cb9bd8e18e46"
     },
     {
       "path": "pack/story/ep07.story",
-      "sha256": "32719ecbf6e6544e6696b91609cd06f627afa39548381855ccd33acdf222d942"
+      "sha256": "be97e2a74c65a8269d6891504f512bff19613de2dcb0c5ba1a532700db141763"
     },
     {
       "path": "pack/story/ep08.story",
-      "sha256": "c73bfd97c9b184ef2fb095aea0ab5845d24bf6eb03368f453d1afcf7351b0ee7"
+      "sha256": "f588961ad3b14ac92fa604a1e4e32abb783e0be017eb1f0a48257403e0ee51b5"
     },
     {
       "path": "pack/story/ep09.story",
-      "sha256": "51506662f0e8ab6eff265414daaddb40807f6c1e7c6dde900ec9ccd2dc40ff85"
+      "sha256": "1d27a7e20d0ce11234cfe6cb3b53be0ca8c188f5f11102650b9d2c1355cdd064"
     },
     {
       "path": "pack/story/ep10.story",
-      "sha256": "ca7890ba65f42f182a01adc08b960732489dd40ce2d35ede3cd8e352048fd897"
+      "sha256": "67af7a01ec7dae021c8e4d72d6c597a836d1e773e9a96f911fb9abc0023990c5"
     },
     {
       "path": "pack/story/ep11.story",
-      "sha256": "86ffdd03ccc5298c17f76d6a46bc67e42fc94a787369c4865b371fd514f60936"
+      "sha256": "c6a10e6de97a0ae46bf2781135ef0e6d119fde888ba0a93da9001f43428590c1"
     },
     {
       "path": "pack/story/ep12.story",
-      "sha256": "a523920323d88316d53a4f9e8d9f8bfa7d593409091cc4d84a8bdb15b03fa7d0"
+      "sha256": "9f14b8b08148897d6b3b403858dcc1aa011758f3a5995cad3eed0928065e5594"
     },
     {
       "path": "pack/story/ep13.story",
-      "sha256": "3e41f66c804d495d98642a87cda55cecba81259df81460fca1992116d53ce98c"
+      "sha256": "e198ba7464ebf69f5863deae892bb7a2da3f622fb04695f422e1579d0c2fa851"
     },
     {
       "path": "pack/story/ep14.story",
-      "sha256": "f42e343c14d999e4267d9118d630b38e759eeeefc58f266e2f6225c4868520d7"
+      "sha256": "b3692f5d301645dadbbb23010e42e2413407fc86bb95c8285ff53829a429aed9"
     },
     {
       "path": "pack/story/ep15.story",
-      "sha256": "3ba2dc07df687de20a3835ab6a0dcb90c7be4a2e349bbaa6037b7c3490896ffc"
+      "sha256": "bdbb884cbe5c41b9f3a05ef5df8a5e2c1a9be0de8de7c6b3a3a7fa041d2da7b6"
     },
     {
       "path": "pack/story/PORTING.md",
-      "sha256": "252cc900370c572e204f7d362e8c0dea45eac2ed8df5ae360be52f330c49d932"
+      "sha256": "300534f170043ed91a77ec14d0804710ec2458d80cfd9675ec935f5043655946"
     },
     {
       "path": "pack/training.json",

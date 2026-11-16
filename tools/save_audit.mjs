@@ -1,7 +1,7 @@
 /** Validation replay, not a balance judgment. Every checkpoint uses the real writer/loader. */
 import {strict as assert} from 'node:assert';
 import {mkdir,writeFile} from 'node:fs/promises';
-export function createSaveAudit(model,pack,{makeSave,TrainingSaves},directory){
+export function createSaveAudit(model,pack,{makeSave,TrainingSaves},directory,{checkpointsOnly=false}={}){
  const rows=new Map(),failures=[],pending=[];let ordinal=0;
  const capture=(label,session=model.session)=>{
   const stage=session.game?.battle.stage.id??session.screen;
@@ -19,7 +19,7 @@ export function createSaveAudit(model,pack,{makeSave,TrainingSaves},directory){
   })().catch(error=>{row.failed++;const item={stage,label,index,error:String(error),lastCommand:file?.battle?.commands?.at(-1)};if(!failures.some(f=>f.stage===stage&&f.error===item.error)){failures.push(item);if(file)pending.push(mkdir(directory,{recursive:true}).then(()=>writeFile(directory+'/failure-'+stage+'.json',JSON.stringify({item,file},null,2))));}});
   pending.push(operation);
  };
- const accept=model.acceptBattle.bind(model);model.acceptBattle=(state,changes)=>{
+ const accept=model.acceptBattle.bind(model);if(!checkpointsOnly)model.acceptBattle=(state,changes)=>{
   accept(state,changes);
   const g=model.session.game;
   for(const c of changes){

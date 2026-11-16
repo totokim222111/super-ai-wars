@@ -253,7 +253,8 @@ def generate(raw, ep):
     body=mechanics.body(ep,body)
     result='# '+title+'\n\n// 카본 원문 턴 '+str(TURNS[ep-1])+(' + 턴 60 패치' if ep<=2 else '')+'\n@ 규칙\n'+map_hints(ep,mechanics.rules(ep,rules(ep)))+'\n\n@ 맵\n'+mechanics.grid(ep,grid(ep))+'\n\n'+body+'\n'
     from feedback_overlay import story_overlay
-    return story_overlay(ep,story_source(ep,result)), cg, dialogue_source(ep,dialogue)
+    from port_grok_absent import overlay
+    return overlay(ep,story_overlay(ep,story_source(ep,result))), cg, dialogue_source(ep,dialogue)
 
 
 # Presentation-only labels. Hidden recruitment and global contact checks stay unmarked.
@@ -282,11 +283,12 @@ def main():
     changes=['# 카본 1~15화·엔딩 대사 변경 대조', '', '각 화 원문과 승인 패치를 비교했다. 1·2화는 턴 60, 6화는 턴 24·33, 8화는 턴 33과 외형 낭독 3줄 편집, 10화는 턴 42 선언과 턴 60 옥상 7명 판을 반영했다. 11화는 턴 45, 12화는 턴 48 호명 패치, 15화 뒤 엔딩은 턴 57을 반영했다. 12화 이름 허락·JEPA 조우에도 사용자 지시의 호감 30 기준을 적용하고 낮을 때 애칭으로 바꾼 줄을 기록했다. 3~5·7·9·13·14화는 대사를 바꾸지 않았다.', '']
     for ep in range(1,16):
         result,cgs,dialogue=generate(raw,ep)
+        all_dialogue=[line for line in result.splitlines()if re.match(r'^(?:\[타입 [OM]\]\s*)?[^\[\s][^:]*?: ',line)and not line.startswith('//')]
         path=PACK/f'story/ep{ep:02}.story'
         if args.check:
             assert path.read_text(encoding='utf-8')==result, f'{path}: 이식 결과와 다름'
         else: path.write_text(result,encoding='utf-8')
-        audit['episodes'][f'ep{ep:02}']={'turn':TURNS[ep-1], 'patchTurns':{1:[60],2:[60],6:[24,33],8:[33],10:[42,60],11:[45],12:[48],15:[57]}.get(ep,[]), 'dialogueSha256':hashlib.sha256('\n'.join(dialogue).encode()).hexdigest(),'dialogueLines':len(dialogue)}
+        audit['episodes'][f'ep{ep:02}']={'turn':TURNS[ep-1], 'patchTurns':{1:[60],2:[60],6:[24,33],8:[33],10:[42,60],11:[45],12:[48],15:[57]}.get(ep,[]), 'dialogueSha256':hashlib.sha256('\n'.join(all_dialogue).encode()).hexdigest(),'dialogueLines':len(all_dialogue)}
         before=[s for s in source_story(raw,TURNS[ep-1],ep).split('@ 도입',1)[1].splitlines() if not s.startswith('//') and re.match(r'^(?:\[타입 [OM]\]\s*)?[^\[\s][^:]*?: ',s)]
         for tag,a,b,c,d in difflib.SequenceMatcher(a=before,b=dialogue,autojunk=False).get_opcodes():
             if tag=='equal': continue
