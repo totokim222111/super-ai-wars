@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "sourceCommit": "b567315e51108e8db8427e4e75754d4d34bb1e40",
-  "exportedAt": "2026-11-17T01:00:06.474Z",
+  "sourceCommit": "750ae3a7b8f1d4c5a584db9bedf6e9653ec2cf3d",
+  "exportedAt": "2026-11-17T06:02:56.589Z",
   "sourceMode": "tracked",
   "cleaning": {
     "paths": 0,
@@ -19,26 +19,6 @@
       "path": ".gitignore",
       "size": 239,
       "sha256": "349527faf0e75fe9b17f51fe3ad996516ca3192ae8a2744519f1b89ff54ef7e4"
-    },
-    {
-      "path": "LICENSE",
-      "size": 1932,
-      "sha256": "74d74ae8c1f4cb236d544a48557df9f07f32166bce077b777ea7d7d540f72612"
-    },
-    {
-      "path": "PUBLISHING.md",
-      "size": 1719,
-      "sha256": "677bb309e86f7d011b97750e76e2f27164292068425b5937f83eb0d577f92954"
-    },
-    {
-      "path": "README.md",
-      "size": 7627,
-      "sha256": "f43e7bacc24ff87fb958ad810a67c3000f3fcce836d5bbfd49d455669e129d6b"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "size": 5296,
-      "sha256": "8a08b9909d9a52a8afbb3ecfb2a3e45408dc98516bc9a994deb0dde021bce322"
     },
     {
       "path": "docs/audio/cinematics.json",
@@ -99,6 +79,11 @@
       "path": "docs/v2-sound-sources.md",
       "size": 21765,
       "sha256": "9e8759649665b0057f4f6890b7306c8d10e7fd8a572bdab3fcb496c00ae59d0d"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1932,
+      "sha256": "74d74ae8c1f4cb236d544a48557df9f07f32166bce077b777ea7d7d540f72612"
     },
     {
       "path": "pack/art-info.json",
@@ -241,14 +226,14 @@
       "sha256": "41f9f2df2eb727a86823dbabb615b5df02d9088bd75e1e6d2dea656c680340f0"
     },
     {
-      "path": "pack/samples.json",
-      "size": 121,
-      "sha256": "2d3ac6b3f244861ea531c8c3bca0fb385291661b470a571776fc868cab4bd250"
-    },
-    {
       "path": "pack/samples/ep03.story",
       "size": 1041,
       "sha256": "3807aace42bad678eadeae7d606f3b2cf318f6ff7e3a0663a558fd12122aa862"
+    },
+    {
+      "path": "pack/samples.json",
+      "size": 121,
+      "sha256": "2d3ac6b3f244861ea531c8c3bca0fb385291661b470a571776fc868cab4bd250"
     },
     {
       "path": "pack/save-migrations.json",
@@ -259,11 +244,6 @@
       "path": "pack/spirits.json",
       "size": 935,
       "sha256": "94a1fbd27a302b274288551beb2a3b0e15ae530207df9162faa941df927d1344"
-    },
-    {
-      "path": "pack/story/PORTING.md",
-      "size": 26135,
-      "sha256": "3972022b48ea754a6585f372eca3c01c7d686dfecd3fdf498d71521cc4fd1864"
     },
     {
       "path": "pack/story/carbon-audit.json",
@@ -421,6 +401,11 @@
       "sha256": "a5ab2284ed6de7083408babc4d52febbca50445afd3b59e55b8c15b2dcdbcd07"
     },
     {
+      "path": "pack/story/PORTING.md",
+      "size": 26135,
+      "sha256": "3972022b48ea754a6585f372eca3c01c7d686dfecd3fdf498d71521cc4fd1864"
+    },
+    {
       "path": "pack/training.json",
       "size": 3698,
       "sha256": "4fa7bd3c8130be747504c8e1e4c87aa6754e0ff5d9b10b91cb621c0e557fa1f4"
@@ -439,6 +424,16 @@
       "path": "package.json",
       "size": 443,
       "sha256": "9ee52bd2cb68b959ba8462305e197aba8af86152f2e142b9b56ad45fa011c4bd"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "size": 1719,
+      "sha256": "677bb309e86f7d011b97750e76e2f27164292068425b5937f83eb0d577f92954"
+    },
+    {
+      "path": "README.md",
+      "size": 7627,
+      "sha256": "f43e7bacc24ff87fb958ad810a67c3000f3fcce836d5bbfd49d455669e129d6b"
     },
     {
       "path": "tests/animation-art.test.ts",
@@ -722,8 +717,8 @@
     },
     {
       "path": "tests/v2-economy-training.test.ts",
-      "size": 16718,
-      "sha256": "4897b6bdea501ac6db179634c6fda2ae9a62b36683cb39575554d01211326b2b"
+      "size": 16606,
+      "sha256": "99b3c5e7056459c36c89b9b74cfccaa95c76de66fd378b509b80a9b2316c9ad0"
     },
     {
       "path": "tests/v2-f2-game.test.ts",
@@ -763,7 +758,7 @@
     {
       "path": "tests/v2-map-objectives.test.ts",
       "size": 1550,
-      "sha256": "bc0e7fe0a8aa8596fad9f57a180fb39c47265018ce8cf668186316bf7e849470"
+      "sha256": "da8da43ae6b7d6af54c8c07f24b5f2956c2e97bcc596aeeb1643569126a22ca6"
     },
     {
       "path": "tests/v2-map-persuade.test.ts",
@@ -777,8 +772,8 @@
     },
     {
       "path": "tests/v2-map-screen.test.ts",
-      "size": 5129,
-      "sha256": "6c88e4e585d733df49deef5b6d2b54f350d138e8d99bcf8b9260aa47d1a19f62"
+      "size": 5176,
+      "sha256": "f924fae7c0760bad4e6dfacedabd6b243f1733e27dfbc544add99218f3753861"
     },
     {
       "path": "tests/v2-map-spirits.test.ts",
@@ -797,8 +792,8 @@
     },
     {
       "path": "tests/v2-menu-screens.test.ts",
-      "size": 6684,
-      "sha256": "95968654a8e9cb4d8a620ccd2c659b0d291d483c20d4dff209fd1353db69299b"
+      "size": 6860,
+      "sha256": "96985b47a4863153abc2d9c0187d53a793d9c1e5c4b10da2e61557b73769ad7f"
     },
     {
       "path": "tests/v2-pack.test.ts",
@@ -854,6 +849,11 @@
       "path": "tests/v2-weapon-anims.test.ts",
       "size": 3126,
       "sha256": "c89d10f8e63e032701b105de23bd102b5cfbcd2f71ffb82c98a089b459069292"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 5296,
+      "sha256": "8a08b9909d9a52a8afbb3ecfb2a3e45408dc98516bc9a994deb0dde021bce322"
     },
     {
       "path": "tools/anim-colors-approved.json",
@@ -1123,7 +1123,7 @@
     {
       "path": "tools/public-contracts.json",
       "size": 91674,
-      "sha256": "10412c8f9b49d48d5186207621225ea9285497d3fd7a5914e82c389ff7ce672d"
+      "sha256": "dbd57b28eb8cd07f0d3f4d873b1cc0845ebbecc1443120db452d6fb2c8ff2698"
     },
     {
       "path": "tools/public_check.mjs",
@@ -1426,14 +1426,9 @@
       "sha256": "08381e6c2111eda44a8b196311feabe8110c0d17ab8170d63a8970ae46dfd409"
     },
     {
-      "path": "variants/o-handsome/README.md",
-      "size": 2194,
-      "sha256": "2891d38f96ef1d8aa0d11435bc2167da5bac0d9b27970f73c53965bc6e120947"
-    },
-    {
       "path": "variants/o-handsome/build-report.json",
       "size": 2503,
-      "sha256": "8512c623f8d5d9e17f2a2dae77065a0927f188a18890b3bde65da7c384ac8da8"
+      "sha256": "ec25851ca1966d8320228239526f174c5d0fe428c88f104a14efb2f15110d454"
     },
     {
       "path": "variants/o-handsome/build.mjs",
@@ -1471,14 +1466,14 @@
       "sha256": "84f06de5fc7dfe8e0baba5f7d86ed87199918a3a7df0bbe1e498f8efa1444d1f"
     },
     {
+      "path": "variants/o-handsome/README.md",
+      "size": 881,
+      "sha256": "a450b545b3dccf619d60048f4c8c04bb16de56e334076387791123989e9d9383"
+    },
+    {
       "path": "vitest.config.mjs",
       "size": 482,
       "sha256": "2f34b48f8f90a972fa80eaea3add3fb20923c49852df6c7757aab7ce34da4c56"
     }
-  ],
-  "publication": {
-    "releaseTag": "v2026.11.17",
-    "inputArchive": "super-ai-wars-sample-2026-11-17.zip",
-    "inputArchiveSha256": "53281a4c98bc7e80042820a66a851ae8bcd716b205a62846f9a90f7fa1c8a266"
-  }
+  ]
 }

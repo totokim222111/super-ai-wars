@@ -63,7 +63,7 @@ describe.each([['mockMap', makeMock], ['actual SAW rules', makeCore]] as const)(
     (screen.ui.focus as MenuList).index=(screen.ui.focus as MenuList).items.findIndex(i=>i.label==='대기');app.action('confirm');
     app.until(() => app.top === screen && mode(screen) === 'idle');
     expect(model.units().find(u => u.id === 'gpi')!.acted).toBe(true);
-    app.chooseCell({ col: 0, row: 0 }); ((screen.ui as any).widgets.find((w:any)=>w.label==='턴 종료')).act('confirm');
+    app.chooseCell({ col: 0, row: 0 }); (()=>{const list=screen.ui.focus as MenuList;list.index=list.items.findIndex(i=>i.label==='턴 종료');list.act('confirm');})();
     expect(app.top).toBeInstanceOf(ConfirmScreen);
     app.action('left'); app.action('confirm');
     app.until(() => app.top === screen && mode(screen) === 'idle');

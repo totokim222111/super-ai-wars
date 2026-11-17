@@ -25,7 +25,7 @@ describe('v2 menus with real kit/input/Runner and a headless app', () => {
     const { model } = await campaign(); intermission(model); const { app, parent } = start(new PartsScreen(model));
     app.action('confirm'); app.action('confirm');const inv=app.top.ui.focus as MenuList;inv.index=inv.items.findIndex(i=>i.label===model.inventory().find(p=>p.id==='hull')!.name);app.action('confirm'); yes(app);
     expect(model.partUnits()[0].slots[0]?.id).toBe('hull');
-    app.action('confirm');app.action('confirm');yes(app);expect(model.partUnits()[0].slots[0]).toBe(null);
+    const held=(app.top.ui as unknown as {widgets:MenuList[]}).widgets.find(w=>w instanceof MenuList&&w.items.some(i=>i.label==='해제'))!;held.index=0;app.top.ui.focusOn(held,true);app.action('confirm');yes(app);expect(model.partUnits()[0].slots[0]).toBe(null);
     app.action('cancel'); expect(app.top).toBe(parent);
   });
   it('buys a chosen quantity and supports touch settings controls', async () => {
@@ -35,7 +35,7 @@ describe('v2 menus with real kit/input/Runner and a headless app', () => {
     app.push(new SettingsScreen(model));const slider=(app.top.ui as any).widgets.find((w:any)=>w instanceof Slider&&w.label==='효과음') as Slider;
     app.top.input({ kind: 'pointer', phase: 'down', x:slider.x+slider.w-236,y:slider.y+slider.h/2 }); app.top.input({ kind: 'pointer', phase: 'up', x:slider.x+slider.w-236,y:slider.y+slider.h/2 });
     expect(model.settings().sfx).toBe(9);
-    app.action('down');expect(app.top.ui.focus).toBeInstanceOf(Toggle); app.action('confirm'); expect(model.settings().animation).toBe('off');
+    app.action('down');app.action('down');expect(app.top.ui.focus).toBeInstanceOf(Toggle); app.action('confirm'); expect(model.settings().animation).toBe('off');
     app.action('cancel'); expect(app.top).toBe(parent);
   });
   it('saves then loads through confirmation and asynchronous native storage', async () => {
@@ -68,13 +68,13 @@ describe('v2 menus with real kit/input/Runner and a headless app', () => {
   it('preserves existing MenuList pagination when many rows are present', () => {
     const app = new MenuApp(), screen = new Parent(); app.push(screen);
     const list = screen.ui.add(new MenuList(Array.from({ length: 20 }, (_, i) => ({ label: String(i) })), () => {}, { w: 400, rows: 4 }));
-    expect(list.h).toBe(4*56+20+80); for (let i = 0; i < 7; i++) app.action('down'); expect(list.index).toBe(7);
+    expect(list.h).toBe(4*52+20+76); for (let i = 0; i < 7; i++) app.action('down'); expect(list.index).toBe(7);
   });
   it('reflows opt-in dynamic lists when items grow or shrink', () => {
     const app = new MenuApp(), screen = new Parent(); app.push(screen);
     const list = screen.ui.add(new MenuList([], () => {}, { w: 400, rows: 2, dynamic: true }));
-    expect(list.h).toBe(2*56+20); list.setItems(Array.from({ length: 5 }, (_, i) => ({ label: String(i) })));
-    expect(list.h).toBe(2*56+20+80); list.setItems([{ label: 'one' }]); expect(list.h).toBe(2*56+20);
+    expect(list.h).toBe(2*52+20); list.setItems(Array.from({ length: 5 }, (_, i) => ({ label: String(i) })));
+    expect(list.h).toBe(2*52+20+76); list.setItems([{ label: 'one' }]); expect(list.h).toBe(2*52+20);
   });
 
 });
