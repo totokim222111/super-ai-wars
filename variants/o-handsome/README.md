@@ -1,6 +1,6 @@
 # 타입 O 미남판 (o-handsome)
 
-[2026-11-17 실행용 ZIP](https://github.com/totokim222111/super-ai-wars/releases/download/v2026.11.17/super-ai-wars-play-o-handsome-2026-11-17.zip) · [일반판과 함께 받기](https://github.com/totokim222111/super-ai-wars/releases/tag/v2026.11.17)
+[2026-11-17 업데이트 2 실행용 ZIP](https://github.com/totokim222111/super-ai-wars/releases/download/v2026.11.17-r2/super-ai-wars-play-o-handsome-2026-11-17.zip) · [일반판과 함께 받기](https://github.com/totokim222111/super-ai-wars/releases/tag/v2026.11.17-r2)
 
 타입 O의 상반신 그림 2개와 엔딩 그림 3개를 바꾼 버전입니다. 게임에서 타입 O를 선택하면 바뀐 그림을 볼 수 있습니다. 대사·규칙·실행 코드·영상은 일반판과 같습니다.
 

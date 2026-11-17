@@ -4,7 +4,7 @@ AI 에이전트들과 함께 싸우는 브라우저 SRPG입니다. 15화 이야�
 
 ## 일반판과 타입 O 미남판
 
-[일반판 ZIP](https://github.com/totokim222111/super-ai-wars/releases/download/v2026.11.17/super-ai-wars-play-2026-11-17.zip) · [타입 O 미남판 ZIP (o-handsome)](https://github.com/totokim222111/super-ai-wars/releases/download/v2026.11.17/super-ai-wars-play-o-handsome-2026-11-17.zip) · [2026-11-17 공개본](https://github.com/totokim222111/super-ai-wars/releases/tag/v2026.11.17)
+[일반판 ZIP](https://github.com/totokim222111/super-ai-wars/releases/download/v2026.11.17-r2/super-ai-wars-play-2026-11-17.zip) · [타입 O 미남판 ZIP (o-handsome)](https://github.com/totokim222111/super-ai-wars/releases/download/v2026.11.17-r2/super-ai-wars-play-o-handsome-2026-11-17.zip) · [2026-11-17 업데이트 2 공개본](https://github.com/totokim222111/super-ai-wars/releases/tag/v2026.11.17-r2)
 
 미리 빌드한 게임입니다. 타입 O 미남판은 타입 O의 상반신 그림 2개와 엔딩 그림 3개를 바꾼 버전입니다. 캐릭터 선택에서 타입 O로 시작하면 바뀐 그림을 볼 수 있습니다.
 
