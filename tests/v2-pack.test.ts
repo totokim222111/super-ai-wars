@@ -1,4 +1,7 @@
-import oldAnimations from './fixtures/shipped-weapon-anims.json';
+import {rawObjectiveSyntax} from '@engine/src/v2/story/stage';
+import {applyPlan} from '../tools/apply_anim_plan.mjs';
+import authoredWeapons from '../pack/data/weapons.json';
+import {configOf} from '@engine/src/v2/rules/config';
 import oldAnchors from '../pack/art/anchors.json';
 import { readFile } from '../tools/files.mjs';
 import { describe, it, expect, beforeAll } from 'vitest';
@@ -15,13 +18,16 @@ describe('v2 content pack', () => {
         expect(lookup.unit(m, u as never)).toEqual(old.unit(m, u as never));
         expect(lookup.battle.mech(m, u as never)).toEqual(old.battle.mech(m, u as never));
     } for (const w of pack.rules.weapons.filter(w => pack.weapons[w.id]&&!w.id.startsWith('v2-combo-')))
-        expect(lookup.battle.weapon(w, {} as never)).toEqual(old.battle.weapon(w, {} as never)); expect(packActors(pack, images).gpi.faces?.default).toBe(images[pack.cast.gpi.bust!]); for (const [id, w] of Object.entries(pack.weapons))
-        if (id in oldAnimations) expect(w.anim).toEqual((oldAnimations as Record<string, unknown>)[id]); for (const [id, art] of [['clickbait-drone-episode-1', 'mech-clickbait-sd']]) {
+        expect(lookup.battle.weapon(w, {} as never)).toEqual(old.battle.weapon(w, {} as never)); expect(packActors(pack, images).gpi.faces?.default).toBe(images[pack.cast.gpi.bust!]); const expectedAnimations=applyPlan(authoredWeapons,pack.weapons);for (const [id, w] of Object.entries(pack.weapons))
+        expect(w.anim).toEqual(expectedAnimations[id].anim); for (const [id, art] of [['clickbait-drone-episode-1', 'mech-clickbait-sd']]) {
         const old = (oldAnchors as Record<string, Record<string, unknown>>)[art];
         expect(pack.units[id].anchors).toEqual(Object.fromEntries(Object.entries(old).filter(([, v]) => Array.isArray(v))));
     } expect(pack.units['player-real-generation-1'].art).toBe('mech-player-real-generation-1');expect(pack.units['player-real-generation-1'].temporary).toBeUndefined(); });
+    it('copies each virtual combination animation from its authored source without reranking runtime power overrides',()=>{for(const script of Object.values(pack.stageScripts))for(const combo of configOf(script.stage).combos)expect(pack.weapons[combo.virtual].anim).toEqual(pack.weapons[combo.weapon].anim);});
     it('warns about missing moods at the exact appended source lines',async()=>{const original=await readFile('content/packs/saw/story/ep01.story','utf8'),start=original.split('\n').length;const p=await loadPack('content/packs/saw',async path=>path.endsWith('cast.json')?JSON.stringify((c=>{delete c.gpi.moodSheet;c.gpi.moods={};delete c.gpi.battleLines;return c;})(JSON.parse(await readFile(path,'utf8')))):path.endsWith('game.json')?JSON.stringify((g=>{delete g.battleDialogue;return g;})(JSON.parse(await readFile(path,'utf8')))):path.endsWith('ep01.story')?original+'\n@ 표정 검사\n[타입 O] [등장] gpi 왼쪽 angry\n[타입 M] gpi(sad): 안녕':readFile(path,'utf8'));expect(p.errors).toEqual([]);expect(p.warnings.filter(w=>w.kind==='사용 표정'&&w.file.endsWith('ep01.story')&&w.line>start).map(w=>w.line)).toEqual([start+2,start+3]);});
     it('reports exact files and fields for broken ids, parameters and anchor bounds', () => { const bad = structuredClone(pack); bad.errors = []; bad.warnings = []; bad.units.missing = { art: 'no-image', anchors: { core: [1.2, -.1] } }; bad.weapons.missing = { anim: { template: 'beam', width: 'wrong' } as never }; validatePack(bad); expect(bad.errors.map(e => e.message)).toEqual(expect.arrayContaining([expect.stringContaining('없는 기체 id: missing'), expect.stringContaining('기준점 범위 오류'), expect.stringContaining('없는 그림 id'), expect.stringContaining('없는 무기 id'), expect.stringContaining('틀 값 오류')])); expect(bad.errors.every(e => e.file.endsWith('.json') && e.line > 0 && e.fix)).toBe(true); });
     it('reports missing art, anchors, each standard mood and animations independently', () => { const bad = structuredClone(pack); bad.errors = []; bad.warnings = []; bad.cast.gpi.moods = {}; delete bad.cast.gpi.moodSheet; delete bad.cast.gpi.bust;delete bad.units['gpi-generation-1'].art;delete bad.units['gpi-generation-1'].anchors; delete bad.weapons['gpi-generation-1-weapon-1']; validatePack(bad); expect(bad.warnings.filter(w => w.kind === '표정' && w.message.startsWith('gpi:'))).toHaveLength(10); for (const kind of ['기체 그림', '인물 그림', '기준점', '무기 연출'])
         expect(bad.warnings.some(w => w.kind === kind)).toBe(true); });
 });
+
+it('never displays raw rule syntax or HTML entities in any of the 15 episode objectives',()=>{for(const e of pack.game.episodes){for(const line of [...e.objectives!.win,...e.objectives!.lose])expect(rawObjectiveSyntax(line),e.id+': '+line).toBe(false);}});

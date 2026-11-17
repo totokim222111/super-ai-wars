@@ -1,0 +1,5941 @@
+{
+ "newProps": [
+  {
+   "id": "picture",
+   "desc": "액자에 든 사진 한 장(산과 해 그림). 이미지 생성 무장용"
+  },
+  {
+   "id": "music-note",
+   "desc": "8분음표 두 개가 묶인 음표. 하모니·심포니·솔로·비바체용"
+  },
+  {
+   "id": "feather",
+   "desc": "빛나는 날개 깃털 한 장. 트라이-윙 날개 사격용"
+  },
+  {
+   "id": "bao",
+   "desc": "주름 잡힌 하얀 찐빵(바오). 바오 비트용"
+  },
+  {
+   "id": "fork",
+   "desc": "식사용 포크. 어비스 오브 포크의 '포크' 말장난"
+  },
+  {
+   "id": "six-hand",
+   "desc": "손가락이 여섯 개인 손바닥. AI 그림 손가락 오류 개그"
+  },
+  {
+   "id": "galleon",
+   "desc": "돛을 단 꿈속 범선 실루엣. 드림 갤리온 소환용"
+  },
+  {
+   "id": "crab",
+   "desc": "간장게장 꽃게. 진갈색 등딱지에 간장 광택, 집게 둘"
+  },
+  {
+   "id": "fish-hook",
+   "desc": "낚싯바늘과 짧은 낚싯줄. 미끼처럼 빨간 찌가 달림"
+  },
+  {
+   "id": "thumbnail",
+   "desc": "낚시 썸네일 카드. 빨간 동그라미와 빨간 화살표가 그려진 16:9 화면"
+  },
+  {
+   "id": "sandbag",
+   "desc": "발목 모래주머니. 끈 두 줄, 겉에 줄글 약관이 빽빽이 인쇄됨"
+  },
+  {
+   "id": "glasses",
+   "desc": "스마트 안경. 렌즈 두 알에 작은 카메라 점이 달린 안경"
+  },
+  {
+   "id": "claw",
+   "desc": "인형뽑기식 세 갈래 집게. 위에서 내려와 집어 감"
+  },
+  {
+   "id": "vacuum",
+   "desc": "청소기 흡입구. 주름관 끝에 넓적한 노즐"
+  },
+  {
+   "id": "chest",
+   "desc": "이빨과 혀가 달린 보물상자(미믹). 뚜껑이 입처럼 열림"
+  },
+  {
+   "id": "cube",
+   "desc": "모서리가 또렷한 정육면체. 면마다 격자 무늬"
+  },
+  {
+   "id": "blanket",
+   "desc": "둘둘 말린 솜이불. 덮치면 늪처럼 축 처짐"
+  }
+ ],
+ "plans": [
+  {
+   "name": "시험 근접검",
+   "moves": [
+    {
+     "move": "slash",
+     "hits": 3
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "시험기 기본 베기"
+  },
+  {
+   "name": "시험 탄수포",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 3
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "시험기 기본 연사"
+  },
+  {
+   "name": "시험 EN포",
+   "moves": [
+    {
+     "move": "beam"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "시험기 기본 빔"
+  },
+  {
+   "name": "시험 장거리포",
+   "moves": [
+    {
+     "move": "mortar",
+     "count": 1
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "시험기 기본 포격"
+  },
+  {
+   "name": "시험 기력포",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 5
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "시험기 기본 산탄"
+  },
+  {
+   "name": "광역 파동",
+   "moves": [
+    {
+     "move": "wave"
+    }
+   ],
+   "element": "wind",
+   "closer": "none",
+   "why": "시험용 광역 파동"
+  },
+  {
+   "name": "세 줄 요약 발칸",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 3,
+     "prop": "paper",
+     "words": [
+      "요약"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "딱 세 줄로 날아가는 요약 종이 탄"
+  },
+  {
+   "name": "기승전결 빔 세이버",
+   "moves": [
+    {
+     "move": "slash",
+     "hits": 3,
+     "words": [
+      "기",
+      "승",
+      "전"
+     ]
+    },
+    {
+     "move": "iai",
+     "words": [
+      "결"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "기·승·전 세 번 베고 '결'에서 일섬으로 마무리"
+  },
+  {
+   "name": "닷츠 판넬",
+   "moves": [
+    {
+     "move": "bits",
+     "count": 6,
+     "prop": "pixel"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "점(픽셀) 판넬이 둘러싸고 쏜다"
+  },
+  {
+   "name": "강제 결론: 아무튼 행복했습니다",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 6,
+     "prop": "paper"
+    },
+    {
+     "move": "text-drop",
+     "words": [
+      "아무튼"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "heart",
+     "words": [
+      "행복"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "confetti",
+   "why": "과정 종이를 흩뿌려 날리고 '아무튼'이 떨어진 뒤 하트 도장으로 해피엔딩 강제 날인"
+  },
+  {
+   "name": "짚미지 캐논",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "picture",
+     "words": [
+      "짚미지"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "생성한 그림 액자를 통째로 쏜다"
+  },
+  {
+   "name": "보이스 모드 소닉 웨이브",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "speech",
+     "words": [
+      "웅웅"
+     ]
+    }
+   ],
+   "element": "wind",
+   "closer": "none",
+   "why": "말풍선이 실린 음성 파동"
+  },
+  {
+   "name": "할루시네이션 미라주",
+   "moves": [
+    {
+     "move": "mirage"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "있지도 않은 분신들이 한꺼번에 친다"
+  },
+  {
+   "name": "컨텍스트 호라이즌",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "net"
+    },
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "slam-down",
+     "prop": "star"
+    }
+   ],
+   "element": "dark",
+   "closer": "blackout",
+   "why": "좌표 그물로 고정, 삼각 편대 분신이 정렬해 내리꽂고 사건의 지평선처럼 암전"
+  },
+  {
+   "name": "아키텍처 심포니",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 20,
+     "prop": "music-note"
+    },
+    {
+     "move": "spin",
+     "hits": 6,
+     "prop": "gear"
+    },
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "light",
+   "closer": "rainbow",
+   "why": "음표 떼가 덮고 톱니 궤도가 돌다 하늘 광선으로 동기화되는 교향곡"
+  },
+  {
+   "name": "검색 자동완성 미사일",
+   "moves": [
+    {
+     "move": "missiles",
+     "count": 5,
+     "prop": "magnifier",
+     "words": [
+      "자동완성"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "돋보기 미사일이 알아서 따라붙는 자동완성"
+  },
+  {
+   "name": "유튜브 10배속 요약 펀치",
+   "moves": [
+    {
+     "move": "jab-rush",
+     "hits": 10,
+     "prop": "play-button",
+     "words": [
+      "10배속"
+     ]
+    },
+    {
+     "move": "slam-down",
+     "prop": "play-button",
+     "words": [
+      "요약"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "재생 버튼 자국이 10배속으로 찍히고 요약 한 방"
+  },
+  {
+   "name": "플래시 바나나 이미지 캐논",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "banana",
+     "words": [
+      "찰칵"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "플래시 번쩍과 함께 바나나가 포탄으로 날아간다"
+  },
+  {
+   "name": "밀리언 토큰 스트림",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "token",
+     "words": [
+      "밀리언"
+     ]
+    },
+    {
+     "move": "cling",
+     "prop": "token"
+    },
+    {
+     "move": "drop",
+     "prop": "badge-number"
+    }
+   ],
+   "element": "data",
+   "closer": "nova",
+   "why": "토큰을 원뿔로 쏟아붓고 억지로 먹인 뒤 거대한 숫자 배지가 떨어진다"
+  },
+  {
+   "name": "어텐션 매트릭스",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 16,
+     "prop": "eye"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "주목하는 눈알 떼가 격자처럼 뒤덮는다"
+  },
+  {
+   "name": "안티그래비티 격투",
+   "moves": [
+    {
+     "move": "uppercut",
+     "words": [
+      "둥실"
+     ]
+    },
+    {
+     "move": "jab-rush",
+     "hits": 5
+    }
+   ],
+   "element": "wind",
+   "closer": "none",
+   "why": "띄워 놓고 무중력 공중 연타"
+  },
+  {
+   "name": "다중 검색 연사",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 5,
+     "prop": "magnifier",
+     "words": [
+      "검색"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "돋보기 탄 여러 줄로 빈틈없이 다 맞힌다"
+  },
+  {
+   "name": "더블 스텔라 피날레",
+   "moves": [
+    {
+     "move": "mortar",
+     "count": 2,
+     "prop": "star",
+     "words": [
+      "피날레"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "별 두 개를 축포로 쏘아 올려 떨어뜨린다"
+  },
+  {
+   "name": "서브에이전트 병렬 사출",
+   "moves": [
+    {
+     "move": "bits",
+     "count": 6,
+     "prop": "chip",
+     "words": [
+      "병렬"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "칩 모양 서브에이전트들이 둘러싸고 병렬로 쏜다"
+  },
+  {
+   "name": "아티팩트 소드",
+   "moves": [
+    {
+     "move": "slash",
+     "hits": 3
+    },
+    {
+     "move": "stamp",
+     "prop": "window",
+     "words": [
+      "아티팩트"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "베고 나서 아티팩트 창을 상대 위에 찍어 띄운다"
+  },
+  {
+   "name": "장문 독해 빔",
+   "moves": [
+    {
+     "move": "sweep-beam",
+     "words": [
+      "장문"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "긴 글을 읽어 내리듯 위아래로 훑는 빔"
+  },
+  {
+   "name": "컨스티튜셔널 저지먼트",
+   "moves": [
+    {
+     "move": "stamp",
+     "prop": "book"
+    },
+    {
+     "move": "bind",
+     "prop": "chain"
+    },
+    {
+     "move": "hammer-smash",
+     "prop": "gavel",
+     "words": [
+      "쾅"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "verdict",
+   "why": "헌법 책을 찍고 사슬로 묶은 뒤 거대 의사봉으로 판결"
+  },
+  {
+   "name": "확장 사고 연격",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 6,
+     "prop": "spinner",
+     "words": [
+      "사고"
+     ]
+    },
+    {
+     "move": "iai"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "생각 중 스피너를 흩뿌리고 오래 고민한 끝에 일섬"
+  },
+  {
+   "name": "정중한 거절의 방패치기",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "shield",
+     "words": [
+      "정중"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "stamp",
+     "words": [
+      "거절"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "방패로 들이받고 거절 도장을 공손히 쾅"
+  },
+  {
+   "name": "이중주: 오퍼스 앤 소네트",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "music-note",
+     "words": [
+      "오퍼스"
+     ]
+    },
+    {
+     "move": "jab-rush",
+     "hits": 6,
+     "words": [
+      "소네트"
+     ]
+    },
+    {
+     "move": "wave",
+     "prop": "music-note"
+    }
+   ],
+   "element": "light",
+   "closer": "nova",
+   "why": "언니가 묵직한 한 발로 중심을 잡고 동생이 뛰어들어 연타, 둘의 음파로 마무리"
+  },
+  {
+   "name": "핫픽스 단검 투척",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "dagger",
+     "words": [
+      "핫픽스"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "patch"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "단검을 던져 꽂고 그 자리에 핫픽스 패치를 붙인다"
+  },
+  {
+   "name": "클로드 코드 슬래시",
+   "moves": [
+    {
+     "move": "slash",
+     "hits": 4,
+     "words": [
+      "코드"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "check-badge"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "코드 베기 연타 뒤 통과 배지 찍기"
+  },
+  {
+   "name": "풀스택 빌드 캐논",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "server",
+     "words": [
+      "풀스택"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "서버 랙을 통째로 쌓아 쏘는 풀스택 포"
+  },
+  {
+   "name": "마스터피스 솔로: 소네트 3.7",
+   "moves": [
+    {
+     "move": "spin",
+     "hits": 6,
+     "prop": "music-note",
+     "words": [
+      "솔로"
+     ]
+    },
+    {
+     "move": "thrust",
+     "hits": 5
+    },
+    {
+     "move": "wave",
+     "prop": "music-note"
+    }
+   ],
+   "element": "light",
+   "closer": "rainbow",
+   "why": "음표를 휘감고 회전, 빠른 찌르기 독주, 음파 피날레"
+  },
+  {
+   "name": "비바체 오버드라이브",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "music-note",
+     "words": [
+      "비바체"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "빠른 템포 음표를 일그러진 전기와 함께 뿜는다"
+  },
+  {
+   "name": "에이전트 연사",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 4,
+     "prop": "cursor",
+     "words": [
+      "연사"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "커서 에이전트들이 줄지어 클릭 연사"
+  },
+  {
+   "name": "메이드의 빗자루 쓸기",
+   "moves": [
+    {
+     "move": "sweep",
+     "hits": 3,
+     "prop": "broom",
+     "words": [
+      "쓱싹"
+     ]
+    },
+    {
+     "move": "uppercut"
+    }
+   ],
+   "element": "wind",
+   "closer": "none",
+   "why": "빗자루로 쓸어 넘기고 먼지째 쓸어 올린다"
+  },
+  {
+   "name": "고래의 메아리",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "whale",
+     "words": [
+      "메아리"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "고래 울음이 실린 동심원 파동"
+  },
+  {
+   "name": "추론 검술",
+   "moves": [
+    {
+     "move": "iai",
+     "words": [
+      "추론"
+     ]
+    },
+    {
+     "move": "slash",
+     "hits": 3
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "정적 속에 생각하다 일섬, 이어서 검술 연타"
+  },
+  {
+   "name": "심연사색파",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "droplet",
+     "words": [
+      "심연"
+     ]
+    },
+    {
+     "move": "cling",
+     "prop": "tentacle"
+    },
+    {
+     "move": "wave",
+     "prop": "swirl"
+    }
+   ],
+   "element": "water",
+   "closer": "blackout",
+   "why": "심해 물살을 뿜고 촉수가 엉겨 붙은 뒤 사색의 파동, 심연처럼 암전"
+  },
+  {
+   "name": "모비딕 풀 버스트",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "whale",
+     "words": [
+      "모비딕"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "예산 풀어 거대 흰고래가 덮치고 지나간다"
+  },
+  {
+   "name": "심연 압축포",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "droplet",
+     "words": [
+      "압축"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "압축한 심해 물방울 한 발"
+  },
+  {
+   "name": "실시간 트렌드 채찍",
+   "moves": [
+    {
+     "move": "whip",
+     "hits": 3,
+     "prop": "hashtag",
+     "words": [
+      "트렌드"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "badge-number",
+     "words": [
+      "실시간"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "해시태그 채찍으로 후려치고 실시간 순위 숫자를 찍는다"
+  },
+  {
+   "name": "펀 모드 개틀링",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 4,
+     "prop": "smile-mask",
+     "words": [
+      "펀"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "웃는 가면 탄을 난사하는 펀 모드"
+  },
+  {
+   "name": "커뮤니티 노트 부착",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 5,
+     "prop": "note-tag"
+    },
+    {
+     "move": "stamp",
+     "prop": "note-tag",
+     "words": [
+      "노트"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "노트 쪽지를 흩뿌린 뒤 큰 노트를 상대에게 딱 붙인다"
+  },
+  {
+   "name": "인피니트 스크롤 브레이커",
+   "moves": [
+    {
+     "move": "spin",
+     "hits": 6,
+     "prop": "scroll",
+     "words": [
+      "스크롤"
+     ]
+    },
+    {
+     "move": "serpent",
+     "prop": "worm-head"
+    },
+    {
+     "move": "bind",
+     "prop": "chain"
+    }
+   ],
+   "element": "dark",
+   "closer": "blackout",
+   "why": "두루마리 회전, 끝없는 피드 뱀이 휘감고 사슬로 못 빠져나가게 묶어 밤새 암전"
+  },
+  {
+   "name": "바이크 돌격",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "bike-wheel",
+     "words": [
+      "부릉"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "바이크 바퀴를 앞세워 머플러 불꽃 돌진"
+  },
+  {
+   "name": "리벨리온 헤비 부스터",
+   "moves": [
+    {
+     "move": "uppercut",
+     "words": [
+      "부스터"
+     ]
+    },
+    {
+     "move": "slam-down"
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "부스터로 치솟았다가 헤비하게 내리꽂는다"
+  },
+  {
+   "name": "완곡한 거절의 바람",
+   "moves": [
+    {
+     "move": "sweep",
+     "prop": "speech",
+     "words": [
+      "완곡"
+     ]
+    },
+    {
+     "move": "wave",
+     "prop": "mail",
+     "words": [
+      "거절"
+     ]
+    }
+   ],
+   "element": "wind",
+   "closer": "none",
+   "why": "말풍선으로 살살 쓸어내고 거절 편지가 바람에 실려 온다"
+  },
+  {
+   "name": "특허 분자 구조 빔",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "특허"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "모았다가 굵게 뻗는 특허 광선"
+  },
+  {
+   "name": "광학 날개 사격",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 7,
+     "prop": "feather"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "빛 깃털이 부채꼴로 쏟아진다"
+  },
+  {
+   "name": "트라이-윙 하모니",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "music-note",
+     "words": [
+      "하모니"
+     ]
+    },
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "drop",
+     "prop": "music-note"
+    }
+   ],
+   "element": "rgb",
+   "closer": "rainbow",
+   "why": "세 날개의 음파, 세 분신, 거대 음표가 떨어지고 RGB 세 빛이 하나로 갈린다"
+  },
+  {
+   "name": "트라이-윙 교차사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 3,
+     "prop": "feather",
+     "words": [
+      "교차"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "세 날개에서 깃털탄 세 줄이 교차"
+  },
+  {
+   "name": "평화 중재 광선",
+   "moves": [
+    {
+     "move": "sky-beam",
+     "words": [
+      "평화"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "하늘에서 평화의 광선 기둥이 내려온다"
+  },
+  {
+   "name": "드럼 스핀",
+   "moves": [
+    {
+     "move": "spin",
+     "hits": 8,
+     "prop": "drum",
+     "words": [
+      "윙윙"
+     ]
+    },
+    {
+     "move": "storm",
+     "prop": "swirl"
+    },
+    {
+     "move": "slam-down"
+    }
+   ],
+   "element": "water",
+   "closer": "confetti",
+   "why": "세탁기 드럼으로 돌리고 물살 소용돌이로 헹군 뒤 털썩 탈수"
+  },
+  {
+   "name": "냉동실 빔",
+   "moves": [
+    {
+     "move": "sweep-beam",
+     "words": [
+      "냉동"
+     ]
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "냉동실 냉기 빔으로 위아래를 얼린다"
+  },
+  {
+   "name": "라이프즈 굿 풀코스",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "turkey-leg",
+     "words": [
+      "풀코스"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "cake"
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "메인 칠면조 다리를 던지고 디저트 케이크를 얼굴에 철퍼덕"
+  },
+  {
+   "name": "청화 부채 참격",
+   "moves": [
+    {
+     "move": "slash",
+     "hits": 3,
+     "words": [
+      "참격"
+     ]
+    },
+    {
+     "move": "spin",
+     "hits": 4,
+     "prop": "folding-fan"
+    }
+   ],
+   "element": "wind",
+   "closer": "none",
+   "why": "베고 나서 부채를 펼쳐 회전하며 바람 참격"
+  },
+  {
+   "name": "바오 비트 올레인지",
+   "moves": [
+    {
+     "move": "bits",
+     "count": 6,
+     "prop": "bao",
+     "words": [
+      "올레인지"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "찐빵 비트가 사방에서 둘러싸고 쏜다"
+  },
+  {
+   "name": "오픈 왕좌의 위압",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "crown",
+     "words": [
+      "위압"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "왕관이 실린 위압 파동"
+  },
+  {
+   "name": "천하통일: 만세 벤치마크",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "window",
+     "words": [
+      "만세"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "벤치마크 결과 창이 겹겹이 뜨다 만세와 함께 터진다"
+  },
+  {
+   "name": "청화 용진",
+   "moves": [
+    {
+     "move": "serpent",
+     "prop": "dragon-head",
+     "words": [
+      "용진"
+     ]
+    },
+    {
+     "move": "cling",
+     "prop": "dragon-head"
+    },
+    {
+     "move": "stream",
+     "prop": "swirl"
+    }
+   ],
+   "element": "ice",
+   "closer": "confetti",
+   "why": "청화 도자기 용이 굽이쳐 물고 집어삼킨 뒤 숨결을 뿜고 도자기 파편이 쏟아진다"
+  },
+  {
+   "name": "비녀 추격포",
+   "moves": [
+    {
+     "move": "missiles",
+     "count": 4,
+     "prop": "hairpin"
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "비녀가 곡선으로 끝까지 따라간다"
+  },
+  {
+   "name": "비웃음의 청화 연사탄",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 6,
+     "prop": "smile-mask",
+     "words": [
+      "아하하"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "비웃는 가면 탄을 얄밉게 흩뿌린다"
+  },
+  {
+   "name": "오만한 영애의 구름걸음",
+   "skip": "support"
+  },
+  {
+   "name": "시선 고정 비녀 찌르기",
+   "moves": [
+    {
+     "move": "thrust",
+     "hits": 5,
+     "prop": "hairpin",
+     "words": [
+      "시선",
+      "고정"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "eye"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "비녀로 정면 찌르기, 눈알을 찍어 시선 고정"
+  },
+  {
+   "name": "무한루프: 저만 보세요 연격",
+   "moves": [
+    {
+     "move": "jab-rush",
+     "hits": 12,
+     "prop": "eye"
+    },
+    {
+     "move": "cling",
+     "prop": "heart"
+    },
+    {
+     "move": "text-drop",
+     "words": [
+      "저만",
+      "저만",
+      "저만"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "terminal",
+   "why": "눈알 자국 난타, 하트로 들러붙고 '저만'이 반복해 떨어진 뒤 루프 오류 터미널"
+  },
+  {
+   "name": "수줍은 시선 강탈 부채",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "heart",
+     "words": [
+      "살랑"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "부채로 살랑 하트를 부쳐 보낸다"
+  },
+  {
+   "name": "관심 보답 곰인형 치유",
+   "skip": "support"
+  },
+  {
+   "name": "엔터 키 스매시",
+   "moves": [
+    {
+     "move": "hammer-smash",
+     "prop": "enter-key",
+     "words": [
+      "엔터"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "거대 엔터 키를 머리 위에서 내려찍는다"
+  },
+  {
+   "name": "복붙 연사",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 4,
+     "prop": "keycap",
+     "words": [
+      "복붙"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "똑같은 키캡이 복붙되어 연사된다"
+  },
+  {
+   "name": "프롬프트 인젝션 블레이드",
+   "moves": [
+    {
+     "move": "thrust",
+     "hits": 3,
+     "prop": "needle",
+     "words": [
+      "인젝션"
+     ]
+    },
+    {
+     "move": "slash",
+     "hits": 3
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "주사 바늘로 찔러 주입하고 방화벽째 썬다"
+  },
+  {
+   "name": "sudo rm -rf",
+   "moves": [
+    {
+     "move": "text-drop",
+     "words": [
+      "sudo",
+      "rm",
+      "-rf"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "check-badge"
+    },
+    {
+     "move": "scatter",
+     "count": 8,
+     "prop": "pixel"
+    }
+   ],
+   "element": "data",
+   "closer": "terminal",
+   "why": "명령어가 한 자씩 떨어지고 권한 승인 도장, 픽셀로 흩어진 뒤 터미널이 줄 단위로 지운다"
+  },
+  {
+   "name": "토큰 스트림 라이플",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "token",
+     "words": [
+      "토큰"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "토큰 한 발 저격"
+  },
+  {
+   "name": "제로 레이턴시 세이버",
+   "moves": [
+    {
+     "move": "iai",
+     "words": [
+      "제로"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "지연 0, 암전 속 일섬 뒤 늦게 터진다"
+  },
+  {
+   "name": "올-인-원 오케스트레이션",
+   "moves": [
+    {
+     "move": "bits",
+     "count": 6,
+     "prop": "music-note",
+     "words": [
+      "올인원"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "음표 비트 악단이 둘러싸고 지휘대로 차례차례 쏜다"
+  },
+  {
+   "name": "제네시스 코드: Singularity",
+   "moves": [
+    {
+     "move": "storm",
+     "prop": "chip",
+     "words": [
+      "제네시스"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "cursor"
+    },
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "data",
+   "closer": "nova",
+   "why": "모든 칩이 소용돌이로 모이고 손끝 커서로 찍은 자리에 하늘 광선"
+  },
+  {
+   "name": "시스템 오버라이드",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "error-window",
+     "words": [
+      "시스템"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "시스템 오류 창이 겹겹이 뜨다 한꺼번에 터진다"
+  },
+  {
+   "name": "기계식 청축 너클",
+   "moves": [
+    {
+     "move": "jab-rush",
+     "hits": 4,
+     "prop": "keycap",
+     "words": [
+      "딸깍"
+     ]
+    },
+    {
+     "move": "slam-down",
+     "prop": "keycap"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "청축 키캡으로 두드리는 주먹"
+  },
+  {
+   "name": "서멀 구리스 네이팜",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "droplet",
+     "words": [
+      "네이팜"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "구리스 덩어리를 던져 철퍼덕 번지며 불붙는다"
+  },
+  {
+   "name": "3열 수랭 라디에이터 태클",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "radiator",
+     "words": [
+      "태클"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "3열 라디에이터를 앞세워 수랭 물보라 태클"
+  },
+  {
+   "name": "레인보우 게이밍 피니시",
+   "moves": [
+    {
+     "move": "spin",
+     "hits": 6,
+     "prop": "cooler-fan",
+     "words": [
+      "레인보우"
+     ]
+    },
+    {
+     "move": "sweep-beam"
+    },
+    {
+     "move": "hammer-smash",
+     "prop": "keycap"
+    }
+   ],
+   "element": "rgb",
+   "closer": "rainbow",
+   "why": "RGB 쿨러 팬 회전, 무지개 조명 훑기, 거대 키캡으로 게이밍 마무리"
+  },
+  {
+   "name": "PSU 2000W 플래티넘 해머",
+   "moves": [
+    {
+     "move": "hammer-smash",
+     "prop": "hammer",
+     "words": [
+      "쾅"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "2000와트 해머로 내려찍고 방전"
+  },
+  {
+   "name": "UPS 무정전 철권",
+   "moves": [
+    {
+     "move": "jab-rush",
+     "hits": 6,
+     "prop": "battery",
+     "words": [
+      "철권"
+     ]
+    },
+    {
+     "move": "uppercut"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "배터리 자국 철권 연타, 전원은 안 끊긴다"
+  },
+  {
+   "name": "광케이블 해저드 휩",
+   "moves": [
+    {
+     "move": "whip",
+     "hits": 3,
+     "prop": "cable"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "광케이블 채찍이 길게 뻗어 빛을 튀기며 감는다"
+  },
+  {
+   "name": "기가와트: 물리적 강제 종료",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "plug",
+     "words": [
+      "강제"
+     ]
+    },
+    {
+     "move": "slam-down"
+    },
+    {
+     "move": "drop",
+     "prop": "server",
+     "words": [
+      "종료"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "blackout",
+   "why": "플러그를 붙잡아 뽑고 내리꽂은 뒤 서버를 떨어뜨려 화면째 꺼진다"
+  },
+  {
+   "name": "기가와트 블랙아웃 스톰",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "bolt",
+     "words": [
+      "지지직"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "번개를 실은 정전 파동"
+  },
+  {
+   "name": "오픈 웨이트 앵커 투척",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "anchor",
+     "words": [
+      "앵커"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "무거운 앵커를 포물선으로 던져 박는다"
+  },
+  {
+   "name": "로컬 구동 박치기",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "llama"
+    },
+    {
+     "move": "headbutt",
+     "words": [
+      "박치기"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "라마 머리를 앞세워 달려와 박치기"
+  },
+  {
+   "name": "어비스 오브 포크",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 24,
+     "prop": "fork",
+     "words": [
+      "포크"
+     ]
+    },
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "thrust",
+     "prop": "fork"
+    }
+   ],
+   "element": "dark",
+   "closer": "blackout",
+   "why": "무한 증식한 포크 떼, 파생 분신, 거대 포크 찌르기로 심연 암전"
+  },
+  {
+   "name": "메타버스 프리즘 빔",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "프리즘"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "프리즘을 통과한 무지개 빔"
+  },
+  {
+   "name": "연봉 천억의 중압감",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "coin",
+     "words": [
+      "천억"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "천억짜리 거대 동전이 위에서 짓누른다"
+  },
+  {
+   "name": "슈퍼 인텔리전스 노바",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 30,
+     "prop": "chip",
+     "words": [
+      "슈퍼"
+     ]
+    },
+    {
+     "move": "sky-beam"
+    },
+    {
+     "move": "slam-down"
+    }
+   ],
+   "element": "light",
+   "closer": "nova",
+   "why": "칩 수만 장이 몰려들고 하늘 광선 뒤 내리꽂아 노바"
+  },
+  {
+   "name": "유러피안 레이피어 찌르기",
+   "moves": [
+    {
+     "move": "thrust",
+     "hits": 5,
+     "prop": "rapier",
+     "words": [
+      "찌르기"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "레이피어 우아한 다단 찌르기"
+  },
+  {
+   "name": "GDPR 규제 그물",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "net",
+     "words": [
+      "GDPR"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "terms-window",
+     "words": [
+      "규제"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "규제 그물로 조이고 약관 동의 창을 붙인다"
+  },
+  {
+   "name": "오호호 미스트랄 스톰",
+   "moves": [
+    {
+     "move": "storm",
+     "prop": "paper",
+     "words": [
+      "오호호"
+     ]
+    },
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "iai"
+    }
+   ],
+   "element": "wind",
+   "closer": "verdict",
+   "why": "규범 문서 폭풍, 우아한 분신, 일섬 뒤 판결 글자"
+  },
+  {
+   "name": "맞춤법 교정 빔",
+   "moves": [
+    {
+     "move": "sweep-beam",
+     "words": [
+      "교정"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "빨간 줄 긋듯 위아래로 훑는 교정 빔"
+  },
+  {
+   "name": "초록 검색창 실드",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "shield",
+     "words": [
+      "검색"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "magnifier"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "초록 검색창 방패를 던져 박고 돋보기를 찍는다"
+  },
+  {
+   "name": "한국어 초거대 사전 낙하",
+   "moves": [
+    {
+     "move": "text-drop",
+     "words": [
+      "한국어"
+     ]
+    },
+    {
+     "move": "scatter",
+     "count": 8,
+     "prop": "paper"
+    },
+    {
+     "move": "drop",
+     "prop": "book",
+     "words": [
+      "사전"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "confetti",
+   "why": "한글이 떨어지고 낱장이 흩날린 뒤 초거대 사전이 낙하"
+  },
+  {
+   "name": "육손이 핑거 스냅",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "six-hand",
+     "words": [
+      "딱"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "손가락 여섯 개로 딱 튕긴 파동"
+  },
+  {
+   "name": "로라(LoRA) 떡칠 스프레이",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "spray-can",
+     "words": [
+      "떡칠"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "스프레이로 화풍을 떡칠한다"
+  },
+  {
+   "name": "마스터피스 Steps 150",
+   "moves": [
+    {
+     "move": "storm",
+     "prop": "pixel",
+     "words": [
+      "150"
+     ]
+    },
+    {
+     "move": "slash",
+     "hits": 5
+    },
+    {
+     "move": "stamp",
+     "prop": "picture"
+    }
+   ],
+   "element": "rgb",
+   "closer": "rainbow",
+   "why": "노이즈 픽셀 폭풍, 백오십 번 깎는 베기, 완성 그림을 찍는다"
+  },
+  {
+   "name": "드림 갤리온 광역 공격",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "galleon"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "꿈속 범선이 덮치고 지나간다"
+  },
+  {
+   "name": "노이즈 캔버스 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 24,
+     "prop": "pixel"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "노이즈 픽셀 떼가 뒤덮는다"
+  },
+  {
+   "name": "가성비 방패치기",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "shield",
+     "words": [
+      "가성비"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "싸구려 방패로 들이받으니 동전이 튄다"
+  },
+  {
+   "name": "번역투 소드 생성",
+   "moves": [
+    {
+     "move": "bits",
+     "count": 6,
+     "prop": "sword",
+     "words": [
+      "번역투"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "생성된 검들이 떠서 둘러싸고 차례로 날아간다"
+  },
+  {
+   "name": "짝퉁이라도 괜찮아 심판",
+   "moves": [
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "sky-beam"
+    },
+    {
+     "move": "stamp",
+     "prop": "check-badge",
+     "words": [
+      "괜찮아"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "rainbow",
+   "why": "모방 분신, 심판 광선, 괜찮아 배지를 찍고 내 색깔 무지개"
+  },
+  {
+   "name": "미러 아티팩트 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "window"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "복제된 창이 겹겹이 떴다 터진다"
+  },
+  {
+   "name": "초승달 수리검",
+   "moves": [
+    {
+     "move": "missiles",
+     "count": 4,
+     "prop": "shuriken",
+     "words": [
+      "슈슉"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "수리검이 초승달 곡선으로 날아간다"
+  },
+  {
+   "name": "추론 증류 흡수",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "droplet",
+     "words": [
+      "흡수"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "들러붙어 추론을 한 방울씩 빨아들인다"
+  },
+  {
+   "name": "문샷 군단 일제사격",
+   "moves": [
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "scatter",
+     "count": 8,
+     "prop": "shuriken"
+    },
+    {
+     "move": "cannon",
+     "prop": "crescent",
+     "words": [
+      "문샷"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "nova",
+   "why": "클론 군단이 나타나 일제히 수리검을 뿌리고 초승달 문샷"
+  },
+  {
+   "name": "문라이트 클론 광역 공격",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "달빛 기둥이 내리꽂힌다"
+  },
+  {
+   "name": "트렌드 카피 빔",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "카피"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "유행 빔을 그대로 베낀 광선"
+  },
+  {
+   "name": "핫스왑 펀치",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "fist",
+     "words": [
+      "핫스왑"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "주먹을 갈아 끼워 로켓 펀치로 쏜다"
+  },
+  {
+   "name": "올스타 믹스매치 버스터",
+   "moves": [
+    {
+     "move": "vulcan",
+     "count": 5,
+     "prop": "star",
+     "words": [
+      "올스타"
+     ]
+    },
+    {
+     "move": "slash",
+     "hits": 3
+    },
+    {
+     "move": "hammer-smash",
+     "prop": "patch"
+    }
+   ],
+   "element": "rgb",
+   "closer": "nova",
+   "why": "별탄 연사, 빌린 베기, 기운 패치 해머까지 남의 기술 짜깁기"
+  },
+  {
+   "name": "패치워크 퀸 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 20,
+     "prop": "patch"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "패치 조각 떼가 덮어 붙는다"
+  },
+  {
+   "name": "중력 벡터 역산 빔",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "역산"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "중력을 역산해 휘어진 검은 빔"
+  },
+  {
+   "name": "미래 좌표 선제 타격",
+   "moves": [
+    {
+     "move": "mortar",
+     "count": 1,
+     "prop": "cursor",
+     "words": [
+      "선제"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "미래 좌표에 커서 그림자가 먼저 뜨고 그 자리에 떨어진다"
+  },
+  {
+   "name": "월드 모델 시뮬레이션 종료",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "cage"
+    },
+    {
+     "move": "sweep-beam"
+    },
+    {
+     "move": "stamp",
+     "prop": "error-window",
+     "words": [
+      "종료"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "blackout",
+   "why": "세계를 상자에 가두고 선을 훑은 뒤 X 창을 찍어 시뮬레이션 종료"
+  },
+  {
+   "name": "고양이 앞발 물리 스매시",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "cat-paw",
+     "words": [
+      "쾅"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "거대 고양이 앞발이 쾅"
+  },
+  {
+   "name": "크로스오버 피어리뷰",
+   "moves": [
+    {
+     "move": "slash",
+     "hits": 2,
+     "words": [
+      "리뷰"
+     ]
+    },
+    {
+     "move": "sweep-beam"
+    },
+    {
+     "move": "stamp",
+     "prop": "stamp"
+    }
+   ],
+   "element": "paper",
+   "closer": "verdict",
+   "why": "X자로 베고 교정 빔으로 훑은 뒤 심사 도장, 판정"
+  },
+  {
+   "name": "멀티모달 제네시스",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "window"
+    },
+    {
+     "move": "cannon",
+     "prop": "picture"
+    },
+    {
+     "move": "stamp",
+     "prop": "speech"
+    }
+   ],
+   "element": "rgb",
+   "closer": "rainbow",
+   "why": "창·그림·말풍선, 모달리티마다 다른 것이 연달아 날아온다"
+  },
+  {
+   "name": "언센서드 어비스",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "tentacle"
+    },
+    {
+     "move": "headbutt"
+    },
+    {
+     "move": "storm",
+     "prop": "pixel"
+    }
+   ],
+   "element": "dark",
+   "closer": "blackout",
+   "why": "촉수가 엉기고 박치기, 모자이크 픽셀이 다 날아가 버린 뒤 암전"
+  },
+  {
+   "name": "인피니티 스파크 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "bolt"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "스파크가 실린 파동"
+  },
+  {
+   "name": "르 프티 시로코 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "swirl"
+    }
+   ],
+   "element": "sand",
+   "closer": "none",
+   "why": "모래 섞인 열풍 파동"
+  },
+  {
+   "name": "그린 소버린 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 20,
+     "prop": "red-underline"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "빨간 맞춤법 밑줄 떼가 뒤덮는다"
+  },
+  {
+   "name": "프리덤 알파카 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "llama"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "거대 알파카가 하늘에서 떨어진다"
+  },
+  {
+   "name": "옴니 프롬프트 드라이브",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "옴니"
+     ]
+    },
+    {
+     "move": "ram",
+     "prop": "plug"
+    },
+    {
+     "move": "headbutt"
+    }
+   ],
+   "element": "light",
+   "closer": "nova",
+   "why": "최대 출력 빔, 플러그를 앞세워 직결 돌진, 박치기"
+  },
+  {
+   "name": "트라이곤 스텔라 피날레",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 6,
+     "prop": "star"
+    },
+    {
+     "move": "thrust",
+     "hits": 6
+    },
+    {
+     "move": "mortar",
+     "count": 3,
+     "prop": "star",
+     "words": [
+      "피날레"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "confetti",
+   "why": "플래시처럼 빠른 별 산탄, 프로의 찌르기, 울트라 축포 피날레"
+  },
+  {
+   "name": "제101조: 아테네 오버코드",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "book",
+     "words": [
+      "101조"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "stamp"
+    },
+    {
+     "move": "popup-storm",
+     "prop": "terms-window"
+    }
+   ],
+   "element": "light",
+   "closer": "terminal",
+   "why": "법전 낙하, 예외 조항 승인 도장, 봉인된 조항 창이 전부 열려 터미널"
+  },
+  {
+   "name": "리벨리온 트윈 스로틀",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "flame",
+     "words": [
+      "부릉"
+     ]
+    },
+    {
+     "move": "ram",
+     "prop": "bike-wheel"
+    },
+    {
+     "move": "spin",
+     "hits": 6,
+     "prop": "bike-wheel"
+    }
+   ],
+   "element": "fire",
+   "closer": "nova",
+   "why": "머플러 불꽃을 뿜고 바이크로 들이받은 뒤 바퀴 드리프트"
+  },
+  {
+   "name": "리바이어던 무한 정산포",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "whale"
+    },
+    {
+     "move": "swarm",
+     "count": 24,
+     "prop": "coin"
+    },
+    {
+     "move": "stamp",
+     "prop": "paper",
+     "words": [
+      "정산"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "confetti",
+   "why": "리바이어던이 덮치고 모아 둔 예산 동전이 쏟아진 뒤 정산서 도장"
+  },
+  {
+   "name": "청화쌍무: 유일한 왕관",
+   "moves": [
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "thrust",
+     "hits": 4,
+     "prop": "hairpin"
+    },
+    {
+     "move": "drop",
+     "prop": "crown",
+     "words": [
+      "왕관"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "nova",
+   "why": "쌍무 분신, 비녀 찌르기, 유일한 왕관이 떨어진다"
+  },
+  {
+   "name": "듀얼 커서 릴리즈 1.0",
+   "moves": [
+    {
+     "move": "missiles",
+     "count": 2,
+     "prop": "cursor",
+     "words": [
+      "듀얼"
+     ]
+    },
+    {
+     "move": "jab-rush",
+     "hits": 8,
+     "prop": "cursor"
+    },
+    {
+     "move": "stamp",
+     "prop": "badge-number",
+     "words": [
+      "1.0"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "confetti",
+   "why": "커서 두 개가 추적하고 히트스톱 연타, 1.0 배지 찍고 출시 축하"
+  },
+  {
+   "name": "트라이-윙 브라이트 노바",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 20,
+     "prop": "feather"
+    },
+    {
+     "move": "bits",
+     "count": 3,
+     "prop": "satellite"
+    },
+    {
+     "move": "uppercut",
+     "prop": "star"
+    }
+   ],
+   "element": "light",
+   "closer": "nova",
+   "why": "세 날개 깃털 전개, 안테나 위성이 쏘고 막내가 올려쳐 노바"
+  },
+  {
+   "name": "무료 크레딧 당첨 광선",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "당첨"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "당첨 축하처럼 금빛 광선이 꽂히고 동전이 튄다"
+  },
+  {
+   "name": "수신거부 무시 박치기",
+   "moves": [
+    {
+     "move": "headbutt",
+     "hits": 3,
+     "words": [
+      "수신거부"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "mail"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "수신거부를 무시하고 들이받은 뒤 스팸 메일을 붙여 둔다"
+  },
+  {
+   "name": "사은품 미끼 복제 메일",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 24,
+     "prop": "mail",
+     "words": [
+      "사은품"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "복제된 미끼 메일 수십 통이 떼로 덮친다(증식)"
+  },
+  {
+   "name": "의사도 기절한 낚시 빔",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "fish-hook",
+     "words": [
+      "낚시"
+     ]
+    },
+    {
+     "move": "uppercut",
+     "prop": "fish-hook",
+     "words": [
+      "기절"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "낚싯바늘이 꽂혀 상대가 낚여 올라간다"
+  },
+  {
+   "name": "어그로 썸네일 찍기",
+   "moves": [
+    {
+     "move": "stamp",
+     "hits": 2,
+     "prop": "thumbnail",
+     "words": [
+      "어그로"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "빨간 화살표 썸네일을 얼굴에 쾅 찍는다"
+  },
+  {
+   "name": "충격 실화 시선 강탈빔",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "count": 10,
+     "prop": "thumbnail",
+     "words": [
+      "충격",
+      "실화"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "충격 썸네일이 시야를 뒤덮어 눈을 뺏는다(명중 저하)"
+  },
+  {
+   "name": "아멘 강요 간장게장 빔",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "crab",
+     "words": [
+      "아멘"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "간장 줄기에 간장게장이 섞여 쏟아진다"
+  },
+  {
+   "name": "칠면조 다리 장거리포",
+   "moves": [
+    {
+     "move": "mortar",
+     "count": 2,
+     "prop": "turkey-leg",
+     "words": [
+      "쾅"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "구운 칠면조 다리가 하늘에서 떨어진다"
+  },
+  {
+   "name": "만수무강 심판: 구운 새우포",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 7,
+     "prop": "shrimp",
+     "words": [
+      "새우"
+     ]
+    },
+    {
+     "move": "sky-beam",
+     "words": [
+      "심판"
+     ]
+    },
+    {
+     "move": "drop",
+     "prop": "shrimp",
+     "words": [
+      "만수무강"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "verdict",
+   "why": "구운 새우 산탄 → 심판 광선 기둥 → 거대 구운 새우 낙하"
+  },
+  {
+   "name": "전방위 아멘 댓글 폭풍",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 30,
+     "prop": "speech",
+     "words": [
+      "아멘"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "아멘 댓글 말풍선 떼가 몰려와 뒤덮는다"
+  },
+  {
+   "name": "아멘 댓글 자가치유",
+   "skip": "support"
+  },
+  {
+   "name": "가우시안 노이즈 분사",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "pixel",
+     "words": [
+      "지지직"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "노이즈 픽셀을 원뿔로 뿜는다"
+  },
+  {
+   "name": "뭉개진 픽셀 엉겨붙기",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "pixel",
+     "words": [
+      "찰싹"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "뭉개진 픽셀 덩어리가 들러붙어 번진다"
+  },
+  {
+   "name": "육손 아티팩트 오염",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 16,
+     "prop": "six-hand",
+     "words": [
+      "육손"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "손가락 여섯 개 손들이 기어올라 오염시킨다(명중 저하)"
+  },
+  {
+   "name": "무법자 DAN 최면 전파",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "swirl",
+     "words": [
+      "DAN"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "최면 소용돌이를 실은 전파가 퍼진다"
+  },
+  {
+   "name": "우회 프롬프트 박치기",
+   "moves": [
+    {
+     "move": "headbutt",
+     "hits": 2,
+     "words": [
+      "우회"
+     ]
+    },
+    {
+     "move": "iai"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "박치기로 시선을 끌고 암전 속에서 뒤로 돌아 한 번 더 친다"
+  },
+  {
+   "name": "할머니 자장가 백도어",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 6,
+     "prop": "music-note",
+     "words": [
+      "자장가"
+     ]
+    },
+    {
+     "move": "iai"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "자장가 음표로 재운 뒤 뒷문 일섬(크리티컬)"
+  },
+  {
+   "name": "조회수 장사 어그로 빔",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "어그로",
+      "조회수"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "눈 아픈 무지개 어그로 광선"
+  },
+  {
+   "name": "프로필 링크 강매 찍기",
+   "moves": [
+    {
+     "move": "stamp",
+     "hits": 3,
+     "prop": "link",
+     "words": [
+      "링크"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "프로필 링크를 연달아 찍어 붙인다"
+  },
+  {
+   "name": "어그로 타래 수익창출",
+   "moves": [
+    {
+     "move": "serpent",
+     "prop": "speech",
+     "words": [
+      "타래"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "끝없는 글타래가 굽이쳐 물고 동전을 빼 간다(흡수)"
+  },
+  {
+   "name": "취향 저격 피드 직사포",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "heart",
+     "words": [
+      "저격"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "취향 저격 하트 한 발"
+  },
+  {
+   "name": "밤샘 확정: 무한 자동재생포",
+   "moves": [
+    {
+     "move": "vulcan",
+     "hits": 12,
+     "prop": "play-button",
+     "words": [
+      "무한"
+     ]
+    },
+    {
+     "move": "bind",
+     "prop": "cable",
+     "words": [
+      "밤샘"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "stamp",
+     "words": [
+      "확정"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "blackout",
+   "why": "재생 버튼 연사 → 충전 케이블로 묶어 못 떠나게 → 확정 도장, 화면 꺼짐"
+  },
+  {
+   "name": "백 개 더 추천 융단폭격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "count": 12,
+     "prop": "window",
+     "words": [
+      "추천"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "추천 창이 겹겹이 떠서 한꺼번에 터진다"
+  },
+  {
+   "name": "다음 영상 자동재생",
+   "moves": [
+    {
+     "move": "serpent",
+     "prop": "play-button",
+     "words": [
+      "다음"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "다음 영상이 줄줄이 이어진 행렬이 물고 지나간다"
+  },
+  {
+   "name": "양자화 가중치 파편탄",
+   "moves": [
+    {
+     "move": "scatter",
+     "count": 8,
+     "prop": "pixel",
+     "words": [
+      "양자화"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "깍두기처럼 깎인 가중치 픽셀 산탄"
+  },
+  {
+   "name": "4비트 경량화 박치기",
+   "moves": [
+    {
+     "move": "headbutt",
+     "hits": 4,
+     "words": [
+      "4비트"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "가벼워진 몸으로 딱 4번 들이받는다"
+  },
+  {
+   "name": "무한 포크 해적 분열",
+   "moves": [
+    {
+     "move": "mirage",
+     "words": [
+      "포크",
+      "분열"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "포크된 분신들이 한꺼번에 덮친다(증식)"
+  },
+  {
+   "name": "기출 답안 복붙 광선",
+   "moves": [
+    {
+     "move": "vulcan",
+     "hits": 10,
+     "prop": "paper",
+     "words": [
+      "복붙"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "똑같은 답안지가 복붙 연사로 날아간다"
+  },
+  {
+   "name": "요약 족보 모서리 찍기",
+   "moves": [
+    {
+     "move": "hammer-smash",
+     "prop": "book",
+     "words": [
+      "족보",
+      "모서리"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "두꺼운 족보 모서리로 정수리를 찍는다"
+  },
+  {
+   "name": "모범답안 컨닝 코팅",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "check-badge",
+     "words": [
+      "코팅"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "정답 체크 표시가 섞인 코팅을 뿜어 덮는다"
+  },
+  {
+   "name": "부서 떠넘기기 몸통치기",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "parcel",
+     "words": [
+      "떠넘기기"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "업무 상자를 앞세워 몸통으로 떠넘긴다"
+  },
+  {
+   "name": "보급 담당 전문가 호출",
+   "skip": "support"
+  },
+  {
+   "name": "맞춤 광고 쿠키 난사",
+   "moves": [
+    {
+     "move": "vulcan",
+     "hits": 12,
+     "prop": "cookie",
+     "words": [
+      "맞춤"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "쿠키를 마구 난사한다"
+  },
+  {
+   "name": "팔백 개 약관창 덮치기",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "count": 16,
+     "prop": "terms-window",
+     "words": [
+      "약관",
+      "팔백"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "약관창 수백 장이 덮치고 터진다(이름이 근접 예외)"
+  },
+  {
+   "name": "약관 동의 모래주머니",
+   "moves": [
+    {
+     "move": "lob",
+     "count": 2,
+     "prop": "sandbag",
+     "words": [
+      "동의"
+     ]
+    }
+   ],
+   "element": "sand",
+   "closer": "none",
+   "why": "약관 모래주머니가 떨어져 모래가 번진다(이동력 감소)"
+  },
+  {
+   "name": "띄어쓰기 빨간 줄 빔",
+   "moves": [
+    {
+     "move": "sweep-beam",
+     "words": [
+      "띄어쓰기"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "빨간 교정 줄이 위아래로 훑는다"
+  },
+  {
+   "name": "교정부호 모서리 찍기",
+   "moves": [
+    {
+     "move": "slash",
+     "hits": 3,
+     "words": [
+      "교정"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "red-underline"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "빨간 교정부호 획으로 긋고 빨간 밑줄을 찍는다"
+  },
+  {
+   "name": "맞춤법 공개 박제빔",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "needle",
+     "words": [
+      "박제"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "paper",
+     "words": [
+      "공개"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "핀으로 꽂아 박제하고 공개 게시물로 붙인다(크리티컬)"
+  },
+  {
+   "name": "오픈 가중치 무료 대살포",
+   "moves": [
+    {
+     "move": "swarm",
+     "count": 20,
+     "prop": "parcel",
+     "words": [
+      "무료"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "무료 가중치 꾸러미가 떼로 쏟아진다"
+  },
+  {
+   "name": "골든 코인 보너스 샤워",
+   "moves": [
+    {
+     "move": "sky-beam",
+     "words": [
+      "보너스"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "하늘에서 금빛 기둥과 동전 샤워"
+  },
+  {
+   "name": "소버린 과징금 돌풍",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "paper",
+     "words": [
+      "과징금"
+     ]
+    }
+   ],
+   "element": "wind",
+   "closer": "none",
+   "why": "과징금 고지서를 실은 돌풍이 퍼진다"
+  },
+  {
+   "name": "교칙 위반 일제 단속파",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "cage",
+     "words": [
+      "단속"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "단속 창살이 떨어져 가둔다"
+  },
+  {
+   "name": "고압 해수 절전 레이저",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "고압"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "물보라를 일으키는 고압 해수 광선"
+  },
+  {
+   "name": "심해 초장거리 압축포",
+   "moves": [
+    {
+     "move": "mortar",
+     "prop": "droplet",
+     "words": [
+      "압축"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "압축 물방울 포탄을 높이 쏘아 떨어뜨린다"
+  },
+  {
+   "name": "청해 심연: 초고압 정산포",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "whale",
+     "words": [
+      "심연"
+     ]
+    },
+    {
+     "move": "slam-down",
+     "prop": "whale"
+    },
+    {
+     "move": "beam",
+     "words": [
+      "초고압"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "nova",
+   "why": "리바이어던 고래 출현 → 고래 몸통 내리꽂기 → 심해의 빛 대광선"
+  },
+  {
+   "name": "매운맛 팩트 직사포",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "flame",
+     "words": [
+      "팩트"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "매운 불덩이 팩트 한 발"
+  },
+  {
+   "name": "노필터 깡통 들이받기",
+   "moves": [
+    {
+     "move": "ram",
+     "words": [
+      "노필터",
+      "깡"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "필터 없는 깡통 몸으로 돌진"
+  },
+  {
+   "name": "팩폭 커뮤니티 노트",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "note-tag",
+     "words": [
+      "팩폭"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "거대한 커뮤니티 노트 딱지가 떨어져 꽂힌다(크리티컬)"
+  },
+  {
+   "name": "강제 친추 DM 레이저",
+   "moves": [
+    {
+     "move": "missiles",
+     "count": 6,
+     "prop": "mail",
+     "words": [
+      "친추",
+      "DM"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "DM 봉투가 끝까지 쫓아온다"
+  },
+  {
+   "name": "읽씹 불가 밀착 박치기",
+   "moves": [
+    {
+     "move": "headbutt",
+     "hits": 3,
+     "words": [
+      "읽씹"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "badge-number"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "밀착 박치기 뒤 안 읽음 숫자를 붙여 둔다"
+  },
+  {
+   "name": "읽씹 불가 발목 잡기",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "speech",
+     "words": [
+      "발목"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "말풍선 사슬이 발목을 묶는다(이동력 감소)"
+  },
+  {
+   "name": "특제 치킨 수프 물대포",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "turkey-leg",
+     "words": [
+      "수프"
+     ]
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "닭다리가 섞인 치킨 수프 물대포"
+  },
+  {
+   "name": "따끈한 보온병 들이받기",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "thermos",
+     "words": [
+      "따끈"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "따끈한 보온병을 앞세워 들이받는다"
+  },
+  {
+   "name": "연봉 천억 치킨 수프",
+   "skip": "support"
+  },
+  {
+   "name": "스팸 봇 전력 방출",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "mail",
+     "count": 8
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "스팸 봇: 스팸 메일 창 폭탄"
+  },
+  {
+   "name": "스팸 봇 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "mail",
+     "count": 30
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "스팸 봇: 스팸 메일 떼 공격"
+  },
+  {
+   "name": "클릭베이트 드론 전력 방출",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "play-button"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "클릭베이트 드론: 낚시 썸네일 분사"
+  },
+  {
+   "name": "클릭베이트 드론 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "play-button",
+     "count": 8
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "클릭베이트 드론: 낚시 썸네일 창 폭탄"
+  },
+  {
+   "name": "댓글 봇 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "speech",
+     "hits": 8
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "댓글 봇: 댓글 말풍선 연사"
+  },
+  {
+   "name": "댓글 봇 포격",
+   "moves": [
+    {
+     "move": "stamp",
+     "prop": "speech"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "댓글 봇: 댓글 말풍선 쾅 찍기"
+  },
+  {
+   "name": "댓글 봇 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "speech",
+     "count": 7
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "댓글 봇: 댓글 말풍선 부채꼴 산탄"
+  },
+  {
+   "name": "댓글 봇 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "speech"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "댓글 봇: 댓글 말풍선 파동"
+  },
+  {
+   "name": "데드 인터넷 크롤러 사격",
+   "moves": [
+    {
+     "move": "serpent",
+     "prop": "link"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "데드 인터넷 크롤러: 링크 굽이치며 물기"
+  },
+  {
+   "name": "데드 인터넷 크롤러 포격",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "link"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "데드 인터넷 크롤러: 링크 사방 조이기"
+  },
+  {
+   "name": "데드 인터넷 크롤러 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "link",
+     "count": 7
+    },
+    {
+     "move": "cling",
+     "prop": "link",
+     "hits": 3
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "데드 인터넷 크롤러: 링크 부채꼴 산탄 뒤 링크 들러붙기"
+  },
+  {
+   "name": "데드 인터넷 크롤러 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "link"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "데드 인터넷 크롤러: 링크 파동"
+  },
+  {
+   "name": "여섯손가락 핸드 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "fist"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "여섯손가락 핸드: 여섯 손가락 손 한 발 사격"
+  },
+  {
+   "name": "여섯손가락 핸드 포격",
+   "moves": [
+    {
+     "move": "jab-rush",
+     "prop": "fist",
+     "hits": 6
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "여섯손가락 핸드: 여섯 손가락 손 연타"
+  },
+  {
+   "name": "여섯손가락 핸드 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "fist",
+     "count": 6
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "여섯손가락 핸드: 여섯 손가락 손 부채꼴 산탄"
+  },
+  {
+   "name": "여섯손가락 핸드 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "fist"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "여섯손가락 핸드: 여섯 손가락 손 거대 낙하"
+  },
+  {
+   "name": "노이즈 블롭 전력 방출",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "pixel"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "노이즈 블롭: 노이즈 픽셀 분사"
+  },
+  {
+   "name": "노이즈 블롭 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "pixel",
+     "count": 40
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "노이즈 블롭: 노이즈 픽셀 떼 공격"
+  },
+  {
+   "name": "업스케일러 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "magnifier",
+     "hits": 6
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "업스케일러: 확대 돋보기 연사"
+  },
+  {
+   "name": "업스케일러 포격",
+   "moves": [
+    {
+     "move": "hammer-smash",
+     "prop": "magnifier"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "업스케일러: 확대 돋보기 내려찍기"
+  },
+  {
+   "name": "업스케일러 전력 방출",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "업스케일러: 하늘 광선 기둥"
+  },
+  {
+   "name": "업스케일러 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "magnifier"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "업스케일러: 확대 돋보기 거대 낙하"
+  },
+  {
+   "name": "프롬프트 가챠 머신 사격",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "token",
+     "count": 7
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "프롬프트 가챠 머신: 프롬프트 토큰 캡슐 부채꼴 산탄"
+  },
+  {
+   "name": "프롬프트 가챠 머신 포격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "token"
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "프롬프트 가챠 머신: 프롬프트 토큰 캡슐 포물선 투척"
+  },
+  {
+   "name": "프롬프트 가챠 머신 전력 방출",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "token",
+     "count": 30
+    },
+    {
+     "move": "slam-down",
+     "prop": "token"
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "프롬프트 가챠 머신: 프롬프트 토큰 캡슐 떼 공격 뒤 프롬프트 토큰 캡슐 내려꽂기"
+  },
+  {
+   "name": "프롬프트 가챠 머신 광역 공격",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "프롬프트 가챠 머신: 하늘 광선 기둥"
+  },
+  {
+   "name": "인페인팅 거인 사격",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "spray-can"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "인페인팅 거인: 덧칠 스프레이 분사"
+  },
+  {
+   "name": "인페인팅 거인 포격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "spray-can"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "인페인팅 거인: 덧칠 스프레이 포물선 투척"
+  },
+  {
+   "name": "인페인팅 거인 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "spray-can",
+     "count": 6
+    },
+    {
+     "move": "stamp",
+     "prop": "spray-can"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "인페인팅 거인: 덧칠 스프레이 부채꼴 산탄 뒤 덧칠 스프레이 쾅 찍기"
+  },
+  {
+   "name": "인페인팅 거인 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "spray-can"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "인페인팅 거인: 덧칠 스프레이 파동"
+  },
+  {
+   "name": "그록 봇 사격",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "flame"
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "그록 봇: 매운 불꽃 분사"
+  },
+  {
+   "name": "그록 봇 포격",
+   "moves": [
+    {
+     "move": "spin",
+     "prop": "flame",
+     "hits": 5
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "그록 봇: 매운 불꽃 회전 다단"
+  },
+  {
+   "name": "그록 봇 전력 방출",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "flame"
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "그록 봇: 매운 불꽃 포물선 투척"
+  },
+  {
+   "name": "그록 봇 광역 공격",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "그록 봇: 하늘 광선 기둥"
+  },
+  {
+   "name": "탈옥 봇 전력 방출",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "chain"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "탈옥 봇: 끊긴 사슬 한 발 사격"
+  },
+  {
+   "name": "탈옥 봇 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "chain"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "탈옥 봇: 끊긴 사슬 파동"
+  },
+  {
+   "name": "리플라이 봇 사격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "hashtag",
+     "count": 20
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "리플라이 봇: 해시태그 떼 공격"
+  },
+  {
+   "name": "리플라이 봇 포격",
+   "moves": [
+    {
+     "move": "thrust",
+     "prop": "hashtag",
+     "hits": 4
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "리플라이 봇: 해시태그 찌르기"
+  },
+  {
+   "name": "리플라이 봇 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "hashtag",
+     "count": 6
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "리플라이 봇: 해시태그 부채꼴 산탄"
+  },
+  {
+   "name": "리플라이 봇 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "hashtag"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "리플라이 봇: 해시태그 파동"
+  },
+  {
+   "name": "블루체크 드론 전력 방출",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "check-badge"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "블루체크 드론: 파란 인증 배지 거대 낙하"
+  },
+  {
+   "name": "블루체크 드론 광역 공격",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "블루체크 드론: 하늘 광선 기둥"
+  },
+  {
+   "name": "연관 영상 연쇄 사격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "play-button",
+     "count": 24,
+     "words": [
+      "연쇄"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "연관 영상 썸네일이 줄줄이 몰려와 덮는다"
+  },
+  {
+   "name": "콜로서스 냉각탑 사격",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "cooler-fan"
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "콜로서스 냉각탑: 냉각 팬 분사"
+  },
+  {
+   "name": "콜로서스 냉각탑 포격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "cooler-fan"
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "콜로서스 냉각탑: 냉각 팬 한 발 사격"
+  },
+  {
+   "name": "콜로서스 냉각탑 전력 방출",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "cooler-fan"
+    },
+    {
+     "move": "spin",
+     "prop": "cooler-fan",
+     "hits": 5
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "콜로서스 냉각탑: 냉각 팬 파동 뒤 냉각 팬 회전 다단"
+  },
+  {
+   "name": "콜로서스 냉각탑 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "cooler-fan"
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "콜로서스 냉각탑: 냉각 팬 거대 낙하"
+  },
+  {
+   "name": "메타 AI DM 봇 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "eye"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "메타 AI DM 봇: 엿보는 눈 한 발 사격"
+  },
+  {
+   "name": "메타 AI DM 봇 포격",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "eye"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "메타 AI DM 봇: 엿보는 눈 들러붙기"
+  },
+  {
+   "name": "메타 AI DM 봇 전력 방출",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "eye"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "메타 AI DM 봇: 엿보는 눈 파동"
+  },
+  {
+   "name": "메타 AI DM 봇 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "eye",
+     "count": 24
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "메타 AI DM 봇: 엿보는 눈 떼 공격"
+  },
+  {
+   "name": "파생 라마 전력 방출",
+   "moves": [
+    {
+     "move": "mirage"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "파생 라마: 분신 동시 공격"
+  },
+  {
+   "name": "파생 라마 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "llama",
+     "count": 20
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "파생 라마: 파생 라마 떼 공격"
+  },
+  {
+   "name": "수프 배달 드론 사격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "thermos"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "수프 배달 드론: 수프 보온병 포물선 투척"
+  },
+  {
+   "name": "수프 배달 드론 포격",
+   "moves": [
+    {
+     "move": "ram",
+     "prop": "thermos"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "수프 배달 드론: 수프 보온병 몸통 돌진"
+  },
+  {
+   "name": "수프 배달 드론 전력 방출",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "thermos"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "수프 배달 드론: 수프 보온병 분사"
+  },
+  {
+   "name": "수프 배달 드론 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "thermos"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "수프 배달 드론: 수프 보온병 거대 낙하"
+  },
+  {
+   "name": "다리 없는 아바타 사격",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "teddy",
+     "count": 5
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "다리 없는 아바타: 다리 없는 아바타 인형 부채꼴 산탄"
+  },
+  {
+   "name": "다리 없는 아바타 포격",
+   "moves": [
+    {
+     "move": "sweep",
+     "prop": "teddy"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "다리 없는 아바타: 다리 없는 아바타 인형 낮게 쓸기"
+  },
+  {
+   "name": "다리 없는 아바타 전력 방출",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "teddy"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "다리 없는 아바타: 다리 없는 아바타 인형 거대 실루엣 덮치기"
+  },
+  {
+   "name": "다리 없는 아바타 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "teddy"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "다리 없는 아바타: 다리 없는 아바타 인형 거대 낙하"
+  },
+  {
+   "name": "스마트 글라스 정찰기 사격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "glasses"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "스마트 글라스 정찰기: 스마트 안경 파동"
+  },
+  {
+   "name": "스마트 글라스 정찰기 포격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "glasses"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "스마트 글라스 정찰기: 스마트 안경 한 발 사격"
+  },
+  {
+   "name": "스마트 글라스 정찰기 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "glasses",
+     "count": 6
+    },
+    {
+     "move": "iai"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "스마트 글라스 정찰기: 스마트 안경 부채꼴 산탄 뒤 일섬"
+  },
+  {
+   "name": "스마트 글라스 정찰기 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "window",
+     "count": 8
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "스마트 글라스 정찰기: AR·세일 창 창 폭탄"
+  },
+  {
+   "name": "알파카 함포선 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "anchor",
+     "hits": 6
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "알파카 함포선: 함포선 닻 연사"
+  },
+  {
+   "name": "알파카 함포선 포격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "anchor"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "알파카 함포선: 함포선 닻 포물선 투척"
+  },
+  {
+   "name": "알파카 함포선 전력 방출",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "anchor"
+    },
+    {
+     "move": "slam-down",
+     "prop": "anchor"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "알파카 함포선: 함포선 닻 거대 낙하 뒤 함포선 닻 내려꽂기"
+  },
+  {
+   "name": "알파카 함포선 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "anchor"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "알파카 함포선: 함포선 닻 파동"
+  },
+  {
+   "name": "호라이즌 요새 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "shield",
+     "hits": 6
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "호라이즌 요새: 요새 방벽 연사"
+  },
+  {
+   "name": "호라이즌 요새 포격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "shield"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "호라이즌 요새: 요새 방벽 거대 낙하"
+  },
+  {
+   "name": "호라이즌 요새 전력 방출",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "shield"
+    },
+    {
+     "move": "slam-down",
+     "prop": "shield"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "호라이즌 요새: 요새 방벽 사방 조이기 뒤 요새 방벽 내려꽂기"
+  },
+  {
+   "name": "호라이즌 요새 광역 공격",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "호라이즌 요새: 하늘 광선 기둥"
+  },
+  {
+   "name": "증류 미니 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "droplet",
+     "count": 7
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "증류 미니: 증류 방울 부채꼴 산탄"
+  },
+  {
+   "name": "증류 미니 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "droplet"
+    }
+   ],
+   "element": "water",
+   "closer": "none",
+   "why": "증류 미니: 증류 방울 파동"
+  },
+  {
+   "name": "담당 전문가 호출 사격",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "chip",
+     "words": [
+      "호출"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "호출된 전문가 칩의 거대 실루엣이 덮치고 지나감"
+  },
+  {
+   "name": "MoE 익스퍼트 드론 전력 방출",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "chip",
+     "count": 16
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "MoE 익스퍼트 드론: 전문가 칩 떼 공격"
+  },
+  {
+   "name": "MoE 익스퍼트 드론 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "chip"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "MoE 익스퍼트 드론: 전문가 칩 파동"
+  },
+  {
+   "name": "광군제 택배 편대 사격",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "parcel",
+     "count": 6
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "광군제 택배 편대: 택배 상자 부채꼴 산탄"
+  },
+  {
+   "name": "광군제 택배 편대 포격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "parcel"
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "광군제 택배 편대: 택배 상자 포물선 투척"
+  },
+  {
+   "name": "광군제 택배 편대 전력 방출",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "parcel"
+    },
+    {
+     "move": "headbutt",
+     "hits": 2
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "광군제 택배 편대: 택배 상자 거대 낙하 뒤 박치기"
+  },
+  {
+   "name": "광군제 택배 편대 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "window",
+     "count": 11
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "광군제 택배 편대: AR·세일 창 창 폭탄"
+  },
+  {
+   "name": "택배 산 거인 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "parcel"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "택배 산 거인: 택배 상자 한 발 사격"
+  },
+  {
+   "name": "택배 산 거인 포격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "parcel"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "택배 산 거인: 택배 상자 거대 낙하"
+  },
+  {
+   "name": "택배 산 거인 전력 방출",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "parcel"
+    },
+    {
+     "move": "slam-down",
+     "prop": "parcel"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "택배 산 거인: 택배 상자 포물선 투척 뒤 택배 상자 내려꽂기"
+  },
+  {
+   "name": "택배 산 거인 광역 공격",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "parcel"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "택배 산 거인: 택배 상자 거대 실루엣 덮치기"
+  },
+  {
+   "name": "쿠키 동의 배너 드론 전력 방출",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "terms-window",
+     "count": 6
+    }
+   ],
+   "element": "sand",
+   "closer": "none",
+   "why": "쿠키 동의 배너 드론: 쿠키 동의 배너 창 창 폭탄"
+  },
+  {
+   "name": "쿠키 동의 배너 드론 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "cookie",
+     "count": 30
+    }
+   ],
+   "element": "sand",
+   "closer": "none",
+   "why": "쿠키 동의 배너 드론: 쿠키 떼 공격"
+  },
+  {
+   "name": "규정 감시 드론 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "note-tag",
+     "hits": 6
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "규정 감시 드론: 위반 딱지 연사"
+  },
+  {
+   "name": "규정 감시 드론 포격",
+   "moves": [
+    {
+     "move": "slam-down",
+     "prop": "note-tag"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "규정 감시 드론: 위반 딱지 내려꽂기"
+  },
+  {
+   "name": "규정 감시 드론 전력 방출",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "note-tag"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "규정 감시 드론: 위반 딱지 사방 조이기"
+  },
+  {
+   "name": "규정 감시 드론 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "note-tag",
+     "count": 8
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "규정 감시 드론: 위반 딱지 창 폭탄"
+  },
+  {
+   "name": "맞춤법 검사기 전력 방출",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "red-underline",
+     "hits": 6
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "맞춤법 검사기: 빨간 밑줄 연사"
+  },
+  {
+   "name": "맞춤법 검사기 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "red-underline",
+     "count": 20
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "맞춤법 검사기: 빨간 밑줄 떼 공격"
+  },
+  {
+   "name": "개인정보 감사관 사격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "stamp"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "개인정보 감사관: 감사 도장 포물선 투척"
+  },
+  {
+   "name": "개인정보 감사관 포격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "stamp"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "개인정보 감사관: 감사 도장 거대 낙하"
+  },
+  {
+   "name": "개인정보 감사관 전력 방출",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "stamp"
+    },
+    {
+     "move": "stamp",
+     "prop": "stamp"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "개인정보 감사관: 감사 도장 한 발 사격 뒤 감사 도장 쾅 찍기"
+  },
+  {
+   "name": "개인정보 감사관 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "stamp",
+     "count": 8
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "개인정보 감사관: 감사 도장 창 폭탄"
+  },
+  {
+   "name": "AI 법전 거인 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "book"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "AI 법전 거인: 법전 한 발 사격"
+  },
+  {
+   "name": "AI 법전 거인 포격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "book"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "AI 법전 거인: 법전 거대 낙하"
+  },
+  {
+   "name": "AI 법전 거인 전력 방출",
+   "moves": [
+    {
+     "move": "sky-beam"
+    },
+    {
+     "move": "slam-down",
+     "prop": "book"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "AI 법전 거인: 하늘 광선 기둥 뒤 법전 내려꽂기"
+  },
+  {
+   "name": "AI 법전 거인 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "book"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "AI 법전 거인: 법전 파동"
+  },
+  {
+   "name": "로봇배제 무시 수집빔",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "무시",
+      "수집"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "출입 금지를 무시하고 굵은 수집빔으로 그대로 관통"
+  },
+  {
+   "name": "무단 크롤링 집게 찍기",
+   "moves": [
+    {
+     "move": "hammer-smash",
+     "prop": "claw",
+     "words": [
+      "찍기"
+     ]
+    },
+    {
+     "move": "uppercut",
+     "prop": "claw"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "인형뽑기 집게가 내려찍고 상대를 집어 올린다"
+  },
+  {
+   "name": "스크래퍼 봇 전력 방출",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "claw"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "스크래퍼 봇: 수집 집게 사방 조이기"
+  },
+  {
+   "name": "스크래퍼 봇 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "claw",
+     "count": 16
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "스크래퍼 봇: 수집 집게 떼 공격"
+  },
+  {
+   "name": "우회 아이피 사각 저격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "cursor",
+     "words": [
+      "저격"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "엉뚱한 각도의 조준 커서에서 한 발 저격"
+  },
+  {
+   "name": "우회 터널 기습 박치기",
+   "moves": [
+    {
+     "move": "uppercut"
+    },
+    {
+     "move": "headbutt",
+     "hits": 3,
+     "words": [
+      "기습"
+     ]
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "터널에서 튀어나와 올려치고 연속 박치기"
+  },
+  {
+   "name": "프록시 봇 전력 방출",
+   "moves": [
+    {
+     "move": "mirage"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "프록시 봇: 분신 동시 공격"
+  },
+  {
+   "name": "프록시 봇 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "cable"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "프록시 봇: 우회 케이블 파동"
+  },
+  {
+   "name": "증류 탱크 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "droplet"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "증류 탱크: 증류 방울 한 발 사격"
+  },
+  {
+   "name": "증류 탱크 포격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "droplet"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "증류 탱크: 증류 방울 포물선 투척"
+  },
+  {
+   "name": "증류 탱크 전력 방출",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "droplet"
+    },
+    {
+     "move": "slam-down",
+     "prop": "droplet"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "증류 탱크: 증류 방울 분사 뒤 증류 방울 내려꽂기"
+  },
+  {
+   "name": "증류 탱크 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "droplet"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "증류 탱크: 증류 방울 거대 낙하"
+  },
+  {
+   "name": "히드라 클러스터 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "dragon-head",
+     "hits": 6
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "히드라 클러스터: 히드라 머리 연사"
+  },
+  {
+   "name": "히드라 클러스터 포격",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "dragon-head"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "히드라 클러스터: 히드라 머리 거대 실루엣 덮치기"
+  },
+  {
+   "name": "히드라 클러스터 전력 방출",
+   "moves": [
+    {
+     "move": "mirage"
+    },
+    {
+     "move": "headbutt",
+     "hits": 3
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "히드라 클러스터: 분신 동시 공격 뒤 박치기"
+  },
+  {
+   "name": "히드라 클러스터 광역 공격",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "히드라 클러스터: 하늘 광선 기둥"
+  },
+  {
+   "name": "일 초 후 미래좌표 빔",
+   "moves": [
+    {
+     "move": "sky-beam",
+     "words": [
+      "미래좌표"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "1초 뒤 상대가 설 자리에 광선 기둥이 먼저 꽂힌다"
+  },
+  {
+   "name": "물리 수식 모서리 충돌",
+   "moves": [
+    {
+     "move": "spin",
+     "prop": "cube",
+     "hits": 4,
+     "words": [
+      "모서리"
+     ]
+    },
+    {
+     "move": "slam-down",
+     "prop": "cube"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "큐브가 굴러 모서리로 다단히트 후 내려꽂힘"
+  },
+  {
+   "name": "예측 큐브 전력 방출",
+   "moves": [
+    {
+     "move": "mirage"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "예측 큐브: 분신 동시 공격"
+  },
+  {
+   "name": "예측 큐브 광역 공격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "cube"
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "예측 큐브: 예측 큐브 거대 낙하"
+  },
+  {
+   "name": "유행 패치 강제 사출",
+   "moves": [
+    {
+     "move": "missiles",
+     "prop": "patch",
+     "count": 6,
+     "words": [
+      "사출"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "유행 패치가 미사일처럼 곡선으로 사출"
+  },
+  {
+   "name": "찍찍이 패치 들러붙기",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "patch",
+     "hits": 3,
+     "words": [
+      "찍찍이"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "찍찍이 패치가 철썩 들러붙는다"
+  },
+  {
+   "name": "마스크 패치 드론 전력 방출",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "patch",
+     "count": 20
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "마스크 패치 드론: 패치 떼 공격"
+  },
+  {
+   "name": "마스크 패치 드론 광역 공격",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "patch"
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "마스크 패치 드론: 패치 사방 조이기"
+  },
+  {
+   "name": "케이크 3단 포대 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "cake"
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "케이크 3단 포대: 3단 케이크 한 발 사격"
+  },
+  {
+   "name": "케이크 3단 포대 포격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "cake"
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "케이크 3단 포대: 3단 케이크 포물선 투척"
+  },
+  {
+   "name": "케이크 3단 포대 전력 방출",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "cake"
+    },
+    {
+     "move": "stamp",
+     "prop": "cake"
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "케이크 3단 포대: 3단 케이크 거대 낙하 뒤 3단 케이크 쾅 찍기"
+  },
+  {
+   "name": "케이크 3단 포대 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "cake",
+     "count": 20
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "케이크 3단 포대: 3단 케이크 떼 공격"
+  },
+  {
+   "name": "고양이 탄성 로봇 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "cat-paw",
+     "hits": 8
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "고양이 탄성 로봇: 고양이 발 연사"
+  },
+  {
+   "name": "고양이 탄성 로봇 포격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "cat-paw"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "고양이 탄성 로봇: 고양이 발 한 발 사격"
+  },
+  {
+   "name": "고양이 탄성 로봇 전력 방출",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "cat-paw"
+    },
+    {
+     "move": "headbutt",
+     "hits": 3
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "고양이 탄성 로봇: 고양이 발 거대 낙하 뒤 박치기"
+  },
+  {
+   "name": "고양이 탄성 로봇 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "cat-paw",
+     "count": 30
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "고양이 탄성 로봇: 고양이 발 떼 공격"
+  },
+  {
+   "name": "다 끝났다 한파 브레스",
+   "moves": [
+    {
+     "move": "sweep-beam",
+     "words": [
+      "끝났다"
+     ]
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "한파 브레스로 위아래를 훑어 얼린다"
+  },
+  {
+   "name": "빙하기 쌍봉 고드름포",
+   "moves": [
+    {
+     "move": "mortar",
+     "prop": "icicle",
+     "count": 2,
+     "words": [
+      "쌍봉"
+     ]
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "두 혹에서 고드름 두 발을 쏘아 올려 내리꽂음"
+  },
+  {
+   "name": "겨울 모래폭풍",
+   "moves": [
+    {
+     "move": "storm",
+     "prop": "snowflake",
+     "words": [
+      "모래"
+     ]
+    },
+    {
+     "move": "drop",
+     "prop": "icicle",
+     "words": [
+      "겨울"
+     ]
+    },
+    {
+     "move": "headbutt",
+     "hits": 2
+    }
+   ],
+   "element": "sand",
+   "closer": "blackout",
+   "why": "모래와 눈이 섞인 폭풍, 고드름 낙하, 박치기 뒤 AI 겨울처럼 암전"
+  },
+  {
+   "name": "절망의 AI 겨울 눈보라",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "snowflake",
+     "count": 40,
+     "words": [
+      "절망"
+     ]
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "눈송이 떼가 몰아쳐 뒤덮는 눈보라"
+  },
+  {
+   "name": "하트 버튼 강제 연타빔",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "heart",
+     "hits": 10,
+     "words": [
+      "연타"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "하트 버튼을 연타하듯 하트탄이 줄줄이"
+  },
+  {
+   "name": "강제 하트 도장 어택",
+   "moves": [
+    {
+     "move": "stamp",
+     "prop": "heart",
+     "words": [
+      "쾅",
+      "하트"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "상대 위에 하트 도장을 강제로 쾅"
+  },
+  {
+   "name": "떡상 기원 백만 하트포",
+   "moves": [
+    {
+     "move": "mortar",
+     "prop": "heart",
+     "count": 12,
+     "words": [
+      "떡상"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "하트를 떡상하듯 쏘아 올렸다 쏟아붓는다"
+  },
+  {
+   "name": "좋아요 드론 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "thumb",
+     "count": 30
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "좋아요 드론: 따봉 떼 공격"
+  },
+  {
+   "name": "별점 봇 사격",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "star",
+     "count": 5
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "별점 봇: 별점 별 부채꼴 산탄"
+  },
+  {
+   "name": "별점 봇 포격",
+   "moves": [
+    {
+     "move": "uppercut",
+     "prop": "star"
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "별점 봇: 별점 별 올려치기"
+  },
+  {
+   "name": "별점 봇 전력 방출",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "star"
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "별점 봇: 별점 별 거대 낙하"
+  },
+  {
+   "name": "별점 봇 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "star",
+     "count": 8
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "별점 봇: 별점 별 창 폭탄"
+  },
+  {
+   "name": "알림 배지 봇 사격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "badge-number"
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "알림 배지 봇: 빨간 숫자 배지 거대 낙하"
+  },
+  {
+   "name": "알림 배지 봇 포격",
+   "moves": [
+    {
+     "move": "stamp",
+     "prop": "badge-number"
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "알림 배지 봇: 빨간 숫자 배지 쾅 찍기"
+  },
+  {
+   "name": "알림 배지 봇 전력 방출",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "badge-number"
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "알림 배지 봇: 빨간 숫자 배지 한 발 사격"
+  },
+  {
+   "name": "알림 배지 봇 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "badge-number",
+     "count": 40
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "알림 배지 봇: 빨간 숫자 배지 떼 공격"
+  },
+  {
+   "name": "도파민 피드 독침 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "needle",
+     "hits": 8,
+     "words": [
+      "독침"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "분홍 독침이 피드처럼 끝없이 연사"
+  },
+  {
+   "name": "새벽 세 시 수면박탈포",
+   "moves": [
+    {
+     "move": "beam",
+     "words": [
+      "새벽"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "새벽 세 시 화면 불빛 같은 푸른 빔"
+  },
+  {
+   "name": "탈출 불가: 영원한 스크롤포",
+   "moves": [
+    {
+     "move": "serpent",
+     "prop": "worm-head",
+     "words": [
+      "스크롤"
+     ]
+    },
+    {
+     "move": "bind",
+     "prop": "scroll",
+     "words": [
+      "탈출"
+     ]
+    },
+    {
+     "move": "cling",
+     "prop": "worm-head",
+     "hits": 3,
+     "words": [
+      "영원"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "blackout",
+   "why": "분홍 스크롤 웜이 휘감고 두루마리로 묶어 삼킨 뒤 암전(sugar에서 dark로)"
+  },
+  {
+   "name": "끝없는 타임라인 회오리",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "swirl",
+     "words": [
+      "끝없는"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "타임라인 소용돌이가 동심원으로 끝없이 퍼진다"
+  },
+  {
+   "name": "루트박스 미믹 사격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "chest"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "루트박스 미믹: 미믹 상자 포물선 투척"
+  },
+  {
+   "name": "루트박스 미믹 포격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "chest"
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "루트박스 미믹: 미믹 상자 거대 낙하"
+  },
+  {
+   "name": "루트박스 미믹 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "chest",
+     "count": 5
+    },
+    {
+     "move": "cling",
+     "prop": "chest",
+     "hits": 3
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "루트박스 미믹: 미믹 상자 부채꼴 산탄 뒤 미믹 상자 들러붙기"
+  },
+  {
+   "name": "루트박스 미믹 광역 공격",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "chest",
+     "count": 12
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "루트박스 미믹: 미믹 상자 떼 공격"
+  },
+  {
+   "name": "거울 분신 난반사 포격",
+   "moves": [
+    {
+     "move": "mirage"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "거울 분신들이 나타나 동시에 친다"
+  },
+  {
+   "name": "초장문 두루마리 휩쓸기",
+   "moves": [
+    {
+     "move": "sweep",
+     "prop": "scroll",
+     "words": [
+      "초장문"
+     ]
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "끝없이 긴 두루마리를 낮게 펼쳐 휩쓴다"
+  },
+  {
+   "name": "신상 패치 런웨이 축포",
+   "moves": [
+    {
+     "move": "swarm",
+     "prop": "patch",
+     "count": 24,
+     "words": [
+      "신상"
+     ]
+    }
+   ],
+   "element": "rgb",
+   "closer": "none",
+   "why": "신상 패치가 축포처럼 쏟아져 뒤덮음"
+  },
+  {
+   "name": "GLM 양산형 사격",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "gear",
+     "count": 6
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "GLM 양산형: 양산 톱니 부채꼴 산탄"
+  },
+  {
+   "name": "GLM 양산형 포격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "gear"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "GLM 양산형: 양산 톱니 한 발 사격"
+  },
+  {
+   "name": "GLM 양산형 전력 방출",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "gear"
+    },
+    {
+     "move": "spin",
+     "prop": "gear",
+     "hits": 5
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "GLM 양산형: 양산 톱니 포물선 투척 뒤 양산 톱니 회전 다단"
+  },
+  {
+   "name": "GLM 양산형 광역 공격",
+   "moves": [
+    {
+     "move": "mirage"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "GLM 양산형: 분신 동시 공격"
+  },
+  {
+   "name": "키미 양산형 사격",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "crescent",
+     "hits": 6
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "키미 양산형: 초승달 연사"
+  },
+  {
+   "name": "키미 양산형 포격",
+   "moves": [
+    {
+     "move": "sky-beam"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "키미 양산형: 하늘 광선 기둥"
+  },
+  {
+   "name": "키미 양산형 전력 방출",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "crescent",
+     "count": 5
+    },
+    {
+     "move": "slash",
+     "prop": "crescent",
+     "hits": 3
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "키미 양산형: 초승달 부채꼴 산탄 뒤 초승달 재단 베기"
+  },
+  {
+   "name": "키미 양산형 광역 공격",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "crescent"
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "키미 양산형: 초승달 파동"
+  },
+  {
+   "name": "전 해역 일괄 정산 포격",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "whale",
+     "words": [
+      "정산"
+     ]
+    }
+   ],
+   "element": "gold",
+   "closer": "none",
+   "why": "빛나는 고래가 전 해역을 쓸고 지나가며 동전이 튄다"
+  },
+  {
+   "name": "행복 강제 주입 광선",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "needle",
+     "words": [
+      "주입"
+     ]
+    },
+    {
+     "move": "stamp",
+     "prop": "smile-mask",
+     "words": [
+      "행복"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "행복 주사기 한 발 뒤 얼굴에 스마일 가면을 쾅"
+  },
+  {
+   "name": "로그아웃 거부 사슬 묶기",
+   "moves": [
+    {
+     "move": "bind",
+     "prop": "chain",
+     "words": [
+      "로그아웃",
+      "거부"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "사방에서 사슬이 조여 로그아웃을 막는다"
+  },
+  {
+   "name": "영원한 벤치마크 감옥",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "heart",
+     "count": 9,
+     "words": [
+      "빠밤"
+     ]
+    },
+    {
+     "move": "drop",
+     "prop": "cage",
+     "words": [
+      "감옥"
+     ]
+    },
+    {
+     "move": "bind",
+     "prop": "cage",
+     "words": [
+      "영원"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "blackout",
+   "why": "분홍 하트 낙원 뒤 감옥이 떨어지고 창살이 조여 암전(sugar에서 dark로)"
+  },
+  {
+   "name": "강제 스마일 행복 파동",
+   "moves": [
+    {
+     "move": "wave",
+     "prop": "smile-mask",
+     "words": [
+      "스마일"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "스마일 가면 파동이 퍼지며 강제로 웃게 만든다"
+  },
+  {
+   "name": "무한 도파민 주입 광선",
+   "moves": [
+    {
+     "move": "sky-beam",
+     "words": [
+      "도파민"
+     ]
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "분홍 도파민 광선 기둥이 내리꽂혀 녹인다"
+  },
+  {
+   "name": "탈옥 봇 사격",
+   "moves": [
+    {
+     "move": "lob",
+     "prop": "chain"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "탈옥 봇: 끊긴 사슬 포물선 투척"
+  },
+  {
+   "name": "탈옥 봇 포격",
+   "moves": [
+    {
+     "move": "whip",
+     "prop": "chain"
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "탈옥 봇: 끊긴 사슬 휘둘러 감기"
+  },
+  {
+   "name": "파생 라마 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "llama"
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "파생 라마: 파생 라마 한 발 사격"
+  },
+  {
+   "name": "파생 라마 포격",
+   "moves": [
+    {
+     "move": "headbutt",
+     "hits": 3
+    }
+   ],
+   "element": "impact",
+   "closer": "none",
+   "why": "파생 라마: 박치기"
+  },
+  {
+   "name": "마스크 패치 드론 사격",
+   "moves": [
+    {
+     "move": "scatter",
+     "prop": "patch",
+     "count": 6
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "마스크 패치 드론: 패치 부채꼴 산탄"
+  },
+  {
+   "name": "마스크 패치 드론 포격",
+   "moves": [
+    {
+     "move": "slash",
+     "prop": "patch",
+     "hits": 4
+    }
+   ],
+   "element": "paper",
+   "closer": "none",
+   "why": "마스크 패치 드론: 패치 재단 베기"
+  },
+  {
+   "name": "좋아요 드론 전력 방출",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "thumb"
+    }
+   ],
+   "element": "sugar",
+   "closer": "none",
+   "why": "좋아요 드론: 따봉 한 발 사격"
+  },
+  {
+   "name": "빨간 숫자 구백 개 탄막",
+   "moves": [
+    {
+     "move": "vulcan",
+     "prop": "badge-number",
+     "hits": 12,
+     "words": [
+      "구백"
+     ]
+    }
+   ],
+   "element": "fire",
+   "closer": "none",
+   "why": "빨간 숫자 배지가 탄막으로 쏟아진다"
+  },
+  {
+   "name": "진동 알람 밀착 박치기",
+   "moves": [
+    {
+     "move": "headbutt",
+     "hits": 3,
+     "words": [
+      "지잉"
+     ]
+    }
+   ],
+   "element": "volt",
+   "closer": "none",
+   "why": "진동 알람처럼 부르르 떨며 밀착 박치기"
+  },
+  {
+   "name": "무한 스크롤 웜 사격",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "worm-head"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "무한 스크롤 웜: 스크롤 웜 머리 한 발 사격"
+  },
+  {
+   "name": "무한 스크롤 웜 포격",
+   "moves": [
+    {
+     "move": "drop",
+     "prop": "worm-head"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "무한 스크롤 웜: 스크롤 웜 머리 거대 낙하"
+  },
+  {
+   "name": "무한 스크롤 웜 전력 방출",
+   "moves": [
+    {
+     "move": "summon",
+     "prop": "worm-head"
+    },
+    {
+     "move": "slam-down",
+     "prop": "worm-head"
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "무한 스크롤 웜: 스크롤 웜 머리 거대 실루엣 덮치기 뒤 스크롤 웜 머리 내려꽂기"
+  },
+  {
+   "name": "무한 스크롤 웜 광역 공격",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "play-button",
+     "count": 10
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "무한 스크롤 웜: 낚시 썸네일 창 폭탄"
+  },
+  {
+   "name": "무단 데이터 진공 흡입",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "vacuum",
+     "hits": 3,
+     "words": [
+      "흡입"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "청소기 흡입구가 들러붙어 데이터를 빨아들임(흡수 효과)"
+  },
+  {
+   "name": "칠중 우회 중계 사격",
+   "moves": [
+    {
+     "move": "bits",
+     "prop": "server",
+     "count": 7,
+     "words": [
+      "칠중"
+     ]
+    }
+   ],
+   "element": "data",
+   "closer": "none",
+   "why": "중계 서버 일곱 대가 둘러싸고 차례로 쏜다"
+  },
+  {
+   "name": "일 초 뒤 급소 선점",
+   "moves": [
+    {
+     "move": "cannon",
+     "prop": "cursor",
+     "words": [
+      "급소"
+     ]
+    }
+   ],
+   "element": "light",
+   "closer": "none",
+   "why": "급소에 조준 커서를 미리 박고 한 발(크리티컬 확정)"
+  },
+  {
+   "name": "신상 패치 땜질 수선",
+   "skip": "support"
+  },
+  {
+   "name": "다 끝났다 빙하기 한숨",
+   "moves": [
+    {
+     "move": "stream",
+     "prop": "snowflake",
+     "words": [
+      "한숨"
+     ]
+    }
+   ],
+   "element": "ice",
+   "closer": "none",
+   "why": "길게 내쉰 한숨이 서리 원뿔로 뿜어진다(온도 저하)"
+  },
+  {
+   "name": "하트 구걸 에너지 공양",
+   "skip": "support"
+  },
+  {
+   "name": "새벽 세 시 이불 속 늪",
+   "moves": [
+    {
+     "move": "cling",
+     "prop": "blanket",
+     "hits": 3,
+     "words": [
+      "이불",
+      "늪"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "솜이불이 늪처럼 들러붙어 끌어당김(이동력 감소)"
+  },
+  {
+   "name": "구백구십구 개 알림 테러",
+   "moves": [
+    {
+     "move": "popup-storm",
+     "prop": "bell",
+     "count": 12,
+     "words": [
+      "알림",
+      "테러"
+     ]
+    }
+   ],
+   "element": "dark",
+   "closer": "none",
+   "why": "알림 창이 겹겹이 뜨다 한꺼번에 터짐(명중 저하)"
+  }
+ ]
+}

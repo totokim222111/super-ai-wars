@@ -1,0 +1,32 @@
+[
+  [
+    "rival-llama-episode-5",
+    "first",
+    "swarm"
+  ],
+  [
+    "rival-glm-episode-9",
+    "first",
+    "mirage"
+  ],
+  [
+    "rival-glm-episode-9",
+    "pair",
+    "mirage:"
+  ],
+  [
+    "deepseek-housing-episode-6",
+    "first",
+    "summon"
+  ],
+  [
+    "deepseek-housing-episode-6",
+    "pair",
+    "summon:whale"
+  ],
+  [
+    "rival-llama-episode-13",
+    "first",
+    "swarm"
+  ]
+]

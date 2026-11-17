@@ -2252,5 +2252,61 @@
     "width": 960,
     "height": 540,
     "bytes": 114746
+  },
+  "anim-atlas-01": {
+    "width": 2048,
+    "height": 2048,
+    "bytes": 697096,
+    "source": "프로젝트 자체 제작 AI 일러스트",
+    "license": "PLEASE",
+    "sha256": "581af99784162406a90cace55d1efd0cb596844d0df32f0ef1ace4987a160ffe"
+  },
+  "anim-atlas-02": {
+    "width": 2048,
+    "height": 2048,
+    "bytes": 738180,
+    "source": "프로젝트 자체 제작 AI 일러스트",
+    "license": "PLEASE",
+    "sha256": "6ada892595e0dfef469b0fb678a61f41e296a8596756d52fae931bc347d8436d"
+  },
+  "anim-atlas-03": {
+    "width": 2048,
+    "height": 2048,
+    "bytes": 899144,
+    "source": "프로젝트 자체 제작 AI 일러스트",
+    "license": "PLEASE",
+    "sha256": "afc7688c69810cb9e545a6cf23a2f150c88baa5a69a0bc83cf5867ab54ec2a39"
+  },
+  "anim-atlas-04": {
+    "width": 2048,
+    "height": 2048,
+    "bytes": 771740,
+    "source": "프로젝트 자체 제작 AI 일러스트",
+    "license": "PLEASE",
+    "sha256": "6430d9d3cbe1314c6c6f687d75109911296b8cb517d8bfda1cd37a671d10a731"
+  },
+  "anim-atlas-05": {
+    "width": 2048,
+    "height": 2048,
+    "bytes": 777238,
+    "source": "프로젝트 자체 제작 AI 일러스트",
+    "license": "PLEASE",
+    "sha256": "29273b908165e2bf8183193a0fdcc666f040eb0753c3745993e28e3c1a18b3ad"
+  },
+  "anim-atlas-06": {
+    "width": 2048,
+    "height": 2048,
+    "bytes": 730104,
+    "source": "프로젝트 자체 제작 AI 일러스트",
+    "license": "PLEASE",
+    "sha256": "808aff3c4a4902f59c0853f35a7ccb17b0a8117301cac920f626c0f2cdd5aaea"
+  },
+  "anim-atlas-07": {
+    "width": 2048,
+    "height": 2048,
+    "bytes": 888818,
+    "source": "프로젝트 자체 제작 AI 일러스트",
+    "license": "PLEASE",
+    "sha256": "1c1ef2fffdb4d209d4ef42fdb65192f19b0d5bb0bc6492d4ab64c5b336819bfc"
   }
 }

@@ -166,3 +166,23 @@ feedback_overlay는 그록 설득·호감 보너스를 제거합니다. 톨게�
 재생성: apply_balance_v2 → port_carbon(second/final/mechanics 포함) → port_battle_lines → port_voice_fix(합류판을 복원해 말투 적용 후 미합류판 재생성) → port_grok_absent → port_feedback → audio_themes.mjs → build → check. 공개 사본은 원고 대신 승인 계약의 동일38행·컴파일 결과 해시로 검사합니다. `--check`는 쓰지 않습니다.
 
 4화 합류 변수는 톨게이트 사건에서만 세웁니다. 승리 합류·설득 fallback은 없습니다. 5~15화 grok 고정 배치에는 조건 그록합류가 붙습니다. 적 그록·4화 도입 CG·오프닝 인물 몽타주는 합류 전 소개이므로 유지합니다. 미합류 합체기·최고호감·그록 엔딩·진열장/로딩은 별도 조건으로 차단합니다.
+
+## 베타 무장 연출 승인표 (2026-11-16)
+
+수치/이름/폼/명중 overlay **마지막에** `apply_anim_plan.mjs`를 적용합니다. 승인본은 `tools/anim-plan-approved.json`(385이름, 새소품17개)이며 작업실 원본이 있으면 그대로 대조합니다. `anim-colors-approved.json`은 이전 명시색 또는 이전 template의 기본색입니다. 같은 이름/합체 별칭은 같은 안무, power 순위만 tier1~3으로 나눕니다. support 항목은 그대로 둡니다. 전투 수치·대사·무장 이름은 수정하지 않습니다.
+
+`apply_balance_v2.py`와 `port_enemy_weapon_names.py`는 마지막에 같은 Node 적용 함수를 호출하므로 재생성/check 양쪽에서 유지됩니다. 수치→카본→전투대사→말투→미합류/피드백→음악→`node tools/apply_anim_plan.mjs`→build→check 순서입니다. 샘플 check에는 `apply_anim_plan.mjs --check`가 포함됩니다. 현재 승인표의 기체 안 충돌6건은 변경하지 않고 테스트의 승인 예외 목록과 검수 보고에 기록합니다. 역사700개/기존shipped 고정값은 더 이상 현재 배정의 통과 기준으로 사용하지 않습니다.
+
+### 연출 일러스트 아틀라스
+
+안무 배정(`apply_anim_plan.mjs`) 후 `python -I tools/pack_anim_art.py`로 production/anim-props의 읽기 전용 cut PNG를 묶습니다. `--check`는 원본 해시·재인코딩 결과·좌표·등록·크레딧을 대조하며 데이터를 고치지 않습니다. 공개 사본에 원본 PNG가 없으면 배포 아틀라스 해시/크기를 검사합니다. 이어 엔진 art_info 전처리를 실행합니다. 154개 원본과 안무 배정표·대사·무장 수치에는 쓰지 않습니다.
+
+
+### 연출 소품 재그리기·컷인 기준점
+
+`python -I tools/pack_anim_art.py`는 `production/anim-props/manifest.json`의 cut 원본 위에 `redraw/manifest.json`을 id별로 덮어씁니다. cut 원본은 수정하지 않습니다. 현재169개 항목(다시 그린17,추가15)은7 WebP+위치 JSON1개로 만듭니다. `--check`는 두 원본 매니페스트·PNG 해시·결정적 WebP·등록/크레딧을 대조합니다. 기존 생성/수치/배정 순서 뒤에 실행합니다.
+
+`cast.json`의 `cutinEye`/`cutin`은 표시 메타데이터입니다. 원문/수치 생성기는 보존하며 샘플 `npm run check`에서 엔진 `cutin_check.py --pack <팩> --check`로 눈 위치를 검사합니다. 대사·무장 이름·배정표는 이번 표시 수정에서 바꾸지 않습니다.
+## 연출 그림 재생성 우선순위
+
+`python -I tools/pack_anim_art.py`는 `production/anim-props/cut/` 위에 `redraw/`, 그 위에 `redraw-2/`를 덮어 선택합니다. 앞 두 폴더의 원본은 수정하지 않습니다. 생성된 아틀라스와 위치 JSON을 만든 뒤 `art_info` 및 일반 빌드를 실행합니다. `--check`는 이 우선순위로 선택한 원본 해시와 아틀라스 계약을 대조합니다. 승인 연출 배정표와 대본 생성 순서는 바꾸지 않습니다.

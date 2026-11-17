@@ -39,7 +39,7 @@ describe('v2 campaign adapter', () => {
     model.setSettings({ sfx: 4, music: 2, speed: 3, animation: 'off', shake: 0 });
     const old = normalizeSettings(JSON.parse(bytes.getItem(settingsKey(model.data.id))!));
     expect(old).toMatchObject({ volume: 4, grid: false, textSpeed: 'fast', animation: 'off' });
-    expect(model.settings()).toEqual({ cinematic:true, sfx: 4, music: 2, speed: 3, animation: 'off', shake: 0 });
+    expect(model.settings()).toEqual({ flash:7,enemyBattle:'full',helpSeen:false,tutorial:true,cinematic:true, sfx: 4, music: 2, speed: 3, animation: 'off', shake: 0 });
     model.setSettings({...model.settings(),cinematic:false});
     expect(model.settings().cinematic).toBe(false);
     expect(bytes.getItem(storageKey(model.data.id,'settings'))).toContain('\"cinematic\":false');

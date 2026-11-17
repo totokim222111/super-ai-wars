@@ -168,6 +168,8 @@ def generated(pack=PACK_DIR):
     from hit_adjust import contract as hit_contract,patch as hit_patch
     hit=hit_contract(read,saved);hit_patch(output,pack,hit)
     output[APPROVED]['hitAdjustments']=hit
+    from anim_plan import patch_output as animation_plan
+    animation_plan(output,pack)
     return output
 
 def main():

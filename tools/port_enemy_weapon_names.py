@@ -84,7 +84,8 @@ def patch_output(output,pack=PACK_DIR):
                 if not family.fullmatch(mid):continue
                 if 'weapons'in patch:patch['weapons']=[v for v in patch['weapons'] if v!=id]+[id]
                 if row['effect']=='자동 HP 회복':patch['hpRecovery']={'pct':1}
-        art[id]={'anim':{'template':'heavy-shot' if w['power']==0 else 'beam','color':'#b7e882'}}
+        if art.get(id,{}).get('anim',{}).get('template')!='sequence':
+            art[id]={'anim':{'template':'heavy-shot' if w['power']==0 else 'beam','color':'#b7e882'}}
     output[APPROVED]=data
     return output
 
@@ -92,6 +93,8 @@ def patch_output(output,pack=PACK_DIR):
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
     paths=['data/weapons.json','data/mechs.json','balance-stages.json','weapons.json'];output={PACK_DIR/name:read(PACK_DIR/name)for name in paths};patch_output(output)
+    from anim_plan import patch_output as animation_plan
+    animation_plan(output,PACK_DIR)
     different=[]
     for path,value in output.items():
         if args.check:

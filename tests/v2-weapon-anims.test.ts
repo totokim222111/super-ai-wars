@@ -1,59 +1,29 @@
-import { describe, expect, it } from 'vitest';
-import { readFileSync } from '../tools/files.mjs';
-import { execFileSync } from 'node:child_process';
-import allWeapons from '../pack/data/weapons.json';
-import allMechs from '../pack/data/mechs.json';
-import assignments from './fixtures/weapon-anims.json';
-import { TEMPLATES } from '@engine/src/v2/battle/templates';
-import type { WeaponAnim } from '@engine/src/v2/battle/types';
-
-const anims: Record<string, WeaponAnim> = assignments;
-const weapons=allWeapons.filter(w=>w.id in anims),mechs=allMechs.map(m=>({...m,weapons:m.weapons.filter(id=>id in anims)})).filter(m=>m.weapons.length);
-const arrays = new Set(['words', 'labels']), strings = new Set(['color', 'text', 'finisherWord']);
-const headers = Object.fromEntries(Object.keys(TEMPLATES).map(name => {
-  const header = readFileSync(new URL(`../src/v2/battle/templates/${name}.ts`, import.meta.url), 'utf8').split('*/')[0].split(' * 값')[1];
-  return [name, [...header.matchAll(/^ \*   (\w+)\s/gm)].map(m => m[1])];
-}));
-
-describe('SAW animation sidecar', () => {
-  it('assigns every weapon once with registered templates and parameter types documented in headers', () => {
-    expect(Object.keys(anims).sort()).toEqual(weapons.map(w => w.id).sort()); expect(weapons).toHaveLength(700);
-    for (const w of weapons) {
-      const a = anims[w.id]; expect(TEMPLATES[a.template], w.id).toBeDefined();
-      for (const [key, value] of Object.entries(a)) {
-        if (key === 'template') continue;
-        expect(headers[a.template], `${w.id}.${key}`).toContain(key);
-        if (arrays.has(key)) { expect(Array.isArray(value)).toBe(true); expect((value as unknown[]).every(v => typeof v === 'string')).toBe(true); }
-        else if (strings.has(key)) expect(typeof value).toBe('string');
-        else if (key === 'finisher') expect(typeof value).toBe('boolean');
-        else { expect(typeof value).toBe('number'); expect(Number.isFinite(value)).toBe(true); expect(value as number).toBeGreaterThan(0); }
-      }
-    }
-  });
-  it('uses different templates within every mech, including shared weapons', () => {
-    for (const m of mechs) expect(new Set(m.weapons.map(id => anims[id].template)).size, m.id).toBe(m.weapons.length);
-  });
-  it('gives each heroine form its strongest weapon a finisher', () => {
-    const heroines = /^(gpi|gem|claude|grok|deepseek|sonnet|exaone|qwen)-generation-/;
-    for (const m of mechs.filter(m => heroines.test(m.id))) {
-      const max = Math.max(...m.weapons.map(id => weapons.find(w => w.id === id)!.power));
-      expect(m.weapons.some(id => weapons.find(w => w.id === id)!.power === max && anims[id].template === 'finisher'), m.id).toBe(true);
-    }
-  });
-  it('uses every template without concentrating most weapons in one, and gives puns actual lettering', () => {
-    for (const t of Object.keys(TEMPLATES)) {
-      const count = Object.values(anims).filter(a => a.template === t).length;
-      expect(count).toBeGreaterThan(0); expect(count).toBeLessThan(140);
-    }
-    expect(anims['gpi-generation-1-weapon-1']).toMatchObject({ template: 'rapid-fire', labels: ['1.', '2.', '3.'] });
-    expect(anims['gpi-generation-1-weapon-2']).toMatchObject({ template: 'slash-combo', words: ['기', '승', '전'], finisherWord: '결' });
-    expect(Object.values(anims).filter(a => a.template === 'word-slam').every(a => typeof a.text === 'string' && a.text.length > 0)).toBe(true);
-  });
-  it('new utility weapons have registered presentation templates without replacing the historical 700',()=>{const current=JSON.parse(readFileSync('content/packs/saw/weapons.json','utf8'));for(const w of allWeapons.filter(w=>w.id.startsWith('zako-special-')))expect(TEMPLATES[current[w.id].anim.template]).toBeDefined();});
-  // Preserve authored animation parameters while numeric balance overlays change power.
-  it('reproduces the entire file without writing or changing numeric content', () => {
-    const generated = execFileSync(process.execPath, ['--input-type=module', '-e',
-      "import {assignAnimations} from './tools/saw_weapon_anims.mjs'; import {readFileSync} from './tools/files.mjs'; const read=n=>JSON.parse(readFileSync('content/packs/saw/data/'+n+'.json','utf8'));const anims=JSON.parse(readFileSync('tests/fixtures/weapon-anims.json','utf8'));const proposal=JSON.parse(readFileSync('tools/balance-v2-approved.json','utf8')).proposal,baseline=new Map(proposal.weapons.map(w=>[w.id,w.new]));const renamed=JSON.parse(readFileSync('tools/enemy-weapons-approved.json','utf8')).index;const weapons=read('weapons').filter(w=>w.id in anims).map(w=>({...w,...baseline.get(w.id),name:renamed[w.id]?.currentName??w.name})),mechs=read('mechs').map(m=>({...m,weapons:m.weapons.filter(id=>id in anims)})).filter(m=>m.weapons.length); process.stdout.write(JSON.stringify(assignAnimations(weapons,mechs)));"], { cwd: new URL('..', import.meta.url), encoding: 'utf8' });
-    expect(JSON.parse(generated)).toEqual(assignments);
-  });
+import {describe,it,expect}from'vitest';
+import{readFileSync}from'node:fs';
+import{execFileSync}from'node:child_process';
+import weapons from'../pack/data/weapons.json';
+import mechs from'../pack/data/mechs.json';
+import sidecar from'../pack/weapons.json';
+import studioPlan from'../tools/anim-plan-approved.json';
+import palette from'../tools/anim-colors-approved.json';
+import{approved,applyPlan,assignmentIssues}from'../tools/apply_anim_plan.mjs';
+import{sequenceIssues,sequenceSeconds,type SequenceAnim}from'@engine/src/v2/battle/moves/catalog';
+import{TEMPLATES}from'@engine/src/v2/battle/templates';
+describe('approved composable weapon presentations',()=>{
+ it('replaces historical distribution snapshots with the complete authored name contract',()=>{
+  expect(approved).toEqual(studioPlan);expect(approved.plans).toHaveLength(385);expect(approved.newProps).toHaveLength(17);expect(applyPlan(weapons,sidecar)).toEqual(sidecar);
+  const names=new Map(approved.plans.map((p:{name:string})=>[p.name,p]));
+  for(const w of weapons){const p=names.get(w.name)as{skip?:string;moves:unknown;element:string;closer:string};expect(p,w.id).toBeDefined();const row=sidecar[w.id as keyof typeof sidecar];expect(TEMPLATES[row.anim.template]).toBeDefined();if(p.skip==='support')continue;
+   expect(row.anim).toMatchObject({template:'sequence',moves:p.moves,element:p.element,closer:p.closer,color:palette[w.id as keyof typeof palette]});expect(sequenceIssues(row.anim),w.id).toEqual([]);expect(sequenceSeconds(row.anim as unknown as SequenceAnim)).toBeLessThanOrEqual(p.closer==='none'?4:8);if(w.finisher)expect('cutin'in row&&row.cutin,w.id).toBe(true);
+  }
+ });
+ it('keeps same-name choreography equal across generations and ranks visual tiers by power',()=>{
+  for(const name of new Set(weapons.map(w=>w.name))){const rows=weapons.filter(w=>w.name===name).sort((a,b)=>a.power-b.power),animations=rows.map(w=>sidecar[w.id as keyof typeof sidecar].anim);if(animations[0].template!=='sequence')continue;const cores=animations.map(a=>{const{tier,color,...core}=a as unknown as SequenceAnim;void tier;void color;return core;});expect(cores.every(a=>JSON.stringify(a)===JSON.stringify(cores[0])),name).toBe(true);for(let i=1;i<animations.length;i++)expect((animations[i]as unknown as SequenceAnim).tier).toBeGreaterThanOrEqual((animations[i-1]as unknown as SequenceAnim).tier);}
+ });
+ it('reports the six plan-induced collisions, with no silent reassignment',()=>{
+  const actual=assignmentIssues(weapons,mechs);expect(actual).toHaveLength(6);expect(actual.map((i:{mech:string;kind:string;key:string})=>[i.mech,i.kind,i.key])).toEqual(JSON.parse(readFileSync(new URL('./fixtures/approved-anim-collisions.json',import.meta.url),'utf8')));
+ });
+ it('is idempotent and its check does not change numeric content',()=>{
+  const before=JSON.stringify(weapons);expect(applyPlan(weapons,applyPlan(weapons,sidecar))).toEqual(sidecar);expect(JSON.stringify(weapons)).toBe(before);expect(execFileSync(process.execPath,['tools/apply_anim_plan.mjs','--check'],{cwd:new URL('..',import.meta.url),encoding:'utf8'})).toContain('786 weapons');
+ });
 });

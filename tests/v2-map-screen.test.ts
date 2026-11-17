@@ -1,4 +1,4 @@
-import type {MenuList} from '@engine/src/v2/kit';
+import {Button,type MenuList} from '@engine/src/v2/kit';
 import { describe, expect, it } from 'vitest';
 import { MapScreen } from '@engine/src/v2/map/screen';
 import { BattleScreen } from '@engine/src/v2/battle/screen';
@@ -14,12 +14,12 @@ const setup = (model: MapModel) => {
 };
 function command(app: HeadlessApp, screen: MapScreen, model: MapModel, at: Cell) {
   app.chooseCell(origin(model, 'gpi')); expect(mode(screen)).toBe('move');
-  app.chooseCell(at); app.until(() => mode(screen) === 'command');
+  app.chooseCell(at); app.until(() => ['command','weapon'].includes(mode(screen)));if(mode(screen)==='weapon'){const b=(screen.ui as any).widgets.find((w:any)=>w instanceof Button&&w.label==='뒤로');for(const phase of ['down','up'] as const)screen.input({kind:'pointer',phase,x:b.x+b.w/2,y:b.y+b.h/2});}
 }
 function toForecast(app: HeadlessApp, screen: MapScreen, model: MapModel) {
   const firing = firingMove(model);
   command(app, screen, model, firing.at);
-  app.action('confirm'); expect(mode(screen)).toBe('target');
+  (screen.ui.focus as MenuList).index=(screen.ui.focus as MenuList).items.findIndex(i=>i.label==='공격');app.action('confirm'); expect(mode(screen)).toBe('target');
   app.action('confirm'); expect(mode(screen)).toBe('weapon');
   const weapons = model.weapons('gpi', firing.at, firing.target), index = weapons.findIndex(w => w.id === firing.weapon.id);
   for (let i = 0; i < index; i++) app.action('down');
@@ -43,7 +43,7 @@ describe.each([['mockMap', makeMock], ['actual SAW rules', makeCore]] as const)(
   it('cancels each step and returns the uncommitted unit to its original cell', () => {
     const { app, screen, model } = setup(make()), original = structuredClone(model.units()), from = origin(model, 'gpi');
     toForecast(app, screen, model);
-    for (const next of ['weapon', 'target', 'command', 'move', 'idle']) { app.action('cancel'); expect(mode(screen)).toBe(next); }
+    for (const next of ['weapon','command','move','idle']) { app.action('cancel'); expect(mode(screen)).toBe(next); }
     expect(model.units()).toEqual(original);
     const feet = board(screen).feet('gpi'), center = board(screen).center(from);
     expect(feet).toEqual({ x: center.x, y: center.y + 34 });
@@ -51,7 +51,7 @@ describe.each([['mockMap', makeMock], ['actual SAW rules', makeCore]] as const)(
   it('returns from spirits to commands and from the map menu to idle', () => {
     const { app, screen, model } = setup(make());
     command(app, screen, model, origin(model, 'gpi'));
-    app.action('down'); app.action('confirm'); expect(mode(screen)).toBe('spirit');
+    (screen.ui.focus as MenuList).index=(screen.ui.focus as MenuList).items.findIndex(i=>i.label.includes('정신'));app.action('confirm'); expect(mode(screen)).toBe('spirit');
     app.action('cancel'); expect(mode(screen)).toBe('command');
     app.action('cancel'); app.action('cancel'); expect(mode(screen)).toBe('idle');
     app.chooseCell({ col: 0, row: 0 }); expect(mode(screen)).toBe('menu');
@@ -60,10 +60,10 @@ describe.each([['mockMap', makeMock], ['actual SAW rules', makeCore]] as const)(
   it('waits, then completes an enemy phase and returns to player turn 2', () => {
     const { app, screen, model } = setup(make());
     command(app, screen, model, origin(model, 'gpi'));
-    app.action('down'); app.action('down'); app.action('confirm');
+    (screen.ui.focus as MenuList).index=(screen.ui.focus as MenuList).items.findIndex(i=>i.label==='대기');app.action('confirm');
     app.until(() => app.top === screen && mode(screen) === 'idle');
     expect(model.units().find(u => u.id === 'gpi')!.acted).toBe(true);
-    app.chooseCell({ col: 0, row: 0 }); const menu=screen.ui.focus as MenuList;menu.index=menu.items.findIndex(i=>i.label==='턴 종료');app.action('confirm');
+    app.chooseCell({ col: 0, row: 0 }); ((screen.ui as any).widgets.find((w:any)=>w.label==='턴 종료')).act('confirm');
     expect(app.top).toBeInstanceOf(ConfirmScreen);
     app.action('left'); app.action('confirm');
     app.until(() => app.top === screen && mode(screen) === 'idle');

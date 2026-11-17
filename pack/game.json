@@ -468,7 +468,14 @@
       "video-combo-context-horizon": "art/video-combo-context-horizon.webp",
       "video-combo-omni-prompt-drive": "art/video-combo-omni-prompt-drive.webp",
       "video-combo-architecture-symphony": "art/video-combo-architecture-symphony.webp",
-      "video-pre-finale": "art/video-pre-finale.webp"
+      "video-pre-finale": "art/video-pre-finale.webp",
+      "anim-atlas-01": "art/animation/atlas-01.webp",
+      "anim-atlas-02": "art/animation/atlas-02.webp",
+      "anim-atlas-03": "art/animation/atlas-03.webp",
+      "anim-atlas-04": "art/animation/atlas-04.webp",
+      "anim-atlas-05": "art/animation/atlas-05.webp",
+      "anim-atlas-06": "art/animation/atlas-06.webp",
+      "anim-atlas-07": "art/animation/atlas-07.webp"
     },
     "metadata": "art-info.json",
     "focus": {
@@ -986,6 +993,10 @@
     {
       "title": "보증 없음",
       "detail": "이 작품은 있는 그대로 제공되며, 어떠한 보증도 하지 않습니다."
+    },
+    {
+      "title": "무장 연출 소품·효과",
+      "detail": "프로젝트 자체 제작 AI 일러스트 176종 · 아틀라스 재편집 · PLEASE License"
     }
   ],
   "story": {
@@ -2897,5 +2908,6 @@
         "엔딩_판정_grok"
       ]
     }
-  ]
+  ],
+  "animationArt": "art/animation/atlas.json"
 }

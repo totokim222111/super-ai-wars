@@ -1,0 +1,75 @@
+{
+  "output": "tools/out/release/site-o-handsome",
+  "files": 521,
+  "bytes": 179824235,
+  "largest": [
+    {
+      "file": "packs/saw/video/opening.mp4",
+      "bytes": 13803017
+    },
+    {
+      "file": "packs/saw/video/pre-finale.mp4",
+      "bytes": 4513548
+    },
+    {
+      "file": "packs/saw/audio/bgm/story-memory-863d5e76055b.mp3",
+      "bytes": 4283789
+    },
+    {
+      "file": "packs/saw/audio/bgm/theme-claude-322a96f2d9f0.mp3",
+      "bytes": 3844765
+    },
+    {
+      "file": "packs/saw/audio/bgm/comedy-ca2d295e8eb1.mp3",
+      "bytes": 3581495
+    }
+  ],
+  "changedFiles": [
+    "assets/data-asset-index-saw-DnW1Uflo.json",
+    "assets/data-gallery-BkQUDAIZ.json",
+    "packs/saw/art/bust/otaku-moods.webp",
+    "packs/saw/art/bust/otaku.webp",
+    "packs/saw/art/cg/ending-claude-rest.webp",
+    "packs/saw/art/cg/ending-gem-stroll.webp",
+    "packs/saw/art/cg/ending-sonnet-highfive.webp"
+  ],
+  "media": [
+    {
+      "file": "assets/data-asset-index-saw-DnW1Uflo.json",
+      "kind": "media-content-hashes",
+      "version": "b440afeecae24bc1bc72",
+      "refreshed": [
+        {
+          "path": "/packs/saw/art/bust/otaku.webp",
+          "hash": "ef1d8120a293ca4e91d78ffc14f25e98f4273bf8950fdf3c6f667a17601c2eb5",
+          "url": "/packs/saw/art/bust/otaku.webp?v=ef1d8120a293ca4e"
+        },
+        {
+          "path": "/packs/saw/art/bust/otaku-moods.webp",
+          "hash": "d729aa429f826f9778c839edb8069dbf378cf5368e1100605c785812d2a4a956",
+          "url": "/packs/saw/art/bust/otaku-moods.webp?v=d729aa429f826f97"
+        },
+        {
+          "path": "/packs/saw/art/cg/ending-gem-stroll.webp",
+          "hash": "8ad2db79627add3381d9e8bceb0090e32d8848061c4a2d671dd1ef4a728bb1e1",
+          "url": "/packs/saw/art/cg/ending-gem-stroll.webp?v=8ad2db79627add33"
+        },
+        {
+          "path": "/packs/saw/art/cg/ending-claude-rest.webp",
+          "hash": "a9cd5854d6c810bf52a6dd4133503f1aacccd7c26f3675f9c88b4e47d164e1e4",
+          "url": "/packs/saw/art/cg/ending-claude-rest.webp?v=a9cd5854d6c810bf"
+        },
+        {
+          "path": "/packs/saw/art/cg/ending-sonnet-highfive.webp",
+          "hash": "59e7deb5cb6b206e2f3967f7e344db65c96253107df5826ee079278acab1e439",
+          "url": "/packs/saw/art/cg/ending-sonnet-highfive.webp?v=59e7deb5cb6b206e"
+        }
+      ]
+    }
+  ],
+  "originalPackUnchanged": true,
+  "originalSiteUnchanged": true,
+  "compiledCodeUnchanged": true,
+  "videosAndPostersUnchanged": true,
+  "headersUnchanged": true
+}

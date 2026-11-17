@@ -4,7 +4,7 @@ import {createBattle,effectiveMech,effectivePilot,snapshot,restore} from '@engin
 import {loadPack,packLookup,packUnit,validatePack,type Pack} from '@engine/src/v2/pack/load';
 import {applyRules,prepareRules,ruleCommand} from '@engine/src/v2/rules/runtime';
 import {CoreMap} from '@engine/src/v2/adapter/map';
-import {CreditsScreen} from '@engine/src/v2/menus/credits';
+import {CreditsScreen,displayCredits} from '@engine/src/v2/menus/credits';
 import {MenuApp,campaign} from './v2-campaign-fixtures';
 
 let pack:Pack;
@@ -51,11 +51,10 @@ describe('물결5 표시 자료 연결',()=>{
   bad.units['gem-generation-1'].tacticalForms={bad:{art:'absent',pilotCast:'absent',anchors:{core:[2,-1]}}};
   validatePack(bad);for(const term of ['없는 전술 폼 그림','없는 전술 폼 인물','전술 폼 기준점 범위'])expect(bad.errors.some(e=>e.message.includes(term))).toBe(true);
  });
- it('크레딧 메뉴에 CC BY 링크와 변경 사실을 한 행에 함께 표시한다',async()=>{
+ it('크레딧 표시에는 저작자·CC BY·출처·라이선스 링크를 남기고 인코딩 메모는 제외한다',async()=>{
   const app=new MenuApp(),model=(await campaign()).model;
   Object.assign(app.sound,{credits:()=>[{kind:'bgm',id:'test',title:'곡',author:'魔王魂',credit:'音楽：魔王魂',license:'CC BY 4.0',source:'https://maou.audio/',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',modifications:'게임용 OGG 144kbps 재인코딩'}]});
   app.push(new CreditsScreen(model));app.tick(30);
-  const list=(app.top!.ui as unknown as {widgets:{items?:{label:string;description?:string}[]}[]}).widgets.find(w=>w.items?.some(i=>i.label.includes('creativecommons')))!;
-  expect(list.items).toContainEqual(expect.objectContaining({label:'https://creativecommons.org/licenses/by/4.0/',description:'게임용 OGG 144kbps 재인코딩'}));
+  const rows=displayCredits(app.sound.credits(),model.credits());expect(rows).toContainEqual(expect.objectContaining({title:'곡',author:'音楽：魔王魂',license:'CC BY 4.0',source:'https://maou.audio/',licenseUrl:'https://creativecommons.org/licenses/by/4.0/'}));expect(JSON.stringify(rows)).not.toContain('재인코딩');
  });
 });
