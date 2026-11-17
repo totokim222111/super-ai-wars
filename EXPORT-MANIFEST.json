@@ -1467,8 +1467,8 @@
     },
     {
       "path": "variants/o-handsome/README.md",
-      "size": 881,
-      "sha256": "a450b545b3dccf619d60048f4c8c04bb16de56e334076387791123989e9d9383"
+      "size": 2194,
+      "sha256": "2891d38f96ef1d8aa0d11435bc2167da5bac0d9b27970f73c53965bc6e120947"
     },
     {
       "path": "vitest.config.mjs",
